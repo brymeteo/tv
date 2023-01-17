@@ -1,0 +1,452 @@
+# Language file for plaintext-parser.php program
+# Version: 1.24 - 15 February 2011
+# translation - Danish by Henrik Jessen  http://www.silkeborg-vejret.dk
+#
+
+langlookup|Very cold|Meget koldt|
+langlookup|Temp./Prec.|Temperatur/nedbør|
+langlookup|Temp./Prec./Baro.|Temperatur/nedbør/baro|
+langlookup|Thunder/Dewp.|Torden/dugpunkt/baro|
+langlookup|Solar/UV|Sol/UV|
+langlookup|Max/min temp.|Max/min|
+langlookup|Compare|Sammenlign. med yr.no|
+langlookup|Grass & Soil|Græs og jord|
+langlookup|Feels like|Føles som|
+langlookup|Feels|Føles|
+
+# New in V.4
+langlookup|Move the mouse over the values for info.|Før musen over for at se information|
+langlookup|Gusting to|Vindstød op til|
+langlookup|Overview|Oversigt|
+langlookup|Detailed|1-times interval - |
+langlookup|hrs|timer|
+langlookup|No UV Index|Ingen UV index|
+langlookup|Daylength|Dagens længde|
+langlookup|Visibility|Sigtbarhed|
+langlookup|Cloud cover|Skydække|
+langlookup|Tomorrow|I morgen|
+langlookup|No precip|Ingen nedbør|
+langlookup|Low temperature|Min. temperatur|
+langlookup|High temperature|Max. temperatur|
+langlookup|Next update|Næste opdatering|
+langlookup|Thunderstorm probability|Mulighed for tordenvejr|
+
+# Thunder
+lang|Thunderstorm probability|Mulighed for tordenvejr|
+lang|probability|mulighed|
+lang|thunder un|torden u|
+lang|howers possible||
+lang|Scattered thunders|Lokale tordenbyger|
+lang|scattered thunders|mulighed for lokale tordenbyger|
+lang|Except for higher amounts of precipitation within thunderstorms.|Der kan forventes store mængder regn i forbindelse med tordenbyger.|
+lang|Light showers. They can contain lightning.|Lette byger. De kan indeholde lyn|
+lang|Light showers but thunder unlikely|Lette byger, ikke sandsynlighed for tordenvejr|
+lang|Light showers with scattered thundershowers possible|Lette byger med mulighed for lokale tordenbyger|
+lang|Light showers with thunder possible|Lette byger med mulighed for tordenvejr|
+lang|Light showers with thundershowers possible|Lette byger med mulighed for tordenbyger|
+lang|Light showers with scattered thunderstorms likely|Sandsynlighed for lette byger med lokal tordenvejr|
+lang|Light showers with scattered heavy or severe thunderstorms|Lette byger med lokale stort eller kraftigt tordenvejr|
+lang|Light showers but few with thunder|Lette byger med lidt tordenvejr|
+lang|Light showers with numerous thunderstorms, some possible heavy|Lette byger med flere tordenbyger, med mulighed for, at nogle kan være kraftige|
+lang|Light showers with numerous thunderstorms, some heavy or severe|Lette byger med flere tordenbyger, nogle kan være kraftige eller meget kraftige|
+lang|Light showers with numerous thunderstorms, some severe|Lette byger, med flere tordenbyger, nogle kan være kraftige|
+lang|Light showers with numerous thunderstorms, many severe|Lette byger, med krafrige tordenbyger|
+
+lang|Moderate showers. They can contain lightning.|Moderate byger. De kan indeholde lyn|
+lang|Moderate showers but thunder unlikely|Moderate byger, ikke sandsynlighed for tordenvejr|
+lang|Moderate showers with scattered thundershowers possible|Moderate byger med mulighed for lokale tordenbyger|
+lang|Moderate showers with thunder possible|Moderate byger med mulighed for tordenvejr|
+lang|Moderate showers with thundershowers possible|Moderate byger med mulighed for tordenbyger|
+lang|Moderate showers with scattered thunderstorms likely|Sandsynlighed for moderate byger med lokal tordenvejr|
+lang|Moderate showers with scattered heavy or severe thunderstorms|Moderate byger med lokale stort eller kraftigt tordenvejr|
+lang|Moderate showers but few with thunder|Moderate byger med lidt tordenvejr|
+lang|Moderate showers with numerous thunderstorms, some possible heavy|Moderate byger med flere tordenbyger, med mulighed for, at nogle kan være kraftige|
+lang|Moderate showers with numerous thunderstorms, some heavy or severe|Moderate byger med flere tordenbyger, nogle kan være kraftige eller meget kraftige|
+lang|Moderate showers with numerous thunderstorms, some severe|Moderate byger, med flere tordenbyger, nogle kan være kraftige|
+lang|Moderate showers with numerous thunderstorms, many severe|Moderate byger, med krafrige tordenbyger|
+
+lang|Heavy showers. They can contain lightning.|Kraftige byger. De kan indeholde lyn|
+lang|Heavy showers but thunder unlikely|Kraftige byger, ikke sandsynlighed for tordenvejr|
+lang|Heavy showers with scattered thundershowers possible|Kraftige byger med mulighed for lokale tordenbyger|
+lang|Heavy showers with thunder possible|Kraftige byger med mulighed for tordenvejr|
+lang|Heavy showers with thundershowers possible|Kraftige byger med mulighed for tordenbyger|
+lang|Heavy showers with scattered thunderstorms likely|Sandsynlighed for kraftige byger med lokal tordenvejr|
+lang|Heavy showers with scattered heavy or severe thunderstorms|Kraftige byger med lokale stort eller kraftigt tordenvejr|
+lang|Heavy showers but few with thunder|Kraftige byger med lidt tordenvejr|
+lang|Heavy showers with numerous thunderstorms, some possible heavy|Kraftige byger med flere tordenbyger, med mulighed for, at nogle kan være kraftige|
+lang|Heavy showers with numerous thunderstorms, some heavy or severe|Kraftige byger med flere tordenbyger, nogle kan være kraftige eller meget kraftige|
+lang|Heavy showers with numerous thunderstorms, some severe|Kraftige byger, med flere tordenbyger, nogle kan være kraftige|
+lang|Heavy showers with numerous thunderstorms, many severe|Kraftige byger, med krafrige tordenbyger|
+
+# Precip
+lang|Light showers|Lette byger|
+lang|Moderate showers|Moderate byger|
+lang|Heavy showers|Kraftige byger|
+lang|Light rain shower|Lette regnbyger|
+lang|Moderate rain shower|Moderate regnbyger|
+lang|Heavy rain shower|Kraftige regnbyger|
+lang|Light sleet shower|Lette sludbyger|
+lang|Moderate sleet shower|Moderate sludbyger|
+lang|Heavy sleet shower|Kraftige sludbyger|
+lang|Light snow shower|Lette snebyger|
+lang|Moderate snow shower|Moderate snebyger|
+lang|Heavy snow shower|Kraftige snebyger|
+lang|Light rain|Let regn|
+lang|Moderate rain|Moderat regn|
+lang|Heavy rain|Kraftig regn|
+lang|Light sleet|Let slud|
+lang|Moderate sleet|Moderat slud|
+lang|Heavy sleet|Kraftig slud|
+lang|Light snow|Let sne|
+lang|Moderate snow|Moderat sne|
+lang|Heavy snow|Kraftig sne|
+
+lang|Maximum snow level|Højeste sne niveau:|
+lang|Minimum snow level|Laveste sne niveau:|
+lang|Maximum freezing level|Højeste frostgrænse:|
+lang|Minimum freezing level|Laveste frostgrænse:|
+lang|meters|meter|
+lang|Cool|Koldt|
+lang|above sea level|over havet|
+lang|above ground|over jorden|
+#
+lang|Cloudy in the morning|Skyet om morgenen|
+lang|except for a few wispy clouds|bortset fra få gennemsigtige skyer|
+lang|some high cloudiness|nogle højtliggende skyer|
+lang|some high thin clouds|et tyndt lag højtliggende skyer|
+lang|with just a few high thin clouds|med nogle få tynde højtliggende skyer|
+lang|with just a few wispy clouds|med kun nogle få fine skyer|
+lang|then a slight chance of rain|derefter sandsynligvis regn|
+lang|then rain likely|derefter en svag mulighed for regn|
+lang|Rain very likely|Regn meget sandsynligt|
+lang|Precipitation showery or intermittent|Nedbør i form af regnskyl eller periodevis| 
+lang|Scattered showers possible|Mulighed for lokale byger|
+lang|Scattered thundershowers possible|Mulighed for lokale tordenbyger|
+lang|Scattered thunderstorms likely.|Sandsynlighed for lokale tordenbyger|
+lang|Scattered thunderstorms likely, some possibly severe.|Sandsynlighed for lokale tordenbyger, nogle kan være kraftige|
+lang|Thunderstorms very likely, some possibly severe.|Stor sandsynlighed for tordenvejr, nogle kan være kraftige|
+lang|Thunderstorms very likely, some severe.|Stor sandsynlighed for tordenvejr, nogle vil være kraftige|
+lang|Severe thunderstorms likely, with possible tornados.|Sandsynlighed for tordenvejr, og der kan forekomme skypumper|
+lang|Thunderstorms likely, some possibly severe|Tordenbyger sandsynligt, nogle kan være kraftige|
+lang|Some thunder possible.|Tordenvejr muligt. |
+lang|Some thunderstorms likely|Tordenvejr sandsynligt|
+lang|of an inch|af en tomme|
+lang|half an inch|halv tomme|
+lang| becoming | skifter til |
+lang|dense overcast|kraftigt overskyet|
+lang|Chance of precipitation|Sandsynlighed for nedbør:|
+lang|Fair|Pænt|
+lang|UV index up to|UV index op til|
+lang|UV index more than|UV index mere end|
+lang| mostly around | omkring |
+lang| mostly less than | mindre end |
+lang|A chance of rain|mulighed for regn|
+lang| chance | mulighed |
+lang| a mix of | et mix af |
+lang| then | derefter |
+lang| likely | sandsynligt |
+lang| the | |
+lang| in | om |
+lang| of | for |
+lang|afternoon|eftermiddagen|
+lang|cloudy|skyet|
+lang|Patchy|Delvis|
+lang| slight | svag |
+lang| light | let |
+lang| fog| tåget|
+lang|Fog|Tåget|
+lang|Partly|Delvis|
+lang| to | og |
+lang|Wind chill|Vindchill|
+lang|as low as|ned til|
+lang|Wind |Vind |
+lang|gusting|vindstød op|
+lang|mostly|overvejende|
+lang| after | efter |
+lang|midnight|midnat|
+lang|morning|morgenen|
+lang|Mostly|Overvejende|
+lang|fair|fint|
+lang|partly|delvis|
+lang|Probably |Lokalt |
+lang|Light|Let|
+lang| moderate | moderat |
+lang|evening|aftenen|
+lang|Dense|Kraftig|
+lang|overcast|overskyet|
+lang|Moderate|Moderat|
+lang|dense|kraftig|
+lang|sunny|solrigt|
+lang|Rain|Regn|
+lang|likely|sandsynligt|
+lang|Rain likely|Regn sandsynligt|
+lang| rain| regn|
+lang|A |En |
+lang| a | en |
+lang|chance of|Mulighed for|
+lang|High|Maximum:|
+lang|Low|Minimum:|
+lang| but | men |
+lang|temperatures falling|faldende temperatur|
+lang|temperatures rising|stigende temperatur|
+lang|northeast|nordøst|
+lang|northwest|nordvest|
+lang|southeast|sydøst|
+lang|southwest|sydvest|
+lang|north-|nord-|
+lang|east-|øst-|
+lang|west-|vest-|
+lang|south-|syd-|
+lang| east | øst |
+lang| north | nord |
+lang| south | syd |
+lang| west | vest |
+lang|down |faldende |
+lang| or | eller |
+lang|around|omkring|
+lang|kph|km/timen|
+lang|mps|m/s|
+lang|near|nær|
+lang|percent|procent|
+lang|less than|mindre end|
+lang|Precipitation (liquid equivalent)|Nedbør (slud)|
+lang| between | mellem |
+lang| and | og |
+lang|Precipitation|Nedbør|
+lang|Snow likely|Sandsynligvis sne|
+lang|Snow accumulation|Sne|
+lang|accumulation expected|i alt forventet|
+lang|Little|Lidt|
+lang| no | ingen |
+lang| snow| sne|
+lang| Snow| Sne|
+lang|about|omkring|
+lang| one | 1 |
+lang|showery of intermittent|forbigående byger|
+lang|No |Ingen |
+lang| fair | pænt |
+lang|Cloudy|Skyet|
+lang| calm| vindstille|
+lang|calm|0|
+lang|Clear|Klart|
+lang|clear|klart|
+lang|Sunny|Sol|
+lang| ice | is |
+lang|freezing|frysende|
+lang|sleet|slud/tøsne|
+lang|a mix of|et mix af|
+lang|if any|hvis nogen|
+lang|on ground|på jorden|
+lang|patchy|delvis|
+lang| inch| tomme|
+lang|frost|frost|
+lang|heavy|kraftig|
+lang|humidex|humidex|
+lang|Breezy|Blæsende|
+lang|Cold|Koldt|
+langlookup|WCh|Chill|
+langlookup|Humidex|Humidex|
+langlookup|Hmdx|Hmdx|
+#
+# Translation of headings, periods and short conditions statements
+# headings
+#
+langlookup|WXSIM Forecast for:|Vejrudsigt for:|
+langlookup|Issued by:|Lavet af:|
+langlookup|Updated:|Opdateret:|
+langlookup|High:|Max|
+langlookup|Low:|Min|
+langlookup|Cold!|Koldt!|
+langlookup|Hot!|Varmt!|
+#
+langlookup|Sunday|Søndag|
+langlookup|Monday|Mandag|
+langlookup|Tuesday|Tirsdag|
+langlookup|Wednesday|Onsdag|
+langlookup|Thursday|Torsdag|
+langlookup|Friday|Fredag|
+langlookup|Saturday|Lørdag|
+langlookup|Sunday night|Søndag nat|
+langlookup|Monday night|Mandag nat|
+langlookup|Tuesday night|Tirsdag nat|
+langlookup|Wednesday night|Onsdag nat|
+langlookup|Thursday night|Torsdag nat|
+langlookup|Friday night|Fredag nat|
+langlookup|Saturday night|Lørdag nat|
+langlookup|Today|I&nbsp;dag|
+langlookup|Tonight|I&nbsp;nat|
+langlookup|night|nat|
+langlookup|Rest of tonight|I nat|
+langlookup|This afternoon|Eftermiddag|
+# UV Index words
+langlookup|Low|Lav|
+langlookup|Medium|Moderat|
+langlookup|High|Høj|
+langlookup|Very&nbsp;High|Meget&nbsp;Højt|
+langlookup|Extreme|Extreemt|
+# Summary conditions lookup
+langlookup|Severe storm|Tordenbyger evt. skypumper|
+langlookup|Showers storms|Regn/torden|
+langlookup|Thunder storm|Tordenvejr|
+langlookup|Rain Sleet|Tøsne|
+langlookup|FrzgRn Snow|Islag/sne|
+langlookup|Rain and Snow|Slud|
+langlookup|Freezing Rain|Isslag|
+langlookup|Rain likely|Regn sandsynligt|
+langlookup|Chance rain|Mulighed for regn|
+langlookup|Mix|Sne/Regn|
+langlookup|Sleet|Slud/tøsne|
+langlookup|Snow|Sne|
+langlookup|Fog a.m.|Tåge om morgenen|
+langlookup|Fog late|Tåge sent|
+langlookup|Fog|Tåge|
+langlookup|Very Cold|Meget koldt|
+langlookup|Very Hot|Meget varmt|
+langlookup|Partly Cloudy|Delvis skyet|
+langlookup|Mostly Cloudy|Overvejende skyet|
+langlookup|Cloudy|Skyet|
+langlookup|Overcast|Overskyet|
+langlookup|Partly Sunny|Delvis sol|
+langlookup|Mostly Sunny|Mest sol|
+langlookup|Mostly Clear|Mest klart|
+langlookup|Sunny|Sol|
+langlookup|Clear|Klart|
+langlookup|Fair|Pænt|
+langlookup|Variable Clouds|Forbigående skyer|
+# translation for ordinal wind directions must be in North-East-South-West order
+langlookup|NESW|NØSV|
+# translation for Beaufort Wind Force
+langlookup|Calm|Stille|
+langlookup|Light air|Næsten stille|
+langlookup|Light breeze|Svag vind|
+langlookup|Gentle breeze|Let vind|
+langlookup|Moderate breeze|Jævn vind|
+langlookup|Fresh breeze|Frisk vind|
+langlookup|Strong breeze|Hård vind|
+langlookup|Near gale|Stiv kuling|
+langlookup|Gale|Hård kuling|
+langlookup|Strong gale|Stormende kuling|
+langlookup|Storm|Storm|
+langlookup|Violent storm|Stærk storm|
+langlookup|Hurricane|Orkan|
+
+lang|High risk of severe thunderstorms and possible tornados|Stor risiko for torden og mulige skypumper|
+lang|Risk of severe thunderstorms and possible tornados|Risko fro torden|
+lang|Thunderstorms likely, some possibly severe|Torden sandsynligt - nogle kan være kraftige|
+lang|Thunderstorms likely, some severe|Torden sandsynligt, nogle kan være kraftige|
+lang|Thunderstorms likely|Torden sandsynligt|
+lang|Some thunder possible|Nogen torden sandsynligt|
+lang|some possibly severe|nogle sandsynligvis kraftige|
+lang|Some thunderstorms likely|Tordenbyger sandsynlige|
+lang|Scattered frost.|Lokalt frost|
+lang|Frost.|Frost.|
+lang|Wind chill colder than|Vindchill koldere end|
+ang|Wind chill down to|Vindchill ned til|
+lang|scattered light frost possible|mulighed for lokalt let frost|
+lang|areas of light frost likely|mulighed for områder med let frost|
+lang|light to moderate frost|let til moderat frost|
+lang|moderate to heavy frost|moderat til hård frost|
+
+# Snowdepth
+lang|Little or no snow or ice (on ground) accumulation expected|Lidt eller ingen sne/is (på jorden) ventes|
+lang|Little or no snow accumulation expected|Lidt eller ingen sne forventes|
+lang|Little if any freezing rain accumulation|Mulighed for lidt isslag|
+lang|No snow accumulation expected|Ingen sne forventes|
+lang|No snow or ice (on ground) accumulation expected|Ingen sne/is (på jorden) forventes|
+lang|No ice (on ground) accumulation expected|Ingen is (på jorden) forventes|
+lang|Snow accumulation expected|Sne forventes|
+lang|Snow accumulation|Sne |
+lang|Snow or ice (on ground) accumulation|Sne eller is (på jorden)|
+lang|Freezing rain accumulation up to |Isslag op til |
+lang|about a cm|omkring 1 cm|
+
+# New descriptions
+lang|Breezy|Brise|
+lang|Windy|Blæsende|
+lang|Cold|Koldt|
+lang|cold|koldt|
+lang|cool|køligt|
+lang|warm|varmt|
+#lang|mild|mildt|
+lang|hot|varmt|
+lang|Very windy|Meget blæsende|
+lang|very hot|meget varmt|
+lang|very cold|meget koldt|
+lang|relatively cool|relativt koldt|
+lang|relatively mild|relativt mildt|
+lang|Relatively mild|Relativt mildt|
+lang|unusually warm|usædvanligt varmt|
+lang|unusually mild|usædvanligt mildt|
+lang|unusually cold|usædvanligt koldt|
+lang|unusually cool|usædvanligt køligt|
+lang|unusually hot|usædvanligt varmt|
+lang|exceptionally warm|ekstraordinært varmt|
+lang|exceptionally mild|ekstraordinært mildt|
+lang|exceptionally cold|ekstraordinært koldt|
+lang|exceptionally cool|ekstraordinært køligt|
+lang|exceptionally hot|ekstraordinært varmt|
+lang|extremely cold|ekstremt koldt|
+lang|extremely hot|ekstremt varmt|
+lang|near record warmth|rekordvarmt|
+lang|near record cold|rekordkoldt|
+lang|near record warmth|rekordvarmt|
+lang|near record heat|rekord hede|
+lang|near record low temperatures|rekord kuldetemperatur|
+lang|near record cool temperatures|rekord varmetemperatur|
+lang|ranging from|mellem|
+lang|Unusually|Usædvanligt|
+
+
+lang|Overcast|Overskyet|
+lang|shower||
+
+langlookup|unlikely|Ikke sandsynligt|
+langlookup|likely|Sandsynlighed for torden|
+langlookup|severe|STOR|
+langlookup|Snowdepth|Snedybde|
+langlookup|depth|dybde|
+langlookup|Windchill|Vindchill|
+langlookup|Dewpoint|Dugpunkt|
+langlookup|Heat index|Hedeindex|
+langlookup|PoP|Sandsynlighed for nedbør|
+langlookup|Temperature|Temperatur|
+langlookup|Wind|Vind|
+langlookup|Vindgust|Vindstød|
+langlookup|Solar radiation|Solstråling|
+langlookup|Precipitation|Nedbør|
+langlookup|Pressure|Barometer|
+langlookup|Thunder|Torden|
+langlookup|Snow|Sne|
+langlookup|Description and notes|Beskrivelse og noter|
+langlookup|Conditions|Vejrforhold|
+langlookup|Detailed forecast|Detaljeret vejrudsigt|
+langlookup|Hour-by-hour|3-timers interval|
+langlookup|Meteogram|Graf|
+langlookup|Grass|Græs|
+langlookup|Grass &nbsp;|Græs og|
+langlookup|Grass temperature|Temperatur i græshøjde|
+langlookup|Surface temperature|Temperatur i jordhøjde|
+langlookup|Soil|Jord|
+langlookup|Moisture|Fugtighed|
+langlookup|mm/h|mm/timen|
+langlookup|No precip|Ingen nedbør|
+langlookup|Graphs coming soon|Graf kommer snart...|
+#
+langlookup|Jan|januar|
+langlookup|Feb|februar|
+langlookup|Mar|marts|
+langlookup|Apr|april|
+langlookup|May|maj|
+langlookup|Jun|juni|
+langlookup|Jul|juli|
+langlookup|Aug|august|
+langlookup|Sep|september|
+langlookup|Oct|oktober|
+langlookup|Now|novovember|
+langlookup|Dec|december|
+
+lang|probality|sandsynlighed|
+langlookup|within 80km from|indenfor 80 km fra|
+lang|Show|Vis|
+
+# --- end of language file ------
