@@ -1,11 +1,51 @@
-  <div style="float: left;">
+<!DOCTYPE html>
+<html>
 <style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: #1462A6;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 33%;
+  margin-left: -70px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
 
-@import url("https://brymeteo.github.io/player/radar.css");
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 </style>
 
-<div class="title-previsioni"><h3 class="tl-sub-n" style="text-align: left;"><span style="color: #0b5394; font-family: helvetica; font-size: 15px;">Aggiornate l'11 febbraio ore 02:27 </span></h3>
+
+
+<div class="tooltip">Ultimo aggiornamento previsione
+  <span class="tooltiptext">11 febbraio ore 19:00</span>
 </div>
 
+</body>
+</html>
