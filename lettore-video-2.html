@@ -9,7 +9,8 @@
       top: 60px;
       left: 40px;
       width: 370px;
-      transition: transform 1.0s;
+      transition: opacity 1s, transform 1s;
+      opacity: 0; /* Inizialmente nascosto */
     }
 
     #logo-top-left:hover {
@@ -48,9 +49,49 @@
       myPlayer.el().appendChild(logoTopLeft);
       myPlayer.el().appendChild(logoBottomRight);
 
-      myPlayer.on('ended', function() {
-        myPlayer.currentTime(0);
-        myPlayer.play();
+      // Funzione per mostrare il logo in alto a sinistra
+      function showLogo() {
+        logoTopLeft.style.opacity = '1';
+      }
+
+      // Funzione per nascondere il logo in alto a sinistra
+      function hideLogo() {
+        logoTopLeft.style.opacity = '0';
+      }
+
+      // Funzione per controllare l'orario e mostrare/nascondere il logo
+      function checkTime() {
+        var now = new Date();
+        var currentHour = now.getHours();
+        var currentMinute = now.getMinutes();
+
+        // Orario di inizio per mostrare il logo (ad esempio, 8:00 AM)
+        var startHour = 8;
+        var startMinute = 0;
+
+        // Orario di fine per nascondere il logo (ad esempio, 6:00 PM)
+        var endHour = 18;
+        var endMinute = 0;
+
+        var showTime = currentHour >= startHour && currentMinute >= startMinute;
+        var hideTime = currentHour >= endHour && currentMinute >= endMinute;
+
+        if (showTime && !hideTime) {
+          showLogo();
+        } else {
+          hideLogo();
+        }
+      }
+
+      // Intervallo di controllo ogni secondo
+      setInterval(checkTime, 1000);
+
+      // Aggiunta dell'evento per riavviare il video quando si blocca o richiede il riavvio
+      myPlayer.on('error', function() {
+        setTimeout(function() {
+          myPlayer.reset();
+          myPlayer.play();
+        }, 1000);
       });
     });
   </script>
