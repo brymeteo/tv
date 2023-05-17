@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNO CASA TV HD</title>
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
+  <style>
+    #logo-top-left {
+      position: absolute;
+      top: 60px;
+      left: 40px;
+      width: 370px;
+      transition: transform 1.0s;
+    }
+
+    #logo-top-left:hover {
+      transform: scale(1.2);
+    }
+
+    #logo-bottom-right {
+      position: absolute;
+      bottom: 43px;
+      right: 0px;
+      width: 590px;
+      transition: transform 1.0s;
+    }
+
+    #logo-bottom-right:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="951" height="526">
+      <source src="https://app.viloud.tv/hls/channel/sep/d01df61d8cc2f503df7d5c637341e3aa/normal.m3u8" type="application/x-mpegURL">
+      <p class="vjs-no-js">Per vedere questo video, abilita JavaScript e considera l'aggiornamento a un browser web che supporti HTML5 video</p>
+    </video>
+    <img id="logo-top-left" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000345-b93d5b93d8/TITOLO-9.webp?ph=7e11bb4538" alt="Logo Top Left">
+    <img id="logo-bottom-right" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000343-7a58b7a58e/LOGO%20LETTORE-9.webp?ph=7e11bb4538" alt="Logo Bottom Right">
+  </div>
+
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var myPlayer = videojs('my-video');
+      var logoTopLeft = document.getElementById('logo-top-left');
+      var logoBottomRight = document.getElementById('logo-bottom-right');
+      myPlayer.el().appendChild(logoTopLeft);
+      myPlayer.el().appendChild(logoBottomRight);
+
+      myPlayer.on('ended', function() {
+        myPlayer.currentTime(0);
+        myPlayer.play();
+      });
+    });
+  </script>
+</body>
+</html>
