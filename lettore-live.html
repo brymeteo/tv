@@ -1,0 +1,48 @@
+  
+    <title>M3U8 Video Player</title>
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
+    <style>
+#logo {
+  position: absolute;
+  bottom: 35px;
+  right: 0px;
+  transition: transform 0.3s;
+}
+
+#logo:hover {
+  transform: scale(1.2);
+}
+
+
+
+    </style>
+  
+  
+    <div id="video-container">
+      <video id="my-video" class="video-js vjs-default-skin" controls="" preload="auto" width="1920" height="1080">
+        <source src="https://app.viloud.tv/hls/channel/sep/d01df61d8cc2f503df7d5c637341e3aa/normal.m3u8
+" type="application/x-mpegURL">
+        <p class="vjs-no-js">Per vedere questo video, abilita JavaScript e considera l'aggiornamento a un browser web che supporti HTML5 video</p>
+      </video>
+      <img id="logo" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000335-9c6b79c6b9/450/logo%205-5.webp?ph=7e11bb4538" alt="Logo">
+    </div>
+
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var myPlayer = videojs('my-video');
+        var overlay = document.createElement('div');
+        overlay.className = 'vjs-overlay';
+        var logo = document.getElementById('logo');
+        overlay.appendChild(logo);
+        myPlayer.el().appendChild(overlay);
+      });
+    </script>
+  
+
+
+
+
+
+
+   
