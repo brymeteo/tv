@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>UNO CASA TV HD</title>
+  <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
+  <style>
+    #logo-top-left {
+      position: absolute;
+      top: 60px;
+      left: 40px;
+      width: 370px;
+      transition: opacity 1s, transform 1s;
+      opacity: 0; /* Inizialmente nascosto */
+    }
+
+    #logo-top-left:hover {
+      transform: scale(1.2);
+    }
+
+    #logo-bottom-right {
+      position: absolute;
+      bottom: 43px;
+      right: 0px;
+      width: 590px;
+      transition: transform 1.0s;
+    }
+
+    #logo-bottom-right:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="951" height="526">
+      <source src="https://app.viloud.tv/hls/channel/583e7246cfed0625afed385719dacfa1/normal.m3u8" type="application/x-mpegURL">
+      <p class="vjs-no-js">Per vedere questo video, abilita JavaScript e considera l'aggiornamento a un browser web che supporti HTML5 video</p>
+    </video>
+    <img id="logo-top-left" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000339-a7b4ca7b4f/TITOLO.webp?ph=7e11bb4538" alt="Logo Top Left">
+    <img id="logo-bottom-right" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000343-7a58b7a58e/LOGO%20LETTORE-9.webp?ph=7e11bb4538" alt="Logo Bottom Right">
+  </div>
+
+  <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var myPlayer = videojs('my-video');
+      var logoTopLeft = document.getElementById('logo-top-left');
+      var logoBottomRight = document.getElementById('logo-bottom-right');
+      myPlayer.el().appendChild(logoTopLeft);
+      myPlayer.el().appendChild(logoBottomRight);
+
+      // Funzione per mostrare il logo in alto a sinistra
+      function showLogo() {
+        logoTopLeft.style.opacity = '1';
+      }
+
+      // Funzione per nascondere il logo in alto a sinistra
+      function hideLogo() {
+        logoTopLeft.style.opacity = '0';
+      }
+
+      // Funzione per controllare l'orario e mostrare/nascondere il logo
+      function checkTime() {
+        var now = new Date();
+        var currentHour = now.getHours();
+        var currentMinute = now.getMinutes();
+
+        // Orario di inizio per mostrare il logo (ad esempio, 8:00 AM)
+        var startHour = 1;
+        var startMinute = 35;
+
+        // Orario di fine per nascondere il logo (ad esempio, 6:00 PM)
+        var endHour = 2;
+        var endMinute = 0;
+
+        var showTime = currentHour >= startHour && currentMinute >= startMinute;
+        var hideTime = currentHour >= endHour && currentMinute >= endMinute;
+
+        if (showTime && !hideTime) {
+          showLogo();
+        } else {
+          hideLogo();
+        }
+      }
+
+      // Intervallo di controllo ogni secondo
+      setInterval(checkTime, 1000);
+    });
+  </script>
+</body>
+</html>
