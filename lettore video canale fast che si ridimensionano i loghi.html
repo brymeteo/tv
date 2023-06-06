@@ -3,7 +3,7 @@
 <head>
   <title>UNO CASA TV HD</title>
   <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet">
-   <style>
+    <style>
     #logo-top-left, #logo-bottom-right, #second-logo-top-left {
       position: absolute;
       transition: transform 0.5s;
@@ -45,12 +45,22 @@
 <body>
   <div id="video-container">
     <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="951" height="526">
+      <source id="video-source" src="https://streams.bitmovin.com/chva0v74doe71ti173h0/manifest.m3u8" type="application/x-mpegURL">
       <p class="vjs-no-js">Per vedere questo video, abilita JavaScript e considera l'aggiornamento a un browser web che supporti HTML5 video</p>
     </video>
     <img id="logo-top-left" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000345-b93d5b93d8/TITOLO-9.webp?ph=7e11bb4538" alt="Logo Top Left">
+    
+  
+    
     <img id="second-logo-top-left" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000345-b93d5b93d8/TITOLO-9.webp?ph=7e11bb4538" alt="">
   </div>
-  <img id="logo-bottom-right" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000545-166e0166e4/LOGO%206-1.webp?ph=7e11bb4538" alt="Logo uno casa tv in basso">
+  
+  
+    <img id="logo-bottom-right" src="https://7e11bb4538.cbaul-cdnwnd.com/873c19a2e1fe56e8793848f12717e9be/200000545-166e0166e4/LOGO%206-1.webp?ph=7e11bb4538" alt="Logo uno casa tv in basso">
+  
+  
+  
+
   <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -87,11 +97,11 @@
         var endMinuteLogo1 = 0;
 
         // Orario di inizio per mostrare il secondo logo (ad esempio, 9:00 AM)
-        var startHourLogo2 = 4;
+        var startHourLogo2 = 0;
         var startMinuteLogo2 = 0;
 
         // Orario di fine per nascondere il secondo logo (ad esempio, 5:00 PM)
-        var endHourLogo2 = 5;
+        var endHourLogo2 = 6;
         var endMinuteLogo2 = 0;
 
         var showTimeLogo1 = currentHour >= startHourLogo1 && currentMinute >= startMinuteLogo1;
@@ -115,22 +125,23 @@
 
       // Funzione per cambiare la fonte del video
       function changeVideoSource() {
-        myPlayer.src({
-          src: 'https://app.viloud.tv/hls/channel/fe5d8619101b9cd0f7697c8b8faabdd6/high.m3u8',
-          type: 'application/x-mpegURL'
-        });
+        var videoSource = document.getElementById('video-source');
+        videoSource.src = 'https://streams.bitmovin.com/chva0v74doe71ti173h0/manifest.m3u8?' + new Date().getTime();
+        myPlayer.src(videoSource.src);
         myPlayer.load();
         myPlayer.play(); // Avvia la riproduzione automaticamente
       }
 
-      // Carica il primo video all'inizio
-      changeVideoSource();
-
       // Intervallo di controllo ogni (1 secondo) per i loghi
       setInterval(checkLogos, 1000);
 
-      // Intervallo di controllo ogni 9 minuti (540 secondi) per pre-caricare il secondo video
-      setInterval(changeVideoSource, 540000);
+      // Intervallo di controllo ogni 50 minuti (3000 secondi) per l'aggiornamento del video
+      setInterval(changeVideoSource, 3000000);
+      
+      // Evento che si verifica quando il video termina la riproduzione
+      myPlayer.on('ended', function() {
+        changeVideoSource(); // Aggiorna immediatamente la fonte del video
+      });
     });
   </script>
 </body>
