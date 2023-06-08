@@ -7,7 +7,7 @@
 
         if ($enteredPassword == $password) {
             // Password corretta, effettua il reindirizzamento alla piattaforma di streaming
-            header("Location: piattaforma.php");
+            header("Location: streaming/casatv.html");
             exit();
         } else {
             // Password errata, mostra un messaggio di errore
