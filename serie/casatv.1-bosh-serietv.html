@@ -1,0 +1,32 @@
+  
+  <script src="https://brymeteo.github.io/tv/playerjs-video-casatv2.js" type="text/javascript"></script>
+  
+  <div id="player1"></div>
+  <div id="playlist_container"></div>
+  <script>
+     document.getElementById("player1").addEventListener("init",PlayerInit);
+     var player = new Playerjs({
+        id:"player1", poster:"https://www.themoviedb.org/t/p/w1000_and_h563_face/y4E4OAq3y0as5CtyP9Tsjs8Ou0U.jpg",
+        file:[
+          
+     
+    
+     
+     
+    {"title":"SERIE CASA TV",file:"https://cdn.jwplayer.com/videos/2qu0CLrQ-1w5A33Ad.mp4"},
+          
+          
+   {"title":"S1 E1 - Episodio 1: Un poliziotto scomodo",file:"[BASSA]https://cdn.jwplayer.com/videos/ESkfEXJo-kfZWG4Yi.mp4,[MEDIA]https://cdn.jwplayer.com/videos/ESkfEXJo-CpjfgctC.mp4,[ALTA FULL HD]https://cdn.jwplayer.com/videos/ESkfEXJo-1w5A33Ad.mp4"},
+   
+   
+     {"title":"SERIE CASA TV",file:"https://cdn.jwplayer.com/videos/QLJrYLke-1w5A33Ad.mp4"},
+   
+   
+  
+          
+   ]
+     });
+     function PlayerInit(){
+        player.api("moveplaylist","playlist_container");
+     }
+  </script>
