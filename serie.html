@@ -1,0 +1,1418 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<style>
+:root {
+    --main-color: #c0392b;
+    --body-bg: #181616;
+    --box-bg: #221f1f;
+    --text-color: #ffffff;
+
+    --nav-height: 60px;
+    --space-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    padding-top: var(--nav-height);
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #000000;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    height: var(--nav-height);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-menu li ~ li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-menu a:hover {
+    color: var(--main-color);
+}
+
+.nav-menu a.btn:hover,
+a.logo:hover,
+a.movie-item:hover {
+    color: unset;
+}
+
+.btn {
+    color: #ffffff;
+    padding: 0.25rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.btn-hover::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.btn-hover:hover::before {
+    width: 100%;
+}
+
+.btn i,
+.btn span {
+    z-index: 1;
+}
+
+.btn i {
+    margin-right: 1rem;
+}
+
+.hamburger-menu {
+    --size: 30px;
+    height: var(--size);
+    width: var(--size);
+    cursor: pointer;
+    z-index: 101;
+    position: relative;
+    display: none;
+    align-items: center;
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    width: var(--size);
+    height: 3px;
+    border-radius: 0.5rem;
+    background-color: var(--text-color);
+    transition: 0.4s;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before {
+    top: -10px;
+}
+
+.hamburger::after {
+    bottom: -10px;
+}
+
+.hamburger-menu.active .hamburger {
+    background-color: transparent;
+}
+
+.hamburger-menu.active .hamburger::before {
+    transform-origin: top left;
+    transform: rotate(45deg);
+    left: 6px;
+}
+
+.hamburger-menu.active .hamburger::after {
+    transform-origin: bottom left;
+    transform: rotate(-45deg);
+    left: 6px;
+}
+
+.hero-slide-item {
+    padding-top: 40%;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slide-item img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-slide-item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+    display: flex;
+}
+
+.item-content-wraper {
+    padding-left: 5rem;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.item-content-wraper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.item-content-title {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
+}
+
+.movie-infos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc(var(--space-top) / 2);
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.movie-info span {
+    margin-left: 5px;
+}
+
+.movie-info i {
+    color: var(--main-color);
+}
+
+.movie-info ~ .movie-info {
+    margin-left: 5px;
+}
+
+.item-content-description {
+    font-size: 1.15rem;
+    margin-top: var(--space-top);
+    line-height: 1.5rem;
+}
+
+.item-action {
+    margin-top: var(--space-top);
+}
+
+.carousel-nav-center {
+    position: relative;
+}
+
+.carousel-nav-center .owl-nav button i {
+    font-size: 3rem;
+}
+
+.carousel-nav-center .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-nav-center .owl-nav .owl-prev {
+    position: absolute;
+    left: 5px;
+}
+
+.carousel-nav-center .owl-nav .owl-next {
+    position: absolute;
+    right: 5px;
+}
+
+.owl-nav button {
+    border: none;
+    outline: none;
+}
+
+.owl-nav button i {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+
+.owl-nav button:hover i {
+    color: var(--main-color);
+}
+
+.top-down {
+    transform: translateY(-50px);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.delay-2 {
+    transition-delay: 0.2s;
+}
+
+.delay-4 {
+    transition-delay: 0.4s;
+}
+
+.delay-6 {
+    transition-delay: 0.6s;
+}
+
+.delay-8 {
+    transition-delay: 0.8s;
+}
+
+.owl-item.active .top-down {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.movie-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-top: 140%;
+    cursor: pointer;
+}
+
+.movie-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s linear;
+}
+
+.movie-item:hover img {
+    transform: scale(1.2);
+}
+
+.movie-item-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.movie-item-content::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.movie-item-title {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 700;
+}
+
+.section {
+    padding-top: 80px;
+}
+
+.section-header {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-left: 4px solid var(--main-color);
+    display: flex;
+    align-items: center;
+}
+
+.pricing-header {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pricing-box {
+    padding: 50px;
+    margin: 15px 0;
+    background-color: var(--box-bg);
+    border-top: 5px solid transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-box:hover {
+    transform: translateY(-20px);
+}
+
+.pricing-box.hightlight {
+    border-top: 5px solid var(--main-color);
+}
+
+.pricing-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.pricing-price {
+    font-weight: 700;
+}
+
+.pricing-price span {
+    font-size: 1rem;
+}
+
+.pricing-box-content {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.25rem;
+}
+
+.pricing-box-action {
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer.section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: var(--box-bg);
+}
+
+footer a:hover {
+    color: var(--main-color);
+}
+
+footer a.logo {
+    margin-top: -2.5rem;
+    display: block;
+}
+
+footer a.logo:hover {
+    color: unset;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-item {
+    --size: 30px;
+    height: var(--size);
+    width: var(--size);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    color: var(--main-color);
+}
+
+.social-item:hover {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.social-item ~ .social-item {
+    margin-left: 20px;
+}
+
+footer .content {
+    margin-top: 20px;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-menu a:hover {
+    transform: translateX(5px);
+}
+
+.copyright {
+    padding: 10px;
+    border-top: 1px solid var(--body-bg);
+    background-color: var(--box-bg);
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+
+    .hero-slide-item {
+        padding-top: 50%;
+    }
+
+    .item-content-wraper {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-slide-item {
+        height: max-content;
+        padding-top: unset;
+    }
+
+    .item-content-wraper {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-right: 5rem;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .hero-slide-item-content {
+        position: relative;
+    }
+
+    .hero-slide-item img {
+        height: 100%;
+    }
+
+    .item-content-title {
+        font-size: 3rem;
+    }
+
+    .hamburger-menu {
+        display: grid;
+    }
+
+    .nav-menu {
+        /* display: none; */
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: #000000;
+        flex-direction: column;
+        width: 80%;
+        height: 100vh;
+        padding: 20px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-menu li {
+        margin: 10px 30px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
+
+
+</style>
+
+
+
+<style>
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* MEDIUM SCREEN */
+
+@media only screen and (max-width: 1280px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* SMALL SCREEN */
+
+@media only screen and (max-width: 850px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+</style>
+
+
+
+
+ <script type="text/javascript" src="/main-576047537391d1df46d8.js" async=""></script><style>@media(min-width:576px)and (max-width:1199.98px){.image-2sSQndI7{width:40%}}.image-2sSQndI7:after{content:"";position:absolute;bottom:0;left:0;z-index:1;width:100%;height:50%;display:block;overflow:hidden;background:linear-gradient(0deg,#1a1c21 0,rgba(26,28,33,0))}@media(min-width:576px){.image-2sSQndI7:after{bottom:unset;top:0;height:100%;background:linear-gradient(90deg,#1a1c21 0,rgba(26,28,33,.2))}}.info-dS_10Us3{padding:1rem;padding-bottom:1.75rem;display:flex;flex-flow:column nowrap}@media(min-width:576px)and (max-width:1199.98px){.info-dS_10Us3{width:60%}}@media(min-width:576px){.info-dS_10Us3{padding:1.75rem;justify-content:center}}.heading-3nsaPBOH{font-size:1.25rem;font-weight:700;color:#fafafa;margin-bottom:.75rem;word-wrap:break-word;text-align:center}@media(min-width:576px){.heading-3nsaPBOH{text-align:left}}.text-Dm3h7fgw{color:#fafafa;word-wrap:break-word;text-align:center;margin-bottom:1.25rem}@media(min-width:576px){.text-Dm3h7fgw{text-align:left}}.buttonContainer-17pOj8Jp{display:flex;flex-direction:column}@media(min-width:576px){.buttonContainer-17pOj8Jp{flex-direction:row}}.button-28ITaO27{margin-bottom:.75rem}.button-28ITaO27:last-of-type{margin-bottom:0}@media(min-width:576px){.button-28ITaO27{margin-right:.75rem;margin-bottom:0}}</style><style>.player-2Jwmsbwh{max-height:75vmin;background-color:#000}</style><style>.card-1tVwwpUs{width:100%;height:auto;position:relative}.headings-oXd4l_7C{margin-bottom:.25rem;word-break:break-word}.headings-oXd4l_7C h3{font-size:.88rem;font-weight:600;color:#bfc5cd}.headings-oXd4l_7C span,.metaText-R8JQpJjb{color:#fafafa}.duration-1YkI8oSH,.metaDate--9T7vYKs,.seasonAndEpisode-2yT0zw9R{font-weight:400;color:#fafafa}.duration-1YkI8oSH{line-height:normal}.cardLink-15SMCSd-{color:#fafafa}.cardLink-15SMCSd-:hover .subTitle-1yRn78Bc,.cardLink-15SMCSd-:hover .title-3awW3LO9{color:#bfc5cd}.cardInfo-2qpn6H5I{padding-top:.25rem}@media(min-width:576px){.cardInfo-2qpn6H5I{padding-top:.4375rem}}.programTitle-p277Kmwx{letter-spacing:-.4px;word-wrap:break-word;font-weight:600}@media(max-width:767.98px){.programTitle-p277Kmwx{font-size:.8125rem;line-height:1.308}}.blurbCardLink-1s2oLysk{display:block}.extraInfoContainer-3ohxX5WX{width:100%}.icon-3dwnnL9D{float:right;width:1rem}.aw-1oV4vRE5{height:100%;display:inline-block;justify-content:center}.card-1tVwwpUs.blurb-2vVq9Ubp .cardInfo-2qpn6H5I,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .cardInfo-2qpn6H5I,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .cardInfoSeasonAndEpisode-cTWpKRF_,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .duration-1YkI8oSH,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .metaDate--9T7vYKs,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .metaText-R8JQpJjb,.card-1tVwwpUs.blurb-2vVq9Ubp:hover .seasonAndEpisode-2yT0zw9R,.card-1tVwwpUs.recommended-3wiQ0Tos .cardInfo-2qpn6H5I,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .cardInfo-2qpn6H5I,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .cardInfoSeasonAndEpisode-cTWpKRF_,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .duration-1YkI8oSH,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .metaDate--9T7vYKs,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .metaText-R8JQpJjb,.card-1tVwwpUs.recommended-3wiQ0Tos:hover .seasonAndEpisode-2yT0zw9R,.card-1tVwwpUs.videoCard-30URi7JU .cardInfo-2qpn6H5I{color:#fafafa}.videoCard-30URi7JU .programTitle-p277Kmwx{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;display:inline-block}.videoCard-30URi7JU .infoWrapper-3fkMdwJA{display:flex;justify-content:space-between;flex-wrap:wrap}.videoCard-30URi7JU .duration-1YkI8oSH,.videoCard-30URi7JU .info-3G6Q14Jg{padding-top:.5625rem}.videoCard-30URi7JU .cardInfoSeasonAndEpisode-cTWpKRF_{color:#bfc5cd;font-weight:500}.videoCard-30URi7JU .cardInfoSeasonAndEpisode-cTWpKRF_>:not(:last-child):after{content:"|"}.thumbnail-13eGg4K7{position:relative}.episode-32nBzNmS .episodeInfo-oSA6D4Ks{display:block;overflow:hidden;text-overflow:ellipsis}.episode-32nBzNmS .episodeInfo-oSA6D4Ks>*{display:inline}.episode-32nBzNmS .availableFrom-1558cG4U{white-space:normal}.card-1tVwwpUs.show-2Qx8e0gw{min-width:0;width:auto}.genres-3P7gEWmT{color:#bfc5cd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media(min-width:576px){.card-1tVwwpUs.episode-32nBzNmS,.card-1tVwwpUs.show-2Qx8e0gw{margin:0}}@media(max-width:991.98px){.card-1tVwwpUs.episode-32nBzNmS,.card-1tVwwpUs.show-2Qx8e0gw{padding-bottom:1.875rem}}.card-1tVwwpUs.channel-3NXPknj5{display:flex;flex-direction:column;background:#262931;padding:1.25rem;width:100%;border-radius:.25rem}.card-1tVwwpUs.channel-3NXPknj5 .channelName-1LpoRll7{text-align:center;padding:.625rem 0 0;color:#fafafa}.legacyTheme-kMcbAUB4.card-1tVwwpUs.channel-3NXPknj5{border-radius:0}.channelImage-2MBUqfO8{flex-grow:1;display:flex;align-items:center;justify-content:center}.channelLogo-zot7BD6s{max-width:60%}.placeholder-1GLw6oLu{background-color:#262931;min-height:0;background-size:cover;margin-bottom:1.4rem;padding-bottom:56.25%;border-radius:.25rem}@media(min-width:992px){.placeholder-1GLw6oLu{min-height:10rem}}</style><style>.label-1qIsm2Nq{color:#fafafa;font-size:.875rem;font-weight:700;padding:.25rem .5rem;display:inline-flex;align-items:center;user-select:none;border-radius:.25rem;margin-right:.25rem;line-height:1;text-transform:uppercase;background:#2175d9}.label-1qIsm2Nq:last-of-type{margin-right:0}.live-39L7453b,.liveNow-1yZ-xdqI{color:#fafafa;background:#e02020}.liveNow-1yZ-xdqI{padding-left:1.25rem}.liveNow-1yZ-xdqI:before{content:"";background:#fafafa;position:absolute;width:.375rem;height:.375rem;top:50%;left:.5rem;margin-top:-3px;border-radius:3px}.sport-2wTFLSGV{background-color:#ef6404}.watched-11AH6cVS{background-color:#4f555e}.unavailable-3mxPLwTN{background-color:#282d33}.duration-22m0HoGx{background-color:rgba(0,0,0,.5)}.hidden-8HKCXsEH{display:none}</style><style>.target-1lvzBG8W{top:0;position:absolute;height:100%;width:100%}.target-1lvzBG8W img{animation:fadein-1qfvjQ54 .3s}@keyframes fadein-1qfvjQ54{0%{opacity:0}to{opacity:1}}</style><style>.base-2DQntW5l:not(.hero-3wMlKean){width:4.25rem;height:4.25rem}.base-2DQntW5l:not(.hero-3wMlKean) .icon-34l052bh{position:absolute;top:50%;left:50%;transform:translate(-40%,-50%);color:#121317;width:1.75rem;height:1.75rem}.clickThrough-1tYTDrrh{pointer-events:none}.icon-34l052bh{display:flex;color:inherit;width:1rem;height:1rem;margin-right:.5rem}</style><style>.container-1s5cUj_B{display:flex;position:absolute;width:100%;height:100%;justify-content:center;align-items:center;z-index:2}.timeBlock-1Kv5-BfZ{width:7.5rem;margin:auto;padding:.5rem;text-align:center;background-color:rgba(18,19,23,.6);border-radius:.25rem;color:#fafafa}</style><style>.thumbnail-2U_q9L4l{width:100%;position:sticky;overflow:hidden;padding-top:56.25%;user-select:none;opacity:1;display:block;cursor:pointer}.channel-lW8B8pSc,.gradient-26PJFnsO,.image-n0dfbgL9,.overlay-HoShQJZt,.play-_aF7OUu8,.preview-9VUn6KTn,.show-2kz0PH3j,.tags-3u00YlLb{position:absolute;z-index:0}.gradient-26PJFnsO,.overlay-HoShQJZt{z-index:1}.channel-lW8B8pSc,.optionalOverlay-1SDAnuhF,.play-_aF7OUu8,.preview-9VUn6KTn,.show-2kz0PH3j,.startTime-2i1nPYbS,.tags-3u00YlLb{z-index:2}.optionalOverlay-1SDAnuhF{display:block;position:absolute;top:0;left:0;width:100%;height:100%;cursor:pointer}.startTime-2i1nPYbS{justify-content:center;align-items:center}.imageContainer-3vyEHnS7,.startTime-2i1nPYbS{display:flex;position:absolute;width:100%;height:100%}.imageContainer-3vyEHnS7{top:0}.image-n0dfbgL9{object-fit:cover;background-image:url(/324459c94247cda1a1d15818decf3905.jpg);background-size:cover;background-position:50%;left:0;top:0;width:100%;height:100%;transition:transform .6s;border-radius:.25rem}.show-2kz0PH3j{bottom:.75rem;right:.75rem;max-height:50%;max-width:50%;backface-visibility:hidden}.channel-lW8B8pSc{height:1.875rem;top:.75rem;right:.75rem}.tags-3u00YlLb{display:flex;left:0;bottom:0}.labelOverlay-16ODEB3T{position:absolute;display:flex;top:.5rem;left:.5rem;transform:translateZ(0)}.episodeCardLabel-jxFb9chT{position:absolute;display:flex;margin:.5rem}.lowerCase-3Lm8eQ6X{text-transform:lowercase}.preview-9VUn6KTn{top:0;left:0}.play-_aF7OUu8{display:block;top:50%;left:50%;transform:translate(-50%,-50%);background-color:hsla(0,0%,98%,.6);border-radius:50%}.hasProgress-2DzKXkpN .play-_aF7OUu8,.thumbnail-2U_q9L4l:hover .play-_aF7OUu8{display:block}.thumbnail-2U_q9L4l:active .play-_aF7OUu8{transform:translate(-50%,-50%) scale(.95)}.thumbnail-2U_q9L4l:active .overlay-HoShQJZt{height:100%;width:100%;background-color:rgba(0,0,0,.1)}.gradient-26PJFnsO{display:none}</style><style>.bulleted-27oqp7W7{display:flex;flex-wrap:wrap;white-space:nowrap;line-height:1.3}.bulleted-27oqp7W7>:not(:last-child):after{content:"\2022";margin:0 .5rem}@media(max-width:767.98px){.bulleted-27oqp7W7.noDotOnMobile-1I4OTOx5>:not(:last-child):after{display:none}}.oneline-3TWUpW3Y{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}</style><style>.progressBarBackground-1r-tXQxx{position:absolute;bottom:0;width:100%;z-index:5;height:.375rem;background:#bfc5cd}.progressBarBackground--relative-gxjQ4QI4{position:relative;bottom:unset;width:99%;z-index:unset;margin:.25rem auto 0}@media(min-width:320px){.progressBarBackground--relative-gxjQ4QI4{margin-top:7px}}.progressBar-3dJNtkXu{height:.375rem;background:#2175d9}</style><style>.thumbnailContainer-1l2-dbJp{position:relative;z-index:1;padding-bottom:56.25%;background-color:#262931;border-radius:.25rem}@media(max-width:1199.98px){.thumbnailContainer-1l2-dbJp{overflow:hidden}}.thumbnailImageContainer-szrOTKSh{top:0;position:absolute;height:100%;width:100%;padding-bottom:56.25%;z-index:2;box-shadow:0 0 0 0 rgba(0,0,0,.2);transition:transform .1s ease-in-out;backface-visibility:hidden;transform:translateZ(0) scale(1);border-radius:.25rem}@media(max-width:1199.98px){.thumbnailImageContainer-szrOTKSh{overflow:hidden}}.thumbnailImageContainer-szrOTKSh:before{z-index:3;background-color:rgba(26,28,33,.8)}.thumbnailImageContainer-szrOTKSh:after,.thumbnailImageContainer-szrOTKSh:before{top:0;position:absolute;height:100%;width:100%;content:"";opacity:0;border-radius:.25rem}.thumbnailImageContainer-szrOTKSh:after{z-index:-1;box-shadow:0 2px 11px 0 rgba(0,0,0,.2);transition:opacity .1s ease-in-out}.thumbnailImage-3IBjQwSZ{top:0;position:absolute;height:100%;width:100%;object-fit:cover;border-radius:.25rem}@media(max-width:1199.98px){.thumbnailImage-3IBjQwSZ{transition:transform .2s}}.overlay-fw99Jh_l{position:absolute;height:100%;width:100%;z-index:4}.hoverOverlay-3Xu53B6o{top:0;position:absolute;height:100%;width:100%;opacity:0;z-index:3}@media(min-width:992px){.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .overlay-fw99Jh_l,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .overlay-fw99Jh_l{z-index:-5}}@media(min-width:992px){.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover{z-index:5}.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .progressBarBackground-2cKRKJRZ,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .progressBarBackground-2cKRKJRZ{background:#2175d9}.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .hoverOverlay-3Xu53B6o,.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .thumbnailImageContainer-szrOTKSh:after,.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .thumbnailImageContainer-szrOTKSh:before,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .hoverOverlay-3Xu53B6o,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .thumbnailImageContainer-szrOTKSh:after,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .thumbnailImageContainer-szrOTKSh:before{opacity:1}.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .channelLogo-aT1UflxQ,.sb-hover .thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ .showLogo-2FDAXdS3,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .channelLogo-aT1UflxQ,.thumbnailContainer-1l2-dbJp.hoverable-INVaGwGZ:hover .showLogo-2FDAXdS3{display:none}}.channelLogo-aT1UflxQ,.showLogo-2FDAXdS3{position:absolute;z-index:2;bottom:4%;left:4%;max-height:50%;max-width:50%;backface-visibility:hidden}.channelLogo-aT1UflxQ{left:unset;bottom:0;right:0;max-height:35%;max-width:35%}.hoverDescription-1gKbsRFi{-webkit-line-clamp:2}.thumbnailLogoContainer-obCaCSN8{background-color:#000}.thumbnailLogoContainer-obCaCSN8 .thumbnailImage-3IBjQwSZ{top:0;position:absolute;height:100%;width:100%;object-fit:contain}</style>
+ 
+                      
+                      
+                      
+                        
+            <style>.container-nFryQfdW{font-size:1rem;color:#bfc5cd;font-weight:500;width:100%;display:inline-block}.date-21Omzvdl{text-transform:capitalize}.label-3G8lsii0:after{content:": "}</style><style>.gray-1LxZHYpD{color:#bfc5cd}.bold-2yR2woT_{font-weight:700}.italic-R7fbjch1{font-style:italic}.underline-11iZnlSI{text-decoration:underline}</style><style>.labels-21GVH-pW{position:absolute;display:flex;z-index:4;top:.125rem;left:.125rem}.hoverOverlay-1hl3_ngx{color:#bfc5cd;position:relative;height:100%;display:flex;flex-direction:column;overflow:hidden;padding:0 1rem}.hoverTitle-24-pfjP9{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;color:#fafafa;font-weight:700;font-size:1rem;line-height:1.1;margin-top:15%}.hoverDescription-2eYuoGYb{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:2;margin-top:.5rem;word-break:break-word}@supports not (-webkit-line-clamp:2){.hoverDescription-2eYuoGYb{max-height:2.2}}.hoverSubtitle-gR8gewcr{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;margin-top:.5rem}.hoverBottomLine-3rRyfJSw{margin-top:.5rem}</style><style>.text-2U65dgTc{color:#bfc5cd}.date-Xx4qCneG{color:#fafafa}.uppercase-2QtSIDKd{text-transform:uppercase}</style><style>.CardsTitle__text-32Vm5TdY{margin-bottom:.75rem;display:inline-block}</style>      
+                      
+                   
+                      
+                      
+          <style>@media(max-width:767.98px){.container-3zl9bO3H{padding-left:1rem;padding-right:1rem}}@media(min-width:576px)and (max-width:1199.98px){.container-3zl9bO3H{padding-left:1.5rem;padding-right:1.5rem}}@media(min-width:992px){.container-3zl9bO3H{padding-left:2.5rem;padding-right:2.5rem}}.grid-2gcrQMhY{display:grid;max-width:unset;padding-left:unset;padding-right:unset}@media(max-width:767.98px){.grid-2gcrQMhY{grid-column-gap:1rem;grid-row-gap:.75rem}}@media(min-width:576px)and (max-width:1199.98px){.grid-2gcrQMhY{padding-top:0;padding-bottom:2.5rem}}@media(min-width:576px){.grid-2gcrQMhY{grid-row-gap:.75rem;grid-column-gap:1.5rem}}@media(max-width:1199.98px){.grid-2gcrQMhY{grid-template-columns:repeat(2,minmax(0,100%))}}@media(min-width:992px){.grid-2gcrQMhY{grid-template-columns:repeat(4,minmax(0,100%))}}.placeholder-3ZQevO--{background-image:url(/b27b8889a7c5438687aa67022242b22b.png);background-repeat:round no-repeat;background-size:contain;overflow:hidden;display:block;position:relative;margin:3.25rem 0 3.25rem 1.25rem;min-height:23vw}@media(min-width:576px){.placeholder-3ZQevO--{margin:3.25rem 0 3.25rem 1.5rem;min-height:26vw}}@media(min-width:992px){.placeholder-3ZQevO--{margin:3.25rem 0 3.25rem 1.25rem;min-height:10rem}}.placeholder-3ZQevO--:after{content:"";position:absolute;top:0;right:0;height:100%;width:.25rem;display:block;overflow:hidden;background:#1a1c21;z-index:1}</style>     
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+  
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+  
+  
+  </head>
+  
+  <body translate="no" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.0/lity.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.0/lity.min.css" rel="stylesheet"/>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <script>
+  jQuery(document).ready(function($){
+   
+  if (sessionStorage.getItem('advertOnce') !== 'false') {
+  
+  $('body').append('')
+  sessionStorage.setItem('advertOnce','false');
+  }
+   
+  $('#advert-once .advert-button').on('click',function(){
+  $('#advert-once').hide();
+  });
+    
+  $('#reset-session').on('click',function(){
+  sessionStorage.setItem('advertOnce','');
+  });
+   
+  });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.0/lity.js"></script>
+    
+    
+  
+  
+    
+  
+  </body>
+  
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Favicon -->
+   <link rel="shortcut icon" href="https://brymeteo.github.io/tv//images/favicon.ico"/>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        CASA TV - Biannene studios
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/trananhtuat/flix-movie-homepage/main/grid.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/trananhtuat/flix-movie-homepage/main/app.css">
+</head>
+
+<body>
+ 
+ 
+  
+    
+ 
+ 
+ 
+ 
+ 
+ 
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>CASA<span class="main-color">TV</span>
+                </a>biannene/versione 2.0
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="casatv.html">Home</a></li>
+                    <li><a href="casatv-generi.html">Generi</a></li>
+                    <li><a href="casatv-film.html">Film</a></li>
+                    <li><a href="casatv-serie.html">Serie</a></li>
+                    <li><a href="casatv-cartoni.html">Cartoni</a></li>
+                    <li><a href="casatv-live.html">Diretta TV</a></li>
+                    <li><a href="casatv-livetv.html">Canali TV</a></li>
+                   <li><a href="casatv.prossimamente.html">In arrivo</a></li>
+                    <li>
+                        <a href="login.html" class="btn btn-hover">
+                            <span>Disconnetti</span>
+                            </a>
+                    </li>
+                </ul>
+                
+                
+     
+  
+                <div class="separator"><a class="iq-user-dropdown search-toggle d-flex align-items-center" href="casatv-ricerca.html"  style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br>
+                    <img alt="user" class="img-fluid avatar-40 rounded-circle" height="35" src="https://brymeteo.github.io/tv/lente%20micro.svg" width="36" /></a></div>
+  
+
+  
+  
+                    <div class="separator"><a class="iq-user-dropdown search-toggle d-flex align-items-center" href="casatv.account.html"  style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br>
+                        <img alt="user" class="img-fluid avatar-40 rounded-circle" height="35" src="https://brymeteo.github.io/tv/omino.svg" width="36" /></a></div>
+                
+                
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    
+
+
+
+
+ <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="https://www.themoviedb.org/t/p/original/23S5oKZjlXehjNLEhMQuxjwbyuA.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                             Bosch
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>80%</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>45m</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>2015</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+La trama è incentrata sulla figura di un Detective della Polizia di Los Angeles e sulla sua inarrestabile determinazione a mettere le mani sull'assassino di un ragazzino di tredici anni. Tuttavia, mentre prosegue con testardaggine nel suo intento, deve affrontare un processo per accusa di omicidio, dove la corte federale lo ritiene colpevole di aver ucciso un serial killer a sangue freddo.
+
+
+
+
+
+
+
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="casatv.1-bosh-serietv.html" data-lity class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>GUARDA ORA IL PRIMO EPISODIO</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+             
+             
+            </div>
+        </div>
+       
+    <!-- END HERO SECTION -->
+
+
+
+
+
+
+
+
+
+
+  
+   
+   <div class="" style="background-image: url(&quot;https://brymeteo.github.io/tv/images/sfondo-sito.png&amp;t=1&quot;);">
+        
+        
+  
+  <br>
+  <br>
+  
+
+  
+ 
+        
+  
+  
+  
+  
+ <div class="container-3zl9bO3H"><h2 class="heading-AtOJ5KPj size4-3tZpuQYG"><span class="CardsTitle__text-32Vm5TdY">Stagione 1</span></h2><div class="grid-2gcrQMhY"><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="/serie/casatv.1-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 1 - Episodio 1: Un poliziotto scomodo
+</div><div class="hoverDescription-2eYuoGYb">Il Detective della Omicidi della Polizia di Los Angeles, Harry Bosch, viene sottoposto a processo, per aver ucciso un presunto serial killer, per legittima difesa. Nel frattempo un caso irrisolto, che riguarda il ritrovamento dello scheletro di un bambino, costringe Bosch a fare i conti con il suo passato.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/5882ebe7f0617e6530ed8df660a4e2c0222c10e17abd8da7673e70972d2937b7._RI_V_TTW_SX720_FMjpg_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/5882ebe7f0617e6530ed8df660a4e2c0222c10e17abd8da7673e70972d2937b7._RI_V_TTW_SX720_FMjpg_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/5882ebe7f0617e6530ed8df660a4e2c0222c10e17abd8da7673e70972d2937b7._RI_V_TTW_SX720_FMjpg_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/5882ebe7f0617e6530ed8df660a4e2c0222c10e17abd8da7673e70972d2937b7._RI_V_TTW_SX720_FMjpg_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/5882ebe7f0617e6530ed8df660a4e2c0222c10e17abd8da7673e70972d2937b7._RI_V_TTW_SX720_FMjpg_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 1 - Episodio 1: Un poliziotto scomodo
+
+    
+    
+    
+    
+    
+    
+   </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.2-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 2 - Episodio 2: Segreti sepolti
+</div><div class="hoverDescription-2eYuoGYb">Bosch è alle prese con il ritrovamento delle ossa di un ragazzino di dodici anni morto in circostanze misteriose e di cui non si è ancora scoperta l’identità. La situazione si complica quando viene ritrovato il corpo di un uomo in un furgone e il sospettato dell’ omicidio, Waits, dichiara di sapere dove è sepolto il dodicenne ucciso. Nel frattempo Bosch inizia una relazione con la collega Julia.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b373c579e5b03edadff840f8cc8ddd25236c94eed62a5b5c5804d8cbf2b013f3._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b373c579e5b03edadff840f8cc8ddd25236c94eed62a5b5c5804d8cbf2b013f3._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b373c579e5b03edadff840f8cc8ddd25236c94eed62a5b5c5804d8cbf2b013f3._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b373c579e5b03edadff840f8cc8ddd25236c94eed62a5b5c5804d8cbf2b013f3._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b373c579e5b03edadff840f8cc8ddd25236c94eed62a5b5c5804d8cbf2b013f3._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 2 - Episodio 2: Segreti sepolti
+
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.3-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 3 - Episodio 3: Indagine compromessa
+</div><div class="hoverDescription-2eYuoGYb">Il suicidio del principale sospettato nell’omicidio di Laurel Canyon rischia di danneggiare l’immagine del Dipartimento, ma Bosch non vuole chiudere il caso. Mentre il processo arriva alle sue fasi conclusive, Bosch riesce a scoprire l’identità della vittima e a fare luce sua sulla storia. Ma, all'improvviso, Waits, il serial killer del furgone, confessa di essere l’assassino del bambino.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dfe5ee7be45a022012600ed2b9814cfa0932b663177bd33ff322e67562ff45d2._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dfe5ee7be45a022012600ed2b9814cfa0932b663177bd33ff322e67562ff45d2._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dfe5ee7be45a022012600ed2b9814cfa0932b663177bd33ff322e67562ff45d2._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dfe5ee7be45a022012600ed2b9814cfa0932b663177bd33ff322e67562ff45d2._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dfe5ee7be45a022012600ed2b9814cfa0932b663177bd33ff322e67562ff45d2._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 3 - Episodio 3: Indagine compromessa
+
+  
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.4-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 4 - Episodio 4: Prigioniero in fuga
+</div><div class="hoverDescription-2eYuoGYb">Bosch continua ad indagare sull’omicidio di Arthur Delacroix e dopo aver parlato con la madre, è sempre più convinto che il padre sia coinvolto nell’omicidio. O’Shea invece, crede alla versione di Waits e organizza un sopralluogo sulla presunta scena del crimine, durante il quale Waits, in un momento di confusione, approfitta per scappare, uccidendo Escobar e ferendo gravemente l’agente Moore.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a1e98362fec567cbb1a0006c315c632dd3701eabe744d19ea0e4fdb3e03224ba._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a1e98362fec567cbb1a0006c315c632dd3701eabe744d19ea0e4fdb3e03224ba._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a1e98362fec567cbb1a0006c315c632dd3701eabe744d19ea0e4fdb3e03224ba._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a1e98362fec567cbb1a0006c315c632dd3701eabe744d19ea0e4fdb3e03224ba._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a1e98362fec567cbb1a0006c315c632dd3701eabe744d19ea0e4fdb3e03224ba._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 4 - Episodio 4: Prigioniero in fuga
+
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.5-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 5 - Episodio 5: Cocco di mamma
+</div><div class="hoverDescription-2eYuoGYb">Nel tentativo di chiudere rapidamentela vicenda Waits, il Vice Capo Irving mette a disposizione una lauta ricompensa, per chiunque fornisca informazioni utili alla cattura dell’evaso e costituisce una task force apposita. Bosch viene escluso dalla task force. Le indagini riguardanti il bambino arrivano a una svolta inattesa.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/e792d730f1ff0066a31e52979a823e8835e5b36bc5e96cfaf457337d231b71f7._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/e792d730f1ff0066a31e52979a823e8835e5b36bc5e96cfaf457337d231b71f7._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/e792d730f1ff0066a31e52979a823e8835e5b36bc5e96cfaf457337d231b71f7._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/e792d730f1ff0066a31e52979a823e8835e5b36bc5e96cfaf457337d231b71f7._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/e792d730f1ff0066a31e52979a823e8835e5b36bc5e96cfaf457337d231b71f7._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 5 - Episodio 5: Cocco di mamma
+
+  
+  
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.6-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 6 - Episodio 6: Natale in famiglia
+</div><div class="hoverDescription-2eYuoGYb">Continua la sfida tra Bosch e Waits che è ancora in libertà. Nel frattempo le indagini sul caso Delacroix continuano e durante l’interrogatorio viene fuori che ad uccidere Arthur non è stato né il padre, né la sorella. L’indagine si sposta quindi sugli amici di Arthur, in particolare su John Stokes. Nel frattempo Bosch va a trovare la figlia per passare il Natale con lei.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a83400bd58a9757525e8f9d4e04f9b8447f30a65f986bfda6075779964e0827c._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a83400bd58a9757525e8f9d4e04f9b8447f30a65f986bfda6075779964e0827c._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a83400bd58a9757525e8f9d4e04f9b8447f30a65f986bfda6075779964e0827c._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a83400bd58a9757525e8f9d4e04f9b8447f30a65f986bfda6075779964e0827c._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/a83400bd58a9757525e8f9d4e04f9b8447f30a65f986bfda6075779964e0827c._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 6 - Episodio 6: Natale in famiglia
+
+  
+  
+  
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.7-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 7 - Episodio 7: La Casa Rifugio
+</div><div class="hoverDescription-2eYuoGYb">Il detective Bosch sta seguendo il caso Delacroix, e il Vice Capo Irving gli assegna il caso Waits perché crede che ci sia un collegamento. Riguardando un video con Waits, da una sua frase, Bosch capisce che la cosa che li accomuna è la loro infanzia, infatti entrambi sono stati da bambini nella Casa Rifugio per minori McClaren, un posto dove i bambini subivano ogni tipo di abuso e violenza.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b3551fd5eb649f7fec13f24b737597484f84dc06b01c8a59a58d17e3abd6a0d9._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b3551fd5eb649f7fec13f24b737597484f84dc06b01c8a59a58d17e3abd6a0d9._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b3551fd5eb649f7fec13f24b737597484f84dc06b01c8a59a58d17e3abd6a0d9._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b3551fd5eb649f7fec13f24b737597484f84dc06b01c8a59a58d17e3abd6a0d9._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/b3551fd5eb649f7fec13f24b737597484f84dc06b01c8a59a58d17e3abd6a0d9._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 7 - Episodio 7: La Casa Rifugio
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+       </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.8-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 8 - Episodio 8: Alti e bassi
+</div><div class="hoverDescription-2eYuoGYb">Mentre cresce l’interesse di Waits nei confronti del Detective Bosch, quest’ultimo arriva a un’inattesa e, questa volta, decisiva svolta nel caso di Laurel Canyon. Intanto, al Dipartimento di Polizia di Los Angeles, Pounds cerca di sfruttare la vicenda di Brasher per liberarsi di Bosch e Irving tesse la sua nuova rete di allenaze politiche, per garantirsi la nomina a Capo della Polizia.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/51eab04237b73df9610f6333ada2ae8c77520b6ea49a240eb30bde80d159b77d._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/51eab04237b73df9610f6333ada2ae8c77520b6ea49a240eb30bde80d159b77d._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/51eab04237b73df9610f6333ada2ae8c77520b6ea49a240eb30bde80d159b77d._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/51eab04237b73df9610f6333ada2ae8c77520b6ea49a240eb30bde80d159b77d._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/51eab04237b73df9610f6333ada2ae8c77520b6ea49a240eb30bde80d159b77d._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 8 - Episodio 8: Alti e bassi
+
+  
+  
+  
+  
+  
+  
+  
+  
+       </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.9-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 9 - Episodio 9: Il castello magico
+</div><div class="hoverDescription-2eYuoGYb">Bosch è sempre più vicino a Raynard Waits il quale gli lancia un’ultima sfida rapendo una giovane madre la sera di capodanno. Le ricerche della donna porteranno Bosch dritto nel covo di Waits dove i due si affronteranno faccia a faccia e alla fine Bosch ucciderà Waits.
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/945dc3b22e6f387a2d5d8dcf82b399a1b767233e233dfa5aaea183ffc4c37ebf._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/945dc3b22e6f387a2d5d8dcf82b399a1b767233e233dfa5aaea183ffc4c37ebf._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/945dc3b22e6f387a2d5d8dcf82b399a1b767233e233dfa5aaea183ffc4c37ebf._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/945dc3b22e6f387a2d5d8dcf82b399a1b767233e233dfa5aaea183ffc4c37ebf._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/945dc3b22e6f387a2d5d8dcf82b399a1b767233e233dfa5aaea183ffc4c37ebf._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx">S 1 E 9 - Episodio 9: Il castello magico
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     </span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div></a></div></div><div><div class="card-1tVwwpUs blurb-2vVq9Ubp"><a class="link-kzt4zstB" href="casatv.10-bosh-serietv.html" data-lity><div class="thumbnailContainer-1l2-dbJp hoverable-INVaGwGZ"><div class="hoverOverlay-3Xu53B6o"><div class="hoverOverlay-1hl3_ngx"><div class="hoverTitle-24-pfjP9">S 1 E 10 - Episodio 10: Noi e Loro
+</div><div class="hoverDescription-2eYuoGYb">Bosch lavora ancora sul caso Delacroix, riesce a trovare Stolkes, l’assassino di Arthur, ma per un cavillo legale Stokes viene rilasciato. Delacroix in preda alla rabbia lo uccide e si consegna alla polizia. Per Bosch è una sconfitta. Il Capitano Pounds lo deride, Bosch lo sbatte contro una vetrata, e viene sospeso dal servizio. Consegna distintivo e pistola. Forse è pronto per un nuovo inizio…
+</div><div class="hoverSubtitle-gR8gewcr"></div><div class="hoverBottomLine-3rRyfJSw bulleted-27oqp7W7">  </div></div></div><div class="thumbnailImageContainer-szrOTKSh"><div class="target-1lvzBG8W "><img class="thumbnailImage-3IBjQwSZ" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/4fc63a4add86cca89a5153fc396305bf1ec4035f988f5e8b69fe0d0a91c81eb4._RI_V_TTW_SX1080_FMwebp_.jpg" sizes="(min-width: 0px) and (max-width: 1008px) 50vw, (min-width: 1008px) 25vw" srcset="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/4fc63a4add86cca89a5153fc396305bf1ec4035f988f5e8b69fe0d0a91c81eb4._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/4fc63a4add86cca89a5153fc396305bf1ec4035f988f5e8b69fe0d0a91c81eb4._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/4fc63a4add86cca89a5153fc396305bf1ec4035f988f5e8b69fe0d0a91c81eb4._RI_V_TTW_SX1080_FMwebp_.jpg,https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/4fc63a4add86cca89a5153fc396305bf1ec4035f988f5e8b69fe0d0a91c81eb4._RI_V_TTW_SX1080_FMwebp_.jpg"></div></div><div class="target-1lvzBG8W "><img class="showLogo-2FDAXdS3" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/138ce696c0810b9ccefa8e0b0c48ee94978aa31dfd288e0e2a790debc18a5e2e._V_SX1200_FMpng_.png"></div></div><div class="cardInfo-2qpn6H5I"><span class="title-3awW3LO9 programTitle-p277Kmwx"></span><div class="episodeAndRatings-Ywc8Jqn9"><span></span></div></div>S 1 E 10 - Episodio 10: Noi e Loro
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </span></div></a></div></div></div>
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>CASA<span class="main-color">TV</span>
+                        </a>
+                        <p>
+                            Casa tv è la piattaforma streaming di biannene. Costruita per tutta la famiglia
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>CASA TV</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="casatv-film.html">Film</a></li>
+                                    <li><a href="casatv-generi.html">Film generi</a></li>
+                                    <li><a href="casatv-serie.html">Serie Tv</a></li>
+                                    <li><a href="casatv-cartoni.html">Cartoni</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>ALTRO</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="casatv-saghe.html">Collezioni tematiche</a></li>
+                                    <li><a href="casatv-saghe.html">Serate divano</a></li>
+                                    <li><a href="casatv-livetv.html">Canali TV Live</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>BENESSERE</b></p>
+                                <ul class="footer-menu">
+                                   
+                                    <li><a href="casatv-asmr.html">Asmr</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2023 <a href="#" target="_blank">
+            CasaTv. Biannene studios production</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script>$(document).ready(() => {
+    $('#hamburger-menu').click(() => {
+        $('#hamburger-menu').toggleClass('active')
+        $('#nav-menu').toggleClass('active')
+    })
+
+    // setting owl carousel
+
+    let navText = ["<i class='bx bx-chevron-left'></i>", "<i class='bx bx-chevron-right'></i>"]
+
+    $('#hero-carousel').owlCarousel({
+        items: 1,
+        dots: false,
+        loop: true,
+        nav:true,
+        navText: navText,
+        autoplay: true,
+        autoplayHoverPause: true
+    })
+
+    $('#top-movies-slide').owlCarousel({
+        items: 2,
+        dots: false,
+        loop: true,
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+            500: {
+                items: 3
+            },
+            1280: {
+                items: 4
+            },
+            1600: {
+                items: 6
+            }
+        }
+    })
+
+    $('.movies-slide').owlCarousel({
+        items: 2,
+        dots: false,
+        nav:true,
+        navText: navText,
+        margin: 15,
+        responsive: {
+            500: {
+                items: 2
+            },
+            1280: {
+                items: 4
+            },
+            1600: {
+                items: 6
+            }
+        }
+    })
+})</script>
+
+</body>
+
+</html>
