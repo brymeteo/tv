@@ -2,9 +2,31 @@
     var contenuti = [
     
     
+
+{
+        titolo: "Zathura - Un'avventura spaziale",
+        descrizione: "T 2005 ‧ Avventura/Per famiglie ‧ 1h 41m",
+        url: "casatv.6795-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/gJCOB4u1TI2AjLIEnvnfIivS5d1.jpg",
+        lightbox: true
+      },
+
+        
     
-    
-    
+
+{
+        titolo: "Il GGG - Il grande gigante gentile",
+        descrizione: "T 2016 ‧ Cinema fantastico/Per famiglie ‧ 1h 57m",
+        url: "casatv.267935-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/nucE6jIeA2qJiLOBlSQjW5a6O2A.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
     {
         titolo: "Bosch",
         descrizione: "Serie TV",
