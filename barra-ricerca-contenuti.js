@@ -1,25 +1,2280 @@
- // Definisci l'array dei contenuti del tuo sito con locandine
+// Definisci l'array dei contenuti del tuo sito con locandine
     var contenuti = [
-      {
-        titolo: "John Wick 4",
-        descrizione: "Azione, Thriller, Crime 2h 49m",
-        url: "pagina1.html",
-        locandina: "https://www.themoviedb.org/t/p/w1280/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
-        lightbox: true
-      },
-      {
-        titolo: "Contenuto 2",
-        descrizione: "Questo è il contenuto 2 del mio sito.",
-        url: "pagina2.html",
-        locandina: "locandina2.jpg",
+    
+    
+    
+    
+    
+    {
+        titolo: "Bosch",
+        descrizione: "Serie TV",
+        url: "casatv.60585-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lQPwNJ6DRpmRfTrKy8A94c7IvU3.jpg",
         lightbox: false
       },
-      {
-        titolo: "Contenuto 3",
-        descrizione: "Questo è il contenuto 3 del mio sito.",
-        url: "pagina3.html",
-        locandina: "locandina3.jpg",
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Peaky Blinders",
+        descrizione: "Serie TV",
+        url: "casatv.60574-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bGZn5RVzMMXju4ev7xbl1aLdXqq.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "Dr. House - Medical Division",
+        descrizione: "Serie TV",
+        url: "casatv.1408-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lkvhReTBZ2Ksl0Dl5Oplsf6UYkF.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La Brea",
+        descrizione: "Serie TV",
+        url: "casatv.128839-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wEo5pzSZ3MF4EzNvY2R1OZNX266.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Mercoledì",
+        descrizione: "Serie TV",
+        url: "casatv.119051-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/sci4aAuTCWQsIs2uo7LoZVtMdD0.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il signore degli anelli - Gli anelli del potere",
+        descrizione: "Serie TV",
+        url: "casatv.84773-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/qUdlsQeJlInEfCD10pAWBO9W0Qb.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Tulsa King",
+        descrizione: "Serie TV",
+        url: "casatv.153312-serietv.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/qJ579ciJ2vZxVVBJUbz8UwvIGkh.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Lo Hobbit - collezione",
+        descrizione: "Box film",
+        url: "casatv.11-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wqgIXhzlutFIO4Z48HkxhBbJTaX.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Lo Hobbit - collezione",
+        descrizione: "Box film",
+        url: "casatv.11-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wqgIXhzlutFIO4Z48HkxhBbJTaX.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Animali Fantastici - collezione",
+        descrizione: "Box film",
+        url: "casatv.10-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/8fhz8y8LZM6q0cZOP4P1Z0TFeFl.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Jumanji - collezione",
+        descrizione: "Box film",
+        url: "casatv.9-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ivVHrC7Q90S1N2MYO1PEf6vgWpK.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Ritorno al futuro - collezione",
+        descrizione: "Box film",
+        url: "casatv.15-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6XeTQNdsd4CtUDvXOTxtisl827V.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Jurassic park - collezione",
+        descrizione: "Box film",
+        url: "casatv.8-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/upFmtktztsuR0LhEL0szt9wXsiE.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Batman il cavaliere oscuro - collezione",
+        descrizione: "Box film",
+        url: "casatv.7-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hGvOMQBD88jAV0olS2DT1AxreHn.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Twilight - collezione",
+        descrizione: "Box film",
+        url: "casatv.16-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aKAX2HO5V94JYeSIkOMFNlRI71E.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "Harry Potter - collezione",
+        descrizione: "Box film",
+        url: "casatv.6-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aQdNkeRzD0cQKpTvzK8lsgg3N2d.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il signore degli anelli - collezione",
+        descrizione: "Box film",
+        url: "casatv.5-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lJNDSAVcPoU3KaCkcnLNYxz19ju.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Pirati dei caraibi - collezione",
+        descrizione: "Box film",
+        url: "casatv.4-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/z7eBlWxK1bYQ30nunWkNWk4LoVN.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Tim Burton - collezione",
+        descrizione: "Box film",
+        url: "casatv.18-saghe.html",
+        locandina: "https://i.ibb.co/WxTRwpm/de5ba5e90e3976e400309f51b38848bc.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Alice in Wonderland - collezione",
+        descrizione: "Box film",
+        url: "casatv.17-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/xSDwVJEdtewx9pfD125PCdRgznH.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Aquaman - collezione",
+        descrizione: "Box film",
+        url: "casatv.21-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rNQompSTfAG5O2iXSH8Phay4L45.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "30 giorni di buio",
+        descrizione: "2007 ‧ Horror/Thriller ‧ 1h 53m",
+        url: "casatv.4513-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ns3mhoBkxSOyudF3t76yKE1rwVx.jpg",
         lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "San Valentino di sangue",
+        descrizione: "VM14 2009 ‧ Horror/Thriller ‧ 1h 41m",
+        url: "casatv.14435-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/xELLLQSSBJ79vy1omKxr4nUCZcM.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "The Hole",
+        descrizione: "2009 ‧ Horror/Thriller ‧ 1h 32m",
+        url: "casatv.45650-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/52aMkvABGdnlpsr5CXdoyVrncGY.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Clown",
+        descrizione: "VM14 2014 Horror‧ 1h 40m",
+        url: "casatv.112454-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/uNvbakoHyQYqeWanOw3mF3troWU.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "It",
+        descrizione: "VM14 2017 ‧ Horror/Thriller ‧ 2h 15m",
+        url: "casatv.346364-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Shining",
+        descrizione: "T 1980 ‧ Horror/Film di mistero ‧ 2h 26m",
+        url: "casatv.694-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/shTUOizWjurXOl5Bp2riMvSNIbZ.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Titanic",
+        descrizione: "T 1997 ‧ Romantico/Drammatico ‧ 3h 14m",
+        url: "casatv.597-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1kLYRzVj6byWvFa3SLrAOcfgnfp.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Avatar - collezione",
+        descrizione: "Box film",
+        url: "casatv.20-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bAsQBCm4XDJYHW5TlswksIVuESH.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "I Fantastici 4",
+        descrizione: "T 2005 ‧ Azione/Cinema fantastico ‧ 2h 5m",
+        url: "casatv.9738-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/eKhPbzlRbDPAU23RvOK6AeQjEXd.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+     {
+        titolo: "Mamma o papà?",
+        descrizione: "T 2017 ‧ Commedia ‧ 1h 38m",
+        url: "casatv.440708-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5uGF9x1FWvbpw717X6RcCSv4WdQ.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Ci vuole un gran fisico",
+        descrizione: "T 2013 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.175791-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/czBXokvaOP4mzKpqKpma1SgMPX9.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Sole a catinelle",
+        descrizione: "T 2013 ‧ Commedia ‧ 1h 30m - Checco Zalone",
+        url: "casatv.231176-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/jI5WTCv0V3i4J6EcPWmxt4Da6sq.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Che bella giornata",
+        descrizione: "T 2011 ‧ Commedia/Romantico ‧ 1h 37m - Checco Zalone",
+        url: "casatv.53319-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/mGNakJZRSxFsXXJCoy38zW5Kp0.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Cado Dalle Nubi",
+        descrizione: "T 2009 ‧ Commedia ‧ 1h 35m - Checco Zalone",
+        url: "casatv.35554-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/iCnsu1gSiC2Qy3c4RLWdpni3Uow.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Cose da pazzi",
+        descrizione: "T 2005 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.66700-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3AXlzkYpOPbBrhHlZumOtvir9NI.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Uomo d'acqua dolce",
+        descrizione: "T 1997 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.56484-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aTvPrB8zWz9Wkh4tb3znZxFTOqa.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La fame e la sete",
+        descrizione: "T 1999 ‧ Commedia",
+        url: "casatv.62496-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/xsZq9Nk9HihgJE3HnWScQacfhO.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Una festa esagerata",
+        descrizione: "T 2018 ‧ Commedia",
+        url: "casatv.513377-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hvwRHzH0DBeIQlABzlJDFkUKrkN.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "L'ora legale",
+        descrizione: "T 2017 ‧ Commedia ‧ 1h 32m - Ficarra e Picone",
+        url: "casatv.435921-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/qDyW1a6JyTjBtSCt20Qg3a4NsN0.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "La matassa",
+        descrizione: "T 2009 ‧ Commedia/Giallo ‧ 1h 38m - Ficarra e Picone",
+        url: "casatv.53957-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9wdHZjeYSY4TUB0D8wbs5RT4k3O.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il 7 e l'8",
+        descrizione: "T 2007 ‧ Commedia ‧ 1h 30m - Ficarra e Picone",
+        url: "casatv.48175-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bI6iauRIdIHQMrKTa34Vn6UuGre.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Benvenuti al Nord",
+        descrizione: "T 2012 ‧ Commedia ‧ 1h 50m",
+        url: "casatv.85038-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/4diiuTdy1lCN1GU6fgg9aDOAH7J.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Benvenuti al Sud",
+        descrizione: "T 2010 ‧ Commedia ‧ 1h 46m",
+        url: "casatv.48415-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/diKOb5QAFTjCzllB0ZcghmKE2nk.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Non si ruba a casa dei ladri",
+        descrizione: "T 2016 ‧ Commedia ‧ 1h 33m",
+        url: "casatv.424009-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/4sOVH4xOOhvKQjMSDi0lUjP9mwt.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       {
+        titolo: "Basilicata coast to coast",
+        descrizione: "2010 ‧ Commedia/Musical ‧ 1h 34m",
+        url: "casatv.43200-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1jFrV9DPPS38jgYgyUFJXukMsAt.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Basilicata coast to coast",
+        descrizione: "2010 ‧ Commedia/Musical ‧ 1h 34m",
+        url: "casatv.43200-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1jFrV9DPPS38jgYgyUFJXukMsAt.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Belli di papà",
+        descrizione: "T 2015 ‧ Commedia ‧ 1h 40m",
+        url: "casatv.363869-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ilX68Cl2Jtxb1cT3cQpHUdyf5Os.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Tutta colpa di Freud",
+        descrizione: "T 2014 ‧ Commedia ‧ 2h 32m",
+        url: "casatv.250235-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/opzHvkVNmnhABJM2iAkZdrVxsXd.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Se sei così ti dico sì",
+        descrizione: "T 2011 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.61942-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/zy6tXW2ZKvXVgLEFd92mOmlTWCs.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Ma che bella sorpresa",
+        descrizione: "T 2015 ‧ Commedia ‧ 1h 31m",
+        url: "casatv.328720-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/8Jlc8ljGnx2cHCrlTI4aNElUsmS.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Una famiglia perfetta",
+        descrizione: "T 2012 ‧ Commedia ‧ 2 ore",
+        url: "casatv.162282-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/AgldaV9BMxyOJuPVnxCTnvpzboU.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Immaturi - Il viaggio",
+        descrizione: "T 2012 ‧ Commedia ‧ 1h 40m",
+        url: "casatv.85041-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/oH2DHYIJEctFPeCH4zOg7bKqIWq.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Immaturi",
+        descrizione: "T 2011 ‧ Commedia ‧ 1h 48m",
+        url: "casatv.56909-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/7gEOz66EojBSDlOZWBQYz059tSv.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Quo vado?",
+        descrizione: "T 2016 ‧ Commedia ‧ 1h 26m - Checco Zalone",
+        url: "casatv.374416-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9X8csv75uWcVspL3Mk9gSJhBJ0J.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Aldo Giovanni e Giacomo - collezione",
+        descrizione: "Box 10 film",
+        url: "casatv.926177-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lLiPa1JB4NGn0zYyQ9LQyhv5Dpn.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Anche se è amore non si vede",
+        descrizione: "T 2011 ‧ Commedia ‧ 1h 36m - Ficarra e Picone",
+        url: "casatv.79643-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bHuGKnQZaHIleA024yGS8CBR1qh.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Insomnia",
+        descrizione: "T 2002 ‧ Thriller/Drammatico ‧ 1h 58m",
+        url: "casatv.320-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Shark 3D",
+        descrizione: "2012 ‧ Horror/Thriller ‧ 1h 33m",
+        url: "casatv.118957-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9nlRom7aESKJr1RQWNFgW1J5Dxu.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il luogo delle ombre",
+        descrizione: "T 2013 ‧ Thriller/Mystery ‧ 1h 40m",
+        url: "casatv.179826-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rTCrzghRKUOP2q6puMSgc4cvbTP.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La talpa",
+        descrizione: "T 2011 ‧ Thriller/Film di mistero ‧ 2h 7m",
+        url: "casatv.49517-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wh4WFj3i0AesPULrNs8wMNeAgyD.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Perez.",
+        descrizione: "2014 ‧ Thriller/Drammatico ‧ 1h 34m",
+        url: "casatv.288313-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wtvayy0bcmIL0IbBDct6zQhYgrs.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Prey - La caccia è aperta",
+        descrizione: "VM14 2007 ‧ Thriller/Horror ‧ 1h 32m",
+        url: "casatv.14211-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/y3xZWKbDR6l1atyR7EhRxY9XcxY.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il lato oscuro di mio marito",
+        descrizione: "2014 ‧ Thriller ‧ 1h 45m",
+        url: "casatv.310558-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vgvjMPW30dmvSC8hfrUs8sFqmuU.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Departed - Il bene e il male",
+        descrizione: "T 2006 ‧ Giallo/Drammatico ‧ 2h 31m",
+        url: "casatv.1422-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/azd6dRGU2RO5QRL5woAJ91sbAX0.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Il prescelto",
+        descrizione: "T 2006 ‧ Horror/Film di mistero ‧ 1h 42m",
+        url: "casatv.9708-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/A9v73hyRyZpYhd4wQBz7v4y1o4j.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "ATM - Trappola mortale",
+        descrizione: "T 2012 ‧ Horror/Thriller ‧ 1h 30m",
+        url: "casatv.89691-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/4cigb1FmAjvHDGnrj23ii65NMIP.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Inversione di rotta",
+        descrizione: "2011 ‧ Thriller/Dramma ‧ 1h 27m",
+        url: "casatv.99758-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yTbpPnnTh2dgsVckh0QRTkE69OS.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Pressed - Soldi pericolosi",
+        descrizione: "2011 ‧ Giallo/Dramma ‧ 1h 28m",
+        url: "casatv.80957-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/32lz1Z26iuNTrdxK80K9y4DIE2d.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Forger - il falsario",
+        descrizione: "2014 ‧ Thriller/Giallo ‧ 1h 35m",
+        url: "casatv.255157-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/pGP4nYBuKzHJ0gWHmL1A0ibNDCT.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Vi presento i nostri",
+        descrizione: "T 2010 ‧ Commedia/Screwball comedy ‧ 1h 38m",
+        url: "casatv.39451-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yskh8uHDIYTqd4PrOQl2epLOb09.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Swap",
+        descrizione: "2016 ‧ Commedia/Cinema fantastico ‧ 1h 40m",
+        url: "casatv.417028-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6grpLwV8z8h6EuYZtIKcBg0h4wR.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "Masterminds — I geni della truffa",
+        descrizione: "T 2016 ‧ Commedia/Giallo ‧ 1h 36m",
+        url: "casatv.213681-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rS6XEDGttth5bsx5LFxUuhkFTcj.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Nonno scatenato",
+        descrizione: "T 2016 ‧ Commedia/Commedia erotica ‧ 1h 42m",
+        url: "casatv.291870-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ue57JySAN8T0YzAAU4IEdRdzR1d.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "Quasi amici - Intouchables",
+        descrizione: "T 2011 ‧ Commedia/Drammatico ‧ 1h 52m",
+        url: "casatv.77338-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/pzZ1VQx7qaMyuGMsXDIzoRepCiX.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Disastro a Hollywood",
+        descrizione: "2008 ‧ Commedia/Drammatico ‧ 1h 47m",
+        url: "casatv.8944-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/7CMR0hVhvF2diXL78HRfJfT6Ju.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Un compleanno da leoni",
+        descrizione: "2013 ‧ Commedia ‧ 1h 33m",
+        url: "casatv.107811-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lmTVl4QS4XvChvLSwoShXNefkz8.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Mr. Beaver",
+        descrizione: "2011 ‧ Commedia/Umorismo nero ‧ 1h 31m",
+        url: "casatv.50780-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/x3LWj3ZNSOfj5ka9ieff0HJgD4R.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Mask - Da zero a mito",
+        descrizione: "T 1994 ‧ Commedia/Cinema fantastico ‧ 1h 41m",
+        url: "casatv.854-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/29Hs48eJ8QVEKvpEKdddUlo0xUP.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Yes Man",
+        descrizione: "T 2008 ‧ Commedia/Romantico ‧ 1h 44m",
+        url: "casatv.10201-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/16zVbgFLTUaUTG1wQHuGjfWNuDM.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+      {
+        titolo: "Bad Moms - Mamme molto cattive",
+        descrizione: "T 2016 ‧ Commedia ‧ 1h 40m",
+        url: "casatv.376659-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/oKqAa1IgUg87YLt9dX4K9qoVxAN.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "The Wolf of Wall Street",
+        descrizione: "VM14 2013 ‧ Drammatico/Commedia ‧ 3 ore",
+        url: "casatv.106646-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Nella valle di Elah",
+        descrizione: "T 2007 ‧ Dramma/Thriller ‧ 2h 1m",
+        url: "casatv.6973-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/gRYFCcoNblWJ1GsXcSlyUHfMeTN.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Oliver Twist",
+        descrizione: "T 2005 ‧ Drammatico/Giallo ‧ 2h 10m",
+        url: "casatv.257-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/zhPdYZ3x2uanhM1SyBj4CuL6hSa.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Carnage",
+        descrizione: "T 2011 ‧ Drammatico/Commedia ‧ 1h 20m",
+        url: "casatv.72113-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3Imx53XV3T02ADlMxYazYXVNysZ.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "Sopravvissuti",
+        descrizione: "T 2015 ‧ Sci-fi/Thriller ‧ 1h 38m",
+        url: "casatv.193687-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9nPEp5E8nyzxdIjaJSpMM4LZbPU.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      {
+        titolo: "Una folle passione",
+        descrizione: "T 2014 ‧ Drammatico ‧ 1h 50m",
+        url: "casatv.164251-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hWVUQkGVsWNl3M6BX4tQ8sBrd1E.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "Le regole del caos",
+        descrizione: "T 2014 ‧ Romantico/Drammatico ‧ 1h 57m",
+        url: "casatv.283227-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/oUjTCZQPCsYY8QrJEkRz3NIl25f.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Giovani si diventa",
+        descrizione: "T 2014 ‧ Commedia/Drammatico ‧ 1h 37m",
+        url: "casatv.252512-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rdYXGeK3OZjBrd2R8A1sSS0Kxcq.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Prova a incastrarmi - Find Me Guilty",
+        descrizione: "T 2006 ‧ Drammatico/Giallo ‧ 2h 5m",
+        url: "casatv.9950-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5UN0BSfpveV7r7DVNwjWpNfdrPR.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La grande bellezza",
+        descrizione: "T 2013 ‧ Drammatico/Commedia ‧ 2h 17m",
+        url: "casatv.179144-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/d6AfFUHuWHQaw8uzOnBhb0I5hcb.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "The Dressmaker - Il diavolo è tornato",
+        descrizione: "T 2015 ‧ Drammatico/Thriller ‧ 1h 58m",
+        url: "casatv.298382-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/reT5zKjXRvODkm9EJTm5Z0Xao2D.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "L'ultima discesa",
+        descrizione: "T 2017 ‧ Avventura/Drammatico ‧ 1h 38m",
+        url: "casatv.423087-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/mPsaQiQkRBB2W8LK0qeEluQKS9b.jpg",
+        lightbox: true
+      },
+      
+      
+      
+    
+    
+    
+    
+    {
+        titolo: "Stanno tutti bene",
+        descrizione: "T 2009 ‧ Drammatico/Avventura ‧ 1h 40m",
+        url: "casatv.26171-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3In4SuHSKSQINr7Lh5xNfPKFv63.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Genius",
+        descrizione: "T 2016 ‧ Drammatico ‧ 1h 44m",
+        url: "casatv.267192-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/xOA52PVZgS3ggpKwKBAuZlYvxgg.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La leggenda del pianista sull'oceano",
+        descrizione: "T 1998 ‧ Drammatico/Romantico ‧ 2h 50m",
+        url: "casatv.10376-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3slZs1eVBgfXbRYMav1vw9Qk5IE.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Jobs",
+        descrizione: "T 2013 ‧ Drammatico/Dramma ‧ 2h 9m",
+        url: "casatv.115782-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/nTP9qA9VYJZOo9DYr9OlzXdMTjc.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "A Serious Man",
+        descrizione: "T 2009 ‧ Commedia/Drammatico ‧ 1h 45m",
+        url: "casatv.12573-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5gGxDS8WmrebPlMHexVS8EVehiP.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "12 anni schiavo",
+        descrizione: "T 2013 ‧ Drammatico/Film storico-drammatico ‧ 2h 14m",
+        url: "casatv.76203-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dOouQxwU9c0zpzXHjbKJtelevjp.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Baarìa",
+        descrizione: "2009 ‧ Drammatico/Romanzo storico ‧ 2h 43m",
+        url: "casatv.25846-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/n7YkB7IpXrKG6qMTppZgXGn5ORs.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "La ricerca della felicità",
+        descrizione: "T 2006 ‧ Drammatico ‧ 1h 57m",
+        url: "casatv.1402-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/jAPWniIzOPWeKvnaPuGEXBF9iP4.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La contessa bianca",
+        descrizione: "T 2005 ‧ Drammatico/Romantico ‧ 2h 18m",
+        url: "casatv.18840-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/65AKidOOKrfyQkiVYtkgDJVM4CA.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Indivisibili",
+        descrizione: "T 2016 ‧ Drammatico ‧ 2h 14m",
+        url: "casatv.408438-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/nrwQwHJ6Y9gjdxLhR8usVZHkq1Z.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Philomena",
+        descrizione: "T 2013 ‧ Drammatico/Dramma ‧ 1h 38m",
+        url: "casatv.205220-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dSScsAlV81MHgCH5VmWhe48yckF.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Napa Valley - La grande annata",
+        descrizione: "2008 ‧ Drammatico/Commedia drammatica ‧ 1h 50m",
+        url: "casatv.13996-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/DMc4eRfU0RA2SX2oGR3YllEhH7.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Florence",
+        descrizione: "T 2016 ‧ Drammatico/Romantico ‧ 1h 51m",
+        url: "casatv.315664-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dSSL6JgmBlEBN6p8FQIdWjvEsZb.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Noi siamo infinito",
+        descrizione: "T 2012 ‧ Romantico/Drammatico ‧ 1h 45m",
+        url: "casatv.84892-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/g8Mw3A53qWe3gPWk2pDaiYYjnlf.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "C'era una volta a New York",
+        descrizione: "T 2013 ‧ Drammatico/Romantico ‧ 2 ore",
+        url: "casatv.152599-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kOwLCnCTmxe7KRiHs2dmv6KkIHC.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "Le leggi del desiderio",
+        descrizione: "T 2015 ‧ Drammatico/Commedia ‧ 1h 45m",
+        url: "casatv.327372-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aw9DLRao4ORMDNdpPM87mMJ0qKe.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+     {
+        titolo: "La musica nel cuore - August Rush",
+        descrizione: "T 2007 ‧ Romantico/Drammatico ‧ 1h 54m",
+        url: "casatv.5123-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/oNn2BRzDebkQhdFEITSOyjffxkl.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Il discorso del re",
+        descrizione: "T 2010 ‧ Drammatico/Storia ‧ 1h 58m",
+        url: "casatv.45269-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/coYmUhyPEDMVw6ThmEb9gBv3AQl.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "La vita è bella",
+        descrizione: "T 1997 ‧ Guerra/Drammatico ‧ 2h 2m",
+        url: "casatv.637-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6giY0DEGQ1Jbf6vLGQsHgi6gBh8.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Giochi di potere",
+        descrizione: "T 2018 ‧ Thriller/Drammatico ‧ 1h 48m",
+        url: "casatv.476678-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/udc6pn9V5ln4KYAb0flBtQtb54B.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Adeline",
+        descrizione: "T 2000 ‧ Drammatico ‧ 1h 37m",
+        url: "casatv.998999-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kn0vt3ayeePIogKoQJ2mwNO94uD.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Cast Away",
+        descrizione: "T 2000 ‧ Avventura/Drammatico ‧ 2h 23m - Tom Hanks",
+        url: "casatv.8358-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bKOV8pd76oRV9CS1wW4NzVwYEBT.jpg",
+        lightbox: true
+      },
+      
+      
+      
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Nut Job 2 – Tutto molto divertente",
+        descrizione: "T 2017 ‧ Commedia/Per famiglie ‧ 1h 35m",
+        url: "casatv.335777-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dzyLt1UZZoLWn6aQEcJLyfutkuf.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "A Spasso col Panda - Missione Bebè",
+        descrizione: "T 2022 ‧ Commedia/Avventura/Animazione ‧ 1h 30m",
+        url: "casatv.599019-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vDOBQAuMexV6HG4UjYpDkWcyB15.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Monsters & Co.",
+        descrizione: "T 2001 ‧ Commedia/Avventura/Animazione ‧ 1h 32m",
+        url: "casatv.585-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/su4evXIbNM4aLRpG7961KsukPc7.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Pinocchio",
+        descrizione: "T 1940 ‧ Per famiglie/Musical ‧ 1h 28m",
+        url: "casatv.10895-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/uI7p7I2c4iVf0jQaOlJdVQhu6Kz.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Biancaneve e i sette nani",
+        descrizione: "T 1937 ‧ Cinema fantastico/Musical ‧ 1h 23m",
+        url: "casatv.408-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ynTfcdNGch5XMzTTR7IUvfU3jxe.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+   
+    {
+        titolo: "Robinson Crusoe",
+        descrizione: "T 2016 ‧ Avventura/Per famiglie/Animazione ‧ 1h 31m",
+        url: "casatv.368940-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/jkJrZzi5s2upabcU8KwL43Sg84k.jpg",
+        lightbox: true
+      },
+
+
+
+
+    
+    
+    
+    {
+        titolo: "Il piccolo principe",
+        descrizione: "T 2015 ‧ Per famiglie/Avventura/Animazione ‧ 1h 50m",
+        url: "casatv.309809-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6mNmKgY0rRvlijoowVLVE5jH9Sy.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Alla ricerca di Dory",
+        descrizione: "T 2016 ‧ Per famiglie/Avventura/Animazione ‧ 1h 37m",
+        url: "casatv.127380-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/pNuUx4q40Yln8hJoXH2B8IV57fo.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Shrek - collezione",
+        descrizione: "Box di 4 film d'animazione",
+        url: "casatv.14-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/7VCxzCcLIsFEILP4C0jWmt5xNrK.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Rex – Un cucciolo a palazzo",
+        descrizione: "T 2019 ‧ Commedia/Per famiglie ‧ 1h 25m",
+        url: "casatv.509730-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6hD2mWiOpaq0wezfHTxt7hUn3Q5.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Encanto",
+        descrizione: "T 2021 ‧ Per famiglie/Commedia/Animazione ‧ 1h 39m",
+        url: "casatv.568124-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Cattivissimo me - collezione",
+        descrizione: "Box 3 film",
+        url: "casatv.13-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/NbPDc9Lq1quEOMgBIPZ8QQUHCj.jpg",
+        lightbox: false
+      },
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Madagascar - collezione",
+        descrizione: "Box 3 film",
+        url: "casatv.12-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/99VF9o8Zuq4mh5px4bBaZvcKyQS.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Top Gun: Maverick",
+        descrizione: "T 2022 ‧ Azione/Avventura ‧ 2h 11m - Tom Cruise",
+        url: "casatv.361743-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+        lightbox: true
+      },
+      
+      
+      
+    
+    
+    
+     {
+        titolo: "Fast and Furious - collezione",
+        descrizione: "Box 10 film con - Vin Diesel",
+        url: "casatv.9485-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/nprmMDhkAR0ty4KEU9CkVyFUclE.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Homefront",
+        descrizione: "2013 ‧ Azione/Thriller ‧ 1h 40m - Jason Statham",
+        url: "casatv.204082-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/f2KGCg8BHj4SewPwaZ9a4GsYjW9.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "I Am Wrath - io sono vendetta",
+        descrizione: "T 2016 ‧ Azione/Thriller ‧ 1h 32m - John Travolta",
+        url: "casatv.332411-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/gsqWHfuJ1DplFGhrKrPDdZmMX6L.jpg",
+        lightbox: true
+      },
+      
+      
+      
+      
+    
+    
+    
+    
+    {
+        titolo: "The Transporter Legacy",
+        descrizione: "2015 ‧ Azione/Thriller ‧ 1h 41m",
+        url: "casatv.287948-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/sFBfMmjwm0UMHkhXaRLAgTeYSVf.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "L'uomo sul treno – The Commuter",
+        descrizione: "T 2018 ‧ Azione/Thriller ‧ 1h 44m - Liam Neeson",
+        url: "casatv.399035-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/4SA0ZfPzB8vgd8aMK0avDdmjUKl.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Parker",
+        descrizione: "T 2013 ‧ Azione/Thriller ‧ 1h 58m - Jason Statham",
+        url: "casatv.119283-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rrDKVch1RA54y2gjsYcs4MAapr2.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Jack Reacher - Punto di non ritorno",
+        descrizione: "T 2016 ‧ Azione/Thriller ‧ 1h 58m - Tom Cruise",
+        url: "casatv.343611-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/oNBWpVIQsruNNSLUxvD2jYI4m0R.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Renegades – Commando d'assalto",
+        descrizione: "T 2017 ‧ Azione/Thriller ‧ 1h 46m",
+        url: "casatv.335788-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rZUw8GjmHw6Gl3THZHDvLDmh1AX.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Transporter 3",
+        descrizione: "T 2008 ‧ Azione/Giallo ‧ 1h 44m - Jason Statham",
+        url: "casatv.13387-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ngpLhUccj6mlvAVpiIa7jUcFxhT.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    {
+        titolo: "Red",
+        descrizione: "T 2010 ‧ Azione/Commedia ‧ 1h 51m - Bruce Willis",
+        url: "casatv.39514-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/itXDXlmFltXSswPR78sv1c7zz00.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Mechanic: Resurrection",
+        descrizione: "T 2016 ‧ Azione/Thriller ‧ 1h 38m - Jason Statham",
+        url: "casatv.278924-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dhAbCiUIkbaT4M4CL26fuAxim3r.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Hunter's Prayer - in fuga",
+        descrizione: "2017 ‧ Azione/Thriller ‧ 1h 31m",
+        url: "casatv.302150-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/2qVnSDniGtf2mL941v2izSIzpon.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "Vendetta: Una storia d'amore",
+        descrizione: "T 2017 ‧ Azione/Thriller ‧ 1h 39m - Nicolas Cage",
+        url: "casatv.397415-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hbZC5NcbMf8ePmXZw0hYTEiJuiL.jpg",
+        lightbox: true
+      },
+      
+      
+      
+    
+    
+    {
+        titolo: "Riot: In rivolta",
+        descrizione: "2015 ‧ Azione ‧ 1h 27m",
+        url: "casatv.360055-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5Q2pHzDfJ8QlUA2vx2yAXWJkof7.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Blood Father",
+        descrizione: "T 2016 ‧ Azione/Thriller ‧ 1h 28m",
+        url: "casatv.309886-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yUG8LjlnQRHE6FCcUgRYJMrmIM9.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Bastille Day - Il colpo del secolo",
+        descrizione: "T 2016 ‧ Azione/Thriller ‧ 1h 32m",
+        url: "casatv.333669-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ud1tQlQ7Y3bHKsQZs9drabzoQM7.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "Killer Elite",
+        descrizione: "T 2011 ‧ Azione/Thriller ‧ 2 ore - Jason Statham",
+        url: "casatv.49021-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/7O2U0WPFPSvNSUYZlhbnV081lBF.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    
+    {
+        titolo: "I mercenari - collezione",
+        descrizione: "4 film con Sylvester Stallone e Jason Statham - Azione",
+        url: "casatv.3-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/8FxqyTSx7hsFiVjqBmf8iSE3u3f.jpg",
+        lightbox: false
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Security",
+        descrizione: "T 2017 ‧ Azione/Giallo ‧ 1h 32m - Antonio Banderas",
+        url: "casatv.460846-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9FN5n8wGYrfSJaKGF9uObdKimIh.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    {
+        titolo: "Giustizia privata",
+        descrizione: "T 2009 ‧ Thriller/Giallo ‧ 1h 49m",
+        url: "casatv.22803-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/jNoZZOsJaEdoGUDwnO4QdcQtGlp.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+    
+    {
+        titolo: "Safe",
+        descrizione: "T 2012 ‧ Azione/Thriller ‧ 1h 35m - Jason Statham",
+        url: "casatv.72387-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kOCpkoMUVae9UIf85gO71SyjLbW.jpg",
+        lightbox: true
+      },
+    
+    
+   
+    
+    {
+        titolo: "Now You See Me 2 – I maghi del crimine",
+        descrizione: "T 2016 ‧ Avventura/Giallo ‧ 2h 10m",
+        url: "casatv.75656-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/j1rBqVglO6wfYzPgQlUFVg25XSP.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+     {
+        titolo: "Now You See Me - I maghi del crimine",
+        descrizione: "T 2013 ‧ Thriller/Giallo ‧ 1h 55m",
+        url: "casatv.75656-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/tF4kwBnLNaI1VwYBoEUyrUb35fK.jpg",
+        lightbox: true
+      },
+    
+    
+    
+    
+      {
+        titolo: "Joker – Wild Card",
+        descrizione: "T 2015 ‧ Azione/Thriller ‧ 1h 32m - Jason Statham",
+        url: "casatv.265208-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/gi9TtJ5rN9H5g408VmKH5YdugEb.jpg",
+        lightbox: true
+      },
+    
+    
+    
+      {
+        titolo: "La preda perfetta",
+        descrizione: "T 2014 ‧ Film di mistero/Thriller ‧ 1h 54m - Liam Neeson",
+        url: "casatv.169917-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ttiNPOz7JR6DKH0hamNJZUQL9ya.jpg",
+        lightbox: true
+      },
+      {
+        titolo: "John Wick - collezione",
+        descrizione: "Box di 4 film",
+        url: "casatv.2-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/izaybFoiPwuASqLxVlpCKLRSa3s.jpg",
+        lightbox: false
+      },
+      
+      
+      
+      
+      
+          {
+        titolo: "The Plane",
+        descrizione: "2023 ‧ Azione/Thriller ‧ 1h 47m",
+        url: "casatv.646389-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kvFcq0ZZFoETAS9QlS0vp9Zg1as.jpg",
+        lightbox: true
+      },
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      {
+        titolo: "Shark - collezione",
+        descrizione: "Shark – Il primo squalo e Shark 2 - L'abisso",
+        url: "casatv.19-saghe.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/7sAnVGMn5he5NZBZCE6fhDpA7fl.jpg",
+        lightbox: false
       }
       // Aggiungi altri contenuti se necessario
     ];
