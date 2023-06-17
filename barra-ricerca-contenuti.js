@@ -116,14 +116,6 @@
     
     
     
-    {
-        titolo: "Lo Hobbit - collezione",
-        descrizione: "Box film",
-        url: "casatv.11-saghe.html",
-        locandina: "https://www.themoviedb.org/t/p/w1280/wqgIXhzlutFIO4Z48HkxhBbJTaX.jpg",
-        lightbox: false
-      },
-    
     
     
     
