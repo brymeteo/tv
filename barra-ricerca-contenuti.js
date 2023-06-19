@@ -5,6 +5,19 @@
 
 
 {
+        titolo: "Shutter Island",
+        descrizione: "T 2010 ‧ Thriller/Film di mistero ‧ 2h 18m - Leonardo DiCaprio",
+        url: "casatv.11324-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rYiiHUOndO4lMLiQZbmARIVmdVX.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+{
         titolo: "Beetlejuice - Spiritello porcello",
         descrizione: "T 1988 ‧ Cinema fantastico/Commedia ‧ 1h 32m",
         url: "casatv.4011-film.html",
