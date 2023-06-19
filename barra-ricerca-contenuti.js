@@ -1,7 +1,22 @@
 // Definisci l'array dei contenuti del tuo sito con locandine
     var contenuti = [
     
-    
+
+
+
+{
+        titolo: "Beetlejuice - Spiritello porcello",
+        descrizione: "T 1988 ‧ Cinema fantastico/Commedia ‧ 1h 32m",
+        url: "casatv.4011-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
 
 {
         titolo: "Zathura - Un'avventura spaziale",
