@@ -2,6 +2,17 @@
     var contenuti = [
     
 
+{
+        titolo: "Baywatch",
+        descrizione: "T 2017 ‧ Commedia/Azione ‧ 2h 1m",
+        url: "casatv.339846-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/p5OVmCiOk15qEPV60tGTKzptvR.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 
 {
