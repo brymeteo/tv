@@ -2,6 +2,20 @@
     var contenuti = [
     
 
+
+{
+        titolo: "Crawl - Intrappolati",
+        descrizione: "T 2019 ‧ Horror/Avventura ‧ 1h 27m",
+        url: "casatv.511987-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/f3ZGBsklp2TIhDQBJCPJsX7Ep6D.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
 {
         titolo: "Baywatch",
         descrizione: "T 2017 ‧ Commedia/Azione ‧ 2h 1m",
