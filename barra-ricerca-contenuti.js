@@ -4,6 +4,36 @@
 
 
 {
+        titolo: "Super Mario Bros. Il film",
+        descrizione: "T 2023 ‧ Avventura/Commedia ‧ 1h 32m",
+        url: "casatv.502356-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/A1H2lnpur1IofI0ufcImcAnSytP.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+
+{
+        titolo: "Harry Potter e la pietra filosofale",
+        descrizione: "T 2001 ‧ Cinema fantastico/Avventura ‧ 2h 32m",
+        url: "casatv.671-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/pvr4NII3XxbCmFfx4w9SYOU0cyD.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+
+        
+
+{
         titolo: "Crawl - Intrappolati",
         descrizione: "T 2019 ‧ Horror/Avventura ‧ 1h 27m",
         url: "casatv.511987-film.html",
