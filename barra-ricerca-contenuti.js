@@ -3,6 +3,19 @@
     
 
 
+ {
+        titolo: "Rampage - Furia animale",
+        descrizione: "T 2018 ‧ Azione/Avventura ‧ 1h 47m",
+        url: "casatv.427641-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3xnFQz8juDmXDDuAGrSa5g3CXki.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
 {
         titolo: "Super Mario Bros. Il film",
         descrizione: "T 2023 ‧ Avventura/Commedia ‧ 1h 32m",
