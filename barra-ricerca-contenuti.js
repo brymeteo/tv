@@ -5,7 +5,7 @@
 
 {
         titolo: "Operation Fortune",
-        descrizione: "2023 ‧ Azione/Commedia ‧ 1h 54m",
+        descrizione: "2023 ‧ Azione/Commedia ‧ 1h 54m - Jason Statham",
         url: "casatv.739405-film.html",
         locandina: "https://www.themoviedb.org/t/p/w1280/kHVdMpvBHQNGe7HybwKS2DGXEmG.jpg",
         lightbox: true
