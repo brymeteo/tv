@@ -3,6 +3,19 @@
     
 
 
+{
+        titolo: "Operation Fortune",
+        descrizione: "2023 ‧ Azione/Commedia ‧ 1h 54m",
+        url: "casatv.739405-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kHVdMpvBHQNGe7HybwKS2DGXEmG.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
  {
         titolo: "Rampage - Furia animale",
         descrizione: "T 2018 ‧ Azione/Avventura ‧ 1h 47m",
