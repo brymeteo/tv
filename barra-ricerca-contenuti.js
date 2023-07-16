@@ -4,6 +4,19 @@
 
 
 {
+        titolo: "The Batman",
+        descrizione: "VM14 2022 ‧ Azione/Crime ‧ 2h 56m",
+        url: "casatv.414906-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/8o1R5QU797hcLuvU4M9F3rOBGEY.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+{
         titolo: "Operation Fortune",
         descrizione: "2023 ‧ Azione/Commedia ‧ 1h 54m - Jason Statham",
         url: "casatv.739405-film.html",
@@ -818,21 +831,6 @@
         lightbox: true
       },
     
-    
-    
-    
-    
-    
-    
-    
-    
-       {
-        titolo: "Basilicata coast to coast",
-        descrizione: "2010 ‧ Commedia/Musical ‧ 1h 34m",
-        url: "casatv.43200-film.html",
-        locandina: "https://www.themoviedb.org/t/p/w1280/1jFrV9DPPS38jgYgyUFJXukMsAt.jpg",
-        lightbox: true
-      },
     
     
     
