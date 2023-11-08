@@ -2,6 +2,28 @@
     var contenuti = [
     
 
+ {
+        titolo: "La casa dei fantasmi",
+        descrizione: "T 2003 ‧ Horror/Cinema fantastico ‧ 1h 39m",
+        url: "casatv.10756-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/jrbnpiodQ85cjFWAou6nmluyGIV.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+      {
+        titolo: "Casper",
+        descrizione: "T 1995 ‧ Fantasy/Per famiglie ‧ 1h 40m",
+        url: "casatv.8839-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/2ah8fNJFZVU3vcXhU5xfAYi2eym.jpg",
+        lightbox: true
+      },
+
+
+        
 
 {
         titolo: "The Batman",
