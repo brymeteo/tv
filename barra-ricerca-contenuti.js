@@ -1,6 +1,68 @@
 // Definisci l'array dei contenuti del tuo sito con locandine
     var contenuti = [
-    
+
+
+
+
+
+
+        
+
+ {
+        titolo: "Hotel Transylvania 3 - Una vacanza mostruosa",
+        descrizione: "T 2018 ‧ Per famiglie/Commedia ‧ 1h 37m",
+        url: "casatv.400155-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1koiYWgkyO3LRvV4UFqI7byfb4J.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+    {
+        titolo: "Hotel Transylvania 2",
+        descrizione: "T 2015 ‧ Per famiglie/Commedia ‧ 1h 29m",
+        url: "casatv.159824-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ndYVcm1k3h81MRDhzZCI4SxDzGp.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+
+    {
+        titolo: "Hotel Transylvania",
+        descrizione: "T 2012 ‧ Per famiglie/Commedia ‧ 1h 31m",
+        url: "casatv.76492-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+
+
+    {
+        titolo: "Vampiretto",
+        descrizione: "T 2017 ‧ Horror/Avventura ‧ 1h 23m",
+        url: "casatv.442056-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/x3nUxzaifHPp6K0uOAK2a82w77u.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+        
 
  {
         titolo: "La casa dei fantasmi",
