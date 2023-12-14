@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder TV con YouTube</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #041530;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e50914;
+        }
+
+        #search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #search-input {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            color: #141414;
+        }
+
+        #search-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #results-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .video-card {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: #0b2040;
+            color: #fff;
+            transition: transform 0.2s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+
+        iframe {
+            width: 100%;
+            height: 180px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        p {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        #popup-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #popup-video {
+            width: 80%;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+   
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Inserisci il titolo del video">
+        <button id="search-btn" onclick="searchYouTube()">Cerca</button>
+    </div>
+    <div id="results-container"></div>
+    <div id="popup-container" onclick="closeFullScreenPopup()">
+        <iframe id="popup-video" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        const apiKey = 'AIzaSyB6XTXXBh816u9fZHz9XyNPbhVvsYAxI5E';
+
+        // Funzione per eseguire una ricerca su YouTube
+        async function searchYouTube() {
+            const searchInput = document.getElementById('search-input').value;
+            const maxResults = 8;  // Imposta il numero massimo di risultati desiderati
+            const apiUrl = `https://www.googleapis.com/youtube/v3/search?q=${searchInput}&key=${apiKey}&part=snippet&type=video&maxResults=${maxResults}`;
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                displaySearchResults(data.items);
+            } catch (error) {
+                console.error('Errore nella ricerca su YouTube:', error);
+            }
+        }
+
+        // Funzione per visualizzare i risultati della ricerca
+        function displaySearchResults(results) {
+            const resultsContainer = document.getElementById('results-container');
+            resultsContainer.innerHTML = '';
+
+            results.forEach(result => {
+                const videoId = result.id.videoId;
+                const title = result.snippet.title;
+
+                const videoItem = document.createElement('div');
+                videoItem.classList.add('video-card');
+                videoItem.innerHTML = `
+                    <div onclick="openFullScreenPopup('${videoId}', '${title}')">
+                        <iframe width="100%" height="180" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+                        <p>${title}</p>
+                    </div>
+                `;
+
+                resultsContainer.appendChild(videoItem);
+            });
+        }
+
+        // Funzione per aprire il video in un popup a schermo intero
+        function openFullScreenPopup(videoId, title) {
+            const popupContainer = document.getElementById('popup-container');
+            const popupVideo = document.getElementById('popup-video');
+            popupVideo.src = `https://www.youtube.com/embed/${videoId}`;
+            popupVideo.title = title;
+            popupContainer.style.display = 'flex';
+        }
+
+        // Funzione per chiudere il popup a schermo intero
+        function closeFullScreenPopup() {
+            const popupContainer = document.getElementById('popup-container');
+            const popupVideo = document.getElementById('popup-video');
+            popupVideo.src = '';
+            popupVideo.title = '';
+            popupContainer.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
