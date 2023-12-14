@@ -112,7 +112,7 @@
         // Funzione per eseguire una ricerca su YouTube
         async function searchYouTube() {
             const searchInput = document.getElementById('search-input').value;
-            const maxResults = 8;  // Imposta il numero massimo di risultati desiderati
+            const maxResults = 6;  // Imposta il numero massimo di risultati desiderati
             const apiUrl = `https://www.googleapis.com/youtube/v3/search?q=${searchInput}&key=${apiKey}&part=snippet&type=video&maxResults=${maxResults}`;
 
             try {
