@@ -17,6 +17,16 @@
             color: #e50914;
         }
 
+        #header-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #logo {
+            width: 300px; /* Imposta la larghezza del logo */
+            height: auto; /* Imposta l'altezza in base alla larghezza mantenendo l'aspetto originale */
+        }
+
         #search-container {
             text-align: center;
             margin: 20px 0;
@@ -96,7 +106,9 @@
     </style>
 </head>
 <body>
-   
+    <div id="header-container">
+        <img id="logo" src="https://i.ibb.co/Wvdfpts/yyy.png" alt="Decoder TV Logo">
+    </div>
     <div id="search-container">
         <input type="text" id="search-input" placeholder="Inserisci il titolo del video">
         <button id="search-btn" onclick="searchYouTube()">Cerca</button>
