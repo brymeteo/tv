@@ -4,6 +4,18 @@
 
 
 {
+        titolo: "Jungle Cruise",
+        descrizione: "T 2021 ‧ Azione, Avventura, Fantasy ‧ 2h 8m",
+        url: "casatv.451048-film.html",
+        locandina: "https://www.themoviedb.org/t/p/original/ziFZJxDauqQrXmKYl8B8123tpb.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+{
         titolo: "Ratatouille",
         descrizione: "T 2007 ‧ Animazione, Commedia, Famiglia, Fantasy ‧ 1h 51m",
         url: "casatv.2062-film.html",
