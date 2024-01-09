@@ -2,6 +2,17 @@
     var contenuti = [
 
 
+{
+        titolo: "La famiglia Addams",
+        descrizione: "PG 2019 ‧ Famiglia, Animazione, Commedia, Fantasy ‧ 1h 26m",
+        url: "casatv.481084-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/sTnMjM12RKFqBXqnQS1DM3KYiK7.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 {
         titolo: "Piccoli Brividi 2 - I fantasmi di Halloween",
