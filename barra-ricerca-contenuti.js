@@ -5,6 +5,20 @@
 
 
 
+        
+{
+        titolo: "La morte ti fa bella",
+        descrizione: "T 1992 ‧ Commedia, Fantasy, Horror ‧ 1h 39m",
+        url: "casatv.9374-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lENZNPK4Wj2rZwDXwT1uUj4oDgh.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
 {
         titolo: "Dark Shadows",
         descrizione: "T 2012 ‧ Commedia, Fantasy ‧ 1h 53m",
