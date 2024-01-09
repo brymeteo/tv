@@ -2,6 +2,20 @@
     var contenuti = [
 
 
+
+        
+{
+        titolo: "La famiglia Addams 2",
+        descrizione: "PG 1993 ‧ Commedia, Famiglia, Fantasy ‧ 1h 34m",
+        url: "casatv.2758-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/y0nFYo4vWmLAnIZQvzdmyStF1c5.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
 {
         titolo: "La famiglia Addams",
         descrizione: "PG 2019 ‧ Famiglia, Animazione, Commedia, Fantasy ‧ 1h 26m",
