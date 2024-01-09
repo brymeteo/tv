@@ -3,6 +3,17 @@
 
 
 
+{
+        titolo: "La casa dei fantasmi",
+        descrizione: "PG-13 2023 ‧ Fantasy, Commedia, Horror, Famiglia ‧ 2h 3m",
+        url: "casatv.616747-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aS6gNfb3k8jrWvCFfZBNnt6USir.jpg",
+        lightbox: true
+      },
+
+
+        
+
         
 {
         titolo: "La famiglia Addams 2",
