@@ -4,6 +4,19 @@
 
 
 {
+        titolo: "Piccoli Brividi 2 - I fantasmi di Halloween",
+        descrizione: "PG 2018 ‧ Avventura, Commedia, Fantasy, Famiglia, Horror ‧ 1h 30m",
+        url: "casatv.442062-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/iCKuhLCRumaGpS94vLHZH4C2AE6.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
+        
+{
         titolo: "La nona porta",
         descrizione: "T 1999 ‧ Mistero, Thriller, Horror ‧ 2h 7m - Johnny Depp",
         url: "casatv.622-film.html",
