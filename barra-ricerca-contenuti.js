@@ -4,6 +4,19 @@
 
 
 {
+        titolo: "L'apprendista stregone",
+        descrizione: "T 2010 ‧ Fantasy, Avventura, Azione ‧ 1h 51m - Nicolas Cage",
+        url: "casatv.27022-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/acF3jMWygCTBkoQLP7GFmPeyjIp.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+{
         titolo: "Jungle Cruise",
         descrizione: "T 2021 ‧ Azione, Avventura, Fantasy ‧ 2h 8m",
         url: "casatv.451048-film.html",
