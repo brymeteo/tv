@@ -4,6 +4,18 @@
 
 
 
+{
+        titolo: "Ghosthunters - Gli acchiappafantasmi",
+        descrizione: "T 2015 ‧ Commedia, Famiglia, Fantasy ‧ 1h 39m",
+        url: "casatv.333112-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/xHd4BoYnKA65A7jZ7VMvLwqv59X.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
 
 
 {
