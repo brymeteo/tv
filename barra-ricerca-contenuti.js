@@ -1,7 +1,22 @@
+
 // Definisci l'array dei contenuti del tuo sito con locandine
     var contenuti = [
 
 
+
+
+
+   {
+        titolo: "Piccoli brividi",
+        descrizione: "T 2015 ‧ Avventura, Horror, Commedia ‧ 1h 43m",
+        url: "casatv.257445-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/wsy1wKhJgQOmoTYiTgnYwrE0sAx.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
    {
         titolo: "Il mistero della casa del tempo",
