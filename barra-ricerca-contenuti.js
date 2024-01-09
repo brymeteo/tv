@@ -3,6 +3,20 @@
     var contenuti = [
 
 
+
+
+{
+        titolo: "Dark Shadows",
+        descrizione: "T 2012 ‧ Commedia, Fantasy ‧ 1h 53m",
+        url: "casatv.62213-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/d7A9pVX8OSWMSSjPBsIc1jAMP0y.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
 {
         titolo: "Il mistero di Sleepy Hollow",
         descrizione: "T 1999 ‧ Dramma, Fantasy, Thriller, Mistero, Horror ‧ 1h 51m",
