@@ -5,6 +5,18 @@
 
 
 {
+        titolo: "Clifford - Il grande cane rosso",
+        descrizione: "T 2021 ‧ Famiglia, Avventura, Commedia ‧ 1h 37m",
+        url: "casatv.585245-film.html",
+        locandina: "https://www.themoviedb.org/t/p/original/m03ftyWN2P6nxX22cV1AJCMkeJh.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+{
         titolo: "Ghosthunters - Gli acchiappafantasmi",
         descrizione: "T 2015 ‧ Commedia, Famiglia, Fantasy ‧ 1h 39m",
         url: "casatv.333112-film.html",
