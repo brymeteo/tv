@@ -5,6 +5,19 @@
 
 
 {
+        titolo: "Santa Clause",
+        descrizione: "T 1994 ‧ Fantasy, Dramma, Commedia, Famiglia ‧ 1h 37m",
+        url: "casatv.11395-film.html",
+        locandina: "https://www.themoviedb.org/t/p/original/tBHDVtEcMl06FbCURRLGVg3TpXp.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+{
         titolo: "Natale a Rio",
         descrizione: "T 2008 ‧ Commedia ‧ 1h 54m",
         url: "casatv.42437-film.html",
