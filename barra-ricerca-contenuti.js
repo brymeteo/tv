@@ -5,6 +5,19 @@
 
 
 
+{
+        titolo: "La tela di Carlotta",
+        descrizione: "T 2006 ‧ Commedia, Famiglia, Fantasy ‧ 1h 37m",
+        url: "casatv.9986-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/374P6KItlJuWN9S6MMLxwSgCXBV.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
 
 {
         titolo: "Mamma, ho perso l'aereo",
