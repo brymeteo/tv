@@ -6,6 +6,18 @@
 
 
 {
+        titolo: "Mamma, ho riperso l'aereo - Mi sono smarrito a New York",
+        descrizione: "T 1992 ‧ Commedia, Famiglia, Avventura ‧ 2h",
+        url: "casatv.772-film.html",
+        locandina: "https://www.themoviedb.org/t/p/original/2vA3e2jUwYt1wGH0eqY6xyZyCMq.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
+{
         titolo: "Zampa e la magia del Natale",
         descrizione: "T 2010 ‧ Famiglia, Avventura ‧ 1h 29m",
         url: "casatv.48844-film.html",
