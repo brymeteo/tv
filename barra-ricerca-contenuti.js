@@ -4,6 +4,21 @@
 
 
 
+
+{
+        titolo: "Zampa e la magia del Natale",
+        descrizione: "T 2010 ‧ Famiglia, Avventura ‧ 1h 29m",
+        url: "casatv.48844-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/m5fnYXCbEGq408s2nTeW71Nncwx.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+
+        
 {
         titolo: "Santa Clause è nei guai",
         descrizione: "T 2006 ‧ Animazione, Avventura, Famiglia, Fantasy ‧ 1h 37m",
