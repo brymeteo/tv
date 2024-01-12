@@ -6,6 +6,18 @@
 
 
 {
+        titolo: "Fuga dal Natale",
+        descrizione: "T 2004 ‧ Commedia, Famiglia ‧ 1h 39m",
+        url: "casatv.13673-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/eESxsKyBVrhuyEJ6IjcyME4SDDt.jpg",
+        lightbox: true
+      },
+
+
+        
+
+
+{
         titolo: "Elf Me",
         descrizione: "T 2023 ‧ Famiglia, Commedia, Fantasy, Avventura ‧ 1h 39m",
         url: "casatv.938030-film.html",
