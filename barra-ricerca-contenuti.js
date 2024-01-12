@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "A Christmas Carol",
+        descrizione: "T 2009 ‧ Animazione, Famiglia, Fantasy ‧ 1h 36m",
+        url: "casatv.17979-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yTbolKOSkTdX8dFljSC0qALA1FF.jpg",
+        lightbox: true
+      },
+
+
+        
+
         
 {
         titolo: "Home Sweet Home Alone - Mamma, ho perso l'aereo",
