@@ -5,6 +5,19 @@
 
 
 {
+        titolo: "Il Grinch",
+        descrizione: "T 2000 ‧ Famiglia, Commedia, Fantasy ‧ 1h 44m",
+        url: "casatv.8871-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/cBfITyt762dfbuDc76bFImV6MVV.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+{
         titolo: "Jack Frost",
         descrizione: "T 1998 ‧ Commedia, Famiglia, Dramma, Fantasy ‧ 1h 36m",
         url: "casatv.9745-film.html",
