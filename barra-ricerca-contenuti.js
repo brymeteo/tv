@@ -3,6 +3,18 @@
     var contenuti = [
 
 
+
+
+{
+        titolo: "Elf Me",
+        descrizione: "T 2023 ‧ Famiglia, Commedia, Fantasy, Avventura ‧ 1h 39m",
+        url: "casatv.938030-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/zM9qQrY9PsparIpFg4UlUS3YmMe.jpg",
+        lightbox: true
+      },
+
+        
+
 {
         titolo: "Fred Claus - Un fratello sotto l'albero",
         descrizione: "T 2007 ‧ Azione, Commedia, Dramma ‧ 1h 56m",
