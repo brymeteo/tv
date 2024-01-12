@@ -3,6 +3,18 @@
     var contenuti = [
 
 
+
+{
+        titolo: "Jack Frost",
+        descrizione: "T 1998 ‧ Commedia, Famiglia, Dramma, Fantasy ‧ 1h 36m",
+        url: "casatv.9745-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/tdSyQJe7vEDcH9kEVqzVcr0O9lS.jpg",
+        lightbox: true
+      },
+
+
+
+        
 {
         titolo: "Il primo Natale",
         descrizione: "T 2019 ‧ Commedia, Fantasy ‧ 1h 40m",
