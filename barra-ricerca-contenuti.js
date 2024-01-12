@@ -3,6 +3,17 @@
     var contenuti = [
 
 
+{
+        titolo: "Fred Claus - Un fratello sotto l'albero",
+        descrizione: "T 2007 ‧ Azione, Commedia, Dramma ‧ 1h 56m",
+        url: "casatv.5375-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vqP76SSDu8fXLler0SjZlx8RKEU.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 {
         titolo: "Il Grinch",
