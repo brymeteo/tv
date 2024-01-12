@@ -6,6 +6,20 @@
 
 
 {
+        titolo: "Il peggior Natale della mia vita",
+        descrizione: "T 2012 ‧ Commedia ‧ 1h 29m",
+        url: "casatv.147868-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5ducOxpKEuq1vRSj0YytblRqTrB.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+
+{
         titolo: "Indovina chi viene a Natale?",
         descrizione: "T 2013 ‧ Commedia ‧ 1h 34m",
         url: "casatv.244516-film.html",
