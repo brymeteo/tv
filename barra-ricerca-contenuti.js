@@ -4,6 +4,34 @@
 
 
 
+{
+        titolo: "Il Grinch",
+        descrizione: "T 2018 ‧ Animazione, Famiglia, Commedia, Fantasy ‧ 1h 26m",
+        url: "casatv.360920-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rosCCszXF5xeBUvgH06dKpXEwrZ.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
+
+{
+        titolo: "Mamma, ho allagato la casa",
+        descrizione: "T 2002 ‧ Commedia, Famiglia, televisione film ‧ 1h 29m",
+        url: "casatv.12536-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/qRktvMOO2QaCL7gvNyvZDoxPOZj.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
+
 
 {
         titolo: "La tela di Carlotta",
