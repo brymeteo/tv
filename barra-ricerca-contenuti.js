@@ -4,6 +4,17 @@
 
 
 
+{
+        titolo: "Elf - Un elfo di nome Buddy",
+        descrizione: "T 2003 ‧ Commedia, Famiglia, Fantasy ‧ 1h 35m",
+        url: "casatv.10719-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lnbtbfcYfUqu4FHlyTdyaHkaYR5.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 {
         titolo: "Fuga dal Natale",
