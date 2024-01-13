@@ -6,6 +6,20 @@
 
 
 {
+        titolo: "L'era glaciale",
+        descrizione: "T 2002 ‧ Animazione, Commedia, Famiglia, Avventura ‧ 1h 21m",
+        url: "casatv.425-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/dSWZ3oXT7ggTKvcD3noqYhKwTUa.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
+
+{
         titolo: "Il peggior Natale della mia vita",
         descrizione: "T 2012 ‧ Commedia ‧ 1h 29m",
         url: "casatv.147868-film.html",
