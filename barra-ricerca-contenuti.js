@@ -5,6 +5,23 @@
 
 
 
+        
+
+
+{
+        titolo: "Alvin Superstar 2",
+        descrizione: "T 2009 ‧ Commedia, Famiglia, Animazione, Fantasy, Musica ‧ 1h 28m",
+        url: "casatv.23398-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/A2mVQOJLeaed4gLYtmvkA6HHUex.jpg",
+        lightbox: true
+      },
+
+
+
+
+
+        
+
 {
         titolo: "L'era glaciale",
         descrizione: "T 2002 ‧ Animazione, Commedia, Famiglia, Avventura ‧ 1h 21m",
