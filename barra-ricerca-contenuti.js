@@ -6,6 +6,20 @@
 
 
 
+        
+{
+        titolo: "Alvin Superstar - Nessuno ci può fermare",
+        descrizione: "T 2015 ‧ Avventura, Animazione, Commedia, Famiglia ‧ 1h 32m",
+        url: "casatv.258509-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lYEOnrGNxSlSzBJTcZI23VhLQO7.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
+
 {
         titolo: "Alvin Superstar 3 - Si salvi chi può!",
         descrizione: "T 2011 ‧ Commedia, Fantasy, Famiglia, Musica, Animazione ‧ 1h 28m",
