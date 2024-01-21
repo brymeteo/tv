@@ -5,6 +5,20 @@
 
 
 
+        
+{
+        titolo: "Avatar - La via dell'acqua",
+        descrizione: "T 2022 ‧ Fantascienza, Avventura, Azione ‧ 3h 10m",
+        url: "casatv.76600-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kyJ7Ch5q5iDhxIjoupixTtqHObe.jpg",
+        lightbox: true
+      },
+
+
+
+
+        
+
 
         
 {
