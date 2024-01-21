@@ -5,6 +5,29 @@
 
 
 
+{
+        titolo: "Batman",
+        descrizione: "T 1989 ‧ Fantasy, Azione, Crime ‧ 2h 6m",
+        url: "casatv.268-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/7xiCfaVZXfNPhZ5e9YqsjWR0oLz.jpg",
+        lightbox: true
+      },
+
+        
+
+
+{
+        titolo: "Batman - Il ritorno",
+        descrizione: "T 1992 ‧ Azione, Fantasy ‧ 2h 6m",
+        url: "casatv.364-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/p51pOXTRzBF77O2VcgD9ZuefF6h.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
         
 {
         titolo: "Avatar - La via dell'acqua",
