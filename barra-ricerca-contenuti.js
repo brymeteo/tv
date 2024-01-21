@@ -5,6 +5,19 @@
 
 
 
+
+{
+        titolo: "Dumbo",
+        descrizione: "T 2019 ‧ Famiglia, Fantasy, Avventura ‧ 1h 52m",
+        url: "casatv.329996-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/m0UByHP3wOPCUYScFV0kxOFdGC1.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
 {
         titolo: "Bee Movie",
         descrizione: "T 2007 ‧ Famiglia, Animazione, Avventura, Commedia ‧ 1h 30m",
