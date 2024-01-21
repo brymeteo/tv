@@ -6,6 +6,19 @@
 
 
 
+        
+
+{
+        titolo: "Fast X",
+        descrizione: "T 2023 ‧ Azione, Crime, Thriller ‧ 2h 22m",
+        url: "casatv.385687-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hC6mLdlgpFU63FOduX80xaGevGj.jpg",
+        lightbox: true
+      },
+
+
+        
+
 {
         titolo: "Dumbo",
         descrizione: "T 2019 ‧ Famiglia, Fantasy, Avventura ‧ 1h 52m",
