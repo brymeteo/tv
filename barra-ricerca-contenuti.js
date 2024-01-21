@@ -6,6 +6,17 @@
 
 
 {
+        titolo: "Bee Movie",
+        descrizione: "T 2007 ‧ Famiglia, Animazione, Avventura, Commedia ‧ 1h 30m",
+        url: "casatv.5559-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/rYBaXgvTKFS8iZC7Wr8SMomSauQ.jpg",
+        lightbox: true
+      },
+
+
+
+        
+{
         titolo: "Batman",
         descrizione: "T 1989 ‧ Fantasy, Azione, Crime ‧ 2h 6m",
         url: "casatv.268-film.html",
