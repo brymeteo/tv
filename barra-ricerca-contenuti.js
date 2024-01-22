@@ -4,6 +4,13 @@
 
 
 
+{
+        titolo: "Gremlins",
+        descrizione: "T 1984 ‧ Fantasy, Horror, Commedia ‧ 1h 46m",
+        url: "casatv.927-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/72Y1X9pMSjXQ7mKB6pBEoMhL0OQ.jpg",
+        lightbox: true
+      },        
 
 
         
