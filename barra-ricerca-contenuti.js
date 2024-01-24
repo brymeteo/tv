@@ -5,6 +5,19 @@
 
 
 
+
+{
+        titolo: "Shark 2 - L'abisso",
+        descrizione: "T 2023 ‧ Azione, Fantascienza, Horror ‧ 1h 56m",
+        url: "casatv.615656-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/aXLb2YWXEammySGBh0m6aELmaNq.jpg",
+        lightbox: true
+      },   
+
+
+
+        
+
 {
         titolo: "Shark - Il primo squalo",
         descrizione: "T 2018 ‧ Azione, Fantascienza, Horror ‧ 1h 53m",
