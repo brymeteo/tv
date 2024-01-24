@@ -6,6 +6,20 @@
 
 
 {
+        titolo: "John Wick 4",
+        descrizione: "T 2023 ‧ Azione, Thriller, Crime ‧ 2h 49m",
+        url: "casatv.603692-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
+        lightbox: true
+      },     
+
+
+
+
+
+
+        
+{
         titolo: "Jeanne du Barry - La favorita del Re",
         descrizione: "T 2023 ‧ Dramma, Storia, Romance ‧ 1h 56m",
         url: "casatv.921452-film.html",
