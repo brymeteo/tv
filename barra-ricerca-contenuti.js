@@ -6,6 +6,19 @@
 
 
 {
+        titolo: "L'era glaciale 4 - Continenti alla deriva",
+        descrizione: "T 2012 ‧ Animazione, Commedia, Avventura, Famiglia ‧ 1h 28m",
+        url: "casatv.57800-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vRyxhQAFm1RKubLm62Pj4b2oJ5K.jpg",
+        lightbox: true
+      },     
+
+
+
+        
+
+
+{
         titolo: "L'era glaciale - Le avventure di Buck",
         descrizione: "T 2022 ‧ Animazione, Commedia, Avventura, Famiglia ‧ 1h 22m",
         url: "casatv.774825-film.html",
