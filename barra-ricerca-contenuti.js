@@ -7,6 +7,18 @@
 
 
 {
+        titolo: "Oppenheimer",
+        descrizione: "T 2023 ‧ Dramma, Storia ‧ 3h 9m",
+        url: "casatv.872585-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bbYXxNaOAFtJjQnygqPKm13AC7a.jpg",
+        lightbox: true
+      },   
+
+
+        
+
+
+{
         titolo: "Minions 2 - Come Gru diventa cattivissimo",
         descrizione: "T 2022 ‧ Animazione, Commedia, Famiglia ‧ 1h 27m",
         url: "casatv.438148-film.html",
