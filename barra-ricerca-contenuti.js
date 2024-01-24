@@ -7,6 +7,19 @@
 
 
 {
+        titolo: "Ti presento i miei",
+        descrizione: "T 2000 ‧ Commedia, Romance ‧ 1h 48m",
+        url: "casatv.1597-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1G8wBAeqK2lJne88Ny9cFl7LU3G.jpg",
+        lightbox: true
+      },   
+
+
+        
+
+
+
+{
         titolo: "Shark 2 - L'abisso",
         descrizione: "T 2023 ‧ Azione, Fantascienza, Horror ‧ 1h 56m",
         url: "casatv.615656-film.html",
