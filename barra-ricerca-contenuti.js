@@ -4,6 +4,20 @@
 
 
 
+        
+
+{
+        titolo: "Andiamo a quel paese",
+        descrizione: "T 2014 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.301272-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/2dTJxxfYVETL13u8VY68wdPEbbk.jpg",
+        lightbox: true
+      },   
+
+
+
+
+        
 {
         titolo: "Papà scatenato",
         descrizione: "T 2023 ‧ Commedia ‧ 1h 30m",
