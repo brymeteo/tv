@@ -4,6 +4,22 @@
 
 
 
+
+
+{
+        titolo: "I Croods",
+        descrizione: "T 2013 ‧ Animazione, Avventura, Famiglia, Fantasy, Commedia, Azione ‧ 1h 27m",
+        url: "casatv.49519-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9Yj4rtRmXWwByTZyoAZIprBfKqt.jpg",
+        lightbox: true
+      },      
+
+
+
+
+
+        
+
 {
         titolo: "Hotel Transylvania - Uno scambio mostruoso",
         descrizione: "T 2022 ‧ Animazione, Commedia, Famiglia, Avventura, Fantasy ‧ 1h 27m",
