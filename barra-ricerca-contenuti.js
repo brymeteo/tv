@@ -5,10 +5,23 @@
 
 
 
+{
+        titolo: "I Croods 2 - Una nuova era",
+        descrizione: "T 2020 ‧ Animazione, Famiglia, Avventura, Fantasy, Commedia ‧ 1h 35m",
+        url: "casatv.529203-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/81gGnVhxUbahcS3tiqzOQRdwLpu.jpg",
+        lightbox: true
+      },      
+
+
+
+
+        
+
 
 {
         titolo: "I Croods",
-        descrizione: "T 2013 ‧ Animazione, Avventura, Famiglia, Fantasy, Commedia, Azione ‧ 1h 27m",
+        descrizione: "T 2013 ‧ Animazione, Avventura, Famiglia, Fantasy, Commedia, Azione ‧ 1h 38m",
         url: "casatv.49519-film.html",
         locandina: "https://www.themoviedb.org/t/p/w1280/9Yj4rtRmXWwByTZyoAZIprBfKqt.jpg",
         lightbox: true
