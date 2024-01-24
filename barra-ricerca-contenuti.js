@@ -5,6 +5,20 @@
 
 
 
+
+{
+        titolo: "L'era glaciale 2 - Il disgelo",
+        descrizione: "T 2006 ‧ Animazione, Famiglia, Commedia, Avventura ‧ 1h 31m",
+        url: "casatv.950-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lhtlr83zs4AJ9XWKbClH0ug6Usv.jpg",
+        lightbox: true
+      },     
+
+
+
+
+
+        
 {
         titolo: "L'era glaciale 4 - Continenti alla deriva",
         descrizione: "T 2012 ‧ Animazione, Commedia, Avventura, Famiglia ‧ 1h 28m",
