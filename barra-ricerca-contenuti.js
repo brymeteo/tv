@@ -5,6 +5,18 @@
 
 
 
+{
+        titolo: "Shark - Il primo squalo",
+        descrizione: "T 2018 ‧ Azione, Fantascienza, Horror ‧ 1h 53m",
+        url: "casatv.345940-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/tHT3u11zqloxCKokYHhCEak2BVX.jpg",
+        lightbox: true
+      },   
+
+
+
+        
+
 
 {
         titolo: "S.O.S. Natale",
