@@ -6,6 +6,22 @@
 
 
 
+
+{
+        titolo: "L'era glaciale 3 - L'alba dei dinosauri",
+        descrizione: "T 2009 ‧ Animazione, Commedia, Famiglia, Avventura ‧ 1h 34m",
+        url: "casatv.8355-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/5QhTx2PK9K4OQLoOqFRPn2SPWcC.jpg",
+        lightbox: true
+      },     
+
+
+
+
+        
+
+
+
 {
         titolo: "L'era glaciale 2 - Il disgelo",
         descrizione: "T 2006 ‧ Animazione, Famiglia, Commedia, Avventura ‧ 1h 31m",
