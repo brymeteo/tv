@@ -5,6 +5,20 @@
 
 
 
+
+{
+        titolo: "Minions 2 - Come Gru diventa cattivissimo",
+        descrizione: "T 2022 ‧ Animazione, Commedia, Famiglia ‧ 1h 27m",
+        url: "casatv.438148-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bYf5gKNuIJJZNbPXEPGfZvgC1vl.jpg",
+        lightbox: true
+      },   
+
+
+
+
+        
+
 {
         titolo: "Minions",
         descrizione: "T 2015 ‧ Famiglia, Animazione, Avventura, Commedia ‧ 1h 30m",
