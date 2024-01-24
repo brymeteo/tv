@@ -4,6 +4,20 @@
 
 
 
+
+{
+        titolo: "Gremlins 2 - La nuova stirpe",
+        descrizione: "T 1990 ‧ Commedia, Horror, Fantasy ‧ 1h 46m",
+        url: "casatv.928-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/ApmxxCUBShHSu19JhzphjT3rZHs.jpg",
+        lightbox: true
+      },        
+
+
+
+
+
+        
 {
         titolo: "Gremlins",
         descrizione: "T 1984 ‧ Fantasy, Horror, Commedia ‧ 1h 46m",
