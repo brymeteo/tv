@@ -5,6 +5,19 @@
 
 
 
+{
+        titolo: "Minions",
+        descrizione: "T 2015 ‧ Famiglia, Animazione, Avventura, Commedia ‧ 1h 30m",
+        url: "casatv.211672-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/iHLyeQfYNDHw1Y8Xrw5g0QugUhY.jpg",
+        lightbox: true
+      },   
+
+
+
+
+        
+
 
 {
         titolo: "Mi presenti i tuoi?",
