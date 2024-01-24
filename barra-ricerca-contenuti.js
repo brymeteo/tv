@@ -4,7 +4,18 @@
 
 
 
+{
+        titolo: "Papà scatenato",
+        descrizione: "T 2023 ‧ Commedia ‧ 1h 30m",
+        url: "casatv.829051-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/mge87pJ7vD1ymCTpcjHLaFXWmYy.jpg",
+        lightbox: true
+      },   
 
+
+
+
+        
 
 {
         titolo: "Oppenheimer",
