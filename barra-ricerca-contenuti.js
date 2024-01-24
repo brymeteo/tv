@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "La famiglia Addams 2",
+        descrizione: "T 2021 ‧ Animazione, Avventura, Commedia, Famiglia, Fantasy, Horror ‧ 1h 33m",
+        url: "casatv.639721-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/fu63wuucwA0PlLYAQzbuhWJqaiP.jpg",
+        lightbox: true
+      },     
+
+
+
+        
 
 
 {
