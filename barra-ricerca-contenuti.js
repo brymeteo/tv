@@ -6,6 +6,19 @@
 
 
 {
+        titolo: "L'era glaciale - Le avventure di Buck",
+        descrizione: "T 2022 ‧ Animazione, Commedia, Avventura, Famiglia ‧ 1h 22m",
+        url: "casatv.774825-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/97T7ReCsuYi600SDDAibFuwgDZK.jpg",
+        lightbox: true
+      },     
+
+
+
+
+
+        
+{
         titolo: "John Wick 4",
         descrizione: "T 2023 ‧ Azione, Thriller, Crime ‧ 2h 49m",
         url: "casatv.603692-film.html",
