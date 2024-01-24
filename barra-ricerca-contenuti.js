@@ -5,6 +5,19 @@
 
 
 
+
+{
+        titolo: "La stranezza",
+        descrizione: "T 2022 ‧ Commedia, Storia, Dramma ‧ 1h 43m",
+        url: "casatv.930921-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/gtIhBUq4lnJrZyjuAkshXxW6Txi.jpg",
+        lightbox: true
+      },   
+
+
+
+        
+
 {
         titolo: "La famiglia Addams 2",
         descrizione: "T 2021 ‧ Animazione, Avventura, Commedia, Famiglia, Fantasy, Horror ‧ 1h 33m",
