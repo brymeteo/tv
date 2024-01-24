@@ -4,6 +4,17 @@
 
 
 
+{
+        titolo: "Hotel Transylvania - Uno scambio mostruoso",
+        descrizione: "T 2022 ‧ Animazione, Commedia, Famiglia, Avventura, Fantasy ‧ 1h 27m",
+        url: "casatv.585083-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/nZFa2trMXpyfEGw9zet8pBpo5UU.jpg",
+        lightbox: true
+      },      
+
+
+
+        
 
 {
         titolo: "Gremlins 2 - La nuova stirpe",
