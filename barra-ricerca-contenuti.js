@@ -6,6 +6,20 @@
 
 
 {
+        titolo: "Jeanne du Barry - La favorita del Re",
+        descrizione: "T 2023 ‧ Dramma, Storia, Romance ‧ 1h 56m",
+        url: "casatv.921452-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/cfRby3japyiyyHq7D0OufP7RBGf.jpg",
+        lightbox: true
+      },     
+
+
+
+
+
+        
+
+{
         titolo: "I mercenari 4 - Expendables",
         descrizione: "T 2023 ‧ Azione, Avventura, Thriller ‧ 1h 43m",
         url: "casatv.299054-film.html",
