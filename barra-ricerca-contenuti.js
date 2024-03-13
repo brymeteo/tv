@@ -7,6 +7,20 @@
 
 
 {
+        titolo: "Aquaman e il regno perduto",
+        descrizione: "T 2023 ‧ Azione, Avventura, Fantasy ‧ 2h 4m",
+        url: "casatv.572802-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yv77pBEJa3yKvv3qRQHJZfu1jci.jpg",
+        lightbox: true
+      },   
+
+
+
+
+        
+
+
+{
         titolo: "Top Gun",
         descrizione: "T 1986 ‧ Dramma, Azione, Avventura ‧ 1h 50m",
         url: "casatv.744-film.html",
