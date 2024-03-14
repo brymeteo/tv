@@ -6,6 +6,18 @@
 
 
 {
+        titolo: "Hercule Poirot - Collezione",
+        descrizione: "Drama, Thriller, Crime, Mystery - Assassinio",
+        url: "casatv.28-saghe.html",
+        locandina: "https://image.tmdb.org/t/p/original/lSiVxZkNl9kWNQf6tlKzEVN8EtI.jpg",
+        lightbox: false
+      },   
+
+
+
+        
+
+{
         titolo: "Air - La storia del grande salto",
         descrizione: "T 2023 ‧ Dramma ‧ 1h 52m",
         url: "casatv.964980-film.html",
