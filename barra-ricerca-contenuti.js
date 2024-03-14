@@ -6,6 +6,17 @@
 
 
 
+{
+        titolo: "Assassinio sul Nilo",
+        descrizione: "T 2022 ‧ Mistero, Crime, Thriller ‧ 2h 14m",
+        url: "casatv.505026-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/dWAtJZoXtvoqvM8tgbCE7o7W9Gr.jpg",
+        lightbox: true
+      },   
+
+
+        
+
         
 
 {
