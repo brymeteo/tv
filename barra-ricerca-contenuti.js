@@ -5,6 +5,18 @@
 
 
 
+{
+        titolo: "Assassinio a Venezia",
+        descrizione: "T 2023 ‧ Mistero, Thriller, Crime ‧ 1h 44m",
+        url: "casatv.945729-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/aF1IOWrMd6ULKyrYtQbYCzJhTTp.jpg",
+        lightbox: true
+      },  
+
+
+        
+
+
 
 {
         titolo: "Assassinio sul Nilo",
