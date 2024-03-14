@@ -5,6 +5,18 @@
 
 
 
+{
+        titolo: "Wonka",
+        descrizione: "T 2023 ‧ Commedia, Famiglia, Fantasy ‧ 1h 57m",
+        url: "casatv.787699-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/6M1R3vy3FUFQrnIypnzq4UvTANy.jpg",
+        lightbox: true
+      },   
+
+
+
+
+        
 
 {
         titolo: "Shrek e vissero felici e contenti",
