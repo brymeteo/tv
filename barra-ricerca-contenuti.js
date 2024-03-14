@@ -5,7 +5,18 @@
 
 
 
+{
+        titolo: "Elemental",
+        descrizione: "T 2023 ‧ Animazione, Commedia, Famiglia, Fantasy, Romance, Avventura ‧ 1h 42m",
+        url: "casatv.976573-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/jpb0XQZL8Pl2Pb39FA4YvcWDFiT.jpg",
+        lightbox: true
+      },   
 
+
+
+
+        
 {
         titolo: "Aquaman e il regno perduto",
         descrizione: "T 2023 ‧ Azione, Avventura, Fantasy ‧ 2h 4m",
