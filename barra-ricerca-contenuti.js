@@ -113,7 +113,7 @@
         titolo: "Il gatto con gli stivali",
         descrizione: "T 2011 ‧ Animazione, Famiglia, Fantasy, Avventura, Commedia ‧ 1h 30m",
         url: "casatv.417859-film.html",
-        locandina: "https://image.tmdb.org/t/p/w1280/AhzoMln5CS5dl4TTW1WnibDQlFT.jpg",
+        locandina: "https://www.themoviedb.org/t/p/w1280/tgpKR6iNkV3aN1fmQ4V45lYL4CN.jpg",
         lightbox: true
       },   
 
