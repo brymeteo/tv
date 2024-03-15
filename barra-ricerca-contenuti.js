@@ -5,6 +5,23 @@
 
 
 
+
+
+
+
+{
+        titolo: "Barbie",
+        descrizione: "T 2023 ‧ Commedia, Fantasy ‧ 1h 53m",
+        url: "casatv.346698-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/lNH3igZmHIHduaGAsN1YrmLBlTi.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
+
 {
         titolo: "Assassinio a Venezia",
         descrizione: "T 2023 ‧ Mistero, Thriller, Crime ‧ 1h 44m",
