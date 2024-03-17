@@ -6,8 +6,20 @@
 
 
 
+        
+{
+        titolo: "La mummia - Collezione",
+        descrizione: "Adventure, Fantasy, Action",
+        url: "casatv.29-saghe.html",
+        locandina: "https://image.tmdb.org/t/p/original/206PMoGpBqbCYmTaWTx45tQmkoQ.jpg",
+        lightbox: false
+      },  
 
 
+
+
+
+        
 
 {
         titolo: "Barbie",
