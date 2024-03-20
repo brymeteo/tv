@@ -6,6 +6,21 @@
 
 
 
+
+{
+        titolo: "Batman Forever",
+        descrizione: "T 1995 ‧ Azione, Crime, Fantasy ‧ 1h 57m",
+        url: "casatv.414-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/mzzNBVwTiiY94xAXDMWJpNPW2US.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
+
         
 {
         titolo: "La mummia - Collezione",
