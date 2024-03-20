@@ -6,6 +6,17 @@
 
 
 
+{
+        titolo: "Ferrari",
+        descrizione: "T 2023 ‧ Storia, Dramma ‧ 2h 10m",
+        url: "casatv.365620-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/LyCOcGqOTyTmaXu2TK8LfGveIb.jpg",
+        lightbox: true
+      },  
+
+
+
+
         
 
 {
