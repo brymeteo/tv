@@ -6,6 +6,22 @@
 
 
 
+        
+
+{
+        titolo: "Batman & Robin",
+        descrizione: "T 1997 ‧ Azione, Fantascienza, Avventura ‧ 2h 6m",
+        url: "casatv.415-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/cGRDufDDSrFrv7VI4YnmWnslne0.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
+
 
 {
         titolo: "Batman Forever",
