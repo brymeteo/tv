@@ -7,6 +7,17 @@
 
 
 {
+        titolo: "Gran Turismo - La storia di un sogno impossibile",
+        descrizione: "T 2023 ‧ Avventura, Azione, Dramma ‧ 2h 15m",
+        url: "casatv.980489-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/34moeAXmzjYgDq73yzy1kuYe4di.jpg",
+        lightbox: true
+      },  
+
+
+        
+
+{
         titolo: "Godzilla vs. Kong",
         descrizione: "T 2021 ‧ Azione, Fantascienza, Thriller, Avventura, Fantasy ‧ 1h 53m",
         url: "casatv.399566-film.html",
