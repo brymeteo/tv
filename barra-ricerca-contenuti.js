@@ -6,6 +6,18 @@
 
 
 {
+        titolo: "Viaggio al centro della Terra",
+        descrizione: "T 2008 ‧ Azione, Fantascienza, Avventura, Commedia, Famiglia ‧ 1h 33m",
+        url: "casatv.88751-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1Qo1wTzqtzYWvM5Uj6OoAMhTcEM.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
+{
         titolo: "The Suicide Squad - Missione suicida",
         descrizione: "T 2021 ‧ Azione, Avventura, Commedia ‧ 2h 12m",
         url: "casatv.436969-film.html",
