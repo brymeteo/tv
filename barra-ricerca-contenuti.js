@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "La sirenetta",
+        descrizione: "T 2023 ‧ Avventura, Famiglia, Fantasy, Romance ‧ 2h 15m",
+        url: "casatv.447277-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/mbAr5QUfi0XniLoFjCldZMFi6Dd.jpg",
+        lightbox: true
+      },  
+
+
+
+        
 
 {
         titolo: "Gran Turismo - La storia di un sogno impossibile",
