@@ -7,6 +7,20 @@
 
 
 {
+        titolo: "Godzilla vs. Kong",
+        descrizione: "T 2021 ‧ Azione, Fantascienza, Thriller, Avventura, Fantasy ‧ 1h 53m",
+        url: "casatv.399566-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/gSIcGbevWUfcHvVj4ShKLjR6Xhb.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
+
+{
         titolo: "Godzilla II - King of the Monsters",
         descrizione: "T 2019 ‧ Fantascienza, Azione ‧ 2h 12m",
         url: "casatv.373571-film.html",
