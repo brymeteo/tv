@@ -7,6 +7,20 @@
 
 
 {
+        titolo: "Black Adam",
+        descrizione: "T 2022 ‧ Azione, Avventura, Fantascienza ‧ 2h 5m",
+        url: "casatv.436270-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/imBw6Ha5BE26kJhPRPoIs4CBPVw.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
+
+{
         titolo: "Ferrari",
         descrizione: "T 2023 ‧ Storia, Dramma ‧ 2h 10m",
         url: "casatv.365620-film.html",
