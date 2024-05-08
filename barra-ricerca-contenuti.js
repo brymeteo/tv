@@ -6,6 +6,30 @@
 
 
 
+
+{
+        titolo: "Kong: Skull Island",
+        descrizione: "T 2017 ‧ Azione, Dramma, Fantascienza ‧ 1h 58m",
+        url: "casatv.293167-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",
+        lightbox: true
+      },  
+
+
+        
+
+{
+        titolo: "Godzilla",
+        descrizione: "T 2014 ‧ Azione, Dramma, Fantascienza ‧ 2h 3m",
+        url: "casatv.124905-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/6XUHNFHlQYFU63PFErWEDBYHQ3O.jpg",
+        lightbox: true
+      },  
+
+
+        
+
+
 {
         titolo: "Godzilla - Collezione",
         descrizione: "Adventure, Fantasy, Drama, Action, Thriller, Science Fiction",
