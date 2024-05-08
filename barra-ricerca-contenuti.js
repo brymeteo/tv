@@ -9,7 +9,7 @@
 
 {
         titolo: "Kong: Skull Island",
-        descrizione: "T 2017 ‧ Azione, Dramma, Fantascienza ‧ 1h 58m",
+        descrizione: "T 2017 ‧ Azione, Avventura, Fantasy ‧ 1h 58m",
         url: "casatv.293167-film.html",
         locandina: "https://www.themoviedb.org/t/p/w1280/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",
         lightbox: true
