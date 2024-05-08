@@ -6,6 +6,18 @@
 
 
 
+{
+        titolo: "Godzilla II - King of the Monsters",
+        descrizione: "T 2019 ‧ Fantascienza, Azione ‧ 2h 12m",
+        url: "casatv.373571-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/tJ34cQ6vuR8yiiU21iQIzVXEcid.jpg",
+        lightbox: true
+      },  
+
+
+
+        
+
 
 {
         titolo: "Kong: Skull Island",
