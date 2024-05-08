@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "The Suicide Squad - Missione suicida",
+        descrizione: "T 2021 ‧ Azione, Avventura, Commedia ‧ 2h 12m",
+        url: "casatv.436969-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/9MjzpAvNQv8zXeiDJIm58Xws0MD.jpg",
+        lightbox: true
+      },  
+
+
+
+        
 
 {
         titolo: "Black Adam",
