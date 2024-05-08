@@ -5,7 +5,84 @@
 
 
 
+{
+        titolo: "Viaggio nell'isola misteriosa",
+        descrizione: "T 2012 ‧ Avventura, Azione, Fantascienza ‧ 1h 34m",
+        url: "casatv.72545-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/jDMkFYh2rgeKl4e2n7rX10ibOy1.jpg",
+        lightbox: true
+      },  
 
+
+
+
+
+        
+
+{
+        titolo: "The Flash",
+        descrizione: "T 2023 ‧ Azione, Avventura, Fantascienza ‧ 2h 24m",
+        url: "casatv.298618-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/p7gz7AWLfMkLdUsxqwxJWkA6xun.jpg",
+        lightbox: true
+      },  
+
+
+
+        
+
+
+{
+        titolo: "The Beekeeper",
+        descrizione: "T 2023 ‧ Azione, Thriller, Dramma ‧ 1h 45m",
+        url: "casatv.866398-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/k5e2X1tUGoZ86ap2rC7qDE8aqDW.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
+
+{
+        titolo: "Shazam! Furia degli dei!",
+        descrizione: "T 2023 ‧ Azione, Commedia, Fantasy ‧ 2h 10m",
+        url: "casatv.594767-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/bqkClyt9iJcbmZXouCgUrIna91W.jpg",
+        lightbox: true
+      },  
+
+
+
+        
+
+{
+        titolo: "Shazam!",
+        descrizione: "T 2019 ‧ Azione, Commedia, Fantasy ‧ 2h 12m",
+        url: "casatv.287947-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vJSd6IfAlA3ZYL36gnxfkslCnDn.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
+
+{
+        titolo: "Ruby Gillman - La ragazza con i tentacoli",
+        descrizione: "T 2023 ‧ Animazione, Famiglia, Fantasy, Commedia ‧ 1h 31m",
+        url: "casatv.1040148-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/dNY4BBjxBOtLGolcesr0kSOX409.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
 {
         titolo: "Non-Stop",
         descrizione: "T 2014 ‧ Azione, Thriller, Mistero ‧ 1h 46m",
