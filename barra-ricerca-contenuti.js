@@ -34,7 +34,7 @@
 
 {
         titolo: "The Beekeeper",
-        descrizione: "T 2023 ‧ Azione, Thriller, Dramma ‧ 1h 45m",
+        descrizione: "T 2024 ‧ Azione, Thriller, Dramma ‧ 1h 45m",
         url: "casatv.866398-film.html",
         locandina: "https://www.themoviedb.org/t/p/w1280/k5e2X1tUGoZ86ap2rC7qDE8aqDW.jpg",
         lightbox: true
