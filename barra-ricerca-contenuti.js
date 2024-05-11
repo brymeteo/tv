@@ -6,6 +6,19 @@
 
 
 
+{
+        titolo: "Frankenweenie",
+        descrizione: "T 2012 ‧ Animazione, Commedia, Famiglia ‧ 1h 27m",
+        url: "casatv.62214-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/hzqMIdCuPTCdu4RDfZ1SuUnHZoP.jpg",
+        lightbox: true
+      }, 
+
+
+
+
+        
+
 
 {
         titolo: "Come d'incanto",
