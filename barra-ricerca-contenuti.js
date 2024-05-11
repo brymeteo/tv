@@ -7,6 +7,17 @@
 
 
 {
+        titolo: "Il viaggio di Arlo",
+        descrizione: "T 2015 ‧ Avventura, Animazione, Famiglia ‧ 1h 41m",
+        url: "casatv.105864-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lswuF8UFREKp7KRwwTQla6kHAvz.jpg",
+        lightbox: true
+      },
+
+        
+
+
+{
         titolo: "Il ritorno di Mary Poppins",
         descrizione: "T 2018 ‧ Fantasy, Famiglia, Commedia ‧ 2h 10m",
         url: "casatv.400650-film.html",
