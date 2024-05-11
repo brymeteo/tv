@@ -6,6 +6,18 @@
 
 
 
+
+{
+        titolo: "Frozen II - Il segreto di Arendelle",
+        descrizione: "T 2019 ‧ Famiglia, Animazione, Avventura, Commedia, Fantasy ‧ 1h 43m",
+        url: "casatv.330457-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lLieiMb0bQ0Ys2Vwkc2vHrXTY5d.jpg",
+        lightbox: true
+      }, 
+
+
+        
+
 {
         titolo: "Frozen - Il regno di ghiaccio",
         descrizione: "T 2013 ‧ Animazione, Famiglia, Avventura, Fantasy ‧ 1h 42m",
