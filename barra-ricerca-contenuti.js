@@ -7,6 +7,19 @@
 
 
 {
+        titolo: "Beverly Hills Chihuahua",
+        descrizione: "T 2008 ‧ Commedia, Famiglia, Avventura, Romance ‧ 1h 31m",
+        url: "casatv.14405-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/2aRvqtLoE06hTjG93lASvO7r1as.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
+
+{
         titolo: "Aladdin",
         descrizione: "T 2019 ‧ Avventura, Fantasy, Romance, Famiglia ‧ 2h 8m",
         url: "casatv.420817-film.html",
