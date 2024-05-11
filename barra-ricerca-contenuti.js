@@ -6,6 +6,16 @@
 
 
 
+{
+        titolo: "Gli Incredibili - Una "normale" famiglia di supereroi",
+        descrizione: "T 2004 ‧ Azione, Avventura, Animazione, Famiglia ‧ 1h 55m",
+        url: "casatv.9806-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
+        lightbox: true
+      }, 
+
+        
+
 
 {
         titolo: "Frozen II - Il segreto di Arendelle",
