@@ -7,6 +7,19 @@
 
 
 {
+        titolo: "Cenerentola",
+        descrizione: "T 2015 ‧ Romance, Fantasy, Famiglia, Dramma ‧ 1h 45m",
+        url: "casatv.150689-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/e5ptdIKFxaWVanL2b05CIrU8zMx.jpg",
+        lightbox: true
+      }, 
+
+
+        
+
+
+
+{
         titolo: "Cenerentola - Il gioco del destino",
         descrizione: "T 2007 ‧ Famiglia, Animazione, Romance, Fantasy ‧ 1h 10m",
         url: "casatv.16119-film.html",
