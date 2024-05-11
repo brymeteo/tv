@@ -5,6 +5,22 @@
 
 
 
+
+
+{
+        titolo: "A Bug's Life - Megaminimondo",
+        descrizione: "T 1998 ‧ Famiglia, Animazione, Avventura, Commedia ‧ 1h 34m",
+        url: "casatv.9487-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/8onpzxE56ykUeWEStz5LjdQJGDp.jpg",
+        lightbox: true
+      },  
+
+
+
+
+
+        
+
 {
         titolo: "Viaggio nell'isola misteriosa",
         descrizione: "T 2012 ‧ Avventura, Azione, Fantascienza ‧ 1h 34m",
