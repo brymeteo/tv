@@ -7,6 +7,19 @@
 
 
 {
+        titolo: "Frozen - Il regno di ghiaccio",
+        descrizione: "T 2013 ‧ Animazione, Famiglia, Avventura, Fantasy ‧ 1h 42m",
+        url: "casatv.109445-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/kWsuNQ3z9aj7Bu8M7X90b30NjAw.jpg",
+        lightbox: true
+      }, 
+
+
+        
+
+
+        
+{
         titolo: "Frankenweenie",
         descrizione: "T 2012 ‧ Animazione, Commedia, Famiglia ‧ 1h 27m",
         url: "casatv.62214-film.html",
