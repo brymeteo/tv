@@ -6,6 +6,18 @@
 
 
 
+{
+        titolo: "Aladdin",
+        descrizione: "T 2019 ‧ Avventura, Fantasy, Romance, Famiglia ‧ 2h 8m",
+        url: "casatv.420817-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/3q3801i63sL9cuUulFr5PSYmExi.jpg",
+        lightbox: true
+      },  
+
+
+
+
+        
 
 {
         titolo: "A Bug's Life - Megaminimondo",
