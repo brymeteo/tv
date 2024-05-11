@@ -7,6 +7,18 @@
 
 
 {
+        titolo: "Il ritorno di Mary Poppins",
+        descrizione: "T 2018 ‧ Fantasy, Famiglia, Commedia ‧ 2h 10m",
+        url: "casatv.400650-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/ce18QfduwAA2I3LHlCL8DiG1UuT.jpg",
+        lightbox: true
+      }, 
+
+
+
+
+        
+{
         titolo: "Gli Incredibili 2",
         descrizione: "T 2018 ‧ Azione, Avventura, Animazione, Famiglia ‧ 1h 58m",
         url: "casatv.260513-film.html",
