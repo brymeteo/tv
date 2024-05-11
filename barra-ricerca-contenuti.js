@@ -6,6 +6,18 @@
 
 
 
+
+{
+        titolo: "Coco",
+        descrizione: "T 2017 ‧ Famiglia, Animazione, Musica, Avventura ‧ 1h 49m",
+        url: "casatv.354912-film.html",
+        locandina: "https://image.tmdb.org/t/p/original/98G7zRNJBGuJiJmWcCTv0whXltA.jpg",
+        lightbox: true
+      }, 
+
+
+
+        
 {
         titolo: "Cenerentola",
         descrizione: "T 2015 ‧ Romance, Fantasy, Famiglia, Dramma ‧ 1h 45m",
