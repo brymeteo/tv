@@ -7,6 +7,17 @@
 
 
 {
+        titolo: "Gli Incredibili 2",
+        descrizione: "T 2018 ‧ Azione, Avventura, Animazione, Famiglia ‧ 1h 58m",
+        url: "casatv.260513-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/pR0ebVPL5MFoj6dCtniOW41mF23.jpg",
+        lightbox: true
+      }, 
+
+        
+
+
+{
         titolo: "Gli Incredibili - Una "normale" famiglia di supereroi",
         descrizione: "T 2004 ‧ Azione, Avventura, Animazione, Famiglia ‧ 1h 55m",
         url: "casatv.9806-film.html",
