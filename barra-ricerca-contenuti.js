@@ -7,6 +7,17 @@
 
 
 {
+        titolo: "Cenerentola",
+        descrizione: "T 1950 ‧ Famiglia, Fantasy, Animazione, Romance ‧ 1h 14m",
+        url: "casatv.11224-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ul6u8FzIHK9rNrYpWsROePdND6N.jpg",
+        lightbox: true
+      },  
+
+        
+
+
+{
         titolo: "Beverly Hills Chihuahua",
         descrizione: "T 2008 ‧ Commedia, Famiglia, Avventura, Romance ‧ 1h 31m",
         url: "casatv.14405-film.html",
