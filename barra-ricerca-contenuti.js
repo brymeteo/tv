@@ -5,6 +5,18 @@
 
 
 
+
+{
+        titolo: "La bella e la bestia",
+        descrizione: "T 2017 ‧ Famiglia, Fantasy, Romance ‧ 2h 9m",
+        url: "casatv.321612-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/ysEgMEWgdJYRRgYFBJOWZM2Rbug.jpg",
+        lightbox: true
+      },
+
+
+        
+
 {
         titolo: "Into the Woods",
         descrizione: "T 2014 ‧ Fantasy, Commedia ‧ 2h 5m",
