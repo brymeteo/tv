@@ -8,6 +8,17 @@
 
 
 {
+        titolo: "La sirenetta",
+        descrizione: "T 1989 ‧ Animazione, Famiglia, Fantasy ‧ 1h 22m",
+        url: "casatv.10144-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/lSrnMhK2ZHhSkOOxsQfibrapJhQ.jpg",
+        lightbox: true
+      },
+
+        
+
+
+{
         titolo: "La principessa e il ranocchio",
         descrizione: "T 2009 ‧ Animazione, Romance, Fantasy, Famiglia ‧ 1h 37m",
         url: "casatv.10198-film.html",
