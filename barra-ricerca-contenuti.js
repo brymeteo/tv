@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "Indiana Jones e il quadrante del destino",
+        descrizione: "T 2023 ‧ Avventura, Azione ‧ 2h 34m",
+        url: "casatv.335977-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/zXaBZ4zILO7O6hnAfld8KMztwr7.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 {
         titolo: "Il viaggio di Arlo",
