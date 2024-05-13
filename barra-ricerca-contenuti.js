@@ -6,6 +6,19 @@
 
 
 
+
+{
+        titolo: "La principessa e il ranocchio",
+        descrizione: "T 2009 ‧ Animazione, Romance, Fantasy, Famiglia ‧ 1h 37m",
+        url: "casatv.10198-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/yz0MyuQQZsihsZJkpZ5xCoLeGwZ.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
 {
         titolo: "La bella e la bestia",
         descrizione: "T 2017 ‧ Famiglia, Fantasy, Romance ‧ 2h 9m",
