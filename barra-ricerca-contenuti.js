@@ -8,6 +8,19 @@
 
 
 {
+        titolo: "Luca",
+        descrizione: "T 2021 ‧ Animazione, Commedia, Fantasy, Avventura, Famiglia ‧ 1h 36m",
+        url: "casatv.508943-film.html",
+        locandina: "https://image.tmdb.org/t/p/w1280/8tABCBpzu3mZbzMB3sRzMEHEvJi.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
+
+{
         titolo: "La sirenetta",
         descrizione: "T 1989 ‧ Animazione, Famiglia, Fantasy ‧ 1h 22m",
         url: "casatv.10144-film.html",
