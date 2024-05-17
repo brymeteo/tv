@@ -5,6 +5,21 @@
 
 
 
+
+
+{
+        titolo: "Onward - Oltre la magia",
+        descrizione: "T 2020 ‧ Famiglia, Animazione, Avventura, Commedia, Fantasy ‧ 1h 54m",
+        url: "casatv.508439-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/33Qh1gJzxBdaBZ5MOrLZ39CZAQc.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
+
 {
         titolo: "Oceania",
         descrizione: "T 2016 ‧ Avventura, Commedia, Famiglia, Animazione ‧ 1h 47m",
