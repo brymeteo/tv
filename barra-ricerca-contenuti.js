@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "Maleficent",
+        descrizione: "T 2014 ‧ Fantasy, Avventura, Azione, Famiglia, Romance ‧ 1h 37m",
+        url: "casatv.102651-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/c2g83Ux98pi1fGAs42xUYfJHf4Q.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 
 {
