@@ -5,6 +5,18 @@
 
 
 
+
+{
+        titolo: "Maleficent - Signora del male",
+        descrizione: "T 2019 ‧ Famiglia, Fantasy, Avventura, Azione ‧ 1h 58m",
+        url: "casatv.420809-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/icyy6A2vvGKymk4mqfCezyC4B0v.jpg",
+        lightbox: true
+      },
+
+
+        
+
 {
         titolo: "Maleficent",
         descrizione: "T 2014 ‧ Fantasy, Avventura, Azione, Famiglia, Romance ‧ 1h 37m",
