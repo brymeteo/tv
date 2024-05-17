@@ -6,6 +6,18 @@
 
 
 
+{
+        titolo: "Pinocchio",
+        descrizione: "T 2022 ‧ Fantasy, Avventura, Famiglia ‧ 1h 45m",
+        url: "casatv.532639-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/h32gl4a3QxQWNiNaR4Fc1uvLBkV.jpg",
+        lightbox: true
+      },
+
+
+
+        
+
 
 {
         titolo: "Onward - Oltre la magia",
