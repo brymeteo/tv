@@ -5,6 +5,17 @@
 
 
 
+{
+        titolo: "Uno zoo in fuga",
+        descrizione: "T 2006 ‧ Famiglia, Animazione ‧ 1h 34m",
+        url: "casatv.9904-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/cpBXffoDPrXuAXtOSpMUGwFoJok.jpg",
+        lightbox: true
+      },
+
+
+
+        
 
 {
         titolo: "Soul",
