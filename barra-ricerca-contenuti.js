@@ -5,6 +5,16 @@
 
 
 
+
+ {
+        titolo: "Zootropolis",
+        descrizione: "T 2016 ‧ Animazione, Avventura, Famiglia, Commedia ‧ 1h 48m",
+        url: "casatv.269149-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/1TnCEV8ERTHCxRtu3eIBJlN8ZnW.jpg",
+        lightbox: true
+      },
+
+
         
         
 
