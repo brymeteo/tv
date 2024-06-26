@@ -5,6 +5,18 @@
 
 
 
+
+{
+        titolo: "Soul",
+        descrizione: "T 2020 ‧ Avventura, Commedia, Famiglia, Fantasy ‧ 1h 40m",
+        url: "casatv.508442-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/AcGqIA7Xns6NpK3e8zORP8iUTLa.jpg",
+        lightbox: true
+      },
+
+
+        
+
 {
         titolo: "Ritorno al Bosco dei 100 Acri",
         descrizione: "T 2018 ‧ Avventura, Commedia, Famiglia, Fantasy ‧ 1h 44m",
