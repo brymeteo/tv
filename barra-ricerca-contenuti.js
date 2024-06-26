@@ -5,7 +5,23 @@
 
 
 
-{
+        
+        
+
+        
+    {
+        titolo: "Wish",
+        descrizione: "T 2023 ‧ Animazione, Famiglia, Fantasy, Avventura ‧ 1h 35m",
+        url: "casatv.1022796-film.html",
+        locandina: "https://www.themoviedb.org/t/p/w1280/vKGXtXkoCRWWlONmyRi6xRwwwKN.jpg",
+        lightbox: true
+      },
+
+
+  
+        
+        
+    {
         titolo: "Uno zoo in fuga",
         descrizione: "T 2006 ‧ Famiglia, Animazione ‧ 1h 34m",
         url: "casatv.9904-film.html",
