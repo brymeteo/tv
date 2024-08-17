@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centrale di Controllo</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .server {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .server img {
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    .server .signal {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: red;
+      margin-right: 10px;
+      animation: blink 1s infinite;
+    }
+
+    .server.live .signal {
+      background-color: green;
+      animation: none;
+    }
+
+    .button {
+      width: 100px;
+      height: 50px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+    .button.active {
+      background-color: yellow;
+      color: #000;
+      animation: blink 4s infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  
+  
+    <style>
+    
+    
+    .window {
+      position: relative;
+    
+      
+    }
+    
+   
+    
+    
+   
+    
+   
+   
+    
+    .indicator {
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 10px;
+      color: #00ff00;
+    }
+    
+    .good {
+      animation: pulse 2s infinite;
+    }
+    
+    .arrow-container {
+      position: relative;
+      width: 200%;
+      height: 14px;
+      background-color: #444;
+      margin-top: 10px;
+      left: -50%;
+    }
+    
+    .arrow-bar {
+      position: absolute;
+      top: 0;
+      left: 2190%;
+      width: 4%;
+      height: 100%;
+      background-color: #00ff00;
+      animation: moveArrow 3s infinite;
+    }
+    
+    .background-lines {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right, transparent 0%, transparent 95%, #00ff00 95%, #00ff00 100%);
+      background-size: 40px 100%;
+      background-repeat: repeat-x;
+      animation: moveLines 3s infinite linear;
+    }
+    
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+    
+    @keyframes moveArrow {
+      0% {
+        left: 90%;
+      }
+      25% {
+        left: 91%;
+      }
+      50% {
+        left: 92%;
+      }
+      75% {
+        left: 93%;
+      }
+      100% {
+        left: 94%;
+      }
+    }
+    
+    @keyframes moveLines {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 40px 0;
+      }
+    }
+  </style>
+  
+  
+</head>
+<body>
+  <h1>Server Trasmissione</h1>
+
+  <div class="server">
+    <img src="https://cdn.icon-icons.com/icons2/585/PNG/256/HomeServer_icon-icons.com_55232.png" alt="Server di Streaming">
+    <div class="signal"></div>
+    <button class="button">Nazionali</button> 
+  </div>
+
+  <div class="server">
+    <img src="https://cdn.icon-icons.com/icons2/585/PNG/256/HomeServer_icon-icons.com_55232.png" alt="Server di Streaming">
+    <div class="signal"></div>
+    <button class="button">Cinema Bry</button>
+  </div>
+
+  <div class="server">
+    <img src="https://cdn.icon-icons.com/icons2/585/PNG/256/HomeServer_icon-icons.com_55232.png" alt="Server di Streaming">
+    <div class="signal"></div>
+    <button class="button">Canali Bry</button>
+  </div>
+
+
+
+   <div class="container">
+    <div class="window">
+      <div class="video"></div>
+      <div class="label">
+        <span class="live"></span>
+        <div class="quality">1080p</div>
+        
+        <div class="indicator good">Online - Funziona bene</div>
+        <div class="arrow-container">
+          <div class="arrow-bar"></div>
+          <div class="background-lines"></div>
+        </div>
+      </div>
+    </div>
+    
+   
+
+
+
+  <script>
+    // Aggiungi qui la logica per il controllo dello stato dei server e dei pulsanti
+    // Ad esempio, utilizzando JavaScript per modificare le classi dei segnali dei server e dei pulsanti
+    // in base allo stato della trasmissione.
+
+    // Esempio di codice JavaScript per cambiare lo stato dei segnali dei server e dei pulsanti:
+    var servers = document.getElementsByClassName('server');
+    var buttons = document.getElementsByClassName('button');
+
+    // Quando il server 1 è attivo
+    servers[0].classList.add('live');
+    buttons[0].classList.add('active');
+
+    // Quando il server 2 è inattivo
+    servers[1].classList.remove('live');
+    buttons[1].classList.remove('active');
+
+    // Quando il server 3 è attivo
+    servers[2].classList.add('live');
+    buttons[2].classList.add('active');
+
+    // Aggiungi qui la logica per gestire l'interazione con i pulsanti
+    // Ad esempio, utilizzando JavaScript per ascoltare gli eventi click dei pulsanti e aggiornare lo stato dei server.
+
+    // Esempio di codice JavaScript per gestire l'interazione con i pulsanti:
+    buttons[0].addEventListener('click', function() {
+      // Azioni da eseguire quando si fa clic sul pulsante del server 1
+    });
+
+    buttons[1].addEventListener('click', function() {
+      // Azioni da eseguire quando si fa clic sul pulsante del server 2
+    });
+
+    buttons[2].addEventListener('click', function() {
+      // Azioni da eseguire quando si fa clic sul pulsante del server 3
+    });
+  </script>
+  
+  
+  
+    <script>
+    // Aggiungi il valore di banda per ogni finestra
+    var bandwidthElements = document.querySelectorAll('.bandwidth');
+    var minBandwidth = 3;
+    var maxBandwidth = 5;
+    var bandwidthUpdateInterval = 4000; // 2 secondi
+
+    bandwidthElements.forEach(function(element) {
+      animateBandwidth(element);
+    });
+
+    function animateBandwidth(element) {
+      var currentBandwidth = minBandwidth;
+
+      setInterval(function() {
+        currentBandwidth += 1;
+        if (currentBandwidth > maxBandwidth) {
+          currentBandwidth = minBandwidth;
+        }
+        element.textContent = currentBandwidth + " Mbps";
+      }, bandwidthUpdateInterval);
+    }
+  </script>
+  
+</body>
+</html>

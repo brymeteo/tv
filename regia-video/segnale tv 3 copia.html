@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .dashboard {
+      
+      width: 700px;
+      height: 700px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .counter {
+      font-size: 68px;
+      color: #dddddd;
+      margin-bottom: 0px;
+      position: relative;
+    }
+
+    .counter:before {
+      content: "";
+      width: 40px;
+      height: 40px;
+      background-color: #36B37E;
+      border-radius: 50%;
+      position: absolute;
+      top: -75px;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .label {
+      font-size: 16px;
+      color: #666666;
+    }
+
+    .table {
+      width: 510px;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    .table-row {
+      height: 30px;
+    }
+
+    .table-cell {
+      padding: 5px;
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .channel-name {
+      font-weight: bold;
+    }
+
+    .status-box {
+      width: 100px;
+      height: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      color: #FFFFFF;
+      
+      
+    }
+
+    .on-air {
+      background-color: #36B37E;
+    }
+
+    .off-air {
+      background-color: #FF4D4D;
+    }
+
+    .signal {
+      width: 500px;
+      height: 30px;
+      background-color: #DDDDDD;
+      margin-top: 50px;
+      position: relative;
+       border-radius: 4px; /* Aggiungi questo */
+      
+    }
+
+    .signal-fill {
+      height: 100%;
+      background-color: #36B37E;
+      width: 0;
+       border-radius: 4px; /* Aggiungi questo */
+      
+      
+    }
+
+    .signal-text {
+      position: absolute;
+      top: -25px;
+      font-size: 20px;
+      color: #dddddd;
+      display: flex;
+      align-items: center;
+    }
+
+    .signal-symbol {
+      margin-right: 5px;
+    }
+
+    .signal-pointer {
+      width: 6px;
+      height: 20px;
+      background-color: #333333;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      animation: flicker 1s infinite;
+    }
+    
+    
+    .dashboard {
+  /* Resto del codice */
+
+  position: relative; /* Aggiungi questa linea */
+}
+
+.logo-container {
+  position: absolute;
+  bottom: 20px; /* Regola la distanza dal bordo inferiore */
+  left: 50%; /* Centra orizzontalmente */
+  transform: translateX(-50%); /* Centra orizzontalmente */
+}
+    
+    
+    
+    
+    
+    
+
+    @keyframes flicker {
+      0%, 80%, 100% {
+        opacity: 1;
+      }
+      40%, 60% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="counter">100</div>
+    <div class="label">Segnale televisivo canali</div>
+    <div class="status">
+      <br>
+    </div>
+    <div class="signal">
+      <div class="signal-fill"></div>
+      <div class="signal-text">
+        <span class="signal-symbol">&#x1F4E1;</span> <!-- Simbolo di antenna -->
+        <span class="signal-symbol">&#x1F4E0;&#xFE0E;</span> <!-- Simbolo di parabole -->
+        <span class="signal-percent"></span>
+      </div>
+   
+      
+       
+     
+      
+      
+      
+    </div>
+  </div>
+
+  <script>
+    function updateSignal(percent) {
+      const signalFill = document.querySelector('.signal-fill');
+      const signalPercent = document.querySelector('.signal-percent');
+      const counter = document.querySelector('.counter');
+
+      signalFill.style.width = percent + '%';
+      signalPercent.textContent = percent + '%';
+      counter.textContent = Math.round(percent); // Arrotonda la percentuale al valore intero più vicino
+    }
+
+    // Esempio: Aggiornamento casuale del segnale ogni 3 secondi
+    setInterval(function() {
+      const percent = Math.random() * 3 + 94; // Genera un numero casuale tra 94 e 95
+      updateSignal(percent);
+    }, 3000);
+  </script>
+</body>
+</html>
