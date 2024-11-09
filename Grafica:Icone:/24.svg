@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160px" height="160px" viewBox="0 0 160 160">
+  <defs>
+  <linearGradient id="lunGradLTN" x1="0" y1="0.05" x2="1" y2="0">
+  <stop  offset="0" style="stop-color:#FFF165"/>
+  <stop  offset="1" style="stop-color:#FECB47"/>
+  </linearGradient>   
+    <linearGradient id="nuvGrad0LTN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" style="stop-color:#505050;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#CCCCCC;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="nuvGrad1LTN" x1="21.4624" y1="61.6909" x2="137.5488" y2="61.6909">
+      <stop offset="0" style="stop-color:#FCFBF9;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#FFFEFD;stop-opacity:0.6"/>
+    </linearGradient>
+    <clipPath id="nuvOmbraLTN">
+     <path class="nuvMoLTN" d="M123.034,73.998c4.838,0.928,13.771,4.067,14.47,14.613c0.632,9.541-5.395,16.814-17.534,19.088c0,0-88.119,0-90.368,0c-2.71,0-8.139-3.278-8.139-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906S121.211,73.648,123.034,73.998Z M-20-20L-20,108L200,108L200-20Z"/>
+    </clipPath>
+    <symbol id="cloud">
+     <path d="M123.034,73.998c4.838,0.928,13.771,4.067,14.47,14.613c0.632,9.541-5.395,16.814-17.534,19.088c0,0-88.119,0-90.368,0c-2.71,0-8.139-3.278-8.139-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906S121.211,73.648,123.034,73.998" />
+    </symbol>
+  </defs>
+  <g id="luna" clip-path="url(#nuvOmbraLTN)">
+  <path fill="url(#lunGradLTN)" stroke="#FEEF67" stroke-width="3" stroke-miterlimit="10" d="M108.283,93.729 c-15.568,5.667-32.785-2.359-38.451-17.928c-5.666-15.569,2.361-32.785,17.932-38.451c0.137-0.051,0.275-0.092,0.414-0.139 c-9.607-4.302-21.055-5.119-31.719-1.238c-21.768,7.923-32.994,31.995-25.071,53.763c7.923,21.769,31.995,32.989,53.762,25.066 c10.695-3.892,18.836-11.687,23.42-21.187C108.475,93.652,108.381,93.693,108.283,93.729z"/>
+  </g>
+  <g id="Nuvola" class="nuvMoLTN">
+    <use xlink:href="#cloud" fill="url(#nuvGrad0LTN)" class="nuvAh0LTN"/>
+    <use xlink:href="#cloud" fill="url(#nuvGrad1LTN)" class="nuvAh1LTN"/>
+    <path fill="none" stroke="#d3d1cf" stroke-width="4" stroke-miterlimit="10" d="M119.97,107.699C119.97,107.699,31.851,107.699,29.602,107.699c-2.71,0-8.139,-3.278-8.139,-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906s16.573,0.479,17.534,14.999C138.136,98.152,132.109,105.426,119.97,107.699z"/>
+  </g>
+
+  <g id="Fulmine" class="fulAhLTN" >
+   <polygon class="nuvMoLTN" fill="#F9C21B" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="94,74 64,107.666 79,112.332 66.667,138.332 101.334,103 87,94.333" />
+  </g>
+
+  <style>
+    .nuvAh0LTN {
+      animation-name: nuvAlpha0LTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvAlpha0LTN {
+      0%   { opacity: 1; }
+      5%   { opacity: 0; }
+      20%, 50% { opacity: 1; }
+      54%  { opacity: 0; }
+      60%  { opacity: 1; }
+      62%  { opacity: 0; }
+      84%  { opacity: 1; }
+      87%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .nuvAh1LTN {
+      animation-name: nuvAlpha1LTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvAlpha1LTN {
+      0%   { opacity: 0; }
+      5%   { opacity: 1; }
+      20%, 50% { opacity: 0; }
+      54%  { opacity: 1; }
+      60%  { opacity: 0; }
+      62%  { opacity: 1; }
+      84%  { opacity: 0; }
+      87%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .nuvMoLTN {
+      animation-name: nuvMovesLTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvMovesLTN {
+      0%   { transform: translate(-2px, 0); }
+      52%  { transform: translate(5px, 0); }
+      100% { transform: translate(-2px, 0); }
+    }
+    .fulAhLTN {
+      animation-name: fulAlphaLTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes fulAlphaLTN {
+      0%   { opacity: 1; }
+      3%   { opacity: 0; }
+      18%  { opacity: 1; }
+      48%  { opacity: 1; }
+      52%  { opacity: 0; }
+      58%  { opacity: 1; }
+      60%  { opacity: 0; }
+      82%  { opacity: 1; }
+      85%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</svg>

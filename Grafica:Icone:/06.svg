@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160px" height="160px" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="solGradB" x1="0" x2="1" y1="0.05" y2="0">
+      <stop offset="0%" stop-color="#fbc224"/>
+      <stop offset="14%" stop-color="#fbc224"/>
+      <stop offset="42%" stop-color="#FA9C2E"/>
+      <stop offset="58%" stop-color="#FA9C2E"/>
+      <stop offset="86%" stop-color="#fbc224"/>
+      <stop offset="100%" stop-color="#fbc224"/>
+    </linearGradient>
+    <clipPath id="solDiscoB">
+      <circle cx="81.3" cy="77.3" r="42.2"/>
+    </clipPath>
+    <symbol id="fog" >
+      <path fill="#EFEFEF" d="M55.333,60.667c0-2.394-1.94-4.333-4.333-4.333H26.667c-2.394,0-4.333,1.94-4.333,4.333l0,0c0,2.393,1.94,4.333,4.333,4.333H51C53.394,65,55.333,63.06,55.333,60.667L55.333,60.667z"/>
+    </symbol>
+  </defs>
+  <g clip-path="url(#solDiscoB)"> 
+    <rect class="solDiscMoB" x="10" y="35" width="640" height="85" fill="url(#solGradB)" />
+  </g>
+  <g class="ghieraMoB ghieraB" > 
+    <path opacity="0.8" d="M127.406,77.329c0-25.481-20.662-46.14-46.139-46.14c-25.483,0-46.143,20.658-46.143,46.14c0,25.482,20.66,46.138,46.143,46.138C106.744,123.467,127.406,102.811,127.406,77.329z"/>
+    <path opacity="0.3" d="M132.021,77.329c0-28.03-22.729-50.754-50.753-50.754c-28.031,0-50.757,22.724-50.757,50.754c0,28.029,22.726,50.751,50.757,50.751C109.292,128.08,132.021,105.357,132.021,77.329z"/>
+    <path opacity="0.05" d="M137.097,77.329c0-30.834-25.002-55.829-55.829-55.829c-30.834,0-55.832,24.995-55.832,55.829c0,30.831,24.998,55.825,55.832,55.825C112.095,133.154,137.097,108.16,137.097,77.329z"/>
+  </g>
+  <use xlink:href="#fog" class="fogMo1B"/>
+  <use xlink:href="#fog" class="fogMo1B" x="37"/>
+  <use xlink:href="#fog" class="fogMo1B" x="74"/>
+  <use xlink:href="#fog" class="fogMo2B" x="10" y="18"/>
+  <use xlink:href="#fog" class="fogMo2B" x="47" y="18"/>
+  <use xlink:href="#fog" class="fogMo2B" x="84" y="18"/>
+  <use xlink:href="#fog" class="fogMo1B" y="36"/>
+  <use xlink:href="#fog" class="fogMo1B" x="37" y="36"/>
+  <use xlink:href="#fog" class="fogMo1B" x="74" y="36"/>
+  <style>
+    .solDiscMoB {
+      animation-name: solDiscMovesB;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes solDiscMovesB {
+      0%   { transform: translate(32px); }
+      100% { transform: translate(-516.5px); }
+    }
+    .ghieraB {display: inline; fill: none; stroke: #ED6E30; stroke-width: 2.5; stroke-miterlimit: 10;}
+    .ghieraMoB {
+      animation-name: ghieraMovesB;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes ghieraMovesB {
+      0%   { opacity: 0; }
+      10%   { opacity: 0; }
+      45%   { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .fogMo1B {
+      animation-name: fogMoves1B;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes fogMoves1B {
+      0%   { transform: translate(-5px); }
+      52%  { transform: translate(10px); }
+      100% { transform: translate(-5px); }
+    }
+    .fogMo2B {
+      animation-name: fogMoves2B;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes fogMoves2B {
+      0%   { transform: translate(5px); }
+      52%  { transform: translate(-10px); }
+      100% { transform: translate(5px); }
+    }
+  </style>
+</svg>
