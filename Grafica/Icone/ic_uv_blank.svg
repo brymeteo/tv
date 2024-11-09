@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="40px" viewBox="0 0 22 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_uv</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="22" height="40" rx="4"></rect>
+        <linearGradient x1="51.7206134%" y1="60.0026655%" x2="50%" y2="37.5%" id="linearGradient-3">
+            <stop stop-color="#FF4700" stop-opacity="0.774120411" offset="0%"></stop>
+            <stop stop-color="#FFD325" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-1440px" stroke="none" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd">
+        <g id="ic_uv">
+            <g id="Path">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <rect stroke="#C7C7C7" x="0.5" y="0.5" width="21" height="39" rx="4"></rect>
+                <path d="M26,0 C26,8.2844976 19.2836785,15 10.9997694,15 C2.71586035,15 -4,8.2844976 -4,0" id="Path-3" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M7.50289495,11 C9.63937138,11 11,9.83243243 11,8.10810811 L11,3 L9.25144748,3 L9.25144748,7.95135135 C9.25144748,8.95135135 8.62034739,9.6 7.50289495,9.6 C6.38544251,9.6 5.74855252,8.95135135 5.74855252,7.95135135 L5.74855252,3 L4,3 L4,8.10810811 C4,9.83243243 5.36641853,11 7.50289495,11 Z M16.476012,11 L19,3 L17.2946027,3 L15.6049475,9.17047817 L15.5104948,9.17047817 L13.7893553,3 L12,3 L14.5607196,11 L16.476012,11 Z" id="UV" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
