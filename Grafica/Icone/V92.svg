@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160px" height="160px" viewBox="0 0 160 160">
+	
+        <g id="headV52" class="headmoV52">
+	<polygon fill="#FFCF05" points="52.557,55.88 80.113,8.155 107.665,55.879 		"/>
+	</g>	
+        <g id="tailV52">
+        <polygon fill="#FFCF05" points="52.642,140.553 52.642,152.553 74.474,152.553 74.476,152.553 85.547,152.553 85.547,55.881 
+			74.474,55.881 74.476,119.176 52.644,119.176 52.644,131.175 74.476,131.175 74.474,140.553 		"/>
+	</g>
+<style>
+.headmoV52 {
+      animation-name: headMoveV52;
+      animation-duration:2s;
+      animation-iteration-count: infinite;
+    }
+   @keyframes headMoveV52 {
+      0%   { transform: translateY(0); }
+      52%  { transform: translateY(34px); }
+      100% { transform: translateY(0); }
+    }
+</style>
+</svg>
