@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="160px" height="160px" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="solGradTN" x1="0" x2="1" y1="0.05" y2="0">
+      <stop offset="0%" stop-color="#fbc224"/>
+      <stop offset="14%" stop-color="#fbc224"/>
+      <stop offset="42%" stop-color="#FA9C2E"/>
+      <stop offset="58%" stop-color="#FA9C2E"/>
+      <stop offset="86%" stop-color="#fbc224"/>
+      <stop offset="100%" stop-color="#fbc224"/>
+    </linearGradient>
+    <linearGradient id="nuvGrad0TN" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" style="stop-color:#505050;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#CCCCCC;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="nuvGrad1TN" x1="21.4624" y1="61.6909" x2="137.5488" y2="61.6909">
+      <stop offset="0" style="stop-color:#FCFBF9;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#FFFEFD;stop-opacity:0.6"/>
+    </linearGradient>
+    <clipPath id="solDiscoTN">
+      <circle cx="81.3" cy="77.3" r="42.2"/>
+    </clipPath>
+    <clipPath id="nuvOmbraTN">
+     <path class="nuvMoTN" d="M123.034,73.998c4.838,0.928,13.771,4.067,14.47,14.613c0.632,9.541-5.395,16.814-17.534,19.088c0,0-88.119,0-90.368,0c-2.71,0-8.139-3.278-8.139-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906S121.211,73.648,123.034,73.998Z M-20-20L-20,108L200,108L200-20Z"/>
+    </clipPath>
+    <symbol id="cloud">
+     <path d="M123.034,73.998c4.838,0.928,13.771,4.067,14.47,14.613c0.632,9.541-5.395,16.814-17.534,19.088c0,0-88.119,0-90.368,0c-2.71,0-8.139-3.278-8.139-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906S121.211,73.648,123.034,73.998" />
+    </symbol>
+  </defs>
+
+  <g id="Sole" clip-path="url(#nuvOmbraTN)">
+    <g clip-path="url(#solDiscoTN)"> 
+      <rect class="solDiscMoTN" x="10" y="35" width="640" height="85" fill="url(#solGradTN)" />
+    </g>
+    <g class="ghieraMoTN ghieraTN" > 
+      <path opacity="0.8" d="M127.406,77.329c0-25.481-20.662-46.14-46.139-46.14c-25.483,0-46.143,20.658-46.143,46.14c0,25.482,20.66,46.138,46.143,46.138C106.744,123.467,127.406,102.811,127.406,77.329z"/>
+      <path opacity="0.3" d="M132.021,77.329c0-28.03-22.729-50.754-50.753-50.754c-28.031,0-50.757,22.724-50.757,50.754c0,28.029,22.726,50.751,50.757,50.751C109.292,128.08,132.021,105.357,132.021,77.329z"/>
+      <path opacity="0.05" d="M137.097,77.329c0-30.834-25.002-55.829-55.829-55.829c-30.834,0-55.832,24.995-55.832,55.829c0,30.831,24.998,55.825,55.832,55.825C112.095,133.154,137.097,108.16,137.097,77.329z"/>
+  </g>
+  </g>
+
+  <g id="Nuvola" class="nuvMoTN">
+    <use xlink:href="#cloud" fill="url(#nuvGrad0TN)" class="nuvAh0TN"/>
+    <use xlink:href="#cloud" fill="url(#nuvGrad1TN)" class="nuvAh1TN"/>
+    <path fill="none" stroke="#d3d1cf" stroke-width="4" stroke-miterlimit="10" d="M119.97,107.699C119.97,107.699,31.851,107.699,29.602,107.699c-2.71,0-8.139,-3.278-8.139,-10.237c0-13.165,14.885-11.579,14.885-11.579s-2.991-9.745,5.396-17.725c10.799-10.279,25.625-2.728,25.625-2.728s7.208-18.492,26.975-17.725c23.415,0.91,25.627,25.906,25.627,25.906s16.573,0.479,17.534,14.999C138.136,98.152,132.109,105.426,119.97,107.699z"/>
+  </g>
+
+  <g id="Fulmine" class="fulAhTN" >
+   <polygon class="nuvMoTN" fill="#F9C21B" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="94,74 64,107.666 79,112.332 66.667,138.332 101.334,103 87,94.333" />
+  </g>
+
+  <style>
+    .solDiscMoTN {
+      animation-name: solDiscMovesTN;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes solDiscMovesTN {
+      0%   { transform: translate(32px); }
+      100% { transform: translate(-516.5px); }
+    }
+    .ghieraTN {display: inline; fill: none; stroke: #ED6E30; stroke-width: 2.5; stroke-miterlimit: 10;}
+    .ghieraMoTN {
+      animation-name: ghieraMovesTN;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes ghieraMovesTN {
+       0%   { opacity: 0; }
+      10%   { opacity: 0; }
+      45%   { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .nuvAh0TN {
+      animation-name: nuvAlpha0TN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvAlpha0TN {
+      0%   { opacity: 1; }
+      5%   { opacity: 0; }
+      20%, 50% { opacity: 1; }
+      54%  { opacity: 0; }
+      60%  { opacity: 1; }
+      62%  { opacity: 0; }
+      84%  { opacity: 1; }
+      87%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .nuvAh1TN {
+      animation-name: nuvAlpha1TN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvAlpha1TN {
+      0%   { opacity: 0; }
+      5%   { opacity: 1; }
+      20%, 50% { opacity: 0; }
+      54%  { opacity: 1; }
+      60%  { opacity: 0; }
+      62%  { opacity: 1; }
+      84%  { opacity: 0; }
+      87%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .nuvMoTN {
+      animation-name: nuvMovesTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes nuvMovesTN {
+      0%   { transform: translate(-2px, 0); }
+      52%  { transform: translate(5px, 0); }
+      100% { transform: translate(-2px, 0); }
+    }
+    .fulAhTN {
+      animation-name: fulAlphaTN;
+      animation-duration: 1320ms;
+      animation-iteration-count: infinite;
+    }
+    @keyframes fulAlphaTN {
+      0%   { opacity: 1; }
+      3%   { opacity: 0; }
+      18%  { opacity: 1; }
+      48%  { opacity: 1; }
+      52%  { opacity: 0; }
+      58%  { opacity: 1; }
+      60%  { opacity: 0; }
+      82%  { opacity: 1; }
+      85%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</svg>

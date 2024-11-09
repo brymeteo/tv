@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="160px" height="160px" viewBox="0 0 160 160">
+  <g id="luna">
+<linearGradient id="lunGradL" x1="0" y1="0.05" x2="1" y2="0">
+<stop  offset="0" style="stop-color:#FFF165"/>
+<stop  offset="1" style="stop-color:#FECB47"/>
+</linearGradient>
+<path fill="url(#lunGradL)" stroke="#FEEF67" stroke-width="3" stroke-miterlimit="10" d="M122.283,96.729
+c-15.568,5.667-32.785-2.359-38.451-17.928c-5.667-15.569,2.361-32.785,17.932-38.451c0.137-0.051,0.275-0.092,0.414-0.139
+c-9.607-4.302-21.055-5.119-31.718-1.238c-21.769,7.923-32.994,31.995-25.071,53.763c7.923,21.769,31.994,32.989,53.762,25.066
+c10.695-3.892,18.836-11.687,23.42-21.187C122.475,96.652,122.381,96.693,122.283,96.729z"/>
+</g>
+  <style>
+    .lunDiscMoL {
+      animation-name: lunDiscMovesL;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes lunDiscMovesL {
+      0%   { transform: translate(32px); }
+      100% { transform: translate(-516.5px); }
+    }
+  </style>
+</svg>
