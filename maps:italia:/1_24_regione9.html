@@ -117,21 +117,22 @@
   const response = await fetch(url);
   const data = await response.json();
 
-  // Imposta la data per oggi alle 15:00 (pomeriggio)
-  const oggi = new Date();
-  oggi.setHours(22, 0, 0, 0);  // Imposta l'ora a 15:00
+  // Imposta la data per domani alle 15:00 (pomeriggio)
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(1, 0, 0, 0);  // Cambia l'ora a 15:00 per ottenere la previsione del pomeriggio
 
-  // Cerca la previsione per oggi alle 15:00
+  // Cerca la previsione per domani alle 15:00
   const forecast = data.list.find(item => {
     const forecastDate = new Date(item.dt * 1000);
-    return forecastDate.getDate() === oggi.getDate() && forecastDate.getHours() === 22;
+    return forecastDate.getDate() === tomorrow.getDate() && forecastDate.getHours() === 1;
   });
 
   // Usa un fallback in caso di assenza del dato esatto
   const selectedForecast = forecast || data.list[0];
 
   // Determina se è di giorno o notte
-  const currentHour = oggi.getHours();
+  const currentHour = tomorrow.getHours();
   let iconCode = selectedForecast.weather[0].icon;
 
   // Se l'orario è tra le 6:00 e le 18:00, usa l'icona diurna
