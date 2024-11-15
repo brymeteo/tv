@@ -112,27 +112,27 @@
     { name: "Oltre il Colle", lat: 45.8843, lon: 9.7547, x: 48, y: 38 }
   ];
 
- async function fetchWeatherData(lat, lon) {
+async function fetchWeatherData(lat, lon) {
   const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=it`;
   const response = await fetch(url);
   const data = await response.json();
 
-  // Imposta la data per tra 4 giorni alle 19:00
-  const traQuattroGiorni = new Date();
-  traQuattroGiorni.setDate(traQuattroGiorni.getDate() + 4);  // Aggiungi 4 giorni
-  traQuattroGiorni.setHours(22, 0, 0, 0);  // Imposta l'ora a 19:00
+  // Imposta la data per tra 5 giorni alle 19:00
+  const traCinqueGiorni = new Date();
+  traCinqueGiorni.setDate(traCinqueGiorni.getDate() + 5);  // Aggiungi 5 giorni
+  traCinqueGiorni.setHours(1, 0, 0, 0);  // Imposta l'ora a 19:00
 
-  // Cerca la previsione per tra 4 giorni alle 19:00
+  // Cerca la previsione per tra 5 giorni alle 19:00
   const forecast = data.list.find(item => {
     const forecastDate = new Date(item.dt * 1000);
-    return forecastDate.getDate() === traQuattroGiorni.getDate() && forecastDate.getHours() === 22;
+    return forecastDate.getDate() === traCinqueGiorni.getDate() && forecastDate.getHours() === 1;
   });
 
   // Usa un fallback in caso di assenza del dato esatto
   const selectedForecast = forecast || data.list[0];
 
   // Determina se è di giorno o notte
-  const currentHour = traQuattroGiorni.getHours();
+  const currentHour = traCinqueGiorni.getHours();
   let iconCode = selectedForecast.weather[0].icon;
 
   // Se l'orario è tra le 6:00 e le 18:00, usa l'icona diurna
@@ -150,6 +150,7 @@
   // Ritorna i dati della previsione e l'icona corretta
   return { ...selectedForecast, icon: iconCode };
 }
+
 
 
 
