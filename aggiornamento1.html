@@ -1,51 +1,86 @@
 <!DOCTYPE html>
 <html>
-<style>
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
+<head>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 100%;
-  background-color: #1462A6;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 33%;
-  margin-left: -70px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 100%;
+      background-color: #1462A6;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 33%;
+      margin-left: -70px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-</style>
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
 
-
-<div class="tooltip"><span style="color: #1462A6; font-family: arial;">Ultimo aggiornamento: 15 febbraio ore 03:00
-</span></div>
-
+<div class="tooltip">
+  <span style="color: #1462A6; font-family: arial;">
+    Ultimo aggiornamento: <span id="update-time">15 novembre ore 01:00</span>
+  </span>
 </div>
+
+<script>
+  function updateDateTime() {
+    // Otteniamo l'ora corrente
+    const now = new Date();
+    
+    // Iniziamo da un'ora di riferimento, per esempio le 01:00
+    let hours = 1;
+    let minutes = 0;
+    
+    // Calcoliamo le 3 ore più vicine all'ora corrente
+    const currentTime = now.getTime();
+    const interval = 3 * 60 * 60 * 1000; // 3 ore in millisecondi
+    
+    // Determina quale "ora di aggiornamento" è più vicina
+    const lastUpdate = Math.floor(currentTime / interval) * interval;
+    
+    // Calcoliamo l'ora di aggiornamento finale in base all'intervallo
+    const lastUpdateTime = new Date(lastUpdate);
+    
+    // Formattiamo data e ora
+    const formattedDate = lastUpdateTime.toLocaleDateString('it-IT', { day: 'numeric', month: 'long' });
+    const formattedTime = lastUpdateTime.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+    
+    // Aggiorniamo il contenuto
+    document.getElementById("update-time").textContent = `${formattedDate} ore ${formattedTime}`;
+  }
+
+  // Aggiorna l'ora all'inizio e poi ogni 3 ore
+  updateDateTime();
+  setInterval(updateDateTime, 10800000); // 3 ore in millisecondi
+</script>
 
 </body>
 </html>
