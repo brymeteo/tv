@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_rain_low_40px</title>
+    <defs>
+        <linearGradient x1="66.7590028%" y1="75.7294004%" x2="33.2409972%" y2="24.2389356%" id="linearGradient-1">
+            <stop stop-color="#AAD1E3" offset="0%"></stop>
+            <stop stop-color="#A1C4FD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ic_rain_low_40px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+        <g id="Goccia-Copy" transform="translate(15.000000, 11.000000)" fill="url(#linearGradient-1)">
+            <path d="M0,12.6458505 C0,18.0292909 4.02388621,19 5.5,19 C6.97611379,19 11,18.0292909 11,12.6458505 C11,7.26149161 5.5,0 5.5,0 C5.5,0 0,7.26149161 0,12.6458505 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>
