@@ -121,12 +121,12 @@
     // Calcola la data di dopodomani
     const quattroGiorni = new Date();
     quattroGiorni.setDate(quattroGiorni.getDate() + 4); // Aggiungi 2 giorni per ottenere dopodomani
-    quattroGiorni.setHours(1, 0, 0, 0); // Imposta l'ora a mezzanotte (UTC)
+    quattroGiorni.setHours(4, 0, 0, 0); // Imposta l'ora a mezzanotte (UTC)
 
     // Trova la previsione per dopodomani, ad esempio alle 12:00 (ora locale)
     const forecast = data.list.find(item => {
         const forecastDate = new Date(item.dt * 1000); // Converti UNIX in data
-        return forecastDate.getDate() === quattroGiorni.getDate() && forecastDate.getHours() === 1;
+        return forecastDate.getDate() === quattroGiorni.getDate() && forecastDate.getHours() === 4;
     });
 
     // Usa un fallback se non trovi la previsione
