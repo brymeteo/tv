@@ -1,70 +1,3 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-    <title>Previsioni Orarie Lombardia</title>
-    <style>
-        .weather-widget-container {
-            max-width: 100%;
-            font-family: Arial, sans-serif;
-            border-radius: 10px;
-            border: 1px solid #ccc;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            background: white;
-            padding: 15px;
-            position: relative;
-        }
-        .weather-widget-header {
-            background: #1462A6;
-            color: white;
-            padding: 10px;
-            border-radius: 8px;
-            margin: 0 0 10px 0;
-            text-align: center;
-        }
-        .weather-location-select {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 10px;
-        }
-        .weather-location-select select {
-            padding: 10px;
-            font-size: 16px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        .weather-chart-container {
-            width: 100%;
-            height: 400px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="weather-widget-container">
-    <h3 class="weather-widget-header">Previsioni Meteo Lombardia</h3>
-    <div class="weather-location-select">
-        <select id="location-select">
-            <option value="3173435">Milano</option>
-            <option value="3164699">Varese</option>
-            <option value="3178229">Como</option>
-            <option value="3174945">Lecco</option>
-            <option value="3166397">Sondrio</option>
-            <option value="3182164">Bergamo</option>
-            <option value="3172629">Monza</option>
-            <option value="3181554">Brescia</option>
-            <option value="3174638">Lodi</option>
-            <option value="3171366">Pavia</option>
-            <option value="3177838">Cremona</option>
-            <option value="3174051">Mantova</option>
-        </select>
-    </div>
-    <div id="weather-chart" class="weather-chart-container"></div>
-</div>
-
-<script>
 const apiKey = 'bd5e378503939ddaee76f12ad7a97608';
 const locationSelect = document.getElementById('location-select');
 
@@ -171,8 +104,3 @@ locationSelect.addEventListener('change', async () => {
 window.onload = function() {
     initializeWidget();
 };
-
-</script>
-
-</body>
-</html>
