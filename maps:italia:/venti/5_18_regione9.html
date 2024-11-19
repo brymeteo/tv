@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -102,32 +103,70 @@
   ];
   
   
-    const windDirectionIcons = {
-    "Nord": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V91.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V92.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V93.svg" },
-    "Nord-Est": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V111.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V112.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V113.svg" },
-    "Est": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V131.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V132.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V133.svg" },
-    "Sud-Est": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V151.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V152.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V153.svg" },
-    "Sud": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V11.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V12.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V13.svg" },
-    "Sud-Ovest": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V31.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V32.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V33.svg" },
-    "Ovest": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V51.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V52.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V53.svg" },
-    "Nord-Ovest": { "Debole": "https://brymeteo.github.io/tv/Grafica/Icone/V71.svg", "Moderato": "https://brymeteo.github.io/tv/Grafica/Icone/V72.svg", "Forte": "https://brymeteo.github.io/tv/Grafica/Icone/V73.svg" }
-  };
-  
-  
-   function getWindIntensity(speed) {
-    if (speed < 15) return "Debole";
-    if (speed < 50) return "Moderato";
-    return "Forte";
-  }
+  // Mappa delle icone del vento per direzione e intensità (debole, moderato, forte)
+        const windDirectionIcons = {
+            'Nord': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V91.svg',   // Debole
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V92.svg', // Moderato
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V93.svg'    // Forte
+            },
+            'Nord-Est': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V111.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V112.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V113.svg'
+            },
+            'Est': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V131.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V132.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V133.svg'
+            },
+            'Sud-Est': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V151.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V152.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V153.svg'
+            },
+            'Sud': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V11.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V12.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V13.svg'
+            },
+            'Sud-Ovest': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V31.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V32.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V33.svg'
+            },
+            'Ovest': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V51.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V52.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V53.svg'
+            },
+            'Nord-Ovest': {
+                'Debole': 'https://brymeteo.github.io/tv/Grafica/Icone/V71.svg',
+                'Moderato': 'https://brymeteo.github.io/tv/Grafica/Icone/V72.svg',
+                'Forte': 'https://brymeteo.github.io/tv/Grafica/Icone/V73.svg'
+            }
+        };
 
-  function getWindDirection(degrees) {
-    const directions = ["Nord", "Nord-Est", "Est", "Sud-Est", "Sud", "Sud-Ovest", "Ovest", "Nord-Ovest"];
-    const index = Math.floor((degrees + 22.5) / 45) % 8;
-    return directions[index];
-  }
   
+ function getWindIntensity(speedKmh) {
+    if (speedKmh < 15) {
+        return 'Debole';
+    } else if (speedKmh >= 15 && speedKmh < 50) {
+        return 'Moderato';
+    } else {
+        return 'Forte';
+    }
+}
 
-  async function fetchWeatherData(lat, lon) {
+
+        // Funzione per convertire i gradi in punti cardinali
+        function getWindDirection(degrees) {
+            const directions = ['Nord', 'Nord-Est', 'Est', 'Sud-Est', 'Sud', 'Sud-Ovest', 'Ovest', 'Nord-Ovest'];
+            const index = Math.floor((degrees + 22.5) / 45);
+            return directions[index % 8];
+        }
+
+async function fetchWeatherData(lat, lon) {
   const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=it`;
   const response = await fetch(url);
   const data = await response.json();
@@ -175,8 +214,9 @@
       const data = await fetchWeatherData(location.lat, location.lon);
 
       // Calcola direzione e intensità del vento
+      const windSpeedKmh = data.wind.speed * 3.6;
       const windDirection = getWindDirection(data.wind.deg);
-      const windIntensity = getWindIntensity(data.wind.speed);
+      const windIntensity = getWindIntensity(windSpeedKmh);
       const windIconUrl = windDirectionIcons[windDirection][windIntensity];
 
       const weatherContainer = document.createElement("div");
