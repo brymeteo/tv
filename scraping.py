@@ -32,8 +32,8 @@ def scrape_epg(url):
         print(f"Nessun contenitore trovato per {url}")
         return []
     
-    # Troviamo tutti i programmi all'interno di questo contenitore
-    programmi = container.find_all('div', class_='program-item')  # Modifica la classe in base alla struttura effettiva
+    # Troviamo tutti i div con la classe 'row' che contengono i programmi
+    programmi = container.find_all('div', class_='row')  # Ora cerchiamo la classe 'row'
     
     dati_programmi = []
     
