@@ -96,12 +96,12 @@ def scrape_epg(url, canale_info):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora
+    # Per l'ultimo programma, ipotizza una durata di 1 ora togliendo un'ora
     if dati_programmi:
         ultimo_programma = dati_programmi[-1]
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)
+            orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
             ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
         except ValueError:
             ultimo_programma['end'] = "Ora non disponibile"
