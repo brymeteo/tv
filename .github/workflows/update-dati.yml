@@ -1,0 +1,38 @@
+name: Aggiorna Dati con Python
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Esegui ogni giorno a mezzanotte UTC
+  push:
+    branches:
+      - main  # Trigger quando fai push sul branch main
+
+jobs:
+  update-dati:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout codice
+      uses: actions/checkout@v2
+
+    - name: Impostare Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Installare dipendenze
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Esegui il codice di scraping
+      run: |
+        python scraping.py  # Nome del tuo script Python
+
+    - name: Aggiungi e Pusha il risultato
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add dati_programmi.json
+        git commit -m "Aggiorna i dati EPG"
+        git push
