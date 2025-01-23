@@ -5,14 +5,14 @@ import datetime
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
-    'rai-premium': 'https://guidatv.org/canali/rai-premium',
-    'rai-1': 'https://guidatv.org/canali/rai-1',
-    'canale-5': 'https://guidatv.org/canali/canale-5',
+    'rai-premium': {'url': 'https://guidatv.org/canali/rai-premium', 'name': 'Rai Premium', 'id': 'rai-premium', 'epgName': 'Rai Premium'},
+    'rai-1': {'url': 'https://guidatv.org/canali/rai-1', 'name': 'Rai 1', 'id': 'rai-1', 'epgName': 'Rai 1'},
+    'canale-5': {'url': 'https://guidatv.org/canali/canale-5', 'name': 'Canale 5', 'id': 'canale-5', 'epgName': 'Canale 5'},
     # Aggiungi altri canali qui
 }
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
-def scrape_epg(url):
+def scrape_epg(url, canale_info):
     # Ottieni il contenuto della pagina
     response = requests.get(url)
     
@@ -65,11 +65,14 @@ def scrape_epg(url):
         
         # Creiamo un dizionario con i dati del programma
         programma_data = {
+            'id': canale_info['id'],  # Aggiungi l'ID del canale
+            'name': canale_info['name'],  # Nome del canale
+            'epgName': canale_info['epgName'],  # Nome per l'EPG
             'titolo': titolo,
             'orario_inizio': orario_inizio,
             'descrizione': descrizione,
             'poster_url': poster_url,
-            'canale': url,  # Aggiungi il nome del canale (o URL) ai dati
+            'canale': canale_info['url'],  # Aggiungi l'URL del canale
             'data': str(datetime.datetime.now())  # Data e ora di esecuzione
         }
         
@@ -91,16 +94,16 @@ def main():
     tutti_dati_programmi = []
     
     # Itera su ogni URL della lista dei canali
-    for nome_canale, url in canali_urls.items():
-        print(f"Raccogliendo dati da {nome_canale}...")
+    for canale_id, canale_info in canali_urls.items():
+        print(f"Raccogliendo dati da {canale_info['name']}...")
         
         # Esegui lo scraping dei dati per il canale corrente
-        dati_canale = scrape_epg(url)
+        dati_canale = scrape_epg(canale_info['url'], canale_info)
         
         if dati_canale:
             tutti_dati_programmi.extend(dati_canale)
         else:
-            print(f"Nessun dato trovato per il canale {nome_canale}.")
+            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
     
     # Se abbiamo dei dati, salvali nel file JSON
     if tutti_dati_programmi:
