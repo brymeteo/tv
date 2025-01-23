@@ -55,24 +55,24 @@ def scrape_epg(url, canale_info):
         if orario_inizio == "Ora non disponibile":
             continue
         
+        # Calcolare la data e ora di inizio
+        orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
+        orario_inizio_str = orario_inizio_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+        
         # Orario di fine: usiamo l'orario di inizio del programma successivo
         if i + 1 < len(programmi):
             prossimo_programma = programmi[i + 1]
             prossimo_orario_inizio = prossimo_programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
             prossimo_orario_inizio = prossimo_orario_inizio.get_text(strip=True) if prossimo_orario_inizio else "Ora non disponibile"
+            
+            if prossimo_orario_inizio != "Ora non disponibile":
+                # Calcolare l'orario di fine usando l'inizio del prossimo programma
+                prossimo_orario_inizio_obj = datetime.datetime.strptime(prossimo_orario_inizio, "%H:%M")
+                orario_fine_str = prossimo_orario_inizio_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+            else:
+                orario_fine_str = orario_inizio_str  # Se non c'è un programma successivo, la fine è uguale all'inizio
         else:
-            prossimo_orario_inizio = None  # L'ultimo programma non ha un successivo, quindi non ha un orario di fine
-        
-        # Calcolare la data e ora di fine se l'orario di inizio del prossimo programma è disponibile
-        if prossimo_orario_inizio and prossimo_orario_inizio != "Ora non disponibile":
-            try:
-                orario_fine_obj = datetime.datetime.strptime(prossimo_orario_inizio, "%H:%M")
-                orario_fine = orario_fine_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
-            except ValueError:
-                orario_fine = None
-        else:
-            # Se non c'è un orario di fine valido, manteniamo l'orario di inizio come fine
-            orario_fine = None
+            orario_fine_str = orario_inizio_str  # Per l'ultimo programma, usiamo l'inizio come fine
         
         # Poster immagine
         poster_url = programma.find('img')
@@ -88,7 +88,7 @@ def scrape_epg(url, canale_info):
         
         # Creiamo un dizionario con i dati del programma
         programma_data = {
-            'start': f"2025-01-23T{orario_inizio}:00.000000Z",  # Data di esempio, puoi sostituirla con la data attuale
+            'start': orario_inizio_str,
             'title': titolo,
             'description': descrizione,
             'category': "Categoria non disponibile",  # Aggiungere una categoria predefinita o modificarla
@@ -96,11 +96,8 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
         
-        # Impostiamo l'orario di fine se è stato trovato
-        if orario_fine:
-            programma_data['end'] = orario_fine
-        else:
-            programma_data['end'] = programma_data['start']  # Se non c'è un orario di fine, la data di fine è la stessa di inizio
+        # Impostiamo l'orario di fine
+        programma_data['end'] = orario_fine_str
         
         # Aggiungiamo i dati alla lista, ma solo se non è già presente
         if programma_data not in dati_programmi:
