@@ -43,10 +43,15 @@ def get_descrizione_superguidatv(url_programma):
     # Parsing HTML con BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
 
+    # Debug: stampa il contenuto della pagina per vedere come è strutturata
+    # print(soup.prettify())
+
     # Trova la descrizione del programma
     descrizione_div = soup.find('div', class_='sgtvdetails_divContentText')
     if descrizione_div:
         return descrizione_div.get_text(strip=True)
+    
+    print(f"Descrizione non trovata per {url_programma}")
     return "Descrizione non disponibile"
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
@@ -103,6 +108,7 @@ def scrape_epg(url, canale_info):
         if programma_link and 'onclick' in programma_link.attrs:
             # Estrai l'URL tramite il codice onclick
             link_programma = programma_link.attrs['onclick'].split("'")[1]
+            print(f"Link programma: {link_programma}")  # Debug: stampa il link
             descrizione_superguidatv = get_descrizione_superguidatv(link_programma)
         else:
             descrizione_superguidatv = "Descrizione dettagliata non disponibile"
