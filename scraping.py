@@ -24,20 +24,35 @@ def scrape_epg(url):
     # Usa BeautifulSoup per fare il parsing del contenuto HTML
     soup = BeautifulSoup(response.content, 'html.parser')
     
-    # Trova i contenitori che contengono le informazioni sui programmi (modifica a seconda del sito)
-    programmi = soup.find_all('div', class_='program-list')  # Esempio, modifica per adattarlo al sito
+    # Trova il contenitore principale che ha la classe 'container mt-2'
+    container = soup.find('div', class_='container mt-2')
+    
+    # Se non troviamo il contenitore, interrompiamo l'esecuzione
+    if not container:
+        print(f"Nessun contenitore trovato per {url}")
+        return []
+    
+    # Troviamo tutti i programmi all'interno di questo contenitore
+    programmi = container.find_all('div', class_='program-item')  # Modifica la classe in base alla struttura effettiva
     
     dati_programmi = []
     
     # Esegui un loop per raccogliere informazioni su ogni programma
     for programma in programmi:
-        titolo = programma.find('span', class_='title').get_text(strip=True)
-        orario_inizio = programma.find('span', class_='start-time').get_text(strip=True)
-        orario_fine = programma.find('span', class_='end-time').get_text(strip=True)
-        descrizione = programma.find('p', class_='description').get_text(strip=True)
-        poster_url = programma.find('img')['src']  # URL del poster immagine
+        titolo = programma.find('span', class_='title')
+        orario_inizio = programma.find('span', class_='start-time')
+        orario_fine = programma.find('span', class_='end-time')
+        descrizione = programma.find('p', class_='description')
+        poster_url = programma.find('img')
         
-        # Creiamo un dizionario con i dati
+        # Se qualche dato non è trovato, assegna un valore di default
+        titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+        orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else "Ora non disponibile"
+        orario_fine = orario_fine.get_text(strip=True) if orario_fine else "Ora non disponibile"
+        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
+        poster_url = poster_url['src'] if poster_url else "URL poster non disponibile"
+        
+        # Creiamo un dizionario con i dati del programma
         programma_data = {
             'titolo': titolo,
             'orario_inizio': orario_inizio,
