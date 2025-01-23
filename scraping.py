@@ -55,13 +55,13 @@ def scrape_epg(url, canale_info):
         if orario_inizio == "Ora non disponibile":
             continue
         
-        # Orario di fine: aggiungiamo 1 ora all'orario di inizio (approssimativo)
+        # Orario di fine: aggiungiamo 1 ora all'orario di inizio (approssimativo), solo se l'orario di inizio è valido
         try:
             orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
             orario_fine_obj = orario_inizio_obj + datetime.timedelta(hours=1)  # Supponiamo che ogni programma duri 1 ora
-            orario_fine = orario_fine_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+            orario_fine = orario_fine_obj.strftime("%H:%M")  # Solo ora e minuti
         except ValueError:
-            orario_fine = "Ora non disponibile"
+            orario_fine = None  # Non assegnamo nulla se l'orario di fine non è valido
         
         # Poster immagine
         poster_url = programma.find('img')
@@ -78,13 +78,22 @@ def scrape_epg(url, canale_info):
         # Creiamo un dizionario con i dati del programma
         programma_data = {
             'start': f"2025-01-23T{orario_inizio}:00.000000Z",  # Data di esempio, puoi sostituirla con la data attuale
-            'end': orario_fine,
             'title': titolo,
             'description': descrizione,
             'category': "Categoria non disponibile",  # Aggiungere una categoria predefinita o modificarla
             'poster': poster_url,
             'channel': canale_info['id']
         }
+        
+        # Se l'orario di fine è valido, correggiamo la data di fine
+        if orario_fine:
+            # La data di fine deve essere la stessa di quella di inizio, ma aggiungiamo il controllo per la mezzanotte
+            orario_fine_obj_corrected = orario_inizio_obj.replace(hour=int(orario_fine.split(":")[0]), minute=int(orario_fine.split(":")[1]), second=0, microsecond=0)
+            
+            # Se l'orario di fine è maggiore di 23:59, aggiungiamo un giorno alla data di fine
+            if orario_fine_obj_corrected.hour == 0 and orario_fine_obj_corrected.minute == 0:
+                orario_fine_obj_corrected += datetime.timedelta(days=1)  # Aggiungi un giorno alla fine
+            programma_data['end'] = orario_fine_obj_corrected.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
         
         # Aggiungiamo i dati alla lista, ma solo se non è già presente
         if programma_data not in dati_programmi:
@@ -121,8 +130,6 @@ def main():
         
         if dati_canale:
             tutti_dati_canali.append(dati_canale)
-        else:
-            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
     
     # Se abbiamo dei dati, salvali nel file JSON
     if tutti_dati_canali:
