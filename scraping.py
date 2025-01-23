@@ -11,7 +11,8 @@ canali_urls = {
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8',
+        'tvepg_url': 'https://tvepg.eu/it/italy/channel/rai_premium'  # Link per la descrizione
     },
     'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
@@ -19,7 +20,8 @@ canali_urls = {
         'id': 'rai-1',
         'epgName': 'Rai 1',
         'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8',
+        'tvepg_url': 'https://tvepg.eu/it/italy/channel/rai_uno'  # Link per la descrizione
     },
     'canale-5': {
         'url': 'https://guidatv.org/canali/canale-5',
@@ -27,10 +29,30 @@ canali_urls = {
         'id': 'canale-5',
         'epgName': 'Canale 5',
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8',
+        'tvepg_url': 'https://tvepg.eu/it/italy/channel/canale_5'  # Link per la descrizione
     }
     # Aggiungi altri canali qui
 }
+
+# Funzione per fare lo scraping della descrizione del programma da tvepg.eu
+def get_tvepg_description(tvepg_url, programma_orario):
+    # Costruisci l'URL specifico per il programma (basato sull'orario)
+    program_url = f"{tvepg_url}/review/{programma_orario}/{programma_orario.split('T')[1].replace(':', '')}/"
+    response = requests.get(program_url)
+    if response.status_code != 200:
+        print(f"Errore nel recupero della descrizione da {program_url}")
+        return "Descrizione non disponibile"
+
+    # Parsing HTML con BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Trova la descrizione del programma
+    descrizione = soup.find('div', class_='description-text')
+    if descrizione:
+        return descrizione.get_text(strip=True)
+    else:
+        return "Descrizione non disponibile"
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
@@ -61,9 +83,6 @@ def scrape_epg(url, canale_info):
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
-        descrizione = programma.find('p', class_='program-description text-break mt-2')
-        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
-
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
 
@@ -72,6 +91,9 @@ def scrape_epg(url, canale_info):
 
         # Sottrarre un'ora all'orario di inizio
         orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
+
+        # Ottenere la descrizione del programma da tvepg.eu
+        tvepg_description = get_tvepg_description(canale_info['tvepg_url'], f"{data_odierna}T{orario_inizio}:00")
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
@@ -90,7 +112,7 @@ def scrape_epg(url, canale_info):
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
             'title': titolo,
-            'description': descrizione,
+            'description': tvepg_description,  # Descrizione estratta da tvepg.eu
             'category': "Categoria non disponibile",
             'poster': poster_url,
             'channel': canale_info['id']
@@ -115,6 +137,7 @@ def scrape_epg(url, canale_info):
         'epgName': canale_info['epgName'],
         'logo': canale_info['logo'],
         'm3uLink': canale_info['m3uLink'],
+        'tvepg_url': canale_info['tvepg_url'],
         'programs': dati_programmi
     }
 
