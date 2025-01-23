@@ -37,6 +37,10 @@ def scrape_epg(url, canale_info):
         if orario_inizio:
             orario_inizio = orario_inizio.get_text(strip=True)
 
+            # Se l'orario contiene "IN ONDA", rimuoviamo quella parte
+            if "IN ONDA" in orario_inizio:
+                orario_inizio = orario_inizio.replace("IN ONDA", "").strip()
+
         titolo = programma.find('span', class_='sgtvchannelplan_spanInfoNextSteps')
         if titolo:
             titolo = titolo.get_text(strip=True)
@@ -68,10 +72,20 @@ def scrape_epg(url, canale_info):
                     if poster_img:
                         poster_url = poster_img['src']
 
+        # Calcola l'orario di fine (aggiungendo 1 ora come durata predefinita)
+        orario_fine = "Ora non disponibile"
+        if orario_inizio:
+            try:
+                orario_inizio_dt = datetime.datetime.strptime(orario_inizio, "%H:%M")
+                orario_fine_dt = orario_inizio_dt + datetime.timedelta(hours=1)
+                orario_fine = orario_fine_dt.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+            except ValueError:
+                pass  # Se non riesce a fare il parsing, lascio "Ora non disponibile"
+
         # Crea l'oggetto del programma
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z" if orario_inizio else "Ora non disponibile",
-            'end': "Ora non disponibile",  # Si potrebbe calcolare con un programma successivo
+            'end': orario_fine,
             'title': titolo if titolo else "Titolo non disponibile",
             'description': descrizione if descrizione else "Descrizione non disponibile",
             'category': "Categoria non disponibile",  # Questa parte sarebbe da migliorare se possibile
