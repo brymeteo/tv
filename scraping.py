@@ -61,8 +61,16 @@ def scrape_epg(url, canale_info):
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
-        descrizione = programma.find('p', class_='program-description text-break mt-2')
-        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
+        # Estrai la descrizione completa, se presente dentro <div class="modal_container">
+        descrizione_container = programma.find('div', class_='modal_container')
+        descrizione = None
+        if descrizione_container:
+            descrizione_tag = descrizione_container.find('p', class_='fs-6 text-grey prog-desc')
+            if descrizione_tag:
+                descrizione = descrizione_tag.get_text(strip=True)
+
+        if not descrizione:
+            descrizione = "Descrizione non disponibile"
 
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
