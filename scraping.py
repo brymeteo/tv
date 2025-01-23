@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import datetime
+import re
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
@@ -55,13 +56,22 @@ def scrape_epg(url, canale_info):
         if orario_inizio == "Ora non disponibile":
             continue
         
-        # Orario di fine: aggiungiamo 1 ora all'orario di inizio (approssimativo)
-        try:
-            orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
-            orario_fine_obj = orario_inizio_obj + datetime.timedelta(hours=1)  # Supponiamo che ogni programma duri 1 ora
-            orario_fine = orario_fine_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
-        except ValueError:
-            orario_fine = "Ora non disponibile"
+        # Orario di fine e durata
+        orario_fine_str = programma.find('div', class_='d-flex align-items-center gap-3 flex-wrap text-light fs-6').find_all('span')[0].get_text(strip=True)
+        durata_str = programma.find('div', class_='d-flex align-items-center gap-3 flex-wrap text-light fs-6').find_all('span')[1].get_text(strip=True)
+        
+        # Estrai l'orario di fine dal formato '07:15 - 07:30'
+        orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
+        orario_fine_obj = datetime.datetime.strptime(orario_fine_str, "%H:%M")
+        
+        # Estrai la durata in minuti (ad esempio "15 min" diventa 15)
+        durata_minuti = int(re.search(r'(\d+)', durata_str).group(1))  # Usando regex per estrarre il numero
+        
+        # Calcola il nuovo orario di fine aggiungendo la durata
+        orario_fine_obj = orario_inizio_obj + datetime.timedelta(minutes=durata_minuti)
+        
+        # Format della data di fine in stringa
+        orario_fine = orario_fine_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
         
         # Poster immagine
         poster_url = programma.find('img')
@@ -75,9 +85,12 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
         
-        # Creiamo un dizionario con i dati del programma
+        # Ottieni la data corrente nel formato "YYYY-MM-DD"
+        data_corrente = datetime.datetime.now().strftime("%Y-%m-%d")
+        
+        # Usa la data corrente per l'orario di inizio
         programma_data = {
-            'start': f"2025-01-23T{orario_inizio}:00.000000Z",  # Data di esempio, puoi sostituirla con la data attuale
+            'start': f"{data_corrente}T{orario_inizio}:00.000000Z",  # Usa la data corrente
             'end': orario_fine,
             'title': titolo,
             'description': descrizione,
