@@ -61,10 +61,11 @@ def scrape_epg(url, canale_info):
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
-        # Estrai la descrizione completa, se presente dentro <div class="modal_container">
-        descrizione_container = programma.find('div', class_='modal_container')
+        # Estrai la descrizione completa, che è dentro una struttura nidificata
         descrizione = None
+        descrizione_container = programma.find('div', class_='col-12 mt-3')
         if descrizione_container:
+            # Risali attraverso i div fino a trovare il p con la descrizione
             descrizione_tag = descrizione_container.find('p', class_='fs-6 text-grey prog-desc')
             if descrizione_tag:
                 descrizione = descrizione_tag.get_text(strip=True)
