@@ -12,23 +12,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout del codice dal repository
     - name: Checkout codice
       uses: actions/checkout@v2  # Ottieni il codice dalla tua repository
 
+    # Impostare Python
     - name: Impostare Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'  # Imposta la versione di Python (puoi usare 3.x per l'ultima versione)
 
+    # Installazione delle dipendenze (opzionale)
     - name: Installare dipendenze
       run: |
         python -m pip install --upgrade pip  # Aggiorna pip
-        pip install -r requirements.txt  # Installa le dipendenze dal file requirements.txt
+        pip install -r requirements.txt  # Installa le dipendenze dal file requirements.txt (se presente)
 
+    # Esegui lo script di scraping
     - name: Esegui il codice di scraping
       run: |
-        python scraping.py  # Esegui il tuo script Python
+        python scraping.py  # Assicurati che il nome del tuo script sia corretto
 
+    # Aggiungi e Pusha il risultato
     - name: Aggiungi e Pusha il risultato
       run: |
         git config --global user.name "GitHub Actions"  # Configura il nome utente
