@@ -1,3 +1,38 @@
+import requests
+from bs4 import BeautifulSoup
+import json
+import datetime
+
+# Lista di URL dei canali TV da cui fare lo scraping
+canali_urls = {
+    'rai-premium': {
+        'url': 'https://guidatv.org/canali/rai-premium',
+        'name': 'Rai Premium',
+        'id': 'rai-premium',
+        'epgName': 'Rai Premium',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'rai-1': {
+        'url': 'https://guidatv.org/canali/rai-1',
+        'name': 'Rai 1',
+        'id': 'rai-1',
+        'epgName': 'Rai 1',
+        'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
+    },
+    'canale-5': {
+        'url': 'https://guidatv.org/canali/canale-5',
+        'name': 'Canale 5',
+        'id': 'canale-5',
+        'epgName': 'Canale 5',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    }
+    # Aggiungi altri canali qui
+}
+
+# Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni il contenuto della pagina
     response = requests.get(url)
@@ -69,3 +104,37 @@ def scrape_epg(url, canale_info):
         'm3uLink': canale_info['m3uLink'],
         'programs': dati_programmi
     }
+
+# Funzione per salvare i dati in un file JSON
+def salva_dati(dati_canali):
+    with open('dati_programmi.json', 'w', encoding='utf-8') as json_file:
+        json.dump(dati_canali, json_file, ensure_ascii=False, indent=4)
+
+# Funzione principale che esegue lo scraping da tutti i canali e salva i dati
+def main():
+    print("Inizio scraping dei dati EPG da più canali...")
+    
+    # Lista per raccogliere i dati da tutti i canali
+    tutti_dati_canali = []
+    
+    # Itera su ogni URL della lista dei canali
+    for canale_id, canale_info in canali_urls.items():
+        print(f"Raccogliendo dati da {canale_info['name']}...")
+        
+        # Esegui lo scraping dei dati per il canale corrente
+        dati_canale = scrape_epg(canale_info['url'], canale_info)
+        
+        if dati_canale:
+            tutti_dati_canali.append(dati_canale)
+        else:
+            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
+    
+    # Se abbiamo dei dati, salvali nel file JSON
+    if tutti_dati_canali:
+        salva_dati(tutti_dati_canali)
+        print("Dati salvati correttamente nel file dati_programmi.json.")
+    else:
+        print("Nessun dato trovato o errore durante lo scraping.")
+
+if __name__ == "__main__":
+    main()
