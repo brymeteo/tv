@@ -39,24 +39,34 @@ def scrape_epg(url):
     
     # Esegui un loop per raccogliere informazioni su ogni programma
     for programma in programmi:
-        titolo = programma.find('span', class_='title')
-        orario_inizio = programma.find('span', class_='start-time')
-        orario_fine = programma.find('span', class_='end-time')
-        descrizione = programma.find('p', class_='description')
-        poster_url = programma.find('img')
-        
-        # Se qualche dato non è trovato, assegna un valore di default
+        # Titolo del programma (h2 con class 'card-title')
+        titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
-        orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else "Ora non disponibile"
-        orario_fine = orario_fine.get_text(strip=True) if orario_fine else "Ora non disponibile"
+        
+        # Descrizione del programma (p con class 'program-description text-break mt-2')
+        descrizione = programma.find('p', class_='program-description text-break mt-2')
         descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
-        poster_url = poster_url['src'] if poster_url else "URL poster non disponibile"
+        
+        # Orario di inizio (h3 con class 'hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
+        orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
+        orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else "Ora non disponibile"
+        
+        # Poster immagine
+        poster_url = programma.find('img')
+        if poster_url:
+            src = poster_url['src']
+            # Se l'URL dell'immagine è relativo, aggiungi il prefisso
+            if src.startswith('/_next/image'):
+                poster_url = f'https://guidatv.org{src}'
+            else:
+                poster_url = src
+        else:
+            poster_url = "URL poster non disponibile"
         
         # Creiamo un dizionario con i dati del programma
         programma_data = {
             'titolo': titolo,
             'orario_inizio': orario_inizio,
-            'orario_fine': orario_fine,
             'descrizione': descrizione,
             'poster_url': poster_url,
             'canale': url,  # Aggiungi il nome del canale (o URL) ai dati
