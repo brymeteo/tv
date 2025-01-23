@@ -51,6 +51,10 @@ def scrape_epg(url, canale_info):
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else "Ora non disponibile"
         
+        # Se l'orario di inizio non è valido, salta questo programma
+        if orario_inizio == "Ora non disponibile":
+            continue
+        
         # Orario di fine: aggiungiamo 1 ora all'orario di inizio (approssimativo)
         try:
             orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
@@ -82,8 +86,9 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
         
-        # Aggiungiamo i dati alla lista
-        dati_programmi.append(programma_data)
+        # Aggiungiamo i dati alla lista, ma solo se non è già presente
+        if programma_data not in dati_programmi:
+            dati_programmi.append(programma_data)
     
     # Restituisci i dati per il canale con la lista dei programmi
     return {
