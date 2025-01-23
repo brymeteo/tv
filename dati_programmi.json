@@ -1,594 +1,387 @@
 [
     {
-        "id": "rai-premium",
-        "name": "Rai Premium",
-        "epgName": "Rai Premium",
-        "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
-        "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
-        "programs": [
-            {
-                "start": "2025-01-23T08:45:00.000000Z",
-                "end": "2025-01-23T09:10:00.000000Z",
-                "title": "Un posto al sole",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fun-posto-al-sole%2F1.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T09:10:00.000000Z",
-                "end": "2025-01-23T11:05:00.000000Z",
-                "title": "La vita promessa(2018)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78df02ce1e246c511cd770_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T11:05:00.000000Z",
-                "end": "2025-01-23T12:00:00.000000Z",
-                "title": "Medici in corsia(2024)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbJmZCHdwWtP7dSGXQNXpxBN1wL9.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T12:00:00.000000Z",
-                "end": "2025-01-23T12:50:00.000000Z",
-                "title": "Medici in corsia(2024)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbJmZCHdwWtP7dSGXQNXpxBN1wL9.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T12:50:00.000000Z",
-                "end": "2025-01-23T14:45:00.000000Z",
-                "title": "Una grande famiglia(2012)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e8cb49c270413462f18aa89_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T14:45:00.000000Z",
-                "end": "2025-01-23T14:50:00.000000Z",
-                "title": "Anica Appuntamento Al Cinema",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fanica-appuntamento-al-cinema%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T14:50:00.000000Z",
-                "end": "2025-01-23T15:40:00.000000Z",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6x0qhCN23KE2NMOvMLVxFWYlsDd.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T15:40:00.000000Z",
-                "end": "2025-01-23T16:30:00.000000Z",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6x0qhCN23KE2NMOvMLVxFWYlsDd.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T16:30:00.000000Z",
-                "end": "2025-01-23T18:25:00.000000Z",
-                "title": "La vita promessa(2018)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78df02ce1e246c511cd770_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T18:25:00.000000Z",
-                "end": "2025-01-23T20:20:00.000000Z",
-                "title": "Rocco Schiavone(2016)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d8f2ce1e246c511cba73_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T20:20:00.000000Z",
-                "end": "2025-01-23T21:50:00.000000Z",
-                "title": "L'altra madre di mia figlia(2020)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fl%2F612a142969cbe410455e0990%2F612a142969cbe410455e0990_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T21:50:00.000000Z",
-                "end": "2025-01-23T23:25:00.000000Z",
-                "title": "Un amore in Cornovaglia(2022)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fu%2F669b9473e4a4d8d69d390778%2F669b9473e4a4d8d69d390778_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T23:25:00.000000Z",
-                "end": "2025-01-23T01:35:00.000000Z",
-                "title": "Storie Italiane",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fstorie-italiane%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T01:35:00.000000Z",
-                "end": "2025-01-23T02:20:00.000000Z",
-                "title": "Medici in corsia(2024)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbJmZCHdwWtP7dSGXQNXpxBN1wL9.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T02:20:00.000000Z",
-                "end": "2025-01-23T03:05:00.000000Z",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6x0qhCN23KE2NMOvMLVxFWYlsDd.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T03:05:00.000000Z",
-                "end": "2025-01-23T04:00:00.000000Z",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6x0qhCN23KE2NMOvMLVxFWYlsDd.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T04:00:00.000000Z",
-                "end": "2025-01-23T04:25:00.000000Z",
-                "title": "7 Vite(2007)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FluXYW9rMzHtRf3ASSiwDAG1P1kB.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T04:25:00.000000Z",
-                "end": "2025-01-23T04:50:00.000000Z",
-                "title": "7 Vite(2007)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FluXYW9rMzHtRf3ASSiwDAG1P1kB.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T04:50:00.000000Z",
-                "end": "2025-01-23T03:50:00.000000Z",
-                "title": "Una donna per amico",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Funa-donna-per-amico%2F10.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            }
-        ]
-    },
-    {
-        "id": "rai-1",
-        "name": "Rai 1",
-        "epgName": "Rai 1",
-        "logo": "https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark",
-        "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
-        "programs": [
-            {
-                "start": "2025-01-23T08:50:00.000000Z",
-                "end": "2025-01-23T10:55:00.000000Z",
-                "title": "Storie Italiane",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fstorie-italiane%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T10:55:00.000000Z",
-                "end": "2025-01-23T12:30:00.000000Z",
-                "title": "E' Sempre Mezzogiorno",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fe-sempre-mezzogiorno%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T12:30:00.000000Z",
-                "end": "2025-01-23T13:05:00.000000Z",
-                "title": "TG 1",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T13:05:00.000000Z",
-                "end": "2025-01-23T15:00:00.000000Z",
-                "title": "La Volta Buona",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fla-volta-buona%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T15:00:00.000000Z",
-                "end": "2025-01-23T15:53:00.000000Z",
-                "title": "Il paradiso delle signore(2015)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T15:53:00.000000Z",
-                "end": "2025-01-23T15:55:00.000000Z",
-                "title": "Che Tempo Fa",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T15:55:00.000000Z",
-                "end": "2025-01-23T16:05:00.000000Z",
-                "title": "TG 1",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T16:05:00.000000Z",
-                "end": "2025-01-23T17:45:00.000000Z",
-                "title": "La Vita In Diretta",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fla-vita-in-diretta%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T17:45:00.000000Z",
-                "end": "2025-01-23T19:00:00.000000Z",
-                "title": "L'Eredità",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fl-eredita%2F7.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T19:00:00.000000Z",
-                "end": "2025-01-23T19:30:00.000000Z",
-                "title": "TG 1",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T19:30:00.000000Z",
-                "end": "2025-01-23T19:35:00.000000Z",
-                "title": "Cinque Minuti",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fcinque-minuti%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T19:35:00.000000Z",
-                "end": "2025-01-23T20:30:00.000000Z",
-                "title": "Affari Tuoi",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Faffari-tuoi%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T20:30:00.000000Z",
-                "end": "2025-01-23T21:30:00.000000Z",
-                "title": "Un passo dal cielo(2011)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fun-passo-dal-cielo%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T21:30:00.000000Z",
-                "end": "2025-01-23T22:30:00.000000Z",
-                "title": "Un passo dal cielo(2011)",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fun-passo-dal-cielo%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T22:30:00.000000Z",
-                "end": "2025-01-23T22:55:00.000000Z",
-                "title": "Porta A Porta",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fporta-a-porta%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T22:55:00.000000Z",
-                "end": "2025-01-23T23:00:00.000000Z",
-                "title": "TG1 Sera",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1-sera%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T23:00:00.000000Z",
-                "end": "2025-01-23T00:15:00.000000Z",
-                "title": "Porta A Porta",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fporta-a-porta%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T00:15:00.000000Z",
-                "end": "2025-01-23T00:45:00.000000Z",
-                "title": "Sottovoce",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fsottovoce%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T00:45:00.000000Z",
-                "end": "2025-01-23T01:15:00.000000Z",
-                "title": "Movie Mag",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fmovie-mag%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T01:15:00.000000Z",
-                "end": "2025-01-23T01:20:00.000000Z",
-                "title": "Che Tempo Fa",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T01:20:00.000000Z",
-                "end": "2025-01-23T00:20:00.000000Z",
-                "title": "RaiNews24",
-                "description": "Descrizione dettagliata non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            }
-        ]
-    },
-    {
         "id": "canale-5",
         "name": "Canale 5",
         "epgName": "Canale 5",
-        "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
+        "logo": "https://api.superguidatv.it/v1/channels/187/logo?width=120&theme=light",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-23T09:48:00.000000Z",
-                "end": "2025-01-23T09:56:00.000000Z",
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T05:12IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "R.I.S. Roma – Delitti imperfetti (St. 1 - Ep. 8)",
+                "description": "Daniele Ghirelli, in seguito allo scioglimento della squadra R.I.S. di Parma - dovuto alla promozione a maggiore di Riccardo Venturi -, si trasferisce a Roma per unirsi a un nuovo raggruppamento di indagini scientifiche del quale fa parte anche l'amica Flavia Ayroldi, gia' sua collega in Emilia. Ghiro e Flavia, grazie all'esperienza maturata nell'unita' parmense e alla loro preparazione...",
+                "category": "Categoria non disponibile",
+                "poster": "https://api.superguidatv.it/v1/series/2037/backdrops/1?width=720",
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:00IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:08IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Traffico",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:15IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:30IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:45IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T07:00IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T07:15IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T07:30IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T07:45IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T07:59IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "TG5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T08:42IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Mattino Cinque News",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T10:48IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Tg5 ore 10",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg-5-ore-10%2F5.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T09:56:00.000000Z",
-                "end": "2025-01-23T10:00:00.000000Z",
+                "start": "2025-01-23T10:56IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Grande fratello autunno - pillole lunedi'/sabato c5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fgrande-fratello-autunno-pillole-lunedi-sabato-c-5%2F5.png&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T10:00:00.000000Z",
-                "end": "2025-01-23T11:58:00.000000Z",
+                "start": "2025-01-23T11:00IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Forum",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fforum%2F11.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T11:58:00.000000Z",
-                "end": "2025-01-23T12:40:00.000000Z",
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T12:58IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "TG5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T12:40:00.000000Z",
-                "end": "2025-01-23T12:46:00.000000Z",
+                "start": "2025-01-23T13:40IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Grande fratello autunno - pillole lunedi'/sabato c5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fgrande-fratello-autunno-pillole-lunedi-sabato-c-5%2F5.png&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T12:46:00.000000Z",
-                "end": "2025-01-23T13:10:00.000000Z",
-                "title": "Beautiful",
-                "description": "Descrizione dettagliata non disponibile",
+                "start": "2025-01-23T13:46IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Beautiful (St. 34 - Ep. 34)",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fbeautiful%2F5.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T13:10:00.000000Z",
-                "end": "2025-01-23T13:45:00.000000Z",
-                "title": "Endless Love(2015)",
-                "description": "Descrizione dettagliata non disponibile",
+                "start": "2025-01-23T14:10IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Endless Love (St. 2 - Ep. 249)",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F662359a071627e6d1b8dc4fa_b_4_rs_600.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T13:45:00.000000Z",
-                "end": "2025-01-23T15:08:00.000000Z",
+                "start": "2025-01-23T14:45IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Uomini e donne",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fuomini-e-donne%2F9.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T15:08:00.000000Z",
-                "end": "2025-01-23T15:44:00.000000Z",
+                "start": "2025-01-23T16:08IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Amici di Maria",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Famici-di-maria%2F8.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T15:44:00.000000Z",
-                "end": "2025-01-23T15:51:00.000000Z",
+                "start": "2025-01-23T16:44IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Grande fratello autunno - pillole lunedi'/sabato c5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fgrande-fratello-autunno-pillole-lunedi-sabato-c-5%2F5.png&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T15:51:00.000000Z",
-                "end": "2025-01-23T16:04:00.000000Z",
-                "title": "My Home My Destiny(2020)",
-                "description": "Descrizione dettagliata non disponibile",
+                "start": "2025-01-23T16:51IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "My Home My Destiny (St. 2 - Ep. 88)",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FwTh8q0Uj5pMHNcW5KFJ8WZ7snt1.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T16:04:00.000000Z",
-                "end": "2025-01-23T17:44:00.000000Z",
+                "start": "2025-01-23T17:04IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Pomeriggio 5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fpomeriggio-5%2F5.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T17:44:00.000000Z",
-                "end": "2025-01-23T18:54:00.000000Z",
+                "start": "2025-01-23T18:44IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Avanti un altro",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF312787401000401%2Fmedia%2F18%2F82%2F76bab0dd-0b1b-4fb5-ac38-f18adacd55f3%2Fe54ece76-0822-4c79-8637-2bbf126c9d3f.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T18:54:00.000000Z",
-                "end": "2025-01-23T19:01:00.000000Z",
+                "start": "2025-01-23T19:54IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Tg5 Prima Pagina",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5-prima-pagina%2F2.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T19:01:00.000000Z",
-                "end": "2025-01-23T19:38:00.000000Z",
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T20:01IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "TG5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T19:38:00.000000Z",
-                "end": "2025-01-23T20:35:00.000000Z",
+                "start": "2025-01-23T20:38IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Striscia la notizia",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fstriscia-la-notizia%2F14.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T20:35:00.000000Z",
-                "end": "2025-01-23T00:36:00.000000Z",
+                "start": "2025-01-23T21:35IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Grande fratello",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fgrande-fratello%2F9.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T00:36:00.000000Z",
-                "end": "2025-01-23T01:20:00.000000Z",
+                "start": "Ora non disponibile",
+                "end": "Ora non disponibile",
+                "title": "Titolo non disponibile",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T01:36IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "TG5",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T01:20:00.000000Z",
-                "end": "2025-01-23T02:12:00.000000Z",
+                "start": "2025-01-23T02:20IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Striscia la notizia",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fstriscia-la-notizia%2F14.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T02:12:00.000000Z",
-                "end": "2025-01-23T02:16:00.000000Z",
+                "start": "2025-01-23T03:12IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Ciak Speciale",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fciak-speciale%2F9.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T02:16:00.000000Z",
-                "end": "2025-01-23T03:22:00.000000Z",
+                "start": "2025-01-23T03:16IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
                 "title": "Uomini e donne",
-                "description": "Descrizione dettagliata non disponibile",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fuomini-e-donne%2F9.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T03:22:00.000000Z",
-                "end": "2025-01-23T03:49:00.000000Z",
-                "title": "Vivere",
-                "description": "Descrizione dettagliata non disponibile",
+                "start": "2025-01-23T04:22IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Vivere (St. 7 - Ep. 161)",
+                "description": "Descrizione non disponibile",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fvivere%2F7.jpg&w=3840&q=75",
+                "poster": null,
                 "channel": "canale-5"
             },
             {
-                "start": "2025-01-23T03:49:00.000000Z",
-                "end": "2025-01-23T02:49:00.000000Z",
-                "title": "R.I.S. Roma - Delitti imperfetti(2010)",
-                "description": "Descrizione dettagliata non disponibile",
+                "start": "2025-01-23T04:49IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "R.I.S. Roma – Delitti imperfetti (St. 1 - Ep. 9)",
+                "description": "Daniele Ghirelli, in seguito allo scioglimento della squadra R.I.S. di Parma - dovuto alla promozione a maggiore di Riccardo Venturi -, si trasferisce a Roma per unirsi a un nuovo raggruppamento di indagini scientifiche del quale fa parte anche l'amica Flavia Ayroldi, gia' sua collega in Emilia. Ghiro e Flavia, grazie all'esperienza maturata nell'unita' parmense e alla loro preparazione...",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdwyXT8CeSKuRjXCQvOCFhmw7CjI.jpg&w=3840&q=75",
+                "poster": "https://api.superguidatv.it/v1/series/2037/backdrops/1?width=720",
+                "channel": "canale-5"
+            },
+            {
+                "start": "2025-01-23T06:00IN ONDA:00.000000Z",
+                "end": "Ora non disponibile",
+                "title": "Prima Pagina Tg5",
+                "description": "Descrizione non disponibile",
+                "category": "Categoria non disponibile",
+                "poster": null,
                 "channel": "canale-5"
             }
         ]
