@@ -1,43 +1,38 @@
-name: Esegui scraping EPG
+name: Esegui Script Python per Aggiornare Dati EPG
 
 on:
   schedule:
     - cron: '0 0 * * *'  # Esegui ogni giorno a mezzanotte UTC
   push:
     branches:
-      - main  # Trigger quando fai push su branch main
+      - main  # Trigger quando fai push sul branch main
 
 jobs:
-  run-scraping:
+  update-dati:
     runs-on: ubuntu-latest
-    
+
     steps:
-    # Checkout del repository
     - name: Checkout codice
-      uses: actions/checkout@v2
-      
-    # Impostazione di Python
+      uses: actions/checkout@v2  # Ottieni il codice dalla tua repository
+
     - name: Impostare Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Usa la versione Python che preferisci
-    
-    # Installazione delle dipendenze
+        python-version: '3.x'  # Imposta la versione di Python (puoi usare 3.x per l'ultima versione)
+
     - name: Installare dipendenze
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    
-    # Esegui lo script di scraping
-    - name: Esegui lo script di scraping
+        python -m pip install --upgrade pip  # Aggiorna pip
+        pip install -r requirements.txt  # Installa le dipendenze dal file requirements.txt
+
+    - name: Esegui il codice di scraping
       run: |
-        python tuo_script.py  # Assicurati che il nome del tuo script sia corretto
-    
-    # Carica i risultati (opzionale, se vuoi salvare il file JSON su GitHub)
+        python scraping.py  # Esegui il tuo script Python
+
     - name: Aggiungi e Pusha il risultato
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add programmazioni_rai_premium.json
-        git commit -m "Aggiorna i dati EPG"
-        git push
+        git config --global user.name "GitHub Actions"  # Configura il nome utente
+        git config --global user.email "actions@github.com"  # Configura l'email
+        git add dati_programmi.json  # Aggiungi il file JSON generato
+        git commit -m "Aggiorna i dati EPG"  # Crea un commit
+        git push  # Esegui il push delle modifiche
