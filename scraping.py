@@ -37,8 +37,8 @@ def scrape_epg(url, canale_info):
     
     dati_programmi = []
     
-    # Esegui un loop per raccogliere informazioni su ogni programma
-    for programma in programmi:
+    # Ciclare attraverso i programmi per raccogliere i dati
+    for i, programma in enumerate(programmi):
         # Titolo del programma (h2 con class 'card-title')
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
@@ -55,13 +55,24 @@ def scrape_epg(url, canale_info):
         if orario_inizio == "Ora non disponibile":
             continue
         
-        # Orario di fine: aggiungiamo 1 ora all'orario di inizio (approssimativo), solo se l'orario di inizio è valido
-        try:
-            orario_inizio_obj = datetime.datetime.strptime(orario_inizio, "%H:%M")
-            orario_fine_obj = orario_inizio_obj + datetime.timedelta(hours=1)  # Supponiamo che ogni programma duri 1 ora
-            orario_fine = orario_fine_obj.strftime("%H:%M")  # Solo ora e minuti
-        except ValueError:
-            orario_fine = None  # Non assegnamo nulla se l'orario di fine non è valido
+        # Orario di fine: usiamo l'orario di inizio del programma successivo
+        if i + 1 < len(programmi):
+            prossimo_programma = programmi[i + 1]
+            prossimo_orario_inizio = prossimo_programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
+            prossimo_orario_inizio = prossimo_orario_inizio.get_text(strip=True) if prossimo_orario_inizio else "Ora non disponibile"
+        else:
+            prossimo_orario_inizio = None  # L'ultimo programma non ha un successivo, quindi non ha un orario di fine
+        
+        # Calcolare la data e ora di fine se l'orario di inizio del prossimo programma è disponibile
+        if prossimo_orario_inizio and prossimo_orario_inizio != "Ora non disponibile":
+            try:
+                orario_fine_obj = datetime.datetime.strptime(prossimo_orario_inizio, "%H:%M")
+                orario_fine = orario_fine_obj.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+            except ValueError:
+                orario_fine = None
+        else:
+            # Se non c'è un orario di fine valido, manteniamo l'orario di inizio come fine
+            orario_fine = None
         
         # Poster immagine
         poster_url = programma.find('img')
@@ -85,15 +96,11 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
         
-        # Se l'orario di fine è valido, correggiamo la data di fine
+        # Impostiamo l'orario di fine se è stato trovato
         if orario_fine:
-            # La data di fine deve essere la stessa di quella di inizio, ma aggiungiamo il controllo per la mezzanotte
-            orario_fine_obj_corrected = orario_inizio_obj.replace(hour=int(orario_fine.split(":")[0]), minute=int(orario_fine.split(":")[1]), second=0, microsecond=0)
-            
-            # Se l'orario di fine è maggiore di 23:59, aggiungiamo un giorno alla data di fine
-            if orario_fine_obj_corrected.hour == 0 and orario_fine_obj_corrected.minute == 0:
-                orario_fine_obj_corrected += datetime.timedelta(days=1)  # Aggiungi un giorno alla fine
-            programma_data['end'] = orario_fine_obj_corrected.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+            programma_data['end'] = orario_fine
+        else:
+            programma_data['end'] = programma_data['start']  # Se non c'è un orario di fine, la data di fine è la stessa di inizio
         
         # Aggiungiamo i dati alla lista, ma solo se non è già presente
         if programma_data not in dati_programmi:
@@ -130,6 +137,8 @@ def main():
         
         if dati_canale:
             tutti_dati_canali.append(dati_canale)
+        else:
+            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
     
     # Se abbiamo dei dati, salvali nel file JSON
     if tutti_dati_canali:
