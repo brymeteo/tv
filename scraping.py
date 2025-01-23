@@ -32,6 +32,23 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
+# Funzione per estrarre la descrizione del programma da SuperGuidaTV
+def get_descrizione_superguidatv(url_programma):
+    # Effettua una richiesta GET alla pagina del programma
+    response = requests.get(url_programma)
+    if response.status_code != 200:
+        print(f"Errore nel recupero della descrizione da {url_programma}, codice di stato: {response.status_code}")
+        return None
+
+    # Parsing HTML con BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Trova la descrizione del programma
+    descrizione_div = soup.find('div', class_='sgtvdetails_divContentText')
+    if descrizione_div:
+        return descrizione_div.get_text(strip=True)
+    return "Descrizione non disponibile"
+
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
@@ -81,6 +98,15 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
+        # Trova il link del programma su SuperGuidaTV
+        programma_link = programma.find('span', class_='sgtvSpLink')
+        if programma_link and 'onclick' in programma_link.attrs:
+            # Estrai l'URL tramite il codice onclick
+            link_programma = programma_link.attrs['onclick'].split("'")[1]
+            descrizione_superguidatv = get_descrizione_superguidatv(link_programma)
+        else:
+            descrizione_superguidatv = "Descrizione dettagliata non disponibile"
+
         # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
         if orario_inizio_precedente:
             dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
@@ -90,7 +116,7 @@ def scrape_epg(url, canale_info):
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
             'title': titolo,
-            'description': descrizione,
+            'description': descrizione_superguidatv,  # Aggiungi la descrizione da SuperGuidaTV
             'category': "Categoria non disponibile",
             'poster': poster_url,
             'channel': canale_info['id']
