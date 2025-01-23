@@ -1,12 +1,7 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import requests
 from bs4 import BeautifulSoup
 import json
 import datetime
-import time
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
@@ -37,37 +32,22 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
-# Funzione per fare lo scraping dei dati EPG da un singolo canale usando Selenium
+# Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
 
-    # Configura il driver di Selenium (modifica il percorso del driver come necessario)
-    driver = webdriver.Chrome(executable_path='/path/to/chromedriver')
-
-    # Visita la pagina del canale
-    driver.get(url)
-
-    # Attendere che il pulsante per aprire il pop-up sia visibile e poi cliccarlo
-    try:
-        button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, 'div.details-button'))
-        )
-        button.click()
-        time.sleep(2)  # Attendere che il popup venga caricato
-    except Exception as e:
-        print(f"Errore nel cliccare sul pulsante per {canale_info['name']}: {e}")
-        driver.quit()
+    # Ottieni il contenuto della pagina
+    response = requests.get(url)
+    if response.status_code != 200:
+        print(f"Errore nel recupero dei dati da {url}, codice di stato: {response.status_code}")
         return None
 
-    # Estrai il contenuto della pagina dopo il clic
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-
     # Parsing HTML con BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', class_='container mt-2')
     if not container:
         print(f"Nessun contenitore trovato per {url}")
-        driver.quit()
         return None
 
     programmi = container.find_all('div', class_='row')
@@ -128,8 +108,6 @@ def scrape_epg(url, canale_info):
             ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
         except ValueError:
             ultimo_programma['end'] = "Ora non disponibile"
-
-    driver.quit()
 
     return {
         'id': canale_info['id'],
