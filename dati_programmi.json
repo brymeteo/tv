@@ -1,95 +1,5 @@
 [
     {
-        "id": "rai-premium",
-        "name": "Rai Premium",
-        "epgName": "Rai Premium",
-        "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
-        "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
-        "programs": [
-            {
-                "start": "2025-01-23T21:20:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "L'altra madre di mia figlia(2020)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T22:50:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Un amore in Cornovaglia(2022)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T00:25:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Storie Italiane",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T02:30:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Medici in corsia(2024)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T03:20:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T04:00:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Il commissario Rex(1996)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T05:00:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "7 Vite -E28 - Colpo Di Fulmine",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T05:20:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "7 Vite(2007)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-23T05:45:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Una donna per amico",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-premium"
-            }
-        ]
-    },
-    {
         "id": "rai-1",
         "name": "Rai 1",
         "epgName": "Rai 1",
@@ -97,157 +7,32 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-23T21:30:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Un passo dal cielo(2011)",
+                "start": "2025-01-23T00:15:00.000000Z",
+                "title": "Sottovoce",
                 "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fsottovoce%2F0.jpg&w=3840&q=75",
                 "channel": "rai-1"
             },
             {
-                "start": "2025-01-23T22:30:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Un passo dal cielo(2011)",
+                "start": "2025-01-23T00:45:00.000000Z",
+                "title": "Movie Mag",
                 "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T23:30:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Porta A Porta",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T23:55:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "TG1 Sera",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T00:00:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Porta A Porta",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fmovie-mag%2F6.jpg&w=3840&q=75",
                 "channel": "rai-1"
             },
             {
                 "start": "2025-01-23T01:15:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Sottovoce",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T01:45:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Movie Mag",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-23T02:15:00.000000Z",
-                "end": "Ora non disponibile",
                 "title": "Che Tempo Fa",
                 "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
                 "channel": "rai-1"
             },
             {
-                "start": "2025-01-23T02:20:00.000000Z",
-                "end": "Ora non disponibile",
+                "start": "2025-01-23T01:20:00.000000Z",
                 "title": "RaiNews24",
                 "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
                 "channel": "rai-1"
-            }
-        ]
-    },
-    {
-        "id": "canale-5",
-        "name": "Canale 5",
-        "epgName": "Canale 5",
-        "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
-        "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
-        "programs": [
-            {
-                "start": "2025-01-23T21:35:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Grande fratello",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T01:36:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "TG5",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T02:20:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Striscia la notizia",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T03:12:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Ciak Speciale",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T03:16:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Uomini e donne",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T04:22:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "Vivere",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-23T04:49:00.000000Z",
-                "end": "Ora non disponibile",
-                "title": "R.I.S. Roma - Delitti imperfetti(2010)",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "URL del poster",
-                "channel": "canale-5"
             }
         ]
     }
