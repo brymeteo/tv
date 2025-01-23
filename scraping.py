@@ -11,8 +11,7 @@ canali_urls = {
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8',
-        'tvepg_url': 'https://tvepg.eu/it/italy/channel/rai_premium'  # Link per la descrizione
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
@@ -20,8 +19,7 @@ canali_urls = {
         'id': 'rai-1',
         'epgName': 'Rai 1',
         'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8',
-        'tvepg_url': 'https://tvepg.eu/it/italy/channel/rai_uno'  # Link per la descrizione
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
         'url': 'https://guidatv.org/canali/canale-5',
@@ -29,29 +27,29 @@ canali_urls = {
         'id': 'canale-5',
         'epgName': 'Canale 5',
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8',
-        'tvepg_url': 'https://tvepg.eu/it/italy/channel/canale_5'  # Link per la descrizione
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
     # Aggiungi altri canali qui
 }
 
-# Funzione per fare lo scraping della descrizione del programma da tvepg.eu
-def get_tvepg_description(tvepg_url, programma_orario):
-    # Costruisci l'URL specifico per il programma (basato sull'orario)
-    program_url = f"{tvepg_url}/review/{programma_orario}/{programma_orario.split('T')[1].replace(':', '')}/"
-    response = requests.get(program_url)
+# Funzione per ottenere la descrizione dal sito tvepg.eu
+def get_tvepg_description(program_url):
+    base_url = 'https://tvepg.eu'
+    url = base_url + program_url
+    response = requests.get(url)
     if response.status_code != 200:
-        print(f"Errore nel recupero della descrizione da {program_url}")
-        return "Descrizione non disponibile"
-
-    # Parsing HTML con BeautifulSoup
+        print(f"Errore nel recupero della pagina del programma: {url}")
+        return None
+    
+    # Parsing della pagina HTML
     soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Trova la descrizione del programma
-    descrizione = soup.find('div', class_='description-text')
-    if descrizione:
-        return descrizione.get_text(strip=True)
+    description_div = soup.find('div', class_='description-text')
+    
+    if description_div:
+        description = description_div.get_text(strip=True)
+        return description
     else:
+        print(f"Descrizione non trovata per il programma: {url}")
         return "Descrizione non disponibile"
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
@@ -75,10 +73,7 @@ def scrape_epg(url, canale_info):
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
 
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente
-    orario_inizio_precedente = None
-
-    for i, programma in enumerate(programmi):
+    for programma in programmi:
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
@@ -89,47 +84,26 @@ def scrape_epg(url, canale_info):
         if not orario_inizio:
             continue
 
-        # Sottrarre un'ora all'orario di inizio
-        orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
-
-        # Ottenere la descrizione del programma da tvepg.eu
-        tvepg_description = get_tvepg_description(canale_info['tvepg_url'], f"{data_odierna}T{orario_inizio}:00")
-
-        # Trova l'URL del poster
-        poster_img = programma.find('img')
-        if poster_img:
-            src = poster_img['src']
-            poster_url = f"https://guidatv.org{src}" if src.startswith('/_next/image') else src
+        # Costruisci l'URL della pagina di dettaglio su tvepg.eu
+        link_programma = programma.find('a', href=True)
+        if link_programma:
+            program_url = link_programma['href']
+            descrizione = get_tvepg_description(program_url)
         else:
-            poster_url = None
+            descrizione = "Descrizione non disponibile"
 
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-        if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
-
-        # Crea l'oggetto per il programma corrente
+        # Aggiungi la descrizione al programma
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
             'title': titolo,
-            'description': tvepg_description,  # Descrizione estratta da tvepg.eu
+            'description': descrizione,
             'category': "Categoria non disponibile",
-            'poster': poster_url,
+            'poster': "URL del poster",  # Puoi estrarre il poster se è necessario
             'channel': canale_info['id']
         }
 
         dati_programmi.append(programma_data)
-        orario_inizio_precedente = orario_inizio
-
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
-        try:
-            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
-        except ValueError:
-            ultimo_programma['end'] = "Ora non disponibile"
 
     return {
         'id': canale_info['id'],
@@ -137,7 +111,6 @@ def scrape_epg(url, canale_info):
         'epgName': canale_info['epgName'],
         'logo': canale_info['logo'],
         'm3uLink': canale_info['m3uLink'],
-        'tvepg_url': canale_info['tvepg_url'],
         'programs': dati_programmi
     }
 
