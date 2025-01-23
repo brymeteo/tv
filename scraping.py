@@ -70,6 +70,9 @@ def scrape_epg(url, canale_info):
         if not orario_inizio:
             continue
 
+        # Sottrarre un'ora all'orario di inizio
+        orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
+
         # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
@@ -96,7 +99,7 @@ def scrape_epg(url, canale_info):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora togliendo un'ora
+    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
     if dati_programmi:
         ultimo_programma = dati_programmi[-1]
         try:
