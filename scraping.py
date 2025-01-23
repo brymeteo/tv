@@ -5,54 +5,16 @@ import datetime
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
-    'rai-premium': {
-        'url': 'https://guidatv.org/canali/rai-premium',
-        'name': 'Rai Premium',
-        'id': 'rai-premium',
-        'epgName': 'Rai Premium',
-        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
-    },
-    'rai-1': {
-        'url': 'https://guidatv.org/canali/rai-1',
-        'name': 'Rai 1',
-        'id': 'rai-1',
-        'epgName': 'Rai 1',
-        'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
-    },
     'canale-5': {
-        'url': 'https://guidatv.org/canali/canale-5',
+        'url': 'https://www.superguidatv.it/programmazione-canale/oggi/guida-programmi-tv-canale-5/187/',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
-        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'logo': 'https://api.superguidatv.it/v1/channels/187/logo?width=120&theme=light',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
     # Aggiungi altri canali qui
 }
-
-# Funzione per estrarre la descrizione del programma da SuperGuidaTV
-def get_descrizione_superguidatv(url_programma):
-    # Effettua una richiesta GET alla pagina del programma
-    response = requests.get(url_programma)
-    if response.status_code != 200:
-        print(f"Errore nel recupero della descrizione da {url_programma}, codice di stato: {response.status_code}")
-        return None
-
-    # Parsing HTML con BeautifulSoup
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Debug: stampa il contenuto della pagina per vedere come è strutturata
-    # print(soup.prettify())
-
-    # Trova la descrizione del programma
-    descrizione_div = soup.find('div', class_='sgtvdetails_divContentText')
-    if descrizione_div:
-        return descrizione_div.get_text(strip=True)
-    
-    print(f"Descrizione non trovata per {url_programma}")
-    return "Descrizione non disponibile"
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
@@ -67,79 +29,57 @@ def scrape_epg(url, canale_info):
 
     # Parsing HTML con BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    container = soup.find('div', class_='container mt-2')
-    if not container:
-        print(f"Nessun contenitore trovato per {url}")
-        return None
-
-    programmi = container.find_all('div', class_='row')
+    programmi_divs = soup.find_all('div', class_='sgtvchannelplan_divTableRow')
     dati_programmi = []
 
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente
-    orario_inizio_precedente = None
+    for programma in programmi_divs:
+        orario_inizio = programma.find('div', class_='sgtvchannelplan_hoursCell')
+        if orario_inizio:
+            orario_inizio = orario_inizio.get_text(strip=True)
 
-    for i, programma in enumerate(programmi):
-        # Estrai i dettagli del programma
-        titolo = programma.find('h2', class_='card-title')
-        titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+        titolo = programma.find('span', class_='sgtvchannelplan_spanInfoNextSteps')
+        if titolo:
+            titolo = titolo.get_text(strip=True)
 
-        descrizione = programma.find('p', class_='program-description text-break mt-2')
-        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
-
-        orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
-        orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
-
-        if not orario_inizio:
-            continue
-
-        # Sottrarre un'ora all'orario di inizio
-        orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
-
-        # Trova l'URL del poster
-        poster_img = programma.find('img')
-        if poster_img:
-            src = poster_img['src']
-            poster_url = f"https://guidatv.org{src}" if src.startswith('/_next/image') else src
+        # Link al dettaglio del programma
+        dettaglio_link = programma.find('a', class_='sgtvchannelplan_aNextStep')
+        if dettaglio_link:
+            dettaglio_url = dettaglio_link['href']
         else:
-            poster_url = None
+            dettaglio_url = None
 
-        # Trova il link del programma su SuperGuidaTV
-        programma_link = programma.find('span', class_='sgtvSpLink')
-        if programma_link and 'onclick' in programma_link.attrs:
-            # Estrai l'URL tramite il codice onclick
-            link_programma = programma_link.attrs['onclick'].split("'")[1]
-            print(f"Link programma: {link_programma}")  # Debug: stampa il link
-            descrizione_superguidatv = get_descrizione_superguidatv(link_programma)
-        else:
-            descrizione_superguidatv = "Descrizione dettagliata non disponibile"
+        # Estrai i dettagli del programma se il link esiste
+        descrizione = None
+        poster_url = None
+        if dettaglio_url:
+            # Accedi alla pagina del dettaglio del programma
+            dettaglio_response = requests.get(dettaglio_url)
+            if dettaglio_response.status_code == 200:
+                dettaglio_soup = BeautifulSoup(dettaglio_response.content, 'html.parser')
+                # Estrai descrizione
+                descrizione_div = dettaglio_soup.find('div', class_='sgtvdetails_divContentText')
+                if descrizione_div:
+                    descrizione = descrizione_div.get_text(strip=True)
 
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-        if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
+                # Estrai immagine del poster
+                poster_div = dettaglio_soup.find('div', class_='sgtvdetails_divImagebackdropContainer')
+                if poster_div:
+                    poster_img = poster_div.find('img')
+                    if poster_img:
+                        poster_url = poster_img['src']
 
-        # Crea l'oggetto per il programma corrente
+        # Crea l'oggetto del programma
         programma_data = {
-            'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
-            'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
-            'title': titolo,
-            'description': descrizione_superguidatv,  # Aggiungi la descrizione da SuperGuidaTV
-            'category': "Categoria non disponibile",
-            'poster': poster_url,
+            'start': f"{data_odierna}T{orario_inizio}:00.000000Z" if orario_inizio else "Ora non disponibile",
+            'end': "Ora non disponibile",  # Si potrebbe calcolare con un programma successivo
+            'title': titolo if titolo else "Titolo non disponibile",
+            'description': descrizione if descrizione else "Descrizione non disponibile",
+            'category': "Categoria non disponibile",  # Questa parte sarebbe da migliorare se possibile
+            'poster': poster_url if poster_url else None,
             'channel': canale_info['id']
         }
 
         dati_programmi.append(programma_data)
-        orario_inizio_precedente = orario_inizio
-
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
-        try:
-            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
-        except ValueError:
-            ultimo_programma['end'] = "Ora non disponibile"
 
     return {
         'id': canale_info['id'],
