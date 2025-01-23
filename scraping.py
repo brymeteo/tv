@@ -85,19 +85,22 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
         
-        # Ottieni la data corrente nel formato "YYYY-MM-DD"
-        data_corrente = datetime.datetime.now().strftime("%Y-%m-%d")
-        
-        # Usa la data corrente per l'orario di inizio
-        programma_data = {
-            'start': f"{data_corrente}T{orario_inizio}:00.000000Z",  # Usa la data corrente
-            'end': orario_fine,
-            'title': titolo,
-            'description': descrizione,
-            'category': "Categoria non disponibile",  # Aggiungere una categoria predefinita o modificarla
-            'poster': poster_url,
-            'channel': canale_info['id']
-        }
+       from datetime import datetime
+
+# Ottieni la data corrente nel formato "YYYY-MM-DD"
+data_corrente = datetime.now().strftime("%Y-%m-%d")
+
+# Usa la data corrente per l'orario di inizio
+programma_data = {
+    'start': f"{data_corrente}T{orario_inizio}:00.000000Z",  # Usa la data corrente
+    'end': orario_fine,
+    'title': titolo,
+    'description': descrizione,
+    'category': "Categoria non disponibile",  # Aggiungere una categoria predefinita o modificarla
+    'poster': poster_url,
+    'channel': canale_info['id']
+}
+
         
         # Aggiungiamo i dati alla lista, ma solo se non è già presente
         if programma_data not in dati_programmi:
