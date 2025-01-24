@@ -79,7 +79,15 @@ def scrape_epg(url, canale_info):
             continue
 
         # Sottrarre un'ora all'orario di inizio
-        orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
+        orario_inizio_dt = datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)
+
+        # Gestisci il cambio di giorno se l'orario è passato alla mezzanotte
+        if orario_inizio_dt.time() > datetime.datetime.now().time():
+            data_programma = datetime.datetime.now() - datetime.timedelta(days=1)
+        else:
+            data_programma = datetime.datetime.now()
+
+        orario_inizio_formattato = data_programma.strftime("%Y-%m-%d") + "T" + orario_inizio_dt.strftime("%H:%M:%S") + ".000000Z"
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
@@ -91,7 +99,7 @@ def scrape_epg(url, canale_info):
 
         # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
         if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
+            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio_formattato}:00.000000Z"
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
@@ -107,16 +115,6 @@ def scrape_epg(url, canale_info):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
-        try:
-            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
-        except ValueError:
-            ultimo_programma['end'] = "Ora non disponibile"
-
     return {
         'id': canale_info['id'],
         'name': canale_info['name'],
@@ -125,6 +123,7 @@ def scrape_epg(url, canale_info):
         'm3uLink': canale_info['m3uLink'],
         'programs': dati_programmi
     }
+
 
 # Funzione per salvare i dati in un file JSON
 def salva_dati(dati_canali):
