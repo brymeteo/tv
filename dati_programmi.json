@@ -73,7 +73,7 @@
                 "start": "2025-01-24T00:45:00.000000Z",
                 "end": "2025-01-24T01:15:00.000000Z",
                 "title": "Movie Mag",
-                "description": "Descrizione non disponibile",
+                "description": "(Continua...)",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fmovie-mag%2F6.jpg&w=3840&q=75",
                 "channel": "rai-1"
@@ -82,7 +82,7 @@
                 "start": "2025-01-24T01:15:00.000000Z",
                 "end": "2025-01-24T01:20:00.000000Z",
                 "title": "Che Tempo Fa",
-                "description": "Descrizione non disponibile",
+                "description": "(Continua...)",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
                 "channel": "rai-1"
@@ -91,7 +91,7 @@
                 "start": "2025-01-24T01:20:00.000000Z",
                 "end": "2025-01-24T00:20:00.000000Z",
                 "title": "RaiNews24",
-                "description": "Descrizione non disponibile",
+                "description": "(Continua...)",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
                 "channel": "rai-1"
@@ -105,15 +105,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-01-24T00:36:00.000000Z",
-                "end": "2025-01-24T01:20:00.000000Z",
-                "title": "TG5",
-                "description": "Descrizione non disponibile",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
             {
                 "start": "2025-01-24T01:20:00.000000Z",
                 "end": "2025-01-24T02:12:00.000000Z",
