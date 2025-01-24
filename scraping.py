@@ -15,7 +15,6 @@ canali_urls = {
     },
     'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
-        'zam_url': 'https://tv.zam.it/ch-Rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
@@ -24,55 +23,16 @@ canali_urls = {
     },
     'canale-5': {
         'url': 'https://guidatv.org/canali/canale-5',
-        'zam_url': 'https://tv.zam.it/ch-Canale-5',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
+    # Aggiungi altri canali qui
 }
 
-def scrape_descriptions(zam_url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    response = requests.get(zam_url, headers=headers)
-    
-    if response.status_code != 200:
-        print(f"Errore nel recupero delle descrizioni da {zam_url}, codice di stato: {response.status_code}")
-        return []
-
-    # Parsing del contenuto HTML
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Trova il blocco principale che contiene tutti i programmi
-    main_content = soup.find('div', id='maincontent')
-    if not main_content:
-        print(f"Nessun contenuto trovato in {zam_url}")
-        return []
-
-    # Trova tutti i blocchi che contengono descrizioni alternando tra info_box_color e info_box
-    description_blocks = main_content.find_all('div', class_=['info_box_color', 'info_box'])
-
-    descriptions = []
-    for block in description_blocks:
-        # Cerca il div che contiene la descrizione effettiva
-        description_div = block.find('div', class_='gen sx')
-        if description_div:
-            # Estrai il testo completo, compreso il contenuto HTML
-            description_text = ''.join([str(element) for element in description_div.find_all(text=True, recursive=True)]).strip()
-
-            # Rimuovi il link "Continua..." se presente
-            description_text = description_text.replace('(Continua...)', '').strip()
-
-            descriptions.append(description_text)
-
-    if not descriptions:
-        print("Nessuna descrizione trovata. Verifica la struttura HTML del sito.")
-    return descriptions
-
-
+# Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -96,18 +56,13 @@ def scrape_epg(url, canale_info):
     # Variabile per tenere traccia dell'orario di inizio del programma precedente
     orario_inizio_precedente = None
 
-    # Ottieni le descrizioni da tv.zam.it se applicabile
-    zam_descriptions = scrape_descriptions(canale_info.get('zam_url')) if 'zam_url' in canale_info else []
-
-    # Sincronizza le descrizioni con i programmi in base all'orario di inizio
-    descrizioni_sincronizzate = []
     for i, programma in enumerate(programmi):
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
-        # Usa descrizione da tv.zam.it se disponibile, altrimenti da guidatv.org
-        descrizione = zam_descriptions[i] if i < len(zam_descriptions) else "Descrizione non disponibile"
+        descrizione = programma.find('p', class_='program-description text-break mt-2')
+        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
 
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
@@ -126,7 +81,11 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
-        # Aggiungi il programma con la descrizione sincronizzata
+        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
+        if orario_inizio_precedente:
+            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
+
+        # Crea l'oggetto per il programma corrente
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
@@ -137,14 +96,12 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
 
-        descrizioni_sincronizzate.append(programma_data)
-    
-    # Sincronizzazione finale dell'orario di fine
-    for i, programma in enumerate(descrizioni_sincronizzate[:-1]):
-        programma['end'] = descrizioni_sincronizzate[i+1]['start']
+        dati_programmi.append(programma_data)
+        orario_inizio_precedente = orario_inizio
 
-    if descrizioni_sincronizzate:
-        ultimo_programma = descrizioni_sincronizzate[-1]
+    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
+    if dati_programmi:
+        ultimo_programma = dati_programmi[-1]
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
@@ -158,16 +115,15 @@ def scrape_epg(url, canale_info):
         'epgName': canale_info['epgName'],
         'logo': canale_info['logo'],
         'm3uLink': canale_info['m3uLink'],
-        'programs': descrizioni_sincronizzate
+        'programs': dati_programmi
     }
-
 
 # Funzione per salvare i dati in un file JSON
 def salva_dati(dati_canali):
     with open('dati_programmi.json', 'w', encoding='utf-8') as json_file:
         json.dump(dati_canali, json_file, ensure_ascii=False, indent=4)
 
-# Funzione principale che esegue lo scraping da tutti i canali e salva i datii
+# Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
     print("Inizio scraping dei dati EPG da più canali...")
 
