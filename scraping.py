@@ -93,21 +93,21 @@ def scrape_epg(url, canale_info):
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
 
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente
-    orario_inizio_precedente = None
-
     # Ottieni le descrizioni da tv.zam.it se applicabile
     zam_descriptions = scrape_descriptions(canale_info.get('zam_url')) if 'zam_url' in canale_info else []
 
-    # Sincronizza le descrizioni con i programmi in base all'orario di inizio
-    descrizioni_sincronizzate = []
-    for i, programma in enumerate(programmi):
+    # Aggiungi descrizioni solo se ci sono descrizioni valide
+    for programma in programmi:
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
-        # Usa descrizione da tv.zam.it se disponibile, altrimenti da guidatv.org
-        descrizione = zam_descriptions[i] if i < len(zam_descriptions) else "Descrizione non disponibile"
+        # Sincronizza la descrizione con il titolo del programma
+        descrizione = "Descrizione non disponibile"
+        for zam_desc in zam_descriptions:
+            if titolo.lower() in zam_desc.lower():
+                descrizione = zam_desc
+                break
 
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
@@ -137,14 +137,14 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
 
-        descrizioni_sincronizzate.append(programma_data)
-    
-    # Sincronizzazione finale dell'orario di fine
-    for i, programma in enumerate(descrizioni_sincronizzate[:-1]):
-        programma['end'] = descrizioni_sincronizzate[i+1]['start']
+        dati_programmi.append(programma_data)
 
-    if descrizioni_sincronizzate:
-        ultimo_programma = descrizioni_sincronizzate[-1]
+    # Sincronizzazione finale dell'orario di fine
+    for i, programma in enumerate(dati_programmi[:-1]):
+        programma['end'] = dati_programmi[i+1]['start']
+
+    if dati_programmi:
+        ultimo_programma = dati_programmi[-1]
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
@@ -158,7 +158,7 @@ def scrape_epg(url, canale_info):
         'epgName': canale_info['epgName'],
         'logo': canale_info['logo'],
         'm3uLink': canale_info['m3uLink'],
-        'programs': descrizioni_sincronizzate
+        'programs': dati_programmi
     }
 
 
