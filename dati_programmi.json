@@ -853,5 +853,536 @@
                 "channel": "canale-5"
             }
         ]
+    },
+    {
+        "id": "gambero-rosso",
+        "name": "Gambero Rosso",
+        "epgName": "Gambero Rosso",
+        "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
+        "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
+        "programs": [
+            {
+                "start": "2025-01-24T05:30:00.000000Z",
+                "end": "2025-01-24T06:00:00.000000Z",
+                "title": "AB...Cheese",
+                "description": "Continua lo straordinario ed appassionante viaggio per l'Italia della food-writer Eleonora Baldwin a...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fab-cheese%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T06:00:00.000000Z",
+                "end": "2025-01-24T06:30:00.000000Z",
+                "title": "Mangio tutto tranne: Portogallo",
+                "description": "Giovanni Angelucci alla scoperta delle tradizioni culinarie di altri paesi. In questa serie le belle...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F1f55cbf7-409a-4ff8-b20e-1083d633c405%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T06:30:00.000000Z",
+                "end": "2025-01-24T06:55:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 4 - Che fame in montagna",
+                "description": "S5 Ep4 Che fame in montagna - Una zuppa calda a colazione? Certo, per Max tutto e' possibile, magari...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T06:55:00.000000Z",
+                "end": "2025-01-24T07:25:00.000000Z",
+                "title": "Giorgione: orto e cucina - Sardegna",
+                "description": "Ep6 di 7 Ricci di mare / Fregola - L'amabile Giorgione e' il protagonista di piacevoli avventure nel...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T07:25:00.000000Z",
+                "end": "2025-01-24T07:30:00.000000Z",
+                "title": "Le ricette di Mai - Stag. 1 Ep. 4 - Dashimaki Tamago",
+                "description": "S1 Ep4 Dashimaki Tamago - La cucina giapponese per tutti: ricette semplici e piccoli segreti di Mai ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-di-mai%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T07:30:00.000000Z",
+                "end": "2025-01-24T08:00:00.000000Z",
+                "title": "Vito con i suoi",
+                "description": "Ep5 di 7 Ossobuco / Zampetti con la rete - Stefano Bicocchi, in arte Vito, apre le porte di casa sua...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fvito-con-i-suoi%2F8.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T08:00:00.000000Z",
+                "end": "2025-01-24T08:30:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 2 - Formaggio Testaccio",
+                "description": "S55 Ep2 Formaggio Testaccio - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta st...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T08:30:00.000000Z",
+                "end": "2025-01-24T09:00:00.000000Z",
+                "title": "Giorgione in cammino",
+                "description": "Ep4 di 4 - Giorgione in cammino fra boschi e valli, a piedi, a cavallo o in bici. Le nuove avventure...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T09:00:00.000000Z",
+                "end": "2025-01-24T09:20:00.000000Z",
+                "title": "Questa terra e' la mia terra - Stag. 13 Ep. 2 - Zuppa di Pasta Margherita",
+                "description": "S13 Ep2 Zuppa di Pasta Margherita - Peppe Guida ci mostra le sue due anime: chef del ristorante gour...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fquesta-terra-e-la-mia-terra%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T09:20:00.000000Z",
+                "end": "2025-01-24T09:30:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 1 - Begali / Siora",
+                "description": "S1 Ep1 Begali / Siora - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il suo piatto. ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T09:30:00.000000Z",
+                "end": "2025-01-24T10:00:00.000000Z",
+                "title": "L'Isola del Barone",
+                "description": "Andrea Lo Cicero cucina i piatti della sua Sicilia",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-isola-del-barone%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T10:00:00.000000Z",
+                "end": "2025-01-24T10:25:00.000000Z",
+                "title": "Tutto in famiglia",
+                "description": "Laura Marciani, chef della Locanda degli angeli, una realtà gestita da tutta la famiglia. Albergo, o...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Ftutto-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T10:25:00.000000Z",
+                "end": "2025-01-24T10:30:00.000000Z",
+                "title": "Bar d'Italia 2024 - Stag. 1 Ep. 1 - 300mila",
+                "description": "S1 Ep1 300mila - Edizione 2024 della Guida del Gambero Rosso che aiuta a orientarsi tra i migliori b...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbar-d-italia-2024%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T10:30:00.000000Z",
+                "end": "2025-01-24T11:00:00.000000Z",
+                "title": "Beker on Tour BBQ FVG Collio - Stag. 39 Ep. 2 - Petto d'anatra",
+                "description": "S39 Ep2 Petto d'anatra - Fabrizio Nonis in viaggio nel Collio friulano immerso nelle tradizioni culi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbeker-on-tour%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T11:00:00.000000Z",
+                "end": "2025-01-24T11:25:00.000000Z",
+                "title": "Parola di chef - Stag. 11 Ep. 30 - David Boncompagni",
+                "description": "S11 Ep30 David Boncompagni - Una generazione di giovani chef si racconta in una serie tv: la passion...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fparola-di-chef%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T11:25:00.000000Z",
+                "end": "2025-01-24T11:30:00.000000Z",
+                "title": "Km Italia pillole",
+                "description": "Ep6 di 20 Mozzarella di bufala - Brevi spunti culinari e gastronomici dal programma \"Km Italia\", che...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F5296a365-b08a-4eab-b4c7-5cd6c846208e%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T11:30:00.000000Z",
+                "end": "2025-01-24T12:00:00.000000Z",
+                "title": "AB...Cheese",
+                "description": "Continua lo straordinario ed appassionante viaggio per l'Italia della food-writer Eleonora Baldwin a...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fab-cheese%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T12:00:00.000000Z",
+                "end": "2025-01-24T12:25:00.000000Z",
+                "title": "Mangio tutto tranne: Portogallo",
+                "description": "Giovanni Angelucci alla scoperta delle tradizioni culinarie di altri paesi. In questa serie le belle...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F87d14a8e-1187-4fa6-ab57-9633635b1a78%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T12:25:00.000000Z",
+                "end": "2025-01-24T12:55:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 5 - Il freddo rigenera",
+                "description": "S5 Ep5 Il freddo rigenera - Il freddo, la neve, lo sport all'aria aperta e iol contatto con la natur...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T12:55:00.000000Z",
+                "end": "2025-01-24T13:00:00.000000Z",
+                "title": "Petra - Stag. 1 Ep. 4 - Focaccia",
+                "description": "S1 Ep4 Focaccia - Che sia dolce, pizza o pane, ad ogni ricetta la giusta farina.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpetra%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T13:00:00.000000Z",
+                "end": "2025-01-24T13:30:00.000000Z",
+                "title": "L'alfabeto di Giorgione - Stag. 2 Ep. 4 - G / H",
+                "description": "S2 Ep4 G / H - Per ogni lettera una puntata: 'A' come Aglione, 'B' come Birra e via dicendo; ogni vo...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-alfabeto-di-giorgione%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T13:30:00.000000Z",
+                "end": "2025-01-24T14:00:00.000000Z",
+                "title": "Vito con i suoi",
+                "description": "Ep6 di 7 Gnocchi di zucca / Bichetchup - Stefano Bicocchi, in arte Vito, apre le porte di casa sua e...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fvito-con-i-suoi%2F8.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T14:00:00.000000Z",
+                "end": "2025-01-24T14:25:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 2 - Formaggio Testaccio",
+                "description": "S55 Ep2 Formaggio Testaccio - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta st...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T14:25:00.000000Z",
+                "end": "2025-01-24T15:00:00.000000Z",
+                "title": "Giorgione in cammino",
+                "description": "Ep4 di 4 - Giorgione in cammino fra boschi e valli, a piedi, a cavallo o in bici. Le nuove avventure...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T15:00:00.000000Z",
+                "end": "2025-01-24T15:25:00.000000Z",
+                "title": "Questa terra e' la mia terra - Stag. 13 Ep. 3 - Braciola alla napoletana",
+                "description": "S13 Ep3 Braciola alla napoletana - Peppe Guida ci mostra le sue due anime: chef del ristorante gourm...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fquesta-terra-e-la-mia-terra%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T15:25:00.000000Z",
+                "end": "2025-01-24T15:55:00.000000Z",
+                "title": "L'Isola del Barone",
+                "description": "Andrea Lo Cicero cucina i piatti della sua Sicilia",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-isola-del-barone%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T15:55:00.000000Z",
+                "end": "2025-01-24T16:00:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 16 - Vicchiomaggio / Ripa Delle More",
+                "description": "S1 Ep16 Vicchiomaggio / Ripa Delle More - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T16:00:00.000000Z",
+                "end": "2025-01-24T16:30:00.000000Z",
+                "title": "Tutto in famiglia",
+                "description": "Laura Marciani, chef della Locanda degli angeli, una realtà gestita da tutta la famiglia. Albergo, o...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Ftutto-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T16:30:00.000000Z",
+                "end": "2025-01-24T17:00:00.000000Z",
+                "title": "Beker on Tour BBQ FVG Collio - Stag. 39 Ep. 3 - Ravioli di carne",
+                "description": "S39 Ep3 Ravioli di carne - Fabrizio Nonis in viaggio nel Collio friulano immerso nelle tradizioni cu...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbeker-on-tour%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T17:00:00.000000Z",
+                "end": "2025-01-24T17:30:00.000000Z",
+                "title": "Parola di chef - Stag. 11 Ep. 1 - Andrea Manzoli",
+                "description": "S11 Ep1 Andrea Manzoli - Una generazione di giovani chef si racconta in una serie tv: la passione, g...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fparola-di-chef%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T17:30:00.000000Z",
+                "end": "2025-01-24T18:00:00.000000Z",
+                "title": "AB...Cheese",
+                "description": "Continua lo straordinario ed appassionante viaggio per l'Italia della food-writer Eleonora Baldwin a...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fab-cheese%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T18:00:00.000000Z",
+                "end": "2025-01-24T18:25:00.000000Z",
+                "title": "Mangio tutto tranne: Portogallo",
+                "description": "Giovanni Angelucci alla scoperta delle tradizioni culinarie di altri paesi. In questa serie le belle...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F1f55cbf7-409a-4ff8-b20e-1083d633c405%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T18:25:00.000000Z",
+                "end": "2025-01-24T18:35:00.000000Z",
+                "title": "Takeda - Stag. 1 Ep. 3 - Ceccarelli",
+                "description": "S1 Ep3 Ceccarelli - Mens sana in corpore sano. Tante buone ricette e sani consigli per nutrire al me...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Ftakeda%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T18:35:00.000000Z",
+                "end": "2025-01-24T19:00:00.000000Z",
+                "title": "I panini li fa Max",
+                "description": "Ep1 Il modenese / Arzillotto - Lo chef Massimiliano Mariola si avventura con fantasia nel mondo del ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fi-panini-li-fa-max%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T19:00:00.000000Z",
+                "end": "2025-01-24T19:30:00.000000Z",
+                "title": "Giorgione: orto e cucina - Sardegna",
+                "description": "Ep7 di 7 Capperi - L'amabile Giorgione e' il protagonista di piacevoli avventure nell'orto e in cuci...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T19:30:00.000000Z",
+                "end": "2025-01-24T20:00:00.000000Z",
+                "title": "Vito con i suoi",
+                "description": "Ep5 di 7 Ossobuco / Zampetti con la rete - Stefano Bicocchi, in arte Vito, apre le porte di casa sua...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fvito-con-i-suoi%2F8.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T20:00:00.000000Z",
+                "end": "2025-01-24T20:25:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 3 - Vino dei Castelli",
+                "description": "S55 Ep3 Vino dei Castelli - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta stav...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T20:25:00.000000Z",
+                "end": "2025-01-24T21:00:00.000000Z",
+                "title": "Giorgione in cammino",
+                "description": "Ep4 di 4 - Giorgione in cammino fra boschi e valli, a piedi, a cavallo o in bici. Le nuove avventure...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T21:00:00.000000Z",
+                "end": "2025-01-24T21:20:00.000000Z",
+                "title": "Questa terra e' la mia terra - Stag. 13 Ep. 2 - Zuppa di Pasta Margherita",
+                "description": "S13 Ep2 Zuppa di Pasta Margherita - Peppe Guida ci mostra le sue due anime: chef del ristorante gour...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fquesta-terra-e-la-mia-terra%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T21:20:00.000000Z",
+                "end": "2025-01-24T21:35:00.000000Z",
+                "title": "Ricette sostenibili",
+                "description": "Ep16 di 20 Cereali integrali - Davide Mazza chef, Andrea Ghiselli nutrizionista del Crea e la Comuni...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F44b195f8-52ab-4754-a5e5-8768b715a2c3%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T21:35:00.000000Z",
+                "end": "2025-01-24T22:00:00.000000Z",
+                "title": "L'Isola del Barone",
+                "description": "Andrea Lo Cicero cucina i piatti della sua Sicilia",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-isola-del-barone%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T22:00:00.000000Z",
+                "end": "2025-01-24T22:25:00.000000Z",
+                "title": "Tutto in famiglia",
+                "description": "Laura Marciani, chef della Locanda degli angeli, una realtà gestita da tutta la famiglia. Albergo, o...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Ftutto-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T22:25:00.000000Z",
+                "end": "2025-01-24T22:50:00.000000Z",
+                "title": "Beker On Tour Malborghetto - Stag. 43 Ep. 3 - Lombo di cervo",
+                "description": "S43 Ep3 Lombo di cervo - Nuova tappa per Fabrizio Nonis, 'El Beker': il viaggio del vostro macellaio...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbeker-on-tour%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T22:50:00.000000Z",
+                "end": "2025-01-24T23:00:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 11 - Castel Firmian / Fil di rose",
+                "description": "S1 Ep11 Castel Firmian / Fil di rose - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T23:00:00.000000Z",
+                "end": "2025-01-24T23:30:00.000000Z",
+                "title": "Parola di chef - Stag. 11 Ep. 1 - Andrea Manzoli",
+                "description": "S11 Ep1 Andrea Manzoli - Una generazione di giovani chef si racconta in una serie tv: la passione, g...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fparola-di-chef%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T23:30:00.000000Z",
+                "end": "2025-01-24T23:55:00.000000Z",
+                "title": "AB...Cheese",
+                "description": "Continua lo straordinario ed appassionante viaggio per l'Italia della food-writer Eleonora Baldwin a...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fab-cheese%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T23:55:00.000000Z",
+                "end": "2025-01-24T00:20:00.000000Z",
+                "title": "Mangio tutto tranne: Portogallo",
+                "description": "Giovanni Angelucci alla scoperta delle tradizioni culinarie di altri paesi. In questa serie le belle...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F87d14a8e-1187-4fa6-ab57-9633635b1a78%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T00:20:00.000000Z",
+                "end": "2025-01-24T00:30:00.000000Z",
+                "title": "Le ricette di Mai - Stag. 1 Ep. 5 - Negitoro Don",
+                "description": "S1 Ep5 Negitoro Don - La cucina giapponese per tutti: ricette semplici e piccoli segreti di Mai Shin...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-di-mai%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T00:30:00.000000Z",
+                "end": "2025-01-24T00:55:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 5 - Il freddo rigenera",
+                "description": "S5 Ep5 Il freddo rigenera - Il freddo, la neve, lo sport all'aria aperta e iol contatto con la natur...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T00:55:00.000000Z",
+                "end": "2025-01-24T01:05:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 7 - Menhir / Filo. 1a parte",
+                "description": "S1 Ep7 Menhir / Filo. 1a parte - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il suo...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T01:05:00.000000Z",
+                "end": "2025-01-24T01:35:00.000000Z",
+                "title": "Giorgione: orto e cucina - Sardegna",
+                "description": "Ep7 di 7 Capperi - L'amabile Giorgione e' il protagonista di piacevoli avventure nell'orto e in cuci...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T01:35:00.000000Z",
+                "end": "2025-01-24T02:05:00.000000Z",
+                "title": "Vito con i suoi",
+                "description": "Ep6 di 7 Gnocchi di zucca / Bichetchup - Stefano Bicocchi, in arte Vito, apre le porte di casa sua e...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fvito-con-i-suoi%2F8.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T02:05:00.000000Z",
+                "end": "2025-01-24T02:25:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 3 - Vino dei Castelli",
+                "description": "S55 Ep3 Vino dei Castelli - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta stav...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T02:25:00.000000Z",
+                "end": "2025-01-24T03:05:00.000000Z",
+                "title": "Giorgione in cammino",
+                "description": "Ep4 di 4 - Giorgione in cammino fra boschi e valli, a piedi, a cavallo o in bici. Le nuove avventure...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T03:05:00.000000Z",
+                "end": "2025-01-24T03:35:00.000000Z",
+                "title": "Questa terra e' la mia terra - Stag. 13 Ep. 3 - Braciola alla napoletana",
+                "description": "S13 Ep3 Braciola alla napoletana - Peppe Guida ci mostra le sue due anime: chef del ristorante gourm...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fquesta-terra-e-la-mia-terra%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T03:35:00.000000Z",
+                "end": "2025-01-24T04:05:00.000000Z",
+                "title": "L'Isola del Barone",
+                "description": "Andrea Lo Cicero cucina i piatti della sua Sicilia",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-isola-del-barone%2F6.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T04:05:00.000000Z",
+                "end": "2025-01-24T04:30:00.000000Z",
+                "title": "Tutto in famiglia",
+                "description": "Laura Marciani, chef della Locanda degli angeli, una realtà gestita da tutta la famiglia. Albergo, o...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Ftutto-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            },
+            {
+                "start": "2025-01-24T04:30:00.000000Z",
+                "end": "2025-01-24T03:30:00.000000Z",
+                "title": "Beker on Tour BBQ FVG Collio - Stag. 39 Ep. 3 - Ravioli di carne",
+                "description": "S39 Ep3 Ravioli di carne - Fabrizio Nonis in viaggio nel Collio friulano immerso nelle tradizioni cu...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbeker-on-tour%2F10.jpg&w=3840&q=75",
+                "channel": "gambero-rosso"
+            }
+        ]
     }
 ]
