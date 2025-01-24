@@ -126,7 +126,6 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
-        # Aggiungi il programma con la descrizione sincronizzata
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
@@ -160,6 +159,7 @@ def scrape_epg(url, canale_info):
         'm3uLink': canale_info['m3uLink'],
         'programs': descrizioni_sincronizzate
     }
+
 
 
 # Funzione per salvare i dati in un file JSON
