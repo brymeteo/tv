@@ -32,27 +32,40 @@ canali_urls = {
     }
 }
 
-# Funzione per ottenere le descrizioni dei programmi da tv.zam.it
 def scrape_descriptions(zam_url):
-    response = requests.get(zam_url)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    response = requests.get(zam_url, headers=headers)
+    
     if response.status_code != 200:
         print(f"Errore nel recupero delle descrizioni da {zam_url}, codice di stato: {response.status_code}")
         return []
 
+    # Parsing del contenuto HTML
     soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Trova il blocco principale che contiene tutti i programmi
     main_content = soup.find('div', id='maincontent')
     if not main_content:
         print(f"Nessun contenuto trovato in {zam_url}")
         return []
 
-    descriptions = []
+    # Trova tutti i blocchi che contengono descrizioni alternando tra info_box_color e info_box
     description_blocks = main_content.find_all('div', class_=['info_box_color', 'info_box'])
 
+    descriptions = []
     for block in description_blocks:
-        description_text = block.get_text(strip=True)
-        descriptions.append(description_text)
+        # Cerca il div che contiene la descrizione effettiva
+        description_div = block.find('div', class_='gen sx')
+        if description_div:
+            description_text = description_div.get_text(strip=True)
+            descriptions.append(description_text)
 
+    if not descriptions:
+        print("Nessuna descrizione trovata. Verifica la struttura HTML del sito.")
     return descriptions
+
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
