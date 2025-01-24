@@ -73,7 +73,6 @@ def scrape_descriptions(zam_url):
     return descriptions
 
 
-# Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -100,6 +99,8 @@ def scrape_epg(url, canale_info):
     # Ottieni le descrizioni da tv.zam.it se applicabile
     zam_descriptions = scrape_descriptions(canale_info.get('zam_url')) if 'zam_url' in canale_info else []
 
+    # Sincronizza le descrizioni con i programmi in base all'orario di inizio
+    descrizioni_sincronizzate = []
     for i, programma in enumerate(programmi):
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
@@ -125,11 +126,7 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-        if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
-
-        # Crea l'oggetto per il programma corrente
+        # Aggiungi il programma con la descrizione sincronizzata
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
@@ -140,12 +137,14 @@ def scrape_epg(url, canale_info):
             'channel': canale_info['id']
         }
 
-        dati_programmi.append(programma_data)
-        orario_inizio_precedente = orario_inizio
+        descrizioni_sincronizzate.append(programma_data)
+    
+    # Sincronizzazione finale dell'orario di fine
+    for i, programma in enumerate(descrizioni_sincronizzate[:-1]):
+        programma['end'] = descrizioni_sincronizzate[i+1]['start']
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
+    if descrizioni_sincronizzate:
+        ultimo_programma = descrizioni_sincronizzate[-1]
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
@@ -159,8 +158,9 @@ def scrape_epg(url, canale_info):
         'epgName': canale_info['epgName'],
         'logo': canale_info['logo'],
         'm3uLink': canale_info['m3uLink'],
-        'programs': dati_programmi
+        'programs': descrizioni_sincronizzate
     }
+
 
 # Funzione per salvare i dati in un file JSON
 def salva_dati(dati_canali):
