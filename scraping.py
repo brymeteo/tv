@@ -24,6 +24,7 @@ canali_urls = {
     },
     'canale-5': {
         'url': 'https://guidatv.org/canali/canale-5',
+        'zam_url': 'https://tv.zam.it/ch-Canale-5',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
