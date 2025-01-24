@@ -13,41 +13,30 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
-    'rai-1': {
-        'url': 'https://guidatv.org/canali/rai-1',
-        'name': 'Rai 1',
-        'id': 'rai-1',
-        'epgName': 'Rai 1',
-        'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
-    },
-    'canale-5': {
-        'url': 'https://guidatv.org/canali/canale-5',
-        'name': 'Canale 5',
-        'id': 'canale-5',
-        'epgName': 'Canale 5',
-        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
-    },
     'gambero-rosso': {
         'url': 'https://guidatv.org/canali/gambero-rosso-hd',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
         'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
-    },
-    # Aggiungi altri canali qui
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8',
+        'next_day_url': True  # Specifica che supporta il link con /domani
+    }
 }
+
+# Funzione per costruire il link del giorno successivo
+def costruisci_url(canale_info, giorno_successivo):
+    if giorno_successivo and canale_info.get('next_day_url'):
+        # Aggiunge /domani all'URL principale
+        return f"{canale_info['url']}/domani"
+    return canale_info['url']
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info, giorno_successivo=False):
-    # Ottieni la data odierna
+    # Ottieni la data odierna o quella del giorno successivo
     data_odierna = datetime.datetime.now()
-    
     if giorno_successivo:
         data_odierna += datetime.timedelta(days=1)
-
     data_odierna_str = data_odierna.strftime("%Y-%m-%d")
 
     # Ottieni il contenuto della pagina
@@ -70,7 +59,6 @@ def scrape_epg(url, canale_info, giorno_successivo=False):
     orario_inizio_precedente = None
 
     for i, programma in enumerate(programmi):
-        # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
 
@@ -86,7 +74,6 @@ def scrape_epg(url, canale_info, giorno_successivo=False):
         # Sottrarre un'ora all'orario di inizio
         orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
 
-        # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
             src = poster_img['src']
@@ -112,7 +99,6 @@ def scrape_epg(url, canale_info, giorno_successivo=False):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
     if dati_programmi:
         ultimo_programma = dati_programmi[-1]
         try:
@@ -131,36 +117,33 @@ def scrape_epg(url, canale_info, giorno_successivo=False):
         'programs': dati_programmi
     }
 
-# Funzione per salvare i dati in un file JSON
-def salva_dati(dati_canali):
-    with open('dati_programmi.json', 'w', encoding='utf-8') as json_file:
-        json.dump(dati_canali, json_file, ensure_ascii=False, indent=4)
-
 # Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
     print("Inizio scraping dei dati EPG da più canali...")
 
-    # Lista per raccogliere i dati da tutti i canali
     tutti_dati_canali = []
 
-    # Itera su ogni URL della lista dei canali
     for canale_id, canale_info in canali_urls.items():
-        print(f"Raccogliendo dati da {canale_info['name']}...")
+        print(f"Raccogliendo dati per il canale {canale_info['name']}...")
 
-        # Esegui lo scraping dei dati per il canale corrente per il giorno successivo
-        dati_canale = scrape_epg(canale_info['url'], canale_info, giorno_successivo=True)
+        # URL per il giorno corrente
+        url_corrente = costruisci_url(canale_info, giorno_successivo=False)
+        dati_oggi = scrape_epg(url_corrente, canale_info, giorno_successivo=False)
 
-        if dati_canale:
-            tutti_dati_canali.append(dati_canale)
-        else:
-            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
+        # URL per il giorno successivo
+        url_domani = costruisci_url(canale_info, giorno_successivo=True)
+        dati_domani = scrape_epg(url_domani, canale_info, giorno_successivo=True)
 
-    # Se abbiamo dei dati, salvali nel file JSON
+        if dati_oggi:
+            tutti_dati_canali.append(dati_oggi)
+        if dati_domani:
+            tutti_dati_canali.append(dati_domani)
+
     if tutti_dati_canali:
         salva_dati(tutti_dati_canali)
-        print("Dati salvati correttamente nel file dati_programmi.json.")
+        print("Dati salvati nel file dati_programmi.json.")
     else:
-        print("Nessun dato trovato o errore durante lo scraping.")
+        print("Nessun dato trovato.")
 
 if __name__ == "__main__":
     main()
