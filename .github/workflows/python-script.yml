@@ -2,7 +2,7 @@ name: Esegui Script Python per Aggiornare Dati EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Esegui ogni giorno a mezzanotte UTC
+    - cron: '0 4 * * *'  # Esegui ogni giorno alle 04:00 UTC
   push:
     branches:
       - main  # Trigger quando fai push sul branch main
@@ -33,15 +33,14 @@ jobs:
       run: |
         python scraping.py  # Assicurati che il nome del tuo script sia corretto
 
-        # Aggiungi e Pusha il risultato
+    # Aggiungi e Pusha il risultato (sempre, anche se non ci sono modifiche)
     - name: Aggiungi e Pusha il risultato
       run: |
         git config --global user.name "GitHub Actions"  # Configura il nome utente
         git config --global user.email "actions@github.com"  # Configura l'email
         git add dati_programmi.json  # Aggiungi il file JSON generato
 
-        # Verifica se ci sono modifiche da commettere
-        git diff --cached --quiet || git commit -m "Aggiorna i dati EPG"  # Crea il commit solo se ci sono modifiche
+        # Crea sempre un commit, anche se non ci sono modifiche
+        git commit -m "Aggiorna i dati EPG" || echo "Nessuna modifica da commettere"  # Evita errore se non ci sono modifiche
 
         git push  # Esegui il push delle modifiche
-
