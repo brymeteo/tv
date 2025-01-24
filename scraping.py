@@ -46,31 +46,31 @@ def scrape_descriptions(zam_url):
     # Parsing del contenuto HTML
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    # Trova tutti i programmi con i dettagli
-    program_blocks = soup.find_all('div', class_='gen dataz')
+    # Trova il blocco principale che contiene tutti i programmi
+    main_content = soup.find('div', id='maincontent')
+    if not main_content:
+        print(f"Nessun contenuto trovato in {zam_url}")
+        return []
+
+    # Trova tutti i blocchi che contengono descrizioni alternando tra info_box_color e info_box
+    description_blocks = main_content.find_all('div', class_=['info_box_color', 'info_box'])
+
     descriptions = []
+    for block in description_blocks:
+        # Cerca il div che contiene la descrizione effettiva
+        description_div = block.find('div', class_='gen sx')
+        if description_div:
+            # Estrai il testo completo, compreso il contenuto HTML
+            description_text = ''.join([str(element) for element in description_div.find_all(text=True, recursive=True)]).strip()
 
-    for block in program_blocks:
-        # Estrai il titolo
-        titolo_tag = block.find('a', class_='gen')
-        titolo = titolo_tag.get('title') if titolo_tag else "Titolo non disponibile"
+            # Rimuovi il link "Continua..." se presente
+            description_text = description_text.replace('(Continua...)', '').strip()
 
-        # Estrai l'orario di inizio
-        orario_tag = block.find_previous('div', class_='dataz gen')
-        orario = orario_tag.find('b').get_text(strip=True) if orario_tag else None
+            descriptions.append(description_text)
 
-        # Estrai la descrizione (se presente)
-        descrizione_tag = block.find('span', class_='gen categoria')
-        descrizione = descrizione_tag.get_text(strip=True) if descrizione_tag else "Descrizione non disponibile"
-
-        descriptions.append({
-            'title': titolo,
-            'start_time': orario,
-            'description': descrizione
-        })
-
+    if not descriptions:
+        print("Nessuna descrizione trovata. Verifica la struttura HTML del sito.")
     return descriptions
-
 
 
 def scrape_epg(url, canale_info):
@@ -93,15 +93,21 @@ def scrape_epg(url, canale_info):
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
 
+    # Variabile per tenere traccia dell'orario di inizio del programma precedente
+    orario_inizio_precedente = None
+
     # Ottieni le descrizioni da tv.zam.it se applicabile
     zam_descriptions = scrape_descriptions(canale_info.get('zam_url')) if 'zam_url' in canale_info else []
 
     # Sincronizza le descrizioni con i programmi in base all'orario di inizio
     descrizioni_sincronizzate = []
-    for programma in programmi:
-        # Estrai i dettagli del programma da guidatv.org
+    for i, programma in enumerate(programmi):
+        # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+
+        # Usa descrizione da tv.zam.it se disponibile, altrimenti da guidatv.org
+        descrizione = zam_descriptions[i] if i < len(zam_descriptions) else "Descrizione non disponibile"
 
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
@@ -120,13 +126,7 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
-        # Associa la descrizione corretta
-        descrizione = "Descrizione non disponibile"
-        for zam_description in zam_descriptions:
-            if zam_description['title'] == titolo and zam_description['start_time'] == orario_inizio:
-                descrizione = zam_description['description']
-                break
-
+        # Aggiungi il programma con la descrizione sincronizzata
         programma_data = {
             'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
@@ -160,8 +160,6 @@ def scrape_epg(url, canale_info):
         'm3uLink': canale_info['m3uLink'],
         'programs': descrizioni_sincronizzate
     }
-
-
 
 
 # Funzione per salvare i dati in un file JSON
