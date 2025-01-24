@@ -167,7 +167,7 @@ def salva_dati(dati_canali):
     with open('dati_programmi.json', 'w', encoding='utf-8') as json_file:
         json.dump(dati_canali, json_file, ensure_ascii=False, indent=4)
 
-# Funzione principale che esegue lo scraping da tutti i canali e salva i dati
+# Funzione principale che esegue lo scraping da tutti i canali e salva i datii
 def main():
     print("Inizio scraping dei dati EPG da più canali...")
 
