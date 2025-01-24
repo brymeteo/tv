@@ -59,7 +59,12 @@ def scrape_descriptions(zam_url):
         # Cerca il div che contiene la descrizione effettiva
         description_div = block.find('div', class_='gen sx')
         if description_div:
-            description_text = description_div.get_text(strip=True)
+            # Estrai il testo completo, compreso il contenuto HTML
+            description_text = ''.join([str(element) for element in description_div.find_all(text=True, recursive=True)]).strip()
+
+            # Rimuovi il link "Continua..." se presente
+            description_text = description_text.replace('(Continua...)', '').strip()
+
             descriptions.append(description_text)
 
     if not descriptions:
