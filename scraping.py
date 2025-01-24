@@ -28,6 +28,14 @@ canali_urls = {
         'epgName': 'Canale 5',
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'gambero-rosso': {
+        'url': 'https://guidatv.org/canali/gambero-rosso-hd',
+        'name': 'Gambero Rosso',
+        'id': 'gambero-rosso',
+        'epgName': 'Gambero Rosso',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
     # Aggiungi altri canali qui
 }
