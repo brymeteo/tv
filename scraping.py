@@ -5,6 +5,14 @@ import datetime
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
+    'rai-premium': {
+        'url': 'https://guidatv.org/canali/rai-premium',
+        'name': 'Rai Premium',
+        'id': 'rai-premium',
+        'epgName': 'Rai Premium',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
     'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
         'zam_url': 'https://tv.zam.it/ch-Rai-1',
@@ -13,35 +21,41 @@ canali_urls = {
         'epgName': 'Rai 1',
         'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
+    },
+    'canale-5': {
+        'url': 'https://guidatv.org/canali/canale-5',
+        'name': 'Canale 5',
+        'id': 'canale-5',
+        'epgName': 'Canale 5',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
-    # Aggiungi altri canali qui
 }
 
+# Funzione per ottenere le descrizioni dei programmi da tv.zam.it
 def scrape_descriptions(zam_url):
-    """Esegue lo scraping delle descrizioni dei programmi dal sito tv.zam.it."""
     response = requests.get(zam_url)
     if response.status_code != 200:
         print(f"Errore nel recupero delle descrizioni da {zam_url}, codice di stato: {response.status_code}")
         return []
 
     soup = BeautifulSoup(response.content, 'html.parser')
-    container = soup.find('div', id='maincontent')
-    if not container:
-        print(f"Nessun contenitore di descrizioni trovato su {zam_url}")
+    main_content = soup.find('div', id='maincontent')
+    if not main_content:
+        print(f"Nessun contenuto trovato in {zam_url}")
         return []
 
-    # Trova tutti i blocchi delle descrizioni alternati tra info_box_color e info_box
-    descrizioni_raw = container.find_all(lambda tag: tag.name == 'div' and tag.get('class', []) in [['info_box_color'], ['info_box']])
+    descriptions = []
+    description_blocks = main_content.find_all('div', class_=['info_box_color', 'info_box'])
 
-    descrizioni = []
-    for descrizione in descrizioni_raw:
-        testo = descrizione.get_text(strip=True)
-        descrizioni.append(testo)
+    for block in description_blocks:
+        description_text = block.get_text(strip=True)
+        descriptions.append(description_text)
 
-    return descrizioni
+    return descriptions
 
-def scrape_epg(url, zam_url, canale_info):
-    """Esegue lo scraping delle informazioni EPG."""
+# Funzione per fare lo scraping dei dati EPG da un singolo canale
+def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
 
@@ -59,16 +73,21 @@ def scrape_epg(url, zam_url, canale_info):
         return None
 
     programmi = container.find_all('div', class_='row')
-    descrizioni = scrape_descriptions(zam_url)
     dati_programmi = []
 
     # Variabile per tenere traccia dell'orario di inizio del programma precedente
     orario_inizio_precedente = None
 
+    # Ottieni le descrizioni da tv.zam.it se applicabile
+    zam_descriptions = scrape_descriptions(canale_info.get('zam_url')) if 'zam_url' in canale_info else []
+
     for i, programma in enumerate(programmi):
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+
+        # Usa descrizione da tv.zam.it se disponibile, altrimenti da guidatv.org
+        descrizione = zam_descriptions[i] if i < len(zam_descriptions) else "Descrizione non disponibile"
 
         orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
         orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
@@ -90,9 +109,6 @@ def scrape_epg(url, zam_url, canale_info):
         # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
         if orario_inizio_precedente:
             dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
-
-        # Aggiungi la descrizione corrispondente, se disponibile
-        descrizione = descrizioni[i] if i < len(descrizioni) else "Descrizione non disponibile"
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
@@ -127,11 +143,12 @@ def scrape_epg(url, zam_url, canale_info):
         'programs': dati_programmi
     }
 
+# Funzione per salvare i dati in un file JSON
 def salva_dati(dati_canali):
-    """Salva i dati in un file JSON."""
     with open('dati_programmi.json', 'w', encoding='utf-8') as json_file:
         json.dump(dati_canali, json_file, ensure_ascii=False, indent=4)
 
+# Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
     print("Inizio scraping dei dati EPG da più canali...")
 
@@ -143,7 +160,7 @@ def main():
         print(f"Raccogliendo dati da {canale_info['name']}...")
 
         # Esegui lo scraping dei dati per il canale corrente
-        dati_canale = scrape_epg(canale_info['url'], canale_info['zam_url'], canale_info)
+        dati_canale = scrape_epg(canale_info['url'], canale_info)
 
         if dati_canale:
             tutti_dati_canali.append(dati_canale)
