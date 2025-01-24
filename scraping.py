@@ -36,14 +36,19 @@ canali_urls = {
         'epgName': 'Gambero Rosso',
         'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
-    }
+    },
     # Aggiungi altri canali qui
 }
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
-def scrape_epg(url, canale_info):
+def scrape_epg(url, canale_info, giorno_successivo=False):
     # Ottieni la data odierna
-    data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
+    data_odierna = datetime.datetime.now()
+    
+    if giorno_successivo:
+        data_odierna += datetime.timedelta(days=1)
+
+    data_odierna_str = data_odierna.strftime("%Y-%m-%d")
 
     # Ottieni il contenuto della pagina
     response = requests.get(url)
@@ -91,11 +96,11 @@ def scrape_epg(url, canale_info):
 
         # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
         if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
+            dati_programmi[-1]['end'] = f"{data_odierna_str}T{orario_inizio}:00.000000Z"
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
-            'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
+            'start': f"{data_odierna_str}T{orario_inizio}:00.000000Z",
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
             'title': titolo,
             'description': descrizione,
@@ -113,7 +118,7 @@ def scrape_epg(url, canale_info):
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
+            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna_str}T%H:%M:%S.000000Z")
         except ValueError:
             ultimo_programma['end'] = "Ora non disponibile"
 
@@ -142,8 +147,8 @@ def main():
     for canale_id, canale_info in canali_urls.items():
         print(f"Raccogliendo dati da {canale_info['name']}...")
 
-        # Esegui lo scraping dei dati per il canale corrente
-        dati_canale = scrape_epg(canale_info['url'], canale_info)
+        # Esegui lo scraping dei dati per il canale corrente per il giorno successivo
+        dati_canale = scrape_epg(canale_info['url'], canale_info, giorno_successivo=True)
 
         if dati_canale:
             tutti_dati_canali.append(dati_canale)
