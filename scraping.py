@@ -97,23 +97,29 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-        if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio_formattato}:00.000000Z"
+       # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
+if orario_inizio_precedente:
+    dati_programmi[-1]['end'] = f"{data_programma.strftime('%Y-%m-%d')}T{orario_inizio_dt.strftime('%H:%M:%S')}.000000Z"
 
-        # Crea l'oggetto per il programma corrente
-        programma_data = {
-            'start': f"{data_odierna}T{orario_inizio}:00.000000Z",
-            'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
-            'title': titolo,
-            'description': descrizione,
-            'category': "Categoria non disponibile",
-            'poster': poster_url,
-            'channel': canale_info['id']
-        }
+# Crea l'oggetto per il programma corrente
+programma_data = {
+    'start': orario_inizio_formattato,
+    'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
+    'title': titolo,
+    'description': descrizione,
+    'category': "Categoria non disponibile",
+    'poster': poster_url,
+    'channel': canale_info['id']
+}
 
-        dati_programmi.append(programma_data)
-        orario_inizio_precedente = orario_inizio
+dati_programmi.append(programma_data)
+orario_inizio_precedente = orario_inizio_dt
+
+# Per l'ultimo programma della lista
+if i == len(programmi) - 1:
+    orario_fine_ultimo = orario_inizio_dt + datetime.timedelta(hours=1)  # Stimiamo 1 ora per il programma
+    programma_data['end'] = f"{data_programma.strftime('%Y-%m-%d')}T{orario_fine_ultimo.strftime('%H:%M:%S')}.000000Z"
+
 
     return {
         'id': canale_info['id'],
