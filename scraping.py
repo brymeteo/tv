@@ -47,31 +47,52 @@ def scrape_zam_details(zam_url):
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # Trova il blocco principale che contiene tutti i programmi
-    main_content = soup.find('div', id='maincontent')
-    if not main_content:
-        print(f"Nessun contenuto trovato in {zam_url}")
-        return []
+    main_content = soup.find_all('div', class_='gen')
 
-    # Trova tutti i blocchi che contengono descrizioni
-    description_blocks = main_content.find_all('div', class_=['info_box_color', 'info_box'])
     program_details = []
 
-    for block in description_blocks:
-        titolo = block.find('h2', class_='card-title')
-        descrizione = block.find('div', class_='gen sx')
-        orario_inizio = block.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
-
-        titolo_text = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
-        descrizione_text = ''.join([str(element) for element in descrizione.find_all(text=True, recursive=True)]).strip() if descrizione else "Descrizione non disponibile"
-        orario_inizio_text = orario_inizio.get_text(strip=True) if orario_inizio else "Ora non disponibile"
+    for block in main_content:
+        # Estrazione orario
+        orario_div = block.find('div', class_='dataz')
+        if orario_div:
+            orario = orario_div.find('b')
+            orario_text = orario.get_text(strip=True) if orario else None
+        else:
+            orario_text = "Ora non disponibile"
         
+        # Estrazione titolo
+        titolo_div = block.find('div', class_='gen dataz')
+        if titolo_div:
+            titolo = titolo_div.find('a')
+            titolo_text = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+        else:
+            titolo_text = "Titolo non disponibile"
+
+        # Estrazione descrizione
+        descrizione_div = block.find('div', style="padding:5px;")
+        if descrizione_div:
+            descrizione_text = descrizione_div.get_text(strip=True)
+        else:
+            descrizione_text = "Descrizione non disponibile"
+        
+        # Formattazione orario in formato ISO (se disponibile)
+        try:
+            if orario_text != "Ora non disponibile":
+                start_time = datetime.datetime.strptime(orario_text, '%H:%M')
+                formatted_start_time = start_time.strftime('%Y-%m-%dT%H:%M:%S.000000Z')
+            else:
+                formatted_start_time = "Ora non disponibile"
+        except ValueError:
+            formatted_start_time = "Ora non disponibile"
+
         program_details.append({
             'title': titolo_text,
             'description': descrizione_text,
-            'start_time': orario_inizio_text
+            'start_time': formatted_start_time
         })
     
     return program_details
+
 
 def scrape_guidatv_image(guidatv_url):
     headers = {
