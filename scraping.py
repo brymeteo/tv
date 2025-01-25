@@ -167,7 +167,7 @@ def main():
         print(f"Raccogliendo dati da {canale_info['name']}...")
 
         # Scegli il link giusto per il giorno
-        url_da_scrapare = getattr(canale_info, get_url_per_data())
+        url_da_scrapare = canale_info[get_url_per_data()]
         
         # Esegui lo scraping dei dati per il canale corrente
         dati_canale = scrape_epg(url_da_scrapare, canale_info)
