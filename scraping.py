@@ -1,13 +1,14 @@
+import argparse
+import datetime
 import requests
 from bs4 import BeautifulSoup
 import json
-import datetime
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
-        'url_oggi': 'https://guidatv.org/canali/rai-premium',
         'url_ieri': 'https://guidatv.org/canali/rai-premium/ieri',
+        'url_oggi': 'https://guidatv.org/canali/rai-premium',
         'name': 'Rai Premium',
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
@@ -15,8 +16,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
-        'url_oggi': 'https://guidatv.org/canali/rai-1',
         'url_ieri': 'https://guidatv.org/canali/rai-1/ieri',
+        'url_oggi': 'https://guidatv.org/canali/rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
@@ -24,8 +25,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
-        'url_oggi': 'https://guidatv.org/canali/canale-5',
         'url_ieri': 'https://guidatv.org/canali/canale-5/ieri',
+        'url_oggi': 'https://guidatv.org/canali/canale-5',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
@@ -33,8 +34,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
     'gambero-rosso': {
-        'url_oggi': 'https://guidatv.org/canali/gambero-rosso-hd',
         'url_ieri': 'https://guidatv.org/canali/gambero-rosso-hd/ieri',
+        'url_oggi': 'https://guidatv.org/canali/gambero-rosso-hd',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
@@ -44,22 +45,15 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
-# Funzione per determinare l'URL da usare in base all'orario
-def get_url_per_data():
-    ora_corrente = datetime.datetime.now()
-    
-    if ora_corrente.hour >= 0 and ora_corrente.hour < 6:
-        # Se è tra mezzanotte e le 6, usa il link per "ieri"
-        return 'url_ieri'
+# Funzione per recuperare la data corretta in base all'argomento
+def get_data_oggi_o_ieri(data_opzione):
+    if data_opzione == 'ieri':
+        return (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
     else:
-        # Se è dopo le 6, usa il link per "oggi"
-        return 'url_oggi'
+        return datetime.datetime.now().strftime("%Y-%m-%d")
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
-def scrape_epg(url, canale_info):
-    # Ottieni la data odierna
-    data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
-
+def scrape_epg(url, canale_info, data_odierna):
     # Ottieni il contenuto della pagina
     response = requests.get(url)
     if response.status_code != 200:
@@ -157,32 +151,30 @@ def salva_dati(dati_canali):
 
 # Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
-    print("Inizio scraping dei dati EPG da più canali...")
+    # Parsing degli argomenti della linea di comando
+    parser = argparse.ArgumentParser(description="Aggiorna la guida TV")
+    parser.add_argument('--data-ieri', action='store_true', help="Recupera i dati di ieri")
+    parser.add_argument('--data-oggi', action='store_true', help="Recupera i dati di oggi")
+    args = parser.parse_args()
 
-    # Lista per raccogliere i dati da tutti i canali
-    tutti_dati_canali = []
-
-    # Itera su ogni URL della lista dei canali
-    for canale_id, canale_info in canali_urls.items():
-        print(f"Raccogliendo dati da {canale_info['name']}...")
-
-        # Scegli il link giusto per il giorno
-        url_da_scrapare = canale_info[get_url_per_data()]
-        
-        # Esegui lo scraping dei dati per il canale corrente
-        dati_canale = scrape_epg(url_da_scrapare, canale_info)
-
-        if dati_canale:
-            tutti_dati_canali.append(dati_canale)
-        else:
-            print(f"Nessun dato trovato per il canale {canale_info['name']}.")
-
-    # Se abbiamo dei dati, salvali nel file JSON
-    if tutti_dati_canali:
-        salva_dati(tutti_dati_canali)
-        print("Dati salvati correttamente nel file dati_programmi.json.")
+    # Determina la data corretta in base all'argomento
+    if args.data_ieri:
+        data_odierna = get_data_oggi_o_ieri('ieri')
     else:
-        print("Nessun dato trovato o errore durante lo scraping.")
+        data_odierna = get_data_oggi_o_ieri('oggi')
 
+    # Iniziamo a raccogliere i dati di tutti i canali
+    dati_canali = []
+    for canale_id, canale_info in canali_urls.items():
+        url_da_scrapare = canale_info['url_ieri'] if args.data_ieri else canale_info['url_oggi']
+        # Scraping per il canale con l'URL appropriato
+        dati_canale = scrape_epg(url_da_scrapare, canale_info, data_odierna)
+        if dati_canale:
+            dati_canali.append(dati_canale)
+
+    # Salva i dati in un file JSON
+    salva_dati(dati_canali)
+
+# Avvia lo script
 if __name__ == "__main__":
     main()
