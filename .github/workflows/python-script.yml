@@ -2,7 +2,11 @@ name: Esegui Script Python per Aggiornare Dati EPG
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # Esegui ogni giorno alle 04:00 UTC
+    # Esegui alle 00:00 UTC per ottenere i dati di ieri
+    - cron: '0 0 * * *'  # Esegui ogni giorno alle 00:00 UTC (mezzanotte)
+    # Esegui alle 06:00 UTC per ottenere i dati di oggi
+    - cron: '0 6 * * *'  # Esegui ogni giorno alle 06:00 UTC
+
   push:
     branches:
       - main  # Trigger quando fai push sul branch main
@@ -31,7 +35,18 @@ jobs:
     # Esegui lo script di scraping
     - name: Esegui il codice di scraping
       run: |
-        python scraping.py  # Assicurati che il nome del tuo script sia corretto
+        # Determina l'URL in base all'orario
+        if [ "${GITHUB_EVENT_NAME}" == "schedule" ]; then
+          current_time=$(date -u +"%H")
+          
+          if [ "$current_time" -eq 0 ]; then
+            echo "Scraping per ieri"
+            python scraping.py --data-ieri  # Passa un argomento per specificare che vogliamo i dati di ieri
+          elif [ "$current_time" -eq 6 ]; then
+            echo "Scraping per oggi"
+            python scraping.py --data-oggi  # Passa un argomento per specificare che vogliamo i dati di oggi
+          fi
+        fi
 
     # Aggiungi e Pusha il risultato (sempre, anche se non ci sono modifiche)
     - name: Aggiungi e Pusha il risultato
