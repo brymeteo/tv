@@ -118,8 +118,11 @@ def scrape_epg(url, canale_info):
             if orario_fine_ultimo < orario_inizio_ultimo:
                 # Incrementa la data di un giorno se l'orario di fine è prima dell'orario di inizio (passato alla mezzanotte)
                 orario_fine_ultimo += datetime.timedelta(days=1)
+                data_fine = orario_fine_ultimo.date()
+            else:
+                data_fine = orario_inizio_ultimo.date()
 
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{orario_fine_ultimo.date()}T%H:%M:%S.000000Z")
+            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
         except ValueError:
             ultimo_programma['end'] = "Ora non disponibile"
 
