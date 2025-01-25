@@ -6,7 +6,7 @@ import datetime
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
-        'url': 'https://guidatv.org/canali/rai-premium',
+        'url': 'https://guidatv.org/canali/rai-premium/domani',
         'name': 'Rai Premium',
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
@@ -22,7 +22,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
-        'url': 'https://guidatv.org/canali/canale-5',
+        'url': 'https://guidatv.org/canali/canale-5/domani',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
@@ -30,7 +30,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
     'gambero-rosso': {
-        'url': 'https://guidatv.org/canali/gambero-rosso-hd',
+        'url': 'https://guidatv.org/canali/gambero-rosso-hd/domani',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
