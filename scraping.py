@@ -6,7 +6,7 @@ import datetime
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
-        'url': 'https://guidatv.org/canali/rai-premium/domani',
+        'url': 'https://guidatv.org/canali/rai-premium',
         'name': 'Rai Premium',
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
@@ -14,7 +14,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
-        'url': 'https://guidatv.org/canali/rai-1/domani',
+        'url': 'https://guidatv.org/canali/rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
@@ -22,7 +22,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
-        'url': 'https://guidatv.org/canali/canale-5/domani',
+        'url': 'https://guidatv.org/canali/canale-5',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
@@ -30,7 +30,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
     'gambero-rosso': {
-        'url': 'https://guidatv.org/canali/gambero-rosso-hd/domani',
+        'url': 'https://guidatv.org/canali/gambero-rosso-hd',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
