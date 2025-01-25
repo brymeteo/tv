@@ -6,7 +6,8 @@ import datetime
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
-        'url': 'https://guidatv.org/canali/rai-premium',
+        'url_oggi': 'https://guidatv.org/canali/rai-premium',
+        'url_ieri': 'https://guidatv.org/canali/rai-premium/ieri',
         'name': 'Rai Premium',
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
@@ -14,7 +15,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
-        'url': 'https://guidatv.org/canali/rai-1',
+        'url_oggi': 'https://guidatv.org/canali/rai-1',
+        'url_ieri': 'https://guidatv.org/canali/rai-1/ieri',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
@@ -22,7 +24,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
-        'url': 'https://guidatv.org/canali/canale-5',
+        'url_oggi': 'https://guidatv.org/canali/canale-5',
+        'url_ieri': 'https://guidatv.org/canali/canale-5/ieri',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
@@ -30,7 +33,8 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
     'gambero-rosso': {
-        'url': 'https://guidatv.org/canali/gambero-rosso-hd',
+        'url_oggi': 'https://guidatv.org/canali/gambero-rosso-hd',
+        'url_ieri': 'https://guidatv.org/canali/gambero-rosso-hd/ieri',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
@@ -40,7 +44,18 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
-# Funzione per fare lo scraping dei dati EPG da un singolo canalei
+# Funzione per determinare l'URL da usare in base all'orario
+def get_url_per_data():
+    ora_corrente = datetime.datetime.now()
+    
+    if ora_corrente.hour >= 0 and ora_corrente.hour < 6:
+        # Se è tra mezzanotte e le 6, usa il link per "ieri"
+        return 'url_ieri'
+    else:
+        # Se è dopo le 6, usa il link per "oggi"
+        return 'url_oggi'
+
+# Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -107,26 +122,24 @@ def scrape_epg(url, canale_info):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-   # Per l'ultimo programma, ipotizza una durata di 1 ora
-if dati_programmi:
-    ultimo_programma = dati_programmi[-1]
-    try:
-        # Aggiungi 1 ora all'orario di inizio
-        orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-        orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
+    # Per l'ultimo programma, ipotizza una durata di 1 ora
+    if dati_programmi:
+        ultimo_programma = dati_programmi[-1]
+        try:
+            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
+            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
 
-        # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
-        if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
-            # Incrementiamo la data di un giorno
-            data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-        else:
-            data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
+            # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
+            if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
+                # Incrementiamo la data di un giorno
+                data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+            else:
+                data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
 
-        # Impostiamo l'orario di fine
-        ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
-    except ValueError:
-        ultimo_programma['end'] = "Ora non disponibile"
-
+            # Impostiamo l'orario di fine
+            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
+        except ValueError:
+            ultimo_programma['end'] = "Ora non disponibile"
 
     return {
         'id': canale_info['id'],
@@ -153,8 +166,11 @@ def main():
     for canale_id, canale_info in canali_urls.items():
         print(f"Raccogliendo dati da {canale_info['name']}...")
 
+        # Scegli il link giusto per il giorno
+        url_da_scrapare = getattr(canale_info, get_url_per_data())
+        
         # Esegui lo scraping dei dati per il canale corrente
-        dati_canale = scrape_epg(canale_info['url'], canale_info)
+        dati_canale = scrape_epg(url_da_scrapare, canale_info)
 
         if dati_canale:
             tutti_dati_canali.append(dati_canale)
