@@ -78,7 +78,7 @@ def scrape_epg(url, canale_info):
         if not orario_inizio:
             continue
 
-        # Sottrarre un'ora all'orario di inizio
+        # Sottrarre un'ora all'orario di inizio (se necessario)
         orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
 
         # Trova l'URL del poster
@@ -114,15 +114,12 @@ def scrape_epg(url, canale_info):
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi un'ora
 
-            # Se l'orario di fine è passato alla mezzanotte, aggiorna la data
-            if orario_fine_ultimo < orario_inizio_ultimo:
-                # Incrementa la data di un giorno se l'orario di fine è prima dell'orario di inizio (passato alla mezzanotte)
+            # Controlla se l'orario di fine passa alla mezzanotte e aggiungi un giorno alla data se necessario
+            if orario_fine_ultimo.hour == 0 and orario_fine_ultimo.minute == 0:
+                # Incrementa la data di un giorno
                 orario_fine_ultimo += datetime.timedelta(days=1)
-                data_fine = orario_fine_ultimo.date()
-            else:
-                data_fine = orario_inizio_ultimo.date()
 
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
+            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
         except ValueError:
             ultimo_programma['end'] = "Ora non disponibile"
 
