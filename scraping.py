@@ -107,15 +107,23 @@ def scrape_epg(url, canale_info):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e sottrae un'ora
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
-        try:
-            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo - datetime.timedelta(hours=1)
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
-        except ValueError:
-            ultimo_programma['end'] = "Ora non disponibile"
+   # Per l'ultimo programma, ipotizza una durata di 1 ora
+if dati_programmi:
+    ultimo_programma = dati_programmi[-1]
+    try:
+        orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
+        orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi un'ora
+
+        # Se l'orario di fine è passato alla mezzanotte, aggiorna la data
+        if orario_fine_ultimo.day != orario_inizio_ultimo.day:
+            orario_fine_ultimo = orario_fine_ultimo.replace(year=orario_fine_ultimo.year,
+                                                             month=orario_fine_ultimo.month,
+                                                             day=orario_fine_ultimo.day)
+
+        ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_odierna}T%H:%M:%S.000000Z")
+    except ValueError:
+        ultimo_programma['end'] = "Ora non disponibile"
+
 
     return {
         'id': canale_info['id'],
