@@ -35,17 +35,13 @@ jobs:
     # Esegui lo script di scraping
     - name: Esegui il codice di scraping
       run: |
-        # Determina l'URL in base all'orario
-        if [ "${GITHUB_EVENT_NAME}" == "schedule" ]; then
-          current_time=$(date -u +"%H")
-          
-          if [ "$current_time" -eq 0 ]; then
-            echo "Scraping per ieri"
-            python scraping.py --data-ieri  # Passa un argomento per specificare che vogliamo i dati di ieri
-          elif [ "$current_time" -eq 6 ]; then
-            echo "Scraping per oggi"
-            python scraping.py --data-oggi  # Passa un argomento per specificare che vogliamo i dati di oggi
-          fi
+        current_time=$(date -u +"%H")  # Ottieni l'ora corrente in UTC
+        if [ "$current_time" -eq 0 ]; then
+          echo "Scraping per ieri"
+          python scraping.py --data-ieri  # Passa un argomento per raccogliere i dati di ieri
+        elif [ "$current_time" -eq 6 ]; then
+          echo "Scraping per oggi"
+          python scraping.py --data-oggi  # Passa un argomento per raccogliere i dati di oggi
         fi
 
     # Aggiungi e Pusha il risultato (sempre, anche se non ci sono modifiche)
