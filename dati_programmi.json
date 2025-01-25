@@ -50,17 +50,7 @@
         "epgName": "Rai 1",
         "logo": "https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
-        "programs": [
-            {
-                "start": "2025-01-25T01:15:00.000000Z",
-                "end": "2025-01-25T02:15:00.000000Z",
-                "title": "RaiNews24",
-                "description": "RaiNews24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            }
-        ]
+        "programs": []
     },
     {
         "id": "canale-5",
@@ -69,24 +59,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-01-25T01:26:00.000000Z",
-                "end": "2025-01-25T01:30:00.000000Z",
-                "title": "Ciak Speciale",
-                "description": "Rubrica cinematografica sulle ultime novita' in sala.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fciak-speciale%2F9.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-25T01:30:00.000000Z",
-                "end": "2025-01-25T02:37:00.000000Z",
-                "title": "Uomini e donne",
-                "description": "Dating show condotto da Maria De Filippi alla sua dodicesima edizione. Uomini e donne in cerca dell'...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fuomini-e-donne%2F9.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
             {
                 "start": "2025-01-25T02:37:00.000000Z",
                 "end": "2025-01-25T03:24:00.000000Z",
@@ -132,15 +104,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-01-25T01:35:00.000000Z",
-                "end": "2025-01-25T02:05:00.000000Z",
-                "title": "Vito con i suoi",
-                "description": "Ep6 di 7 Gnocchi di zucca / Bichetchup - Stefano Bicocchi, in arte Vito, apre le porte di casa sua e...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fvito-con-i-suoi%2F8.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
             {
                 "start": "2025-01-25T02:05:00.000000Z",
                 "end": "2025-01-25T02:25:00.000000Z",
