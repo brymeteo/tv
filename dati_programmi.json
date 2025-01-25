@@ -7,15 +7,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-25T01:55:00.000000Z",
-                "end": "2025-01-25T02:40:00.000000Z",
-                "title": "Il commissario Rex(1996)",
-                "description": "Il commissario Rex (Kommissar Rex) è una serie televisiva poliziesca di produzione austriaca e tedes...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6x0qhCN23KE2NMOvMLVxFWYlsDd.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
                 "start": "2025-01-25T02:40:00.000000Z",
                 "end": "2025-01-25T03:25:00.000000Z",
                 "title": "Il commissario Rex(1996)",
@@ -50,7 +41,314 @@
         "epgName": "Rai 1",
         "logo": "https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
-        "programs": []
+        "programs": [
+            {
+                "start": "2025-01-25T05:00:00.000000Z",
+                "end": "2025-01-25T05:55:00.000000Z",
+                "title": "RaiNews24",
+                "description": "RaiNews24",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T05:55:00.000000Z",
+                "end": "2025-01-25T06:00:00.000000Z",
+                "title": "Gli Imperdibili",
+                "description": "Backstage, anteprime, eventi e curiosità dentro lo schermo. È il programma che offre informazione e ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fgli-imperdibili%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T06:00:00.000000Z",
+                "end": "2025-01-25T06:05:00.000000Z",
+                "title": "TG 1",
+                "description": "TG 1",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T06:05:00.000000Z",
+                "end": "2025-01-25T06:55:00.000000Z",
+                "title": "Rai Parlamento Settegiorni",
+                "description": "Settimanale di approfondimento politico-parlamentare. Inchieste, servizi, interviste sui temi più im...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frai-parlamento-settegiorni%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T06:55:00.000000Z",
+                "end": "2025-01-25T07:00:00.000000Z",
+                "title": "Che Tempo Fa",
+                "description": "Che tempo fa",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T07:00:00.000000Z",
+                "end": "2025-01-25T07:20:00.000000Z",
+                "title": "TG1",
+                "description": "TG1",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T07:20:00.000000Z",
+                "end": "2025-01-25T07:35:00.000000Z",
+                "title": "Tg1 Dialogo",
+                "description": "Tg1 Dialogo",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg1-dialogo%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T07:35:00.000000Z",
+                "end": "2025-01-25T08:00:00.000000Z",
+                "title": "UnoMattina In Famiglia",
+                "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T08:00:00.000000Z",
+                "end": "2025-01-25T08:04:00.000000Z",
+                "title": "TG1",
+                "description": "TG1",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T08:04:00.000000Z",
+                "end": "2025-01-25T08:30:00.000000Z",
+                "title": "UnoMattina In Famiglia",
+                "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T08:30:00.000000Z",
+                "end": "2025-01-25T08:33:00.000000Z",
+                "title": "TG1 L.I.S.",
+                "description": "TG1 L.I.S.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg1-l-i-s%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T08:33:00.000000Z",
+                "end": "2025-01-25T09:30:00.000000Z",
+                "title": "UnoMattina In Famiglia",
+                "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T09:30:00.000000Z",
+                "end": "2025-01-25T10:20:00.000000Z",
+                "title": "Buongiorno Benessere",
+                "description": "Si apre con un focus sulla polmonite, trattato dal professor Giovanni Galluccio, docente presso la S...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fbuongiorno-benessere%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T10:20:00.000000Z",
+                "end": "2025-01-25T10:45:00.000000Z",
+                "title": "Linea Verde Tipico - Viaggio In Italia - Toscana",
+                "description": "Nei secoli XVII e XVIII l'Italia divenne meta di scrittori, artisti e di giovani aristocratici. Segu...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Flinea-verde-tipico-viaggio-in-italia-toscana%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T10:45:00.000000Z",
+                "end": "2025-01-25T11:45:00.000000Z",
+                "title": "Giubileo Del Mondo Della Comunicazione",
+                "description": "Dall'Aula Paolo VI in Vaticano: Giubileo del mondo della Comunicazione - A cura del Tg1 e Rai Vatica...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fgiubileo-del-mondo-della-comunicazione%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T11:45:00.000000Z",
+                "end": "2025-01-25T12:30:00.000000Z",
+                "title": "Linea Bianca, Storie Di Montagna - Vermiglio",
+                "description": "I nostri monti e non solo. Innovazione, tradizione, cultura e curiosità dedicate alle nostre montagn...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Flinea-bianca-storie-di-montagna%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T12:30:00.000000Z",
+                "end": "2025-01-25T13:00:00.000000Z",
+                "title": "TG 1",
+                "description": "TELEGIORNALE",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T13:00:00.000000Z",
+                "end": "2025-01-25T14:00:00.000000Z",
+                "title": "Le Stagioni Dell'Amore",
+                "description": "Il protagonista della puntata è Hector, 65 anni, un italo argentino molto acuto e spiritoso. Tre ann...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fle-stagioni-dell-amore%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T14:00:00.000000Z",
+                "end": "2025-01-25T15:10:00.000000Z",
+                "title": "Passaggio A Nord-Ovest",
+                "description": "In questa puntata con Alberto Angela andiamo nel campo di concentramento di Bergen-Belsen, dove nel ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fpassaggio-a-nord-ovest%2F7.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T15:10:00.000000Z",
+                "end": "2025-01-25T15:50:00.000000Z",
+                "title": "A Sua Immagine",
+                "description": "Lorena Bianchetti racconta storie di coraggio, in un viaggio alla scoperta del senso della vita.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T15:50:00.000000Z",
+                "end": "2025-01-25T15:55:00.000000Z",
+                "title": "Gli Imperdibili",
+                "description": "Backstage, anteprime, eventi e curiosità dentro lo schermo. È il programma che offre informazione e ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fgli-imperdibili%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T15:55:00.000000Z",
+                "end": "2025-01-25T16:05:00.000000Z",
+                "title": "TG1",
+                "description": "TG1",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T16:05:00.000000Z",
+                "end": "2025-01-25T16:10:00.000000Z",
+                "title": "Che Tempo Fa",
+                "description": "Che tempo fa",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T16:10:00.000000Z",
+                "end": "2025-01-25T17:45:00.000000Z",
+                "title": "Sabato In Diretta",
+                "description": "Il nuovo programma del sabato pomeriggio che accompagna i telespettatori con notizie, approfondiment...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fsabato-in-diretta%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T17:45:00.000000Z",
+                "end": "2025-01-25T19:00:00.000000Z",
+                "title": "L'Eredità Weekend",
+                "description": "Gioco a quiz in cui 6 concorrenti più il Campione si sfidano in 6 diversi giochi ad eliminazione fin...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fl-eredita-weekend%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T19:00:00.000000Z",
+                "end": "2025-01-25T19:35:00.000000Z",
+                "title": "TG 1",
+                "description": "TELEGIORNALE",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T19:35:00.000000Z",
+                "end": "2025-01-25T20:30:00.000000Z",
+                "title": "Affari Tuoi",
+                "description": "Venti concorrenti in rappresentanza delle venti regioni italiane. In ogni puntata, il Pacchista sort...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Faffari-tuoi%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T20:30:00.000000Z",
+                "end": "2025-01-25T22:55:00.000000Z",
+                "title": "Ora O Mai Più",
+                "description": "Otto cantanti che sono stati protagonisti, in un passato più o meno recente, di una stagione di succ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fora-o-mai-piu%2F7.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T22:55:00.000000Z",
+                "end": "2025-01-25T23:00:00.000000Z",
+                "title": "TG1 Sera",
+                "description": "TG1 Sera",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1-sera%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T23:00:00.000000Z",
+                "end": "2025-01-25T00:00:00.000000Z",
+                "title": "Techeteche TopTen",
+                "description": "Un programma radiofonico in onda anche in TV che celebra la storia dello spaccato sociale del nostro...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftecheteche-topten%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T00:00:00.000000Z",
+                "end": "2025-01-25T01:00:00.000000Z",
+                "title": "Applausi",
+                "description": "RUBRICA - Appuntamento settimanale di intrattenimento sul teatro, sulla musica e sull'arte con attor...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fapplausi%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T01:00:00.000000Z",
+                "end": "2025-01-25T01:05:00.000000Z",
+                "title": "Che Tempo Fa",
+                "description": "Che tempo fa",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T01:05:00.000000Z",
+                "end": "2025-01-25T04:30:00.000000Z",
+                "title": "RaiNews24",
+                "description": "RaiNews24",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            },
+            {
+                "start": "2025-01-25T04:30:00.000000Z",
+                "end": "2025-01-25T05:30:00.000000Z",
+                "title": "A Sua Immagine",
+                "description": "Lorena Bianchetti racconta storie di coraggio, in un viaggio alla scoperta del senso della vita.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
+                "channel": "rai-1"
+            }
+        ]
     },
     {
         "id": "canale-5",
@@ -104,15 +402,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-01-25T02:05:00.000000Z",
-                "end": "2025-01-25T02:25:00.000000Z",
-                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 3 - Vino dei Castelli",
-                "description": "S55 Ep3 Vino dei Castelli - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta stav...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
             {
                 "start": "2025-01-25T02:25:00.000000Z",
                 "end": "2025-01-25T03:05:00.000000Z",
