@@ -40,7 +40,7 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
-# Funzione per fare lo scraping dei dati EPG da un singolo canale
+# Funzione per fare lo scraping dei dati EPG da un singolo canalei
 def scrape_epg(url, canale_info):
     # Ottieni la data odierna
     data_odierna = datetime.datetime.now().strftime("%Y-%m-%d")
