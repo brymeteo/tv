@@ -7,8 +7,7 @@ import json
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
-        'url_ieri': 'https://guidatv.org/canali/rai-premium/ieri',
-        'url_oggi': 'https://guidatv.org/canali/rai-premium',
+        'url': 'https://guidatv.org/canali/rai-premium',
         'name': 'Rai Premium',
         'id': 'rai-premium',
         'epgName': 'Rai Premium',
@@ -16,8 +15,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
-        'url_ieri': 'https://guidatv.org/canali/rai-1/ieri',
-        'url_oggi': 'https://guidatv.org/canali/rai-1',
+        'url': 'https://guidatv.org/canali/rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
@@ -25,8 +23,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
     'canale-5': {
-        'url_ieri': 'https://guidatv.org/canali/canale-5/ieri',
-        'url_oggi': 'https://guidatv.org/canali/canale-5',
+        'url': 'https://guidatv.org/canali/canale-5',
         'name': 'Canale 5',
         'id': 'canale-5',
         'epgName': 'Canale 5',
@@ -34,8 +31,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
     'gambero-rosso': {
-        'url_ieri': 'https://guidatv.org/canali/gambero-rosso-hd/ieri',
-        'url_oggi': 'https://guidatv.org/canali/gambero-rosso-hd',
+        'url': 'https://guidatv.org/canali/gambero-rosso-hd',
         'name': 'Gambero Rosso',
         'id': 'gambero-rosso',
         'epgName': 'Gambero Rosso',
@@ -166,7 +162,7 @@ def main():
     # Iniziamo a raccogliere i dati di tutti i canali
     dati_canali = []
     for canale_id, canale_info in canali_urls.items():
-        url_da_scrapare = canale_info['url_ieri'] if args.data_ieri else canale_info['url_oggi']
+        url_da_scrapare = canale_info['url']  # URL costante per tutti i canali
         # Scraping per il canale con l'URL appropriato
         dati_canale = scrape_epg(url_da_scrapare, canale_info, data_odierna)
         if dati_canale:
