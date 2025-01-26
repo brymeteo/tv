@@ -98,8 +98,9 @@ def scrape_epg(url, canale_info, data_odierna):
         if orario_inizio_precedente:
             dati_programmi[-1]['end'] = (datetime.datetime.strptime(f"{data_odierna}T{orario_inizio}:00.000000Z", "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
-        # Verifica se il programma è in onda (ad esempio, se ha la classe 'live-program')
-        is_in_onda = 'live-program' in programma.get('class', [])
+        # Verifica se il programma è in onda confrontando l'orario
+        orario_inizio_dt = datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ")
+        is_in_onda = orario_inizio_dt <= datetime.datetime.now() < orario_inizio_dt + datetime.timedelta(hours=1)
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
@@ -114,7 +115,7 @@ def scrape_epg(url, canale_info, data_odierna):
         }
 
         # Aggiungi il programma solo se è in onda o futuro
-        if is_in_onda or (datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ") > datetime.datetime.now()):
+        if is_in_onda or (orario_inizio_dt > datetime.datetime.now()):
             dati_programmi.append(programma_data)
         
         orario_inizio_precedente = orario_inizio
