@@ -98,10 +98,6 @@ def scrape_epg(url, canale_info, data_odierna):
         if orario_inizio_precedente:
             dati_programmi[-1]['end'] = (datetime.datetime.strptime(f"{data_odierna}T{orario_inizio}:00.000000Z", "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
-        # Verifica se il programma è in onda confrontando l'orario
-        orario_inizio_dt = datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ")
-        is_in_onda = orario_inizio_dt <= datetime.datetime.now() < orario_inizio_dt + datetime.timedelta(hours=1)
-
         # Crea l'oggetto per il programma corrente
         programma_data = {
             'start': orario_inizio_completo,
@@ -110,14 +106,10 @@ def scrape_epg(url, canale_info, data_odierna):
             'description': descrizione,
             'category': "Categoria non disponibile",
             'poster': poster_url,
-            'channel': canale_info['id'],
-            'is_in_onda': is_in_onda
+            'channel': canale_info['id']
         }
 
-        # Aggiungi il programma solo se è in onda o futuro
-        if is_in_onda or (orario_inizio_dt > datetime.datetime.now()):
-            dati_programmi.append(programma_data)
-        
+        dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
     # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
@@ -129,6 +121,9 @@ def scrape_epg(url, canale_info, data_odierna):
 
             # Sottrai un'ora dall'orario di fine
             orario_fine_ultimo = orario_fine_ultimo - datetime.timedelta(hours=1)
+
+            # Se l'ultimo programma è davvero l'ultimo, aumenta di un'ora l'orario di fine
+            orario_fine_ultimo += datetime.timedelta(hours=1)
 
             # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
             if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
