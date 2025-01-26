@@ -1,7 +1,9 @@
 import argparse
+import datetime
 import requests
 from bs4 import BeautifulSoup
 import json
+
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
