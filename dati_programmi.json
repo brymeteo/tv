@@ -7,211 +7,164 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-26T05:30:00.000000Z",
-                "end": "2025-01-26T07:00:00.000000Z",
+                "start": "2025-01-26T04:30:00.000000Z",
+                "end": "2025-01-26T06:00:00.000000Z",
                 "title": "Una Vita In Regalo - 1^ Parte",
                 "description": "Un manager rampante ed arrogante in seguito ad un incidente stradale non riesce più a mentire: comin...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Funa-vita-in-regalo%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T07:00:00.000000Z",
-                "end": "2025-01-26T08:40:00.000000Z",
+                "start": "2025-01-26T06:00:00.000000Z",
+                "end": "2025-01-26T07:40:00.000000Z",
                 "title": "Una Vita In Regalo - 2^ Parte",
                 "description": "Un manager rampante ed arrogante in seguito ad un incidente stradale non riesce più a mentire: comin...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Funa-vita-in-regalo%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T08:40:00.000000Z",
-                "end": "2025-01-26T10:35:00.000000Z",
+                "start": "2025-01-26T07:40:00.000000Z",
+                "end": "2025-01-26T09:35:00.000000Z",
                 "title": "Rocco Schiavone(2016)",
                 "description": "La trama è incentrata sulle indagini di Rocco Schiavone, vicequestore poco simpatico, dai modi burbe...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d8f2ce1e246c511cba73_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T10:35:00.000000Z",
-                "end": "2025-01-26T12:20:00.000000Z",
+                "start": "2025-01-26T09:35:00.000000Z",
+                "end": "2025-01-26T11:20:00.000000Z",
                 "title": "Rocco Schiavone(2016)",
                 "description": "La trama è incentrata sulle indagini di Rocco Schiavone, vicequestore poco simpatico, dai modi burbe...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d8f2ce1e246c511cba73_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T12:20:00.000000Z",
-                "end": "2025-01-26T14:05:00.000000Z",
+                "start": "2025-01-26T11:20:00.000000Z",
+                "end": "2025-01-26T13:05:00.000000Z",
                 "title": "Rocco Schiavone(2016)",
                 "description": "La trama è incentrata sulle indagini di Rocco Schiavone, vicequestore poco simpatico, dai modi burbe...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d8f2ce1e246c511cba73_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T14:05:00.000000Z",
-                "end": "2025-01-26T15:55:00.000000Z",
+                "start": "2025-01-26T13:05:00.000000Z",
+                "end": "2025-01-26T14:55:00.000000Z",
                 "title": "Rocco Schiavone(2016)",
                 "description": "La trama è incentrata sulle indagini di Rocco Schiavone, vicequestore poco simpatico, dai modi burbe...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d8f2ce1e246c511cba73_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T15:55:00.000000Z",
-                "end": "2025-01-26T16:00:00.000000Z",
+                "start": "2025-01-26T14:55:00.000000Z",
+                "end": "2025-01-26T15:00:00.000000Z",
                 "title": "Anica Appuntamento Al Cinema",
                 "description": "Rubrica per la promozione della cultura cinematografica in Italia.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fanica-appuntamento-al-cinema%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T16:00:00.000000Z",
-                "end": "2025-01-26T17:25:00.000000Z",
+                "start": "2025-01-26T15:00:00.000000Z",
+                "end": "2025-01-26T16:25:00.000000Z",
                 "title": "Il velo nuziale - L'eredità(2022)",
                 "description": "Tracy incontra Nick nel terzo capitolo della trilogia e lui la aiuta a salvare una bozza originale d...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fi%2F667ec4ec8c3b24235f12fdfb%2F667ec4ec8c3b24235f12fdfb_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T17:25:00.000000Z",
-                "end": "2025-01-26T18:20:00.000000Z",
+                "start": "2025-01-26T16:25:00.000000Z",
+                "end": "2025-01-26T17:20:00.000000Z",
                 "title": "Romanzo famigliare(2018)",
                 "description": "Micol, clarinettista sedicenne, resta incinta del suo giovane insegnante, Federico. La sua storia si...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FrhzHXHsguCCvYrhhSB9bSpQt4e6.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T18:20:00.000000Z",
-                "end": "2025-01-26T19:15:00.000000Z",
+                "start": "2025-01-26T17:20:00.000000Z",
+                "end": "2025-01-26T18:15:00.000000Z",
                 "title": "Romanzo famigliare(2018)",
                 "description": "Micol, clarinettista sedicenne, resta incinta del suo giovane insegnante, Federico. La sua storia si...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FrhzHXHsguCCvYrhhSB9bSpQt4e6.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T19:15:00.000000Z",
-                "end": "2025-01-26T20:10:00.000000Z",
+                "start": "2025-01-26T18:15:00.000000Z",
+                "end": "2025-01-26T19:10:00.000000Z",
                 "title": "Romanzo famigliare(2018)",
                 "description": "Micol, clarinettista sedicenne, resta incinta del suo giovane insegnante, Federico. La sua storia si...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FrhzHXHsguCCvYrhhSB9bSpQt4e6.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T20:10:00.000000Z",
-                "end": "2025-01-26T21:05:00.000000Z",
+                "start": "2025-01-26T19:10:00.000000Z",
+                "end": "2025-01-26T20:05:00.000000Z",
                 "title": "Romanzo famigliare(2018)",
                 "description": "Micol, clarinettista sedicenne, resta incinta del suo giovane insegnante, Federico. La sua storia si...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FrhzHXHsguCCvYrhhSB9bSpQt4e6.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T21:05:00.000000Z",
-                "end": "2025-01-26T23:30:00.000000Z",
+                "start": "2025-01-26T20:05:00.000000Z",
+                "end": "2025-01-26T22:30:00.000000Z",
                 "title": "Dalla Strada Al Palco",
                 "description": "Alla sua quarta edizione ritorna lo show in cui offriamo agli artisti di strada la grande occasione ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fdalla-strada-al-palco%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T23:30:00.000000Z",
-                "end": "2025-01-26T00:15:00.000000Z",
+                "start": "2025-01-26T22:30:00.000000Z",
+                "end": "2025-01-26T04:30:00.000000Z",
                 "title": "Il paradiso delle signore(2015)",
                 "description": "Le storie, gli amori, le speranze e le delusioni che ruotano attorno al primo grande magazzino per s...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T00:15:00.000000Z",
-                "end": "2025-01-26T00:55:00.000000Z",
-                "title": "Il paradiso delle signore(2015)",
-                "description": "Le storie, gli amori, le speranze e le delusioni che ruotano attorno al primo grande magazzino per s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T00:55:00.000000Z",
-                "end": "2025-01-26T01:40:00.000000Z",
-                "title": "Il paradiso delle signore(2015)",
-                "description": "Le storie, gli amori, le speranze e le delusioni che ruotano attorno al primo grande magazzino per s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T01:40:00.000000Z",
-                "end": "2025-01-26T02:15:00.000000Z",
-                "title": "Il paradiso delle signore(2015)",
-                "description": "Le storie, gli amori, le speranze e le delusioni che ruotano attorno al primo grande magazzino per s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T02:15:00.000000Z",
-                "end": "2025-01-26T02:55:00.000000Z",
-                "title": "Il paradiso delle signore(2015)",
-                "description": "Le storie, gli amori, le speranze e le delusioni che ruotano attorno al primo grande magazzino per s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7v3bO3pNnyLHLlwETtmyQxKV2Ba.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T03:49:52.000000Z",
-                "end": "2025-01-26T04:20:00.000000Z",
-                "title": "Il velo nuziale - L'eredità(2022)",
-                "description": "Tracy incontra Nick nel terzo capitolo della trilogia e lui la aiuta a salvare una bozza originale d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fi%2F667ec4ec8c3b24235f12fdfb%2F667ec4ec8c3b24235f12fdfb_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T04:20:00.000000Z",
-                "end": "2025-01-26T05:00:00.000000Z",
-                "title": "Piloti(2007)",
-                "description": "Il commendatore Aurelio Piccione è titolare di una compagnia aerea low-cost denominata \"Piccione Air...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fv5kKjHXZqSTH7gH3XNCMkONwfre.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T05:00:00.000000Z",
-                "end": "2025-01-26T05:30:00.000000Z",
+                "start": "2025-01-26T04:30:00.000000Z",
+                "end": "2025-01-26T04:55:00.000000Z",
                 "title": "7 Vite(2007)",
                 "description": "Il protagonista della sitcom è Davide, trentenne che si risveglia miracolosamente dopo 15 anni di co...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FluXYW9rMzHtRf3ASSiwDAG1P1kB.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T05:30:00.000000Z",
-                "end": "2025-01-26T05:55:00.000000Z",
-                "title": "7 Vite(2007)",
-                "description": "Il protagonista della sitcom è Davide, trentenne che si risveglia miracolosamente dopo 15 anni di co...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FluXYW9rMzHtRf3ASSiwDAG1P1kB.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2025-01-26T05:55:00.000000Z",
-                "end": "2025-01-26T06:55:00.000000Z",
+                "start": "2025-01-26T04:55:00.000000Z",
+                "end": "2025-01-26T04:55:00.000000Z",
                 "title": "Una donna per amico",
                 "description": "Una donna per amico è una serie televisiva italiana, andata in onda su Rai 1 per tre stagioni dal 27...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Funa-donna-per-amico%2F10.jpg&w=3840&q=75",
-                "channel": "rai-premium"
+                "channel": "rai-premium",
+                "is_in_onda": false
             }
         ]
     },
@@ -223,283 +176,274 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-26T05:30:00.000000Z",
-                "end": "2025-01-26T06:10:00.000000Z",
+                "start": "2025-01-26T04:30:00.000000Z",
+                "end": "2025-01-26T05:10:00.000000Z",
                 "title": "A Sua Immagine",
                 "description": "Lorena Bianchetti intervista Valeria Favorito, una giovane siciliana che, grazie ad un gesto di gran...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T06:10:00.000000Z",
-                "end": "2025-01-26T07:00:00.000000Z",
+                "start": "2025-01-26T05:10:00.000000Z",
+                "end": "2025-01-26T06:00:00.000000Z",
                 "title": "Il Caffè",
                 "description": "Ogni settimana un'ora tra cinema, teatro, letteratura e musica, con il racconto delle memorie più pr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fil-caffe%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T07:00:00.000000Z",
-                "end": "2025-01-26T07:05:00.000000Z",
+                "start": "2025-01-26T06:00:00.000000Z",
+                "end": "2025-01-26T06:05:00.000000Z",
                 "title": "TG 1",
                 "description": "TG 1",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T07:05:00.000000Z",
+                "start": "2025-01-26T06:05:00.000000Z",
+                "end": "2025-01-26T07:00:00.000000Z",
+                "title": "UnoMattina In Famiglia",
+                "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T07:00:00.000000Z",
+                "end": "2025-01-26T07:18:00.000000Z",
+                "title": "TG 1",
+                "description": "TG 1",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
+                "channel": "rai-1",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T07:18:00.000000Z",
                 "end": "2025-01-26T08:00:00.000000Z",
                 "title": "UnoMattina In Famiglia",
                 "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T08:00:00.000000Z",
-                "end": "2025-01-26T08:18:00.000000Z",
+                "end": "2025-01-26T08:04:00.000000Z",
                 "title": "TG 1",
                 "description": "TG 1",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T08:18:00.000000Z",
-                "end": "2025-01-26T09:00:00.000000Z",
+                "start": "2025-01-26T08:04:00.000000Z",
+                "end": "2025-01-26T08:10:00.000000Z",
                 "title": "UnoMattina In Famiglia",
                 "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T09:00:00.000000Z",
-                "end": "2025-01-26T09:04:00.000000Z",
-                "title": "TG 1",
-                "description": "TG 1",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T09:04:00.000000Z",
-                "end": "2025-01-26T09:10:00.000000Z",
-                "title": "UnoMattina In Famiglia",
-                "description": "In diretta dallo Studio 1 di Teulada cronaca, approfondimenti, spettacolo, gioco per un intrattenime...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Funomattina-in-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T09:10:00.000000Z",
-                "end": "2025-01-26T09:15:00.000000Z",
+                "start": "2025-01-26T08:10:00.000000Z",
+                "end": "2025-01-26T08:15:00.000000Z",
                 "title": "TG 1 L.I.S.",
                 "description": "TG 1 L.I.S.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T09:15:00.000000Z",
-                "end": "2025-01-26T09:20:00.000000Z",
+                "start": "2025-01-26T08:15:00.000000Z",
+                "end": "2025-01-26T08:20:00.000000Z",
                 "title": "A Sua Immagine - Viaggio Nel Giubileo",
                 "description": "Un viaggio nel Giubileo tra arte, storia, fede e speranza con Lorena Bianchetti.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T09:20:00.000000Z",
-                "end": "2025-01-26T11:00:00.000000Z",
+                "start": "2025-01-26T08:20:00.000000Z",
+                "end": "2025-01-26T10:00:00.000000Z",
                 "title": "Basilica Vaticana: Santa Messa Per La Domenica Della Parola Di Dio",
                 "description": "Basilica Vaticana: Santa Messa per la domenica della parola di Dio. A cura del Tg1 e Rai Vaticano Te...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fbasilica-vaticana-santa-messa-per-la-domenica-della-parola-di-dio%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T11:00:00.000000Z",
-                "end": "2025-01-26T12:00:00.000000Z",
+                "start": "2025-01-26T10:00:00.000000Z",
+                "end": "2025-01-26T11:00:00.000000Z",
                 "title": "A Sua Immagine",
                 "description": "Programma di approfondimento religioso con all'interno la Santa Messa e Angelus da Piazza San Pietro...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T12:00:00.000000Z",
-                "end": "2025-01-26T12:10:00.000000Z",
+                "start": "2025-01-26T11:00:00.000000Z",
+                "end": "2025-01-26T11:10:00.000000Z",
                 "title": "Recita Dell'Angelus Da Piazza San Pietro",
                 "description": "L'Angelus recitato da Papa Francesco dalla finestra del Palazzo Apostolico su Piazza San Pietro.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frecita-dell-angelus-da-piazza-san-pietro%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T12:10:00.000000Z",
-                "end": "2025-01-26T12:20:00.000000Z",
+                "start": "2025-01-26T11:10:00.000000Z",
+                "end": "2025-01-26T11:20:00.000000Z",
                 "title": "A Sua Immagine",
                 "description": "Programma di approfondimento religioso con all'interno la Santa Messa e Angelus da Piazza San Pietro...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fa-sua-immagine%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T12:20:00.000000Z",
-                "end": "2025-01-26T13:30:00.000000Z",
+                "start": "2025-01-26T11:20:00.000000Z",
+                "end": "2025-01-26T12:30:00.000000Z",
                 "title": "Linea Verde",
                 "description": "Torna il programma dedicato al territorio e al reparto enogastronomico ed agroalimentare, colonne po...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Flinea-verde%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T13:30:00.000000Z",
-                "end": "2025-01-26T14:00:00.000000Z",
+                "start": "2025-01-26T12:30:00.000000Z",
+                "end": "2025-01-26T13:00:00.000000Z",
                 "title": "TG 1",
                 "description": "TELEGIORNALE",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T14:00:00.000000Z",
-                "end": "2025-01-26T17:15:00.000000Z",
+                "start": "2025-01-26T13:00:00.000000Z",
+                "end": "2025-01-26T16:15:00.000000Z",
                 "title": "Domenica In",
                 "description": "Mara Venier conduce il talk show della domenica con musica, giochi e interviste.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fdomenica-in%2F2.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T17:15:00.000000Z",
-                "end": "2025-01-26T17:18:00.000000Z",
+                "start": "2025-01-26T16:15:00.000000Z",
+                "end": "2025-01-26T16:18:00.000000Z",
                 "title": "TG 1",
                 "description": "TG 1",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T17:18:00.000000Z",
-                "end": "2025-01-26T17:20:00.000000Z",
+                "start": "2025-01-26T16:18:00.000000Z",
+                "end": "2025-01-26T16:20:00.000000Z",
                 "title": "Che Tempo Fa",
                 "description": "Che tempo fa",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T17:20:00.000000Z",
-                "end": "2025-01-26T18:45:00.000000Z",
+                "start": "2025-01-26T16:20:00.000000Z",
+                "end": "2025-01-26T17:45:00.000000Z",
                 "title": "Da Noi...A Ruota Libera",
                 "description": "Il programma domenicale che racconta storie che arrivano dall'attualità, affrontate con taglio umano...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fda-noi-a-ruota-libera%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T18:45:00.000000Z",
-                "end": "2025-01-26T20:00:00.000000Z",
+                "start": "2025-01-26T17:45:00.000000Z",
+                "end": "2025-01-26T19:00:00.000000Z",
                 "title": "L'Eredità Weekend",
                 "description": "Gioco a quiz in cui 6 concorrenti più il Campione si sfidano in 6 diversi giochi ad eliminazione fin...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fl-eredita-weekend%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T20:00:00.000000Z",
-                "end": "2025-01-26T20:35:00.000000Z",
+                "start": "2025-01-26T19:00:00.000000Z",
+                "end": "2025-01-26T19:35:00.000000Z",
                 "title": "TG 1",
                 "description": "TELEGIORNALE",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T20:35:00.000000Z",
-                "end": "2025-01-26T21:30:00.000000Z",
+                "start": "2025-01-26T19:35:00.000000Z",
+                "end": "2025-01-26T20:30:00.000000Z",
                 "title": "Affari Tuoi",
                 "description": "Venti concorrenti in rappresentanza delle venti regioni italiane. In ogni puntata, il Pacchista sort...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Faffari-tuoi%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T21:30:00.000000Z",
+                "start": "2025-01-26T20:30:00.000000Z",
+                "end": "2025-01-26T21:35:00.000000Z",
+                "title": "Mina Settembre(2025)",
+                "description": "Mina Settembre è un'assistente sociale alla continua ricerca di una soluzione ai problemi degli altr...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FmCDEhFmkrgTNk8nqvPImbLkpvnx.jpg&w=3840&q=75",
+                "channel": "rai-1",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T21:35:00.000000Z",
                 "end": "2025-01-26T22:35:00.000000Z",
                 "title": "Mina Settembre(2025)",
                 "description": "Mina Settembre è un'assistente sociale alla continua ricerca di una soluzione ai problemi degli altr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FmCDEhFmkrgTNk8nqvPImbLkpvnx.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T22:35:00.000000Z",
-                "end": "2025-01-26T23:35:00.000000Z",
-                "title": "Mina Settembre(2025)",
-                "description": "Mina Settembre è un'assistente sociale alla continua ricerca di una soluzione ai problemi degli altr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FmCDEhFmkrgTNk8nqvPImbLkpvnx.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T23:35:00.000000Z",
-                "end": "2025-01-26T23:40:00.000000Z",
+                "end": "2025-01-26T22:40:00.000000Z",
                 "title": "TG1 Sera",
                 "description": "TG1 Sera",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1-sera%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T23:40:00.000000Z",
-                "end": "2025-01-26T00:50:00.000000Z",
+                "start": "2025-01-26T22:40:00.000000Z",
+                "end": "2025-01-26T22:40:00.000000Z",
                 "title": "Speciale Tg1 - Suonate Ancora. Il Coraggio Dei Figli Della Shoah è Stato Quello Di Vivere",
                 "description": "Suonate ancora. Il coraggio dei figli della Shoah è stato quello di vivere",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fspeciale-tg1%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T00:50:00.000000Z",
-                "end": "2025-01-26T01:50:00.000000Z",
-                "title": "Mille E Un Libro",
-                "description": "RUBRICA - I libri protagonisti di un confronto a più voci tra autori, critici e lettori.. - Un progr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fmille-e-un-libro%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T01:50:00.000000Z",
-                "end": "2025-01-26T02:40:00.000000Z",
-                "title": "Il Caffè",
-                "description": "Ogni settimana un'ora tra cinema, teatro, letteratura e musica, con il racconto delle memorie più pr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fil-caffe%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T02:40:00.000000Z",
-                "end": "2025-01-26T02:45:00.000000Z",
-                "title": "Che Tempo Fa",
-                "description": "Che tempo fa",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fche-tempo-fa%2F6.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-01-26T02:45:00.000000Z",
-                "end": "2025-01-26T03:45:00.000000Z",
-                "title": "RaiNews24",
-                "description": "RaiNews24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Frainews-24%2F8.jpg&w=3840&q=75",
-                "channel": "rai-1"
+                "channel": "rai-1",
+                "is_in_onda": false
             }
         ]
     },
@@ -511,31 +455,64 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-26T05:05:00.000000Z",
-                "end": "2025-01-26T06:00:00.000000Z",
-                "title": "R.I.S. Roma - Delitti imperfetti(2010)",
-                "description": "Daniele Ghirelli, in seguito allo scioglimento della squadra R.I.S. di Parma - dovuto alla promozion...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdwyXT8CeSKuRjXCQvOCFhmw7CjI.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T06:00:00.000000Z",
-                "end": "2025-01-26T06:10:00.000000Z",
+                "start": "2025-01-26T05:00:00.000000Z",
+                "end": "2025-01-26T05:10:00.000000Z",
                 "title": "Prima Pagina Tg5",
                 "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T06:10:00.000000Z",
-                "end": "2025-01-26T06:15:00.000000Z",
+                "start": "2025-01-26T05:10:00.000000Z",
+                "end": "2025-01-26T05:15:00.000000Z",
                 "title": "Traffico",
                 "description": "Bollettino del traffico che si avvale di simulazioni grafiche costantemente aggiornate.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftraffico%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T05:15:00.000000Z",
+                "end": "2025-01-26T05:30:00.000000Z",
+                "title": "Prima Pagina Tg5",
+                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
+                "channel": "canale-5",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T05:30:00.000000Z",
+                "end": "2025-01-26T05:45:00.000000Z",
+                "title": "Prima Pagina Tg5",
+                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
+                "channel": "canale-5",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T05:45:00.000000Z",
+                "end": "2025-01-26T06:00:00.000000Z",
+                "title": "Prima Pagina Tg5",
+                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
+                "channel": "canale-5",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T06:00:00.000000Z",
+                "end": "2025-01-26T06:15:00.000000Z",
+                "title": "Prima Pagina Tg5",
+                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T06:15:00.000000Z",
@@ -544,7 +521,8 @@
                 "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T06:30:00.000000Z",
@@ -553,295 +531,238 @@
                 "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T06:45:00.000000Z",
-                "end": "2025-01-26T07:00:00.000000Z",
+                "end": "2025-01-26T06:59:00.000000Z",
                 "title": "Prima Pagina Tg5",
                 "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T07:00:00.000000Z",
-                "end": "2025-01-26T07:15:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T07:15:00.000000Z",
-                "end": "2025-01-26T07:30:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T07:30:00.000000Z",
-                "end": "2025-01-26T07:45:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T07:45:00.000000Z",
-                "end": "2025-01-26T07:59:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T07:59:00.000000Z",
-                "end": "2025-01-26T08:43:00.000000Z",
+                "start": "2025-01-26T06:59:00.000000Z",
+                "end": "2025-01-26T07:43:00.000000Z",
                 "title": "TG5",
                 "description": "Le notizie piu' importanti nazionali e internazionali, con approfondimenti e rubriche, a cura della ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T08:43:00.000000Z",
-                "end": "2025-01-26T08:49:00.000000Z",
+                "start": "2025-01-26T07:43:00.000000Z",
+                "end": "2025-01-26T07:49:00.000000Z",
                 "title": "Meteo.it - Weekend",
                 "description": "Previsioni meteorologiche del territorio italiano, diviso per zone geografiche, dettagliate e costan...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fmeteo-it%2F6.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T08:49:00.000000Z",
-                "end": "2025-01-26T09:52:00.000000Z",
+                "start": "2025-01-26T07:49:00.000000Z",
+                "end": "2025-01-26T08:52:00.000000Z",
                 "title": "Tg5 Speciale",
                 "description": "Sei bambini ebrei si rifugiano a Chambord per poi essere trasferiti con un camion nella Francia Libe...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5-speciale%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T09:52:00.000000Z",
-                "end": "2025-01-26T09:58:00.000000Z",
+                "start": "2025-01-26T08:52:00.000000Z",
+                "end": "2025-01-26T08:58:00.000000Z",
                 "title": "Luoghi di Magnifica Italia",
                 "description": "Alla scoperta delle meraviglie del nostro Paese.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fluoghi-di-magnifica-italia%2F0.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T09:58:00.000000Z",
-                "end": "2025-01-26T10:55:00.000000Z",
+                "start": "2025-01-26T08:58:00.000000Z",
+                "end": "2025-01-26T09:55:00.000000Z",
                 "title": "Santa Messa",
                 "description": "Celebrazione della Santa Messa.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fsanta-messa%2F5.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T10:55:00.000000Z",
-                "end": "2025-01-26T11:24:00.000000Z",
+                "start": "2025-01-26T09:55:00.000000Z",
+                "end": "2025-01-26T10:24:00.000000Z",
                 "title": "Melaverde - Le storie",
                 "description": "Approfondimenti e curiosita' su luoghi, ricette, antichi e nuovi mestieri di ogni regione italiana i...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fmelaverde%2F11.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T11:24:00.000000Z",
-                "end": "2025-01-26T11:50:00.000000Z",
+                "start": "2025-01-26T10:24:00.000000Z",
+                "end": "2025-01-26T10:50:00.000000Z",
                 "title": "Melaverde - Le storie",
                 "description": "Approfondimenti e curiosita' su luoghi, ricette, antichi e nuovi mestieri di ogni regione italiana i...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fmelaverde%2F11.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T11:50:00.000000Z",
-                "end": "2025-01-26T12:55:00.000000Z",
+                "start": "2025-01-26T10:50:00.000000Z",
+                "end": "2025-01-26T11:55:00.000000Z",
                 "title": "Melaverde - editing",
                 "description": "I conduttori ci mostrano il meglio dei servizi della nostra penisola con curiosita' su tradizione e ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fmelaverde%2F11.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T12:55:00.000000Z",
-                "end": "2025-01-26T13:38:00.000000Z",
+                "start": "2025-01-26T11:55:00.000000Z",
+                "end": "2025-01-26T12:38:00.000000Z",
                 "title": "TG5",
                 "description": "Le notizie piu' importanti nazionali e internazionali, con approfondimenti e rubriche, a cura della ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T13:38:00.000000Z",
-                "end": "2025-01-26T13:57:00.000000Z",
+                "start": "2025-01-26T12:38:00.000000Z",
+                "end": "2025-01-26T12:57:00.000000Z",
                 "title": "L'Arca di Noe'",
                 "description": "Servizi, notizie curiose, consigli degli esperti e testimonianze sul mondo dei nostri amici a quattr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fl-arca-di-noe%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T13:57:00.000000Z",
-                "end": "2025-01-26T15:59:00.000000Z",
+                "start": "2025-01-26T12:57:00.000000Z",
+                "end": "2025-01-26T14:59:00.000000Z",
                 "title": "Amici di Maria",
                 "description": "Tra l'ingresso di Antonio, ballerino della squadra di Deborah Lettieri, ed un passo a due con Sebast...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Famici-di-maria%2F8.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T15:59:00.000000Z",
-                "end": "2025-01-26T18:46:00.000000Z",
+                "start": "2025-01-26T14:59:00.000000Z",
+                "end": "2025-01-26T17:46:00.000000Z",
                 "title": "Verissimo",
                 "description": "Un'alchimia artistica che ha dato vita a una splendida amicizia: Rossella Brescia e Kledi Kadiu tra ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fverissimo%2F11.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T18:46:00.000000Z",
-                "end": "2025-01-26T19:54:00.000000Z",
+                "start": "2025-01-26T17:46:00.000000Z",
+                "end": "2025-01-26T18:54:00.000000Z",
                 "title": "Avanti un altro",
                 "description": "Paolo Bonolis ritorna per la quattordicesima stagione alla guida del preserale piu' bizzarro ed impr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Favanti-un-altro%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T19:54:00.000000Z",
-                "end": "2025-01-26T20:01:00.000000Z",
+                "start": "2025-01-26T18:54:00.000000Z",
+                "end": "2025-01-26T19:01:00.000000Z",
                 "title": "Tg5 Prima Pagina",
                 "description": "Sintesi delle principali notizie del giorno.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5-prima-pagina%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T20:01:00.000000Z",
-                "end": "2025-01-26T20:38:00.000000Z",
+                "start": "2025-01-26T19:01:00.000000Z",
+                "end": "2025-01-26T19:38:00.000000Z",
                 "title": "TG5",
                 "description": "Le notizie piu' importanti nazionali e internazionali, con approfondimenti e rubriche, a cura della ...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T20:38:00.000000Z",
-                "end": "2025-01-26T21:28:00.000000Z",
+                "start": "2025-01-26T19:38:00.000000Z",
+                "end": "2025-01-26T20:28:00.000000Z",
                 "title": "Paperissima Sprint",
                 "description": "Sketch, gaffe, filmati amatoriali ed errori in tv provenienti da tutto il mondo. Ideato da Antonio R...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fpaperissima-sprint%2F6.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T21:28:00.000000Z",
-                "end": "2025-01-26T21:30:00.000000Z",
+                "start": "2025-01-26T20:28:00.000000Z",
+                "end": "2025-01-26T20:30:00.000000Z",
                 "title": "Riassunto - tradimento",
                 "description": "Nelle puntate precedenti.",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Friassunto-tradimento%2F5.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T21:30:00.000000Z",
-                "end": "2025-01-26T21:59:00.000000Z",
+                "start": "2025-01-26T20:30:00.000000Z",
+                "end": "2025-01-26T20:59:00.000000Z",
                 "title": "Tradimento(2022)",
                 "description": "Lui è un distinto e rispettato giudice del tribunale della famiglia. Lei è una donna onesta e di pri...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F674c308ba0e03689d430e386_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T21:59:00.000000Z",
-                "end": "2025-01-26T22:55:00.000000Z",
+                "start": "2025-01-26T20:59:00.000000Z",
+                "end": "2025-01-26T21:55:00.000000Z",
                 "title": "Tradimento(2022)",
                 "description": "Lui è un distinto e rispettato giudice del tribunale della famiglia. Lei è una donna onesta e di pri...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F674c308ba0e03689d430e386_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T22:55:00.000000Z",
-                "end": "2025-01-26T23:50:00.000000Z",
+                "start": "2025-01-26T21:55:00.000000Z",
+                "end": "2025-01-26T22:50:00.000000Z",
                 "title": "Tradimento(2022)",
                 "description": "Lui è un distinto e rispettato giudice del tribunale della famiglia. Lei è una donna onesta e di pri...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F674c308ba0e03689d430e386_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T23:50:00.000000Z",
-                "end": "2025-01-26T00:12:00.000000Z",
+                "start": "2025-01-26T22:50:00.000000Z",
+                "end": "2025-01-26T04:24:00.000000Z",
                 "title": "Tradimento(2022)",
                 "description": "Lui è un distinto e rispettato giudice del tribunale della famiglia. Lei è una donna onesta e di pri...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F674c308ba0e03689d430e386_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T00:12:00.000000Z",
-                "end": "2025-01-26T01:48:00.000000Z",
-                "title": "Pressing",
-                "description": "Il programma in diretta con highlights, gol, immagini e commenti della giornata di calcio di Serie A...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fpressing%2F6.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T01:48:00.000000Z",
-                "end": "2025-01-26T02:33:00.000000Z",
-                "title": "TG5",
-                "description": "Le notizie piu' importanti nazionali e internazionali, con approfondimenti e rubriche, a cura della ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T02:33:00.000000Z",
-                "end": "2025-01-26T03:18:00.000000Z",
-                "title": "Paperissima Sprint",
-                "description": "Sketch, gaffe, filmati amatoriali ed errori in tv provenienti da tutto il mondo. Ideato da Antonio R...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fpaperissima-sprint%2F6.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T03:49:54.000000Z",
-                "end": "2025-01-26T03:42:00.000000Z",
-                "title": "Vivere",
-                "description": "Per salvare Irene, Roberto propone ad Adriana di mentire in tribunale dichiarando di ricordare chi l...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fvivere%2F7.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T03:49:54.000000Z",
-                "end": "2025-01-26T05:24:00.000000Z",
-                "title": "L'onore e il rispetto(2006)",
-                "description": "Sicilia, anni '50. Con la morte del suocero Rocco, Ersilia Fortebracci, moglie di Pasquale, finalmen...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78dd56ce1e246c511ccec1_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-01-26T05:24:00.000000Z",
-                "end": "2025-01-26T06:24:00.000000Z",
+                "start": "2025-01-26T04:24:00.000000Z",
+                "end": "2025-01-26T04:24:00.000000Z",
                 "title": "R.I.S. Roma - Delitti imperfetti(2010)",
                 "description": "Daniele Ghirelli, in seguito allo scioglimento della squadra R.I.S. di Parma - dovuto alla promozion...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdwyXT8CeSKuRjXCQvOCFhmw7CjI.jpg&w=3840&q=75",
-                "channel": "canale-5"
+                "channel": "canale-5",
+                "is_in_onda": false
             }
         ]
     },
@@ -853,589 +774,504 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-01-26T05:00:00.000000Z",
-                "end": "2025-01-26T05:25:00.000000Z",
-                "title": "Wild Tomei",
-                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F363ab813-45da-4d74-8bec-22e425e2df84%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T05:25:00.000000Z",
-                "end": "2025-01-26T05:30:00.000000Z",
+                "start": "2025-01-26T04:25:00.000000Z",
+                "end": "2025-01-26T04:30:00.000000Z",
                 "title": "Km Italia pillole",
                 "description": "Ep20 di 20 Uva da tavola - Brevi spunti culinari e gastronomici dal programma \"Km Italia\", che rappr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Ff64b7c35-31ed-4d21-8ece-9152dd558fba%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T05:30:00.000000Z",
-                "end": "2025-01-26T06:00:00.000000Z",
-                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
-                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T06:00:00.000000Z",
-                "end": "2025-01-26T06:30:00.000000Z",
-                "title": "Programmazione da definire",
-                "description": "I palinsesti sono in via di definizione da parte emittente",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=%2Fassets%2Ffall_x.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T06:30:00.000000Z",
-                "end": "2025-01-26T07:00:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 7 - Valentina Chiaramonte. 1a parte",
-                "description": "S4 Ep7 Valentina Chiaramonte. 1a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T07:00:00.000000Z",
-                "end": "2025-01-26T07:25:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 8 - Valentina Chiaramonte. 2a parte",
-                "description": "S4 Ep8 Valentina Chiaramonte. 2a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T07:25:00.000000Z",
-                "end": "2025-01-26T07:30:00.000000Z",
-                "title": "Petra - Stag. 1 Ep. 3 - Chips",
-                "description": "S1 Ep3 Chips - Che sia dolce, pizza o pane, ad ogni ricetta la giusta farina. Prox Ep. 27 gen 22:55.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpetra%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T07:30:00.000000Z",
-                "end": "2025-01-26T07:55:00.000000Z",
-                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 6 - Prodotti speciali per piatti speciali",
-                "description": "S5 Ep6 Prodotti speciali per piatti speciali - Una colazione che e' quasi un brunch, ideale per chi ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T07:55:00.000000Z",
-                "end": "2025-01-26T08:25:00.000000Z",
-                "title": "Giorgione Speciale Monferrato - Stag. 2 Ep. 3 - Ottiglio. 1a parte",
-                "description": "S2 Ep3 Ottiglio. 1a parte - L'amabile Giorgione e' il protagonista di piacevoli avventure nell'orto ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T08:25:00.000000Z",
-                "end": "2025-01-26T08:30:00.000000Z",
-                "title": "Km Italia pillole",
-                "description": "Ep8 di 20 Olio di Trevi - Brevi spunti culinari e gastronomici dal programma \"Km Italia\", che rappre...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fa3f185f1-b7ef-43c7-a340-8d6fa5443ffe%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T08:30:00.000000Z",
-                "end": "2025-01-26T09:00:00.000000Z",
-                "title": "Invita Vito",
-                "description": "Il viaggio di Vito nelle piccole realtà familiari della nostra penisola per scoprire le ricette del ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fc7e64994-a111-413e-95c3-e7f0fb9ea3be%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T09:00:00.000000Z",
-                "end": "2025-01-26T09:25:00.000000Z",
-                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
-                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T09:25:00.000000Z",
-                "end": "2025-01-26T09:55:00.000000Z",
-                "title": "4 chiacchiere",
-                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T09:55:00.000000Z",
-                "end": "2025-01-26T10:00:00.000000Z",
-                "title": "Le ricette di Mai - Stag. 1 Ep. 4 - Dashimaki Tamago",
-                "description": "S1 Ep4 Dashimaki Tamago - La cucina giapponese per tutti: ricette semplici e piccoli segreti di Mai ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-di-mai%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T10:00:00.000000Z",
-                "end": "2025-01-26T10:30:00.000000Z",
-                "title": "La mia Sardegna - Stag. 2 Ep. 3 - Cultura e ispirazione",
-                "description": "S2 Ep3 Cultura e ispirazione - In viaggio con Giuseppe Carrus alla scoperta della Sardegna tra panor...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T10:30:00.000000Z",
-                "end": "2025-01-26T10:55:00.000000Z",
-                "title": "Come e' profondo il mare: Francia",
-                "description": "Ep1 Bordeaux - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuovo e sopra...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T10:55:00.000000Z",
-                "end": "2025-01-26T11:00:00.000000Z",
-                "title": "Le ricette dei food-metti - Stag. 1 Ep. 3 - Tex",
-                "description": "S1 Ep3 Tex - Metti un fumetto a cena con Cristiano Tomei. Lo chef dedica un piatto a ciascuno dei su...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-dei-food-metti%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T11:00:00.000000Z",
-                "end": "2025-01-26T11:30:00.000000Z",
-                "title": "Wild Tomei",
-                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F363ab813-45da-4d74-8bec-22e425e2df84%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T11:30:00.000000Z",
-                "end": "2025-01-26T12:00:00.000000Z",
-                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
-                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T12:00:00.000000Z",
-                "end": "2025-01-26T12:35:00.000000Z",
-                "title": "Le grandi cantine - Stag. 5 Ep. 4 - Castello di gabbiano",
-                "description": "S5 Ep4 Castello di gabbiano - Un programma alla scoperta delle tradizioni delle piu' importanti fami...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T12:35:00.000000Z",
-                "end": "2025-01-26T13:00:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 7 - Valentina Chiaramonte. 1a parte",
-                "description": "S4 Ep7 Valentina Chiaramonte. 1a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T13:00:00.000000Z",
-                "end": "2025-01-26T13:30:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 8 - Valentina Chiaramonte. 2a parte",
-                "description": "S4 Ep8 Valentina Chiaramonte. 2a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T13:30:00.000000Z",
-                "end": "2025-01-26T13:55:00.000000Z",
-                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 5 - Il freddo rigenera",
-                "description": "S5 Ep5 Il freddo rigenera - Il freddo, la neve, lo sport all'aria aperta e iol contatto con la natur...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T13:55:00.000000Z",
-                "end": "2025-01-26T14:00:00.000000Z",
-                "title": "Bar d'Italia 2024 - Stag. 1 Ep. 2 - Caffe' Nazionale",
-                "description": "S1 Ep2 Caffe' Nazionale - Edizione 2024 della Guida del Gambero Rosso che aiuta a orientarsi tra i m...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbar-d-italia-2024%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T14:00:00.000000Z",
-                "end": "2025-01-26T14:30:00.000000Z",
-                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 2 - Formaggio Testaccio",
-                "description": "S55 Ep2 Formaggio Testaccio - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta st...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T14:30:00.000000Z",
-                "end": "2025-01-26T14:55:00.000000Z",
-                "title": "Invita Vito",
-                "description": "Il viaggio di Vito nelle piccole realtà familiari per scoprire le ricette del territorio bolognese",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F195ac0f6-adbd-4f3a-a2d6-c4f1c004b270%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T14:55:00.000000Z",
-                "end": "2025-01-26T15:00:00.000000Z",
-                "title": "Il vino - Stag. 1 Ep. 5 - Masciarelli / Marina Cvetic",
-                "description": "S1 Ep5 Masciarelli / Marina Cvetic - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T15:00:00.000000Z",
-                "end": "2025-01-26T15:30:00.000000Z",
-                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
-                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T15:30:00.000000Z",
-                "end": "2025-01-26T16:00:00.000000Z",
-                "title": "4 chiacchiere",
-                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T16:00:00.000000Z",
-                "end": "2025-01-26T16:30:00.000000Z",
-                "title": "La mia Sardegna - Stag. 2 Ep. 2 - Il nostro cuore, la nostra anima",
-                "description": "S2 Ep2 Il nostro cuore, la nostra anima - In viaggio con Giuseppe Carrus alla scoperta della Sardegn...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T16:30:00.000000Z",
-                "end": "2025-01-26T16:55:00.000000Z",
-                "title": "Come e' profondo il mare: Francia",
-                "description": "Ep1 Bordeaux - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuovo e sopra...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T16:55:00.000000Z",
-                "end": "2025-01-26T17:00:00.000000Z",
-                "title": "Il vino - Stag. 1 Ep. 14 - Rotari / Alpe Regis",
-                "description": "S1 Ep14 Rotari / Alpe Regis - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il suo pi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T17:00:00.000000Z",
-                "end": "2025-01-26T17:30:00.000000Z",
-                "title": "Wild Tomei",
-                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Febb8b017-2f6e-42d5-9742-a85bac20bebb%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T17:30:00.000000Z",
-                "end": "2025-01-26T18:00:00.000000Z",
-                "title": "La sfida circolare - Stag. 1 Ep. 7 - Cefalo",
-                "description": "S1 Ep7 Cefalo - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e ricett...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T18:00:00.000000Z",
-                "end": "2025-01-26T18:30:00.000000Z",
-                "title": "Le grandi cantine - Stag. 5 Ep. 5 - Menhir",
-                "description": "S5 Ep5 Menhir - Un programma alla scoperta delle tradizioni delle piu' importanti famiglie vinicole ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T18:30:00.000000Z",
-                "end": "2025-01-26T18:55:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 5 - Matteo Metullio / Davide de Pra. 1a parte",
-                "description": "S4 Ep5 Matteo Metullio / Davide de Pra. 1a parte - Sei chef si raccontano la passione, i sacrifici, ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T18:55:00.000000Z",
-                "end": "2025-01-26T19:20:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 6 - Matteo Metullio / Davide de Pra. 2a parte",
-                "description": "S4 Ep6 Matteo Metullio / Davide de Pra. 2a parte - Sei chef si raccontano la passione, i sacrifici, ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T19:20:00.000000Z",
-                "end": "2025-01-26T19:35:00.000000Z",
-                "title": "Ricette sostenibili",
-                "description": "Ep4 di 20 Verdura - Davide Mazza chef, Andrea Ghiselli nutrizionista del Crea e la Comunita' Europea...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fdb365874-4684-46ea-afd7-11c6ed6b063c%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T19:35:00.000000Z",
-                "end": "2025-01-26T20:00:00.000000Z",
-                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 6 - Prodotti speciali per piatti speciali",
-                "description": "S5 Ep6 Prodotti speciali per piatti speciali - Una colazione che e' quasi un brunch, ideale per chi ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T20:00:00.000000Z",
-                "end": "2025-01-26T20:25:00.000000Z",
-                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 3 - Vino dei Castelli",
-                "description": "S55 Ep3 Vino dei Castelli - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta stav...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T20:25:00.000000Z",
-                "end": "2025-01-26T20:30:00.000000Z",
-                "title": "Il vino - Stag. 1 Ep. 12 - Feudo Arancio / Hedonis",
-                "description": "S1 Ep12 Feudo Arancio / Hedonis - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il su...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T20:30:00.000000Z",
-                "end": "2025-01-26T21:00:00.000000Z",
-                "title": "Invita Vito",
-                "description": "Il viaggio di Vito nelle piccole realtà familiari della nostra penisola per scoprire le ricette del ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fc7e64994-a111-413e-95c3-e7f0fb9ea3be%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T21:00:00.000000Z",
-                "end": "2025-01-26T21:30:00.000000Z",
-                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
-                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T21:30:00.000000Z",
-                "end": "2025-01-26T22:00:00.000000Z",
-                "title": "4 chiacchiere",
-                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T22:00:00.000000Z",
-                "end": "2025-01-26T22:25:00.000000Z",
-                "title": "La mia Sardegna - Stag. 2 Ep. 3 - Cultura e ispirazione",
-                "description": "S2 Ep3 Cultura e ispirazione - In viaggio con Giuseppe Carrus alla scoperta della Sardegna tra panor...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T22:25:00.000000Z",
-                "end": "2025-01-26T22:30:00.000000Z",
-                "title": "Pizza - Stag. 1 Ep. 4 - Pala",
-                "description": "S1 Ep4 Pala - Fare una pizza a casa buona come in pizzeria? Con i consigli giusti e' possibile. Prox...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpizza%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T22:30:00.000000Z",
-                "end": "2025-01-26T23:00:00.000000Z",
-                "title": "Come e' profondo il mare: Francia",
-                "description": "Ep2 Ostriche fontaneau - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuo...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T23:00:00.000000Z",
-                "end": "2025-01-26T23:30:00.000000Z",
-                "title": "Wild Tomei",
-                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F363ab813-45da-4d74-8bec-22e425e2df84%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T23:30:00.000000Z",
-                "end": "2025-01-26T23:55:00.000000Z",
-                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
-                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T23:55:00.000000Z",
-                "end": "2025-01-26T00:25:00.000000Z",
-                "title": "Le grandi cantine - Stag. 5 Ep. 5 - Menhir",
-                "description": "S5 Ep5 Menhir - Un programma alla scoperta delle tradizioni delle piu' importanti famiglie vinicole ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T00:25:00.000000Z",
-                "end": "2025-01-26T00:30:00.000000Z",
-                "title": "Le ricette di Mai - Stag. 1 Ep. 2 - Onigiri",
-                "description": "S1 Ep2 Onigiri - La cucina giapponese per tutti: ricette semplici e piccoli segreti di Mai Shinohara...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-di-mai%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T00:30:00.000000Z",
-                "end": "2025-01-26T00:55:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 5 - Matteo Metullio / Davide de Pra. 1a parte",
-                "description": "S4 Ep5 Matteo Metullio / Davide de Pra. 1a parte - Sei chef si raccontano la passione, i sacrifici, ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T00:55:00.000000Z",
-                "end": "2025-01-26T01:20:00.000000Z",
-                "title": "Ritratto di chef - Stag. 4 Ep. 6 - Matteo Metullio / Davide de Pra. 2a parte",
-                "description": "S4 Ep6 Matteo Metullio / Davide de Pra. 2a parte - Sei chef si raccontano la passione, i sacrifici, ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T01:20:00.000000Z",
-                "end": "2025-01-26T01:30:00.000000Z",
-                "title": "Le ricette dei food-metti - Stag. 1 Ep. 4 - Nonna Papera",
-                "description": "S1 Ep4 Nonna Papera - Metti un fumetto a cena con Cristiano Tomei. Lo chef dedica un piatto a ciascu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-dei-food-metti%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T01:30:00.000000Z",
-                "end": "2025-01-26T01:55:00.000000Z",
-                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 5 - Il freddo rigenera",
-                "description": "S5 Ep5 Il freddo rigenera - Il freddo, la neve, lo sport all'aria aperta e iol contatto con la natur...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T01:55:00.000000Z",
-                "end": "2025-01-26T02:00:00.000000Z",
-                "title": "Pizza - Stag. 1 Ep. 2 - Margherita",
-                "description": "S1 Ep2 Margherita - Fare una pizza a casa buona come in pizzeria? Con i consigli giusti e' possibile...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpizza%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T02:00:00.000000Z",
-                "end": "2025-01-26T02:30:00.000000Z",
-                "title": "Giorgione Speciale Monferrato - Stag. 2 Ep. 3 - Ottiglio. 1a parte",
-                "description": "S2 Ep3 Ottiglio. 1a parte - L'amabile Giorgione e' il protagonista di piacevoli avventure nell'orto ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T02:30:00.000000Z",
-                "end": "2025-01-26T03:00:00.000000Z",
-                "title": "Invita Vito",
-                "description": "Il viaggio di Vito nelle piccole realtà familiari per scoprire le ricette del territorio bolognese",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F195ac0f6-adbd-4f3a-a2d6-c4f1c004b270%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T03:49:55.000000Z",
-                "end": "2025-01-26T03:25:00.000000Z",
-                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
-                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T03:49:55.000000Z",
-                "end": "2025-01-26T03:50:00.000000Z",
-                "title": "4 chiacchiere",
-                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T03:50:00.000000Z",
-                "end": "2025-01-26T04:00:00.000000Z",
-                "title": "Il vino - Stag. 1 Ep. 16 - Vicchiomaggio / Ripa Delle More",
-                "description": "S1 Ep16 Vicchiomaggio / Ripa Delle More - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-01-26T04:00:00.000000Z",
-                "end": "2025-01-26T04:30:00.000000Z",
-                "title": "La mia Sardegna - Stag. 2 Ep. 2 - Il nostro cuore, la nostra anima",
-                "description": "S2 Ep2 Il nostro cuore, la nostra anima - In viaggio con Giuseppe Carrus alla scoperta della Sardegn...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
+                "channel": "gambero-rosso",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T04:30:00.000000Z",
                 "end": "2025-01-26T05:00:00.000000Z",
-                "title": "Come e' profondo il mare: Francia",
-                "description": "Ep2 Ostriche fontaneau - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuo...",
+                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
+                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
-                "channel": "gambero-rosso"
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
             },
             {
                 "start": "2025-01-26T05:00:00.000000Z",
                 "end": "2025-01-26T05:30:00.000000Z",
+                "title": "Programmazione da definire",
+                "description": "I palinsesti sono in via di definizione da parte emittente",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=%2Fassets%2Ffall_x.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T05:30:00.000000Z",
+                "end": "2025-01-26T06:00:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 7 - Valentina Chiaramonte. 1a parte",
+                "description": "S4 Ep7 Valentina Chiaramonte. 1a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T06:00:00.000000Z",
+                "end": "2025-01-26T06:25:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 8 - Valentina Chiaramonte. 2a parte",
+                "description": "S4 Ep8 Valentina Chiaramonte. 2a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T06:25:00.000000Z",
+                "end": "2025-01-26T06:30:00.000000Z",
+                "title": "Petra - Stag. 1 Ep. 3 - Chips",
+                "description": "S1 Ep3 Chips - Che sia dolce, pizza o pane, ad ogni ricetta la giusta farina. Prox Ep. 27 gen 22:55.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpetra%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T06:30:00.000000Z",
+                "end": "2025-01-26T06:55:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 6 - Prodotti speciali per piatti speciali",
+                "description": "S5 Ep6 Prodotti speciali per piatti speciali - Una colazione che e' quasi un brunch, ideale per chi ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T06:55:00.000000Z",
+                "end": "2025-01-26T07:25:00.000000Z",
+                "title": "Giorgione Speciale Monferrato - Stag. 2 Ep. 3 - Ottiglio. 1a parte",
+                "description": "S2 Ep3 Ottiglio. 1a parte - L'amabile Giorgione e' il protagonista di piacevoli avventure nell'orto ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T07:25:00.000000Z",
+                "end": "2025-01-26T07:30:00.000000Z",
+                "title": "Km Italia pillole",
+                "description": "Ep8 di 20 Olio di Trevi - Brevi spunti culinari e gastronomici dal programma \"Km Italia\", che rappre...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fa3f185f1-b7ef-43c7-a340-8d6fa5443ffe%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T07:30:00.000000Z",
+                "end": "2025-01-26T08:00:00.000000Z",
+                "title": "Invita Vito",
+                "description": "Il viaggio di Vito nelle piccole realtà familiari della nostra penisola per scoprire le ricette del ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fc7e64994-a111-413e-95c3-e7f0fb9ea3be%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T08:00:00.000000Z",
+                "end": "2025-01-26T08:25:00.000000Z",
+                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
+                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T08:25:00.000000Z",
+                "end": "2025-01-26T08:55:00.000000Z",
+                "title": "4 chiacchiere",
+                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T08:55:00.000000Z",
+                "end": "2025-01-26T09:00:00.000000Z",
+                "title": "Le ricette di Mai - Stag. 1 Ep. 4 - Dashimaki Tamago",
+                "description": "S1 Ep4 Dashimaki Tamago - La cucina giapponese per tutti: ricette semplici e piccoli segreti di Mai ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-di-mai%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T09:00:00.000000Z",
+                "end": "2025-01-26T09:30:00.000000Z",
+                "title": "La mia Sardegna - Stag. 2 Ep. 3 - Cultura e ispirazione",
+                "description": "S2 Ep3 Cultura e ispirazione - In viaggio con Giuseppe Carrus alla scoperta della Sardegna tra panor...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T09:30:00.000000Z",
+                "end": "2025-01-26T09:55:00.000000Z",
+                "title": "Come e' profondo il mare: Francia",
+                "description": "Ep1 Bordeaux - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuovo e sopra...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T09:55:00.000000Z",
+                "end": "2025-01-26T10:00:00.000000Z",
+                "title": "Le ricette dei food-metti - Stag. 1 Ep. 3 - Tex",
+                "description": "S1 Ep3 Tex - Metti un fumetto a cena con Cristiano Tomei. Lo chef dedica un piatto a ciascuno dei su...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-ricette-dei-food-metti%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T10:00:00.000000Z",
+                "end": "2025-01-26T10:30:00.000000Z",
+                "title": "Wild Tomei",
+                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F363ab813-45da-4d74-8bec-22e425e2df84%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T10:30:00.000000Z",
+                "end": "2025-01-26T11:00:00.000000Z",
+                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
+                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T11:00:00.000000Z",
+                "end": "2025-01-26T11:35:00.000000Z",
+                "title": "Le grandi cantine - Stag. 5 Ep. 4 - Castello di gabbiano",
+                "description": "S5 Ep4 Castello di gabbiano - Un programma alla scoperta delle tradizioni delle piu' importanti fami...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T11:35:00.000000Z",
+                "end": "2025-01-26T12:00:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 7 - Valentina Chiaramonte. 1a parte",
+                "description": "S4 Ep7 Valentina Chiaramonte. 1a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T12:00:00.000000Z",
+                "end": "2025-01-26T12:30:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 8 - Valentina Chiaramonte. 2a parte",
+                "description": "S4 Ep8 Valentina Chiaramonte. 2a parte - Sei chef si raccontano la passione, i sacrifici, la curiosi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T12:30:00.000000Z",
+                "end": "2025-01-26T12:55:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 5 - Il freddo rigenera",
+                "description": "S5 Ep5 Il freddo rigenera - Il freddo, la neve, lo sport all'aria aperta e iol contatto con la natur...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T12:55:00.000000Z",
+                "end": "2025-01-26T13:00:00.000000Z",
+                "title": "Bar d'Italia 2024 - Stag. 1 Ep. 2 - Caffe' Nazionale",
+                "description": "S1 Ep2 Caffe' Nazionale - Edizione 2024 della Guida del Gambero Rosso che aiuta a orientarsi tra i m...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbar-d-italia-2024%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T13:00:00.000000Z",
+                "end": "2025-01-26T13:30:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 2 - Formaggio Testaccio",
+                "description": "S55 Ep2 Formaggio Testaccio - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta st...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T13:30:00.000000Z",
+                "end": "2025-01-26T13:55:00.000000Z",
+                "title": "Invita Vito",
+                "description": "Il viaggio di Vito nelle piccole realtà familiari per scoprire le ricette del territorio bolognese",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F195ac0f6-adbd-4f3a-a2d6-c4f1c004b270%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T13:55:00.000000Z",
+                "end": "2025-01-26T14:00:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 5 - Masciarelli / Marina Cvetic",
+                "description": "S1 Ep5 Masciarelli / Marina Cvetic - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T14:00:00.000000Z",
+                "end": "2025-01-26T14:30:00.000000Z",
+                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
+                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T14:30:00.000000Z",
+                "end": "2025-01-26T15:00:00.000000Z",
+                "title": "4 chiacchiere",
+                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T15:00:00.000000Z",
+                "end": "2025-01-26T15:30:00.000000Z",
+                "title": "La mia Sardegna - Stag. 2 Ep. 2 - Il nostro cuore, la nostra anima",
+                "description": "S2 Ep2 Il nostro cuore, la nostra anima - In viaggio con Giuseppe Carrus alla scoperta della Sardegn...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T15:30:00.000000Z",
+                "end": "2025-01-26T15:55:00.000000Z",
+                "title": "Come e' profondo il mare: Francia",
+                "description": "Ep1 Bordeaux - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuovo e sopra...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T15:55:00.000000Z",
+                "end": "2025-01-26T16:00:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 14 - Rotari / Alpe Regis",
+                "description": "S1 Ep14 Rotari / Alpe Regis - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il suo pi...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T16:00:00.000000Z",
+                "end": "2025-01-26T16:30:00.000000Z",
                 "title": "Wild Tomei",
                 "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Febb8b017-2f6e-42d5-9742-a85bac20bebb%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
+                "channel": "gambero-rosso",
+                "is_in_onda": false
             },
             {
-                "start": "2025-01-26T05:30:00.000000Z",
-                "end": "2025-01-26T06:30:00.000000Z",
+                "start": "2025-01-26T16:30:00.000000Z",
+                "end": "2025-01-26T17:00:00.000000Z",
                 "title": "La sfida circolare - Stag. 1 Ep. 7 - Cefalo",
                 "description": "S1 Ep7 Cefalo - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e ricett...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T17:00:00.000000Z",
+                "end": "2025-01-26T17:30:00.000000Z",
+                "title": "Le grandi cantine - Stag. 5 Ep. 5 - Menhir",
+                "description": "S5 Ep5 Menhir - Un programma alla scoperta delle tradizioni delle piu' importanti famiglie vinicole ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T17:30:00.000000Z",
+                "end": "2025-01-26T17:55:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 5 - Matteo Metullio / Davide de Pra. 1a parte",
+                "description": "S4 Ep5 Matteo Metullio / Davide de Pra. 1a parte - Sei chef si raccontano la passione, i sacrifici, ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T17:55:00.000000Z",
+                "end": "2025-01-26T18:20:00.000000Z",
+                "title": "Ritratto di chef - Stag. 4 Ep. 6 - Matteo Metullio / Davide de Pra. 2a parte",
+                "description": "S4 Ep6 Matteo Metullio / Davide de Pra. 2a parte - Sei chef si raccontano la passione, i sacrifici, ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fritratto-di-chef%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T18:20:00.000000Z",
+                "end": "2025-01-26T18:35:00.000000Z",
+                "title": "Ricette sostenibili",
+                "description": "Ep4 di 20 Verdura - Davide Mazza chef, Andrea Ghiselli nutrizionista del Crea e la Comunita' Europea...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fdb365874-4684-46ea-afd7-11c6ed6b063c%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T18:35:00.000000Z",
+                "end": "2025-01-26T19:00:00.000000Z",
+                "title": "Max sfida alle calorie winter edition - Stag. 5 Ep. 6 - Prodotti speciali per piatti speciali",
+                "description": "S5 Ep6 Prodotti speciali per piatti speciali - Una colazione che e' quasi un brunch, ideale per chi ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fmax-sfida-alle-calorie-winter-edition%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T19:00:00.000000Z",
+                "end": "2025-01-26T19:25:00.000000Z",
+                "title": "Giorgione Roma e dintorni - Stag. 55 Ep. 3 - Vino dei Castelli",
+                "description": "S55 Ep3 Vino dei Castelli - Il viaggio culinario e gastronomico dell'amabile Giorgione lo porta stav...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fgiorgione%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T19:25:00.000000Z",
+                "end": "2025-01-26T19:30:00.000000Z",
+                "title": "Il vino - Stag. 1 Ep. 12 - Feudo Arancio / Hedonis",
+                "description": "S1 Ep12 Feudo Arancio / Hedonis - Il vino in pillole: ad ogni piatto il suo vino, ad ogni vino il su...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-vino%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T19:30:00.000000Z",
+                "end": "2025-01-26T20:00:00.000000Z",
+                "title": "Invita Vito",
+                "description": "Il viaggio di Vito nelle piccole realtà familiari della nostra penisola per scoprire le ricette del ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fc7e64994-a111-413e-95c3-e7f0fb9ea3be%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T20:00:00.000000Z",
+                "end": "2025-01-26T20:30:00.000000Z",
+                "title": "4 chiacchiere - Stag. 2 Ep. 5 - Dolomiti",
+                "description": "S2 Ep5 Dolomiti - Dal mare alle montagne, le Dolomiti, tetto del Friuli Venezia Giulia, uno spettaco...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2F4-chiacchiere%2F5.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T20:30:00.000000Z",
+                "end": "2025-01-26T21:00:00.000000Z",
+                "title": "4 chiacchiere",
+                "description": "Fabrizio Nonis e un ospite speciale esplorano borghi, panorami e tradizioni enogastronomiche.",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F7032f574-4a6a-42fc-91e8-94568574cda4%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T21:00:00.000000Z",
+                "end": "2025-01-26T21:25:00.000000Z",
+                "title": "La mia Sardegna - Stag. 2 Ep. 3 - Cultura e ispirazione",
+                "description": "S2 Ep3 Cultura e ispirazione - In viaggio con Giuseppe Carrus alla scoperta della Sardegna tra panor...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-mia-sardegna%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T21:25:00.000000Z",
+                "end": "2025-01-26T21:30:00.000000Z",
+                "title": "Pizza - Stag. 1 Ep. 4 - Pala",
+                "description": "S1 Ep4 Pala - Fare una pizza a casa buona come in pizzeria? Con i consigli giusti e' possibile. Prox...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fpizza%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T21:30:00.000000Z",
+                "end": "2025-01-26T22:00:00.000000Z",
+                "title": "Come e' profondo il mare: Francia",
+                "description": "Ep2 Ostriche fontaneau - Gianfranco Pascucci si sposta in Francia alla scoperta di un territorio nuo...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fcome-e-profondo-il-mare%2F0.png&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T22:00:00.000000Z",
+                "end": "2025-01-26T22:30:00.000000Z",
+                "title": "Wild Tomei",
+                "description": "Cristiano Tomei alla ricerca degli ingredienti che la natura ci può offrire per prepare piatti unici...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F363ab813-45da-4d74-8bec-22e425e2df84%2Fbackground%2F600&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T22:30:00.000000Z",
+                "end": "2025-01-26T22:55:00.000000Z",
+                "title": "La sfida circolare - Stag. 1 Ep. 6 - Peperoni",
+                "description": "S1 Ep6 Peperoni - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e rice...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T22:55:00.000000Z",
+                "end": "2025-01-26T04:30:00.000000Z",
+                "title": "Le grandi cantine - Stag. 5 Ep. 5 - Menhir",
+                "description": "S5 Ep5 Menhir - Un programma alla scoperta delle tradizioni delle piu' importanti famiglie vinicole ...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cantine%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
+            },
+            {
+                "start": "2025-01-26T04:30:00.000000Z",
+                "end": "2025-01-26T04:30:00.000000Z",
+                "title": "La sfida circolare - Stag. 1 Ep. 7 - Cefalo",
+                "description": "S1 Ep7 Cefalo - Igles e Alberto Corelli, padre e figlio impegnati in una sfida tra fornelli e ricett...",
+                "category": "Categoria non disponibile",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fla-sfida-circolare%2F0.jpg&w=3840&q=75",
+                "channel": "gambero-rosso",
+                "is_in_onda": false
             }
         ]
     }
