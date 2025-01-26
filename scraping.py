@@ -15,7 +15,7 @@ canali_urls = {
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'rai-1': {
-        'url': 'https://guidatv.org/canali/rai-1',
+        'url': 'https://guidatv.org/canali/rai-1/ieri',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
