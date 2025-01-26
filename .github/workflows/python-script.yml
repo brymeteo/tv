@@ -2,10 +2,10 @@ name: Esegui Script Python per Aggiornare Dati EPG
 
 on:
   schedule:
-    # Esegui alle 22:00 UTC per ottenere i dati di ieri
-    - cron: '0 23 * * *'
-    # Esegui alle 04:00 UTC per ottenere i dati di oggi
-    - cron: '0 5 * * *'
+    # Esegui ogni giorno alle 22:00 UTC
+    - cron: '0 22 * * *'
+    # Esegui ogni giorno alle 04:00 UTC
+    - cron: '0 4 * * *'
 
   push:
     branches:
@@ -35,14 +35,8 @@ jobs:
     # Esegui lo script di scraping
     - name: Esegui il codice di scraping
       run: |
-        current_time=$(date -u +"%H")
-        if [ "$current_time" -eq 23 ]; then
-          echo "Esecuzione dello scraping per ieri"
-          python scraping.py --data-ieri
-        elif [ "$current_time" -eq 5 ]; then
-          echo "Esecuzione dello scraping per oggi"
-          python scraping.py --data-oggi
-        fi
+        echo "Esecuzione dello scraping per tutti i canali"
+        python scraping.py
 
     # Aggiungi e Pusha il risultato
     - name: Aggiungi e Pusha il risultato
