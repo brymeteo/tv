@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
     'rai-premium': {
@@ -42,8 +41,12 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
+# Funzione per recuperare la data corretta in base all'argomento
+def get_data_oggi_o_ieri():
+    return datetime.datetime.now().strftime("%Y-%m-%d")
+
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
-def scrape_epg(url, canale_info):
+def scrape_epg(url, canale_info, data_odierna):
     # Ottieni il contenuto della pagina
     response = requests.get(url)
     if response.status_code != 200:
@@ -63,7 +66,7 @@ def scrape_epg(url, canale_info):
     # Variabile per tenere traccia dell'orario di inizio del programma precedente
     orario_inizio_precedente = None
 
-    for programma in programmi:
+    for i, programma in enumerate(programmi):
         # Estrai i dettagli del programma
         titolo = programma.find('h2', class_='card-title')
         titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
@@ -77,8 +80,8 @@ def scrape_epg(url, canale_info):
         if not orario_inizio:
             continue
 
-        # Sottrarre un'ora all'orario di inizio (se necessario)
-        orario_inizio = (datetime.datetime.strptime(orario_inizio, "%H:%M") - datetime.timedelta(hours=1)).strftime("%H:%M")
+        # Combina la data odierna con l'orario di inizio
+        orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
@@ -88,9 +91,13 @@ def scrape_epg(url, canale_info):
         else:
             poster_url = None
 
+        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
+        if orario_inizio_precedente:
+            dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
+
         # Crea l'oggetto per il programma corrente
         programma_data = {
-            'start': f"{orario_inizio}:00.000000Z",
+            'start': orario_inizio_completo,
             'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
             'title': titolo,
             'description': descrizione,
@@ -101,6 +108,25 @@ def scrape_epg(url, canale_info):
 
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
+
+    # Per l'ultimo programma, ipotizza una durata di 1 ora
+    if dati_programmi:
+        ultimo_programma = dati_programmi[-1]
+        try:
+            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
+            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
+
+            # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
+            if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
+                # Incrementiamo la data di un giorno
+                data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+            else:
+                data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
+
+            # Impostiamo l'orario di fine
+            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
+        except ValueError:
+            ultimo_programma['end'] = "Ora non disponibile"
 
     return {
         'id': canale_info['id'],
@@ -118,11 +144,15 @@ def salva_dati(dati_canali):
 
 # Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
+    # Determina la data corretta in base all'argomento
+    data_odierna = get_data_oggi_o_ieri()
+
+    # Iniziamo a raccogliere i dati di tutti i canali
     dati_canali = []
     for canale_id, canale_info in canali_urls.items():
         url_da_scrapare = canale_info['url']  # URL costante per tutti i canali
         # Scraping per il canale con l'URL appropriato
-        dati_canale = scrape_epg(url_da_scrapare, canale_info)
+        dati_canale = scrape_epg(url_da_scrapare, canale_info, data_odierna)
         if dati_canale:
             dati_canali.append(dati_canale)
 
