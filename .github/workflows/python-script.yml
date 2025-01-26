@@ -2,13 +2,10 @@ name: Esegui Script Python per Aggiornare Dati EPG
 
 on:
   schedule:
-    # Esegui alle 22:00 UTC per ottenere i dati di ieri (00:00 ora italiana estate)
-    # Esegui alle 23:00 UTC per ottenere i dati di ieri (00:00 ora italiana inverno)
-    - cron: '0 23 * * *'  # Esegui ogni giorno alle 22:00 UTC (mezzanotte ora italiana)
-
-    # Esegui alle 04:00 UTC per ottenere i dati di oggi (06:00 ora italiana estate)
-    # Esegui alle 05:00 UTC per ottenere i dati di oggi (06:00 ora italiana inverno)
-    - cron: '0 5 * * *'  # Esegui ogni giorno alle 04:00 UTC (06:00 ora italiana)
+    # Esegui alle 22:00 UTC per ottenere i dati di ieri
+    - cron: '0 23 * * *'
+    # Esegui alle 04:00 UTC per ottenere i dati di oggi
+    - cron: '0 5 * * *'
 
   push:
     branches:
@@ -19,57 +16,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Checkout del codice dal repository
+    # Checkout del codice dal repository
     - name: Checkout codice
       uses: actions/checkout@v2
 
-    # 2. Impostare Python
+    # Impostare Python
     - name: Impostare Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Usa la versione più recente di Python 3
+        python-version: '3.x'
 
-    # 3. Installazione delle dipendenze
+    # Installazione delle dipendenze
     - name: Installare dipendenze
       run: |
-        python -m pip install --upgrade pip  # Aggiorna pip
-        pip install -r requirements.txt  # Installa le dipendenze (se il file esiste)
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
-    # 4. Esegui lo script di scraping
+    # Esegui lo script di scraping
     - name: Esegui il codice di scraping
       run: |
-        current_time=$(date -u +"%H")  # Ottieni l'ora corrente in UTC
+        current_time=$(date -u +"%H")
         if [ "$current_time" -eq 23 ]; then
           echo "Esecuzione dello scraping per ieri"
           python scraping.py --data-ieri
         elif [ "$current_time" -eq 5 ]; then
           echo "Esecuzione dello scraping per oggi"
           python scraping.py --data-oggi
-        else
-          echo "Orario non valido per lo scraping. Attendi il prossimo cron."
-          exit 1
-        fi  # Chiude il blocco if
+        fi
 
-
-    # 5. Debug per verificare modifiche
-    - name: Verifica stato repository
-      run: |
-        echo "Stato del repository:"
-        git status
-        echo "Differenze rispetto al commit precedente:"
-        git diff
-
-    # 6. Aggiungi e Pusha il risultato
+    # Aggiungi e Pusha il risultato
     - name: Aggiungi e Pusha il risultato
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add dati_programmi.json
-        git commit -m "Aggiorna i dati EPG" --allow-empty || echo "Nessuna modifica da commettere"
+        git commit -m "Aggiorna i dati EPG" || echo "Nessuna modifica da commettere"
         git push
-
-    # 7. Debug finale (opzionale, per verificare il successo del push)
-    - name: Verifica aggiornamento branch
-      run: |
-        echo "Verifica finale:"
-        git log -1 --pretty=format:"%h %s"
