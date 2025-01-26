@@ -48,6 +48,8 @@ jobs:
         else
           echo "Orario non valido per lo scraping. Attendi il prossimo cron."
           exit 1
+        fi  # Chiude il blocco if
+
 
     # 5. Debug per verificare modifiche
     - name: Verifica stato repository
