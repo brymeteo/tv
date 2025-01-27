@@ -112,15 +112,16 @@ def scrape_epg(url, canale_info, data_odierna):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
-    if dati_programmi:
-        ultimo_programma = dati_programmi[-1]
-        try:
-            orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
-            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
+   # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
+if dati_programmi:
+    ultimo_programma = dati_programmi[-1]
+    try:
+        # Estrai l'orario di inizio dell'ultimo programma
+        orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
+        
+        # Calcola l'orario di fine aggiungendo 1 ora
+        orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
 
-            # Se l'ultimo programma è davvero l'ultimo, aumenta di un'ora l'orario di fine
-            orario_fine_ultimo += datetime.timedelta(hours=1)
 
             # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
             if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
