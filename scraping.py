@@ -112,7 +112,7 @@ def scrape_epg(url, canale_info, data_odierna):
         dati_programmi.append(programma_data)
         orario_inizio_precedente = orario_inizio
 
-   # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
+  # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
 if dati_programmi:
     ultimo_programma = dati_programmi[-1]
     try:
@@ -122,18 +122,18 @@ if dati_programmi:
         # Calcola l'orario di fine aggiungendo 1 ora
         orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
 
+        # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
+        if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
+            # Incrementiamo la data di un giorno
+            data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+        else:
+            data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
 
-            # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
-            if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
-                # Incrementiamo la data di un giorno
-                data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-            else:
-                data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
+        # Impostiamo l'orario di fine
+        ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
+    except ValueError:
+        ultimo_programma['end'] = "Ora non disponibile"
 
-            # Impostiamo l'orario di fine
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
-        except ValueError:
-            ultimo_programma['end'] = "Ora non disponibile"
 
     return {
         'id': canale_info['id'],
