@@ -63,7 +63,7 @@ def scrape_epg(url, canale_info, data_odierna):
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
 
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente-
+    # Variabile per tenere traccia dell'orario di inizio del programma precedente
     orario_inizio_precedente = None
 
     for i, programma in enumerate(programmi):
@@ -83,8 +83,6 @@ def scrape_epg(url, canale_info, data_odierna):
         # Combina la data odierna con l'orario di inizio
         orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
 
-       
-
         # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
@@ -92,11 +90,6 @@ def scrape_epg(url, canale_info, data_odierna):
             poster_url = f"https://guidatv.org{src}" if src.startswith('/_next/image') else src
         else:
             poster_url = None
-
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-if orario_inizio_precedente:
-    dati_programmi[-1]['end'] = f"{data_odierna}T{orario_inizio}:00.000000Z"
-
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
@@ -118,9 +111,6 @@ if orario_inizio_precedente:
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
-
-            # Sottrai un'ora dall'orario di fine
-            orario_fine_ultimo = orario_fine_ultimo - datetime.timedelta(hours=1)
 
             # Se l'ultimo programma è davvero l'ultimo, aumenta di un'ora l'orario di fine
             orario_fine_ultimo += datetime.timedelta(hours=1)
