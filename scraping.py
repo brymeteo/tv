@@ -118,8 +118,7 @@ def scrape_epg(url, canale_info, data_odierna):
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'].split("T")[1][:5], "%H:%M")
             orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
 
-            # Sottrai un'ora dall'orario di fine
-            orario_fine_ultimo = orario_fine_ultimo - datetime.timedelta(hours=1)
+           
 
             # Se l'ultimo programma è davvero l'ultimo, aumenta di un'ora l'orario di fine
             orario_fine_ultimo += datetime.timedelta(hours=1)
