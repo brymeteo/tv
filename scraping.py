@@ -83,6 +83,9 @@ def scrape_epg(url, canale_info, data_odierna):
         # Combina la data odierna con l'orario di inizio
         orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
 
+        # Rimuovi la sottrazione di un'ora all'orario di inizio
+        orario_inizio_completo = datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ").strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
         # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
@@ -90,6 +93,10 @@ def scrape_epg(url, canale_info, data_odierna):
             poster_url = f"https://guidatv.org{src}" if src.startswith('/_next/image') else src
         else:
             poster_url = None
+
+        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
+        if orario_inizio_precedente:
+            dati_programmi[-1]['end'] = datetime.datetime.strptime(f"{data_odierna}T{orario_inizio}:00.000000Z", "%Y-%m-%dT%H:%M:%S.%fZ").strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
         # Crea l'oggetto per il programma corrente
         programma_data = {
