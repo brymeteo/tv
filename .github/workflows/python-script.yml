@@ -3,7 +3,7 @@ name: Esegui Script Python per Aggiornare Dati EPG
 on:
   schedule:
     # Esegui alle 22:00 UTC per ottenere i dati di ieri
-    - cron: '0 23 * * *'
+    - cron: '0 00 * * *'
     # Esegui alle 04:00 UTC per ottenere i dati di oggi
     - cron: '0 5 * * *'
 
