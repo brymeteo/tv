@@ -83,8 +83,7 @@ def scrape_epg(url, canale_info, data_odierna):
         # Combina la data odierna con l'orario di inizio
         orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
 
-        # Sottrai un'ora all'orario di inizio
-        orario_inizio_completo = (datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+        
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
