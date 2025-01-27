@@ -63,7 +63,7 @@ def scrape_epg(url, canale_info, data_odierna):
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
 
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente
+    # Variabile per tenere traccia dell'orario di inizio del programma precedente-
     orario_inizio_precedente = None
 
     for i, programma in enumerate(programmi):
