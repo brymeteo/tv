@@ -6,21 +6,37 @@ import json
 
 # Lista di URL dei canali TV da cui fare lo scraping
 canali_urls = {
-    'rai-premium': {
-        'url': 'https://guidatv.org/canali/rai-premium',
-        'name': 'Rai Premium',
-        'id': 'rai-premium',
-        'epgName': 'Rai Premium',
-        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
-    },
-    'rai-1': {
+   'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
         'epgName': 'Rai 1',
         'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
+    },
+     'rai-2': {
+        'url': 'https://guidatv.org/canali/rai-2',
+        'name': 'Rai 2',
+        'id': 'rai-2',
+        'epgName': 'Rai 2',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+     'rai-3': {
+        'url': 'https://guidatv.org/canali/rai-3',
+        'name': 'Rai 3',
+        'id': 'rai-3',
+        'epgName': 'Rai 3',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+      'rete-4': {
+        'url': 'https://guidatv.org/canali/rete4',
+        'name': 'Rete 4',
+        'id': 'rete-4',
+        'epgName': 'Rete 4',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'canale-5': {
         'url': 'https://guidatv.org/canali/canale-5',
@@ -30,6 +46,174 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
+    'italia-1': {
+        'url': 'https://guidatv.org/canali/italia-uno',
+        'name': 'Italia 1',
+        'id': 'italia-1',
+        'epgName': 'Italia 1',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'la7': {
+        'url': 'https://guidatv.org/canali/la7',
+        'name': 'La7',
+        'id': 'la7',
+        'epgName': 'La7',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'tv8': {
+        'url': 'https://guidatv.org/canali/tv8',
+        'name': 'Tv8',
+        'id': 'Tv8',
+        'epgName': 'Tv8',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'nove': {
+        'url': 'https://guidatv.org/canali/nove',
+        'name': 'Nove',
+        'id': 'nove',
+        'epgName': 'Nove',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+      '20-mediaset': {
+        'url': 'https://guidatv.org/canali/canale-20',
+        'name': '20 Mediaset',
+        'id': '20-mediaset',
+        'epgName': '20 Mediaset',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+     'rai-4': {
+        'url': 'https://guidatv.org/canali/rai-4',
+        'name': 'Rai 4',
+        'id': 'rai-4',
+        'epgName': 'Rai 4',
+        'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rai-premium': {
+        'url': 'https://guidatv.org/canali/rai-premium',
+        'name': 'Rai Premium',
+        'id': 'rai-premium',
+        'epgName': 'Rai Premium',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'mediaset-27': {
+        'url': 'https://guidatv.org/canali/mediaset-27',
+        'name': 'Mediaset 27',
+        'id': 'mediaset-27',
+        'epgName': 'Mediaset 27',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'la-5': {
+        'url': 'https://guidatv.org/canali/la-5',
+        'name': 'La 5',
+        'id': 'la-5',
+        'epgName': 'La 5',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'real-time': {
+        'url': 'https://guidatv.org/canali/real-time',
+        'name': 'Real Time',
+        'id': 'real-time',
+        'epgName': 'Real Time',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'la7d': {
+        'url': 'https://guidatv.org/canali/la7d',
+        'name': 'La7d',
+        'id': 'la7d',
+        'epgName': 'La7d',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'mediaset-extra': {
+        'url': 'https://guidatv.org/canali/mediaset-extra',
+        'name': 'Mediaset Extra',
+        'id': 'mediaset-extra',
+        'epgName': 'Mediaset Extra',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'topcrime': {
+        'url': 'https://guidatv.org/canali/topcrime',
+        'name': 'Top Crime',
+        'id': 'topcrime',
+        'epgName': 'Top Crime',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'warner-tv': {
+        'url': 'https://guidatv.org/canali/warner-tv',
+        'name': 'Warner Tv',
+        'id': 'warner-tv',
+        'epgName': 'Warner Tv',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'dmax': {
+        'url': 'https://guidatv.org/canali/dmax',
+        'name': 'Dmax',
+        'id': 'dmax',
+        'epgName': 'Dmax',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'mediaset-italia-due': {
+        'url': 'https://guidatv.org/canali/mediaset-italia-due',
+        'name': 'Mediaset Italia Due',
+        'id': 'mediaset-italia-due',
+        'epgName': 'Mediaset Italia Due',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'giallo': {
+        'url': 'https://guidatv.org/canali/giallo',
+        'name': 'Giallo',
+        'id': 'giallo',
+        'epgName': 'Giallo',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'cielo': {
+        'url': 'https://guidatv.org/canali/cielo',
+        'name': 'Cielo',
+        'id': 'cielo',
+        'epgName': 'Cielo',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'foodnetwork': {
+        'url': 'https://guidatv.org/canali/foodnetwork',
+        'name': 'Food Network',
+        'id': 'foodnetwork',
+        'epgName': 'Food Network',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'home-and-garden-tv': {
+        'url': 'https://guidatv.org/canali/home-and-garden-tv',
+        'name': 'Home And Garden Tv',
+        'id': 'home-and-garden-tv',
+        'epgName': 'Home And Garden Tv',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
+    'tv2000': {
+        'url': 'https://guidatv.org/canali/tv2000',
+        'name': 'Tv 2000',
+        'id': 'tv2000',
+        'epgName': 'Tv 2000',
+        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
+    },
     'gambero-rosso': {
         'url': 'https://guidatv.org/canali/gambero-rosso-hd',
         'name': 'Gambero Rosso',
@@ -37,7 +221,200 @@ canali_urls = {
         'epgName': 'Gambero Rosso',
         'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'history-channel': {
+        'url': 'https://guidatv.org/canali/history-channel',
+        'name': 'History Channel',
+        'id': 'history-channel',
+        'epgName': 'History Channel',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rsi-la1': {
+        'url': 'https://guidatv.org/canali/rsi-la1',
+        'name': 'RSI LA1',
+        'id': 'rsi-la1',
+        'epgName': 'RSI LA1',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rsi-la2': {
+        'url': 'https://guidatv.org/canali/rsi-la2',
+        'name': 'RSI LA2',
+        'id': 'rsi-la2',
+        'epgName': 'RSI LA2',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'sportitalia': {
+        'url': 'https://guidatv.org/canali/sportitalia',
+        'name': 'Sport Italia',
+        'id': 'sportitalia',
+        'epgName': 'Sport Italia',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'iris': {
+        'url': 'https://guidatv.org/canali/iris',
+        'name': 'Iris',
+        'id': 'iris',
+        'epgName': 'Iris',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'cine-34': {
+        'url': 'https://guidatv.org/canali/cine-34',
+        'name': 'Cine 34',
+        'id': 'cine-34',
+        'epgName': 'Cine 34',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rai-movie': {
+        'url': 'https://guidatv.org/canali/rai-movie',
+        'name': 'Rai movie',
+        'id': 'rai-movie',
+        'epgName': 'Rai movie',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'focus': {
+        'url': 'https://guidatv.org/canali/focus',
+        'name': 'Focus',
+        'id': 'focus',
+        'epgName': 'Focus',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'motor-trend': {
+        'url': 'https://guidatv.org/canali/motor-trend',
+        'name': 'Motor Trend',
+        'id': 'motor-trend',
+        'epgName': 'Motor Trend',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'sky-tg24': {
+        'url': 'https://guidatv.org/canali/sky-tg24',
+        'name': 'Sky Tg24',
+        'id': 'sky-tg24',
+        'epgName': 'Sky Tg24',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'tgcom24': {
+        'url': 'https://guidatv.org/canali/tgcom24',
+        'name': 'Tgcom 24',
+        'id': 'tgcom24',
+        'epgName': 'Tgcom 24',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rai-news-24': {
+        'url': 'https://guidatv.org/canali/rai-news-24',
+        'name': 'Rai News 24',
+        'id': 'rai-news-24',
+        'epgName': 'Rai News 24',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'boing': {
+        'url': 'https://guidatv.org/canali/boing',
+        'name': 'Boing',
+        'id': 'boing',
+        'epgName': 'Boing',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'k2': {
+        'url': 'https://guidatv.org/canali/k2',
+        'name': 'K2',
+        'id': 'k2',
+        'epgName': 'K2',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rai-gulp': {
+        'url': 'https://guidatv.org/canali/rai-gulp',
+        'name': 'Rai Gulp',
+        'id': 'rai-gulp',
+        'epgName': 'Rai Gulp',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rai-yoyo': {
+        'url': 'https://guidatv.org/canali/rai-yoyo',
+        'name': 'Rai Yoyo',
+        'id': 'rai-yoyo',
+        'epgName': 'Rai Yoyo',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'frisbee': {
+        'url': 'https://guidatv.org/canali/frisbee',
+        'name': 'Frisbee',
+        'id': 'frisbee',
+        'epgName': 'Frisbee',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'cartoonito': {
+        'url': 'https://guidatv.org/canali/cartoonito',
+        'name': 'Cartoonito',
+        'id': 'cartoonito',
+        'epgName': 'Cartoonito',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'super': {
+        'url': 'https://guidatv.org/canali/super!',
+        'name': 'Super',
+        'id': 'super',
+        'epgName': 'Super',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'super': {
+        'url': 'https://guidatv.org/canali/super!',
+        'name': 'Super',
+        'id': 'super',
+        'epgName': 'Super',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'deejay-tv': {
+        'url': 'https://guidatv.org/canali/deejay-tv',
+        'name': 'Deejay Tv',
+        'id': 'deejay-tv',
+        'epgName': 'Deejay Tv',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'rtl-102.5-tv': {
+        'url': 'https://guidatv.org/canali/rtl-102.5-tv',
+        'name': 'Rtl 102.5',
+        'id': 'rtl-102.5-tv',
+        'epgName': 'Rtl 102.5',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'radioitaliatv': {
+        'url': 'https://guidatv.org/canali/radioitaliatv',
+        'name': 'Radio Italia',
+        'id': 'radioitaliatv',
+        'epgName': 'Radio Italia',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
+    },
+    'radiofreccia': {
+        'url': 'https://guidatv.org/canali/radiofreccia',
+        'name': 'Radio Freccia',
+        'id': 'radiofreccia',
+        'epgName': 'Radio Freccia',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
+        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
+    
     # Aggiungi altri canali qui
 }
 
