@@ -374,14 +374,6 @@ canali_urls = {
         'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
-    'super': {
-        'url': 'https://guidatv.org/canali/super!',
-        'name': 'Super',
-        'id': 'super',
-        'epgName': 'Super',
-        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
-        'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
-    },
     'deejay-tv': {
         'url': 'https://guidatv.org/canali/deejay-tv',
         'name': 'Deejay Tv',
