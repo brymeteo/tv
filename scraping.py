@@ -6,7 +6,7 @@ import json
 
 # Lista di URL dei canali TVs da cui fare lo scraping
 canali_urls = {
-   'rai-1': {
+    'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
         'name': 'Rai 1',
         'id': 'rai-1',
@@ -14,7 +14,7 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/123/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8'
     },
-     'rai-2': {
+    'rai-2': {
         'url': 'https://guidatv.org/canali/rai-2',
         'name': 'Rai 2',
         'id': 'rai-2',
@@ -22,7 +22,7 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
-     'rai-3': {
+    'rai-3': {
         'url': 'https://guidatv.org/canali/rai-3',
         'name': 'Rai 3',
         'id': 'rai-3',
@@ -30,7 +30,7 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
-      'rete-4': {
+    'rete-4': {
         'url': 'https://guidatv.org/canali/rete4',
         'name': 'Rete 4',
         'id': 'rete-4',
@@ -78,7 +78,7 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
-      '20-mediaset': {
+    '20-mediaset': {
         'url': 'https://guidatv.org/canali/canale-20',
         'name': '20 Mediaset',
         'id': '20-mediaset',
@@ -86,7 +86,7 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     },
-     'rai-4': {
+    'rai-4': {
         'url': 'https://guidatv.org/canali/rai-4',
         'name': 'Rai 4',
         'id': 'rai-4',
@@ -406,8 +406,6 @@ canali_urls = {
         'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8'
     }
-    
-    # Aggiungi altri canali qui
 }
 
 # Funzione per recuperare la data odierna
@@ -444,29 +442,26 @@ def scrape_epg(url, canale_info, data_odierna):
         if not orario_inizio:
             continue
 
-        # Combina data e orario e applica l'offset di un'ora
+        # Combina data e orario e applica l'offset di 1 ora
         orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
         try:
-            # Parsing completo della data e ora e sottrazione dell'offset
             orario_inizio_dt = datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)
         except Exception as e:
             print("Errore nel parsing dell'orario:", e)
             continue
 
-        start_str = orario_inizio_dt.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
-
-        # Se non è il primo programma, calcola l'orario di fine del programma precedente
+        # Se non è il primo programma, controlla se occorre incrementare il giorno
         if orario_inizio_precedente_dt is not None:
-            # L'orario corrente (dopo offset) è già in orario_inizio_dt
             current_start = orario_inizio_dt
-            # Se current_start è minore o uguale a quello del programma precedente, significa che si è passati al giorno successivo
             if current_start <= orario_inizio_precedente_dt:
                 current_start += datetime.timedelta(days=1)
-            # Aggiorna l'orario di fine del programma precedente
+            # Aggiorna la fine del programma precedente con l'orario corretto
             dati_programmi[-1]['end'] = current_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+        else:
+            current_start = orario_inizio_dt
 
-        # Salva l'orario del programma corrente come riferimento per il successivo
-        orario_inizio_precedente_dt = orario_inizio_dt
+        # Imposta l'orario di inizio del programma corrente
+        start_str = current_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
@@ -486,6 +481,9 @@ def scrape_epg(url, canale_info, data_odierna):
             'channel': canale_info['id']
         }
         dati_programmi.append(programma_data)
+
+        # Aggiorna il riferimento per il prossimo programma
+        orario_inizio_precedente_dt = current_start
 
     # Per l'ultimo programma, ipotizziamo una durata di 1 ora
     if dati_programmi:
