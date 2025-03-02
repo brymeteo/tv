@@ -410,19 +410,17 @@ canali_urls = {
     # Aggiungi altri canali qui
 }
 
-# Funzione per recuperare la data corretta in base all'argomento
+# Funzione per recuperare la data odierna
 def get_data_oggi_o_ieri():
     return datetime.datetime.now().strftime("%Y-%m-%d")
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info, data_odierna):
-    # Ottieni il contenuto della pagina
     response = requests.get(url)
     if response.status_code != 200:
         print(f"Errore nel recupero dei dati da {url}, codice di stato: {response.status_code}")
         return None
 
-    # Parsing HTML con BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', class_='container mt-2')
     if not container:
@@ -431,79 +429,72 @@ def scrape_epg(url, canale_info, data_odierna):
 
     programmi = container.find_all('div', class_='row')
     dati_programmi = []
-
-    # Variabile per tenere traccia dell'orario di inizio del programma precedente-
-    orario_inizio_precedente = None
+    orario_inizio_precedente_dt = None
 
     for i, programma in enumerate(programmi):
         # Estrai i dettagli del programma
-        titolo = programma.find('h2', class_='card-title')
-        titolo = titolo.get_text(strip=True) if titolo else "Titolo non disponibile"
+        titolo_tag = programma.find('h2', class_='card-title')
+        titolo = titolo_tag.get_text(strip=True) if titolo_tag else "Titolo non disponibile"
 
-        descrizione = programma.find('p', class_='program-description text-break mt-2')
-        descrizione = descrizione.get_text(strip=True) if descrizione else "Descrizione non disponibile"
+        descrizione_tag = programma.find('p', class_='program-description text-break mt-2')
+        descrizione = descrizione_tag.get_text(strip=True) if descrizione_tag else "Descrizione non disponibile"
 
-        orario_inizio = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
-        orario_inizio = orario_inizio.get_text(strip=True) if orario_inizio else None
-
+        orario_inizio_tag = programma.find('h3', class_='hour ms-3 ms-md-4 mt-3 title-timeline text-secondary')
+        orario_inizio = orario_inizio_tag.get_text(strip=True) if orario_inizio_tag else None
         if not orario_inizio:
             continue
 
-        # Combina la data odierna con l'orario di inizio
+        # Combina data e orario e applica l'offset di un'ora
         orario_inizio_completo = f"{data_odierna}T{orario_inizio}:00.000000Z"
+        try:
+            # Parsing completo della data e ora e sottrazione dell'offset
+            orario_inizio_dt = datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)
+        except Exception as e:
+            print("Errore nel parsing dell'orario:", e)
+            continue
 
-        # Sottrai un'ora all'orario di inizio
-        orario_inizio_completo = (datetime.datetime.strptime(orario_inizio_completo, "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+        start_str = orario_inizio_dt.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+        # Se non è il primo programma, calcola l'orario di fine del programma precedente
+        if orario_inizio_precedente_dt is not None:
+            # L'orario corrente (dopo offset) è già in orario_inizio_dt
+            current_start = orario_inizio_dt
+            # Se current_start è minore o uguale a quello del programma precedente, significa che si è passati al giorno successivo
+            if current_start <= orario_inizio_precedente_dt:
+                current_start += datetime.timedelta(days=1)
+            # Aggiorna l'orario di fine del programma precedente
+            dati_programmi[-1]['end'] = current_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+
+        # Salva l'orario del programma corrente come riferimento per il successivo
+        orario_inizio_precedente_dt = orario_inizio_dt
 
         # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
-            src = poster_img['src']
+            src = poster_img.get('src')
             poster_url = f"https://guidatv.org{src}" if src.startswith('/_next/image') else src
         else:
             poster_url = None
 
-        # Calcola l'orario di fine basandoti sull'inizio del prossimo programma
-        if orario_inizio_precedente:
-            dati_programmi[-1]['end'] = (datetime.datetime.strptime(f"{data_odierna}T{orario_inizio}:00.000000Z", "%Y-%m-%dT%H:%M:%S.%fZ") - datetime.timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
-
-        # Crea l'oggetto per il programma corrente
         programma_data = {
-            'start': orario_inizio_completo,
-            'end': "Ora non disponibile",  # Lo calcoleremo con il prossimo programma
+            'start': start_str,
+            'end': "Ora non disponibile",  # verrà aggiornato nel ciclo o alla fine
             'title': titolo,
             'description': descrizione,
             'category': "Categoria non disponibile",
             'poster': poster_url,
             'channel': canale_info['id']
         }
-
         dati_programmi.append(programma_data)
-        orario_inizio_precedente = orario_inizio
 
-    # Per l'ultimo programma, ipotizza una durata di 1 ora e aumenta l'orario di fine di un'ora se non ci sono altri programmi
+    # Per l'ultimo programma, ipotizziamo una durata di 1 ora
     if dati_programmi:
         ultimo_programma = dati_programmi[-1]
         try:
             orario_inizio_ultimo = datetime.datetime.strptime(ultimo_programma['start'], "%Y-%m-%dT%H:%M:%S.%fZ")
-            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)  # Aggiungi 1 ora all'orario di inizio
-
-            # Sottrai un'ora dall'orario di fine
-            orario_fine_ultimo = orario_fine_ultimo - datetime.timedelta(hours=1)
-
-            # Se l'ultimo programma è davvero l'ultimo, aumenta di un'ora l'orario di fine
-            orario_fine_ultimo += datetime.timedelta(hours=1)
-
-            # Se l'orario di fine è successivo alla mezzanotte, aggiorniamo la data
-            if orario_fine_ultimo.day != orario_inizio_ultimo.day:  
-                # Incrementiamo la data di un giorno
-                data_fine = (orario_inizio_ultimo + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
-            else:
-                data_fine = data_odierna  # Se non cambia giorno, manteniamo la data odierna
-
-            # Impostiamo l'orario di fine
-            ultimo_programma['end'] = orario_fine_ultimo.strftime(f"{data_fine}T%H:%M:%S.000000Z")
-        except ValueError:
+            orario_fine_ultimo = orario_inizio_ultimo + datetime.timedelta(hours=1)
+            ultimo_programma['end'] = orario_fine_ultimo.strftime("%Y-%m-%dT%H:%M:%S.000000Z")
+        except Exception as e:
             ultimo_programma['end'] = "Ora non disponibile"
 
     return {
@@ -522,21 +513,14 @@ def salva_dati(dati_canali):
 
 # Funzione principale che esegue lo scraping da tutti i canali e salva i dati
 def main():
-    # Determina la data corretta in base all'argomento
     data_odierna = get_data_oggi_o_ieri()
-
-    # Iniziamo a raccogliere i dati di tutti i canali
     dati_canali = []
     for canale_id, canale_info in canali_urls.items():
-        url_da_scrapare = canale_info['url']  # URL costante per tutti i canali
-        # Scraping per il canale con l'URL appropriato
+        url_da_scrapare = canale_info['url']
         dati_canale = scrape_epg(url_da_scrapare, canale_info, data_odierna)
         if dati_canale:
             dati_canali.append(dati_canale)
-
-    # Salva i dati in un file JSON
     salva_dati(dati_canali)
 
-# Avvia lo script
 if __name__ == "__main__":
     main()
