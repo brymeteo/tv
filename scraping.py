@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# Lista di URL dei canali TV da cui fare lo scraping
+# Lista di URL dei canali TVs da cui fare lo scraping
 canali_urls = {
    'rai-1': {
         'url': 'https://guidatv.org/canali/rai-1',
