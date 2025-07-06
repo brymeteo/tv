@@ -7,33 +7,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Il Caffè",
-                "description": "Ogni settimana un'ora tra cinema, teatro, letteratura e musica, con il racconto delle memorie più pr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fil-caffe%2F0.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:05:00.000000Z",
-                "title": "TG 1",
-                "description": "TG 1",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2025-07-06T06:05:00.000000Z",
-                "end": "2025-07-06T07:00:00.000000Z",
-                "title": "Linea Blu - Porti D'Italia - Bari",
-                "description": "Dall'antico porto di Egnazia a quello di Bari, senza dimenticare i piccoli borghi legati alla pesca ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Flinea-blu%2F0.png&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
                 "start": "2025-07-06T07:00:00.000000Z",
                 "end": "2025-07-06T07:20:00.000000Z",
                 "title": "TG 1",
@@ -295,24 +268,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:15:00.000000Z",
-                "title": "RaiNews24",
-                "description": "RaiNews24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Frainews-24%2F7.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T11:00:00.000000Z",
-                "title": "Ciclismo. Maratona Dles Dolomites 2025",
-                "description": "38a edizione dell'evento. 8000 iscritti di 79 nazionalità differenti, per 3 percorsi di difficoltà d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fciclismo-maratona-dles-dolomites%2F6.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
                 "start": "2025-07-06T11:00:00.000000Z",
                 "end": "2025-07-06T12:00:00.000000Z",
                 "title": "Un ciclone in convento(2010)",
@@ -351,8 +306,8 @@
             {
                 "start": "2025-07-06T13:00:00.000000Z",
                 "end": "2025-07-06T13:45:00.000000Z",
-                "title": "Giro D'Italia Women 2025 - 1a Tappa: Bergamo - Bergamo",
-                "description": "Ciclismo. 35a edizione Telecronaca Umberto Martini Commento tecnico Giada Borgato",
+                "title": "Giro D'Italia Women 2025 - 1a Tappa: Bergamo - Bergamo (Fasi Finali)",
+                "description": "Elisa Longo Borghini sfida le fuoriclasse del Nord Europa nell'edizione 2025 della più importante co...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fgiro-d-italia%2F6.jpg&w=3840&q=75",
                 "channel": "rai-2"
@@ -360,28 +315,28 @@
             {
                 "start": "2025-07-06T13:45:00.000000Z",
                 "end": "2025-07-06T16:35:00.000000Z",
-                "title": "Tour De France 2025 - 2a Tappa: Lauwin-Planque - Boulogne-Sur-Mer",
+                "title": "Ciclismo: Tour De France 2025 - 2a Tappa: Lauwin-Planque - Boulogne-Sur-Mer",
                 "description": "Tour de France 2025 - 2a tappa: Lauwin-Planque - Boulogne-sur-Mer",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftour-de-france%2F6.jpg&w=3840&q=75",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fciclismo-tour-de-france%2F6.jpg&w=3840&q=75",
                 "channel": "rai-2"
             },
             {
                 "start": "2025-07-06T16:35:00.000000Z",
                 "end": "2025-07-06T16:45:00.000000Z",
-                "title": "Tour Replay 2025 - 2a Tappa: Lauwin-Planque - Boulogne-Sur-Mer",
+                "title": "Ciclismo: Tour De France 2025 - Tour Replay - 2a Tappa: Lauwin-Planque - Boulogne-Sur-Mer",
                 "description": "A cura di Alessandro Fabretti Supervisione Auro Bulbarelli Coordinamento giornalistico Franco Bortuz...",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftour-replay%2F6.jpg&w=3840&q=75",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fciclismo-tour-de-france%2F6.jpg&w=3840&q=75",
                 "channel": "rai-2"
             },
             {
                 "start": "2025-07-06T16:45:00.000000Z",
                 "end": "2025-07-06T16:50:00.000000Z",
-                "title": "Tour De France 2025 - Le Strade Del Tour - 3a Tappa: Valenciennes - Dunkerque",
+                "title": "Ciclismo: Tour De France 2025 - Le Strade Del Tour - 3a Tappa: Valenciennes - Dunkerque",
                 "description": "Tour de France 2025 - Le Strade del Tour - 3a tappa: Valenciennes - Dunkerque",
                 "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftour-de-france%2F6.jpg&w=3840&q=75",
+                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fciclismo-tour-de-france%2F6.jpg&w=3840&q=75",
                 "channel": "rai-2"
             },
             {
@@ -492,24 +447,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "Fuori Orario. Cose (Mai) Viste",
-                "description": "Di Ghezzi Baglivi Di Pace Esposito Fina Francia Luciani Turigliatto",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Ffuori-orario-cose-mai-viste%2F0.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T07:00:00.000000Z",
-                "title": "RaiNews24",
-                "description": "RaiNews24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Frainews-24%2F5.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
             {
                 "start": "2025-07-06T07:00:00.000000Z",
                 "end": "2025-07-06T07:30:00.000000Z",
@@ -790,24 +727,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "Tg4 - Ultima ora",
-                "description": "Informazione quotidiana con le notizie dall'Italia e dal mondo per il telegiornale di Rete 4.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F40%2Ftg-4-ultima-ora%2F6.jpg&w=3840&q=75",
-                "channel": "rete-4"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:27:00.000000Z",
-                "title": "4 di sera weekend",
-                "description": "Francesca Barra e Roberto Poletti conducono il nuovo programma di Rete4 dedicato a politica, economi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F40%2F4-di-sera-weekend%2F7.jpg&w=3840&q=75",
-                "channel": "rete-4"
-            },
-            {
                 "start": "2025-07-06T06:27:00.000000Z",
                 "end": "2025-07-06T07:18:00.000000Z",
                 "title": "La promessa(2023)",
@@ -969,60 +888,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:10:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T05:15:00.000000Z",
-                "title": "Traffico",
-                "description": "Bollettino del traffico che si avvale di simulazioni grafiche costantemente aggiornate.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftraffico%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:15:00.000000Z",
-                "title": "Prima Pagina Tg5",
-                "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fprima-pagina-tg5%2F10.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
             {
                 "start": "2025-07-06T06:15:00.000000Z",
                 "end": "2025-07-06T06:30:00.000000Z",
@@ -1320,15 +1185,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:25:00.000000Z",
-                "end": "2025-07-06T06:11:00.000000Z",
-                "title": "Chips(1977)",
-                "description": "La serie racconta le avventure di due agenti della California Highway Patrol di pattuglia sulle imme...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fq6MvCf2qJsAsCAEzVImYV3j5aNL.jpg&w=3840&q=75",
-                "channel": "italia-1"
-            },
             {
                 "start": "2025-07-06T06:11:00.000000Z",
                 "end": "2025-07-06T06:51:00.000000Z",
@@ -1636,15 +1492,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:40:00.000000Z",
-                "title": "Edicola",
-                "description": "La rassegna stampa di Omnibus",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fwww.la7.it%2Fsites%2Fdefault%2Ffiles%2Fpalinsesto%2Flocandine%2Fomnibus_pal_0.jpg&w=3840&q=75",
-                "channel": "la7"
-            },
-            {
                 "start": "2025-07-06T06:40:00.000000Z",
                 "end": "2025-07-06T06:55:00.000000Z",
                 "title": "TG LA7",
@@ -1833,24 +1680,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "TG24 Preview",
-                "description": "TG24 Preview.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F45%2Ftg24%2F0.jpg&w=3840&q=75",
-                "channel": "Tv8"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "TG24 mezz'ora",
-                "description": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F45%2Ftg24%2F0.jpg&w=3840&q=75",
-                "channel": "Tv8"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T06:30:00.000000Z",
@@ -2068,24 +1897,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:25:00.000000Z",
-                "title": "Borneo: paradiso da proteggere - Il coccodrillo",
-                "description": "Gli abitanti del villaggio di Sarawak sono minacciati da un coccodrillo, che ha trovato dimora nei p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Fborneo-paradiso-da-proteggere%2F0.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
-            {
-                "start": "2025-07-06T05:25:00.000000Z",
-                "end": "2025-07-06T06:15:00.000000Z",
-                "title": "Indocina da scoprire - Vietnam",
-                "description": "Il Vietnam è il paese più orientale della penisola indocinese nel sud-est asiatico. Numerose specie ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Findocina-da-scoprire%2F0.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
-            {
                 "start": "2025-07-06T06:15:00.000000Z",
                 "end": "2025-07-06T07:15:00.000000Z",
                 "title": "Indocina da scoprire - Cina",
@@ -2220,33 +2031,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:24:00.000000Z",
-                "title": "Show reel",
-                "description": "Show reel '25",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F43%2Fshow-reel%2F5.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2025-07-06T05:24:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Schitt's Creek(2019)",
-                "description": "L'ex magnate dei negozi di video Johnny Rose, sua moglie Moira, star delle soap opera, e i loro due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FftNmVV8LuNVmtB8mzoUTucozVKE.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T06:25:00.000000Z",
-                "title": "Kung Fu(2021)",
-                "description": "Una crisi di un quarto di vita fa sì che una giovane donna cinese-americana abbandoni il college e i...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FfcDM4HJybquvhTijxbSfxFTuJJf.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
             {
                 "start": "2025-07-06T06:25:00.000000Z",
                 "end": "2025-07-06T07:10:00.000000Z",
@@ -2491,15 +2275,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:33:00.000000Z",
-                "end": "2025-07-06T06:17:00.000000Z",
-                "title": "Senza traccia(2002)",
-                "description": "New York. Una sezione speciale dell'FBI capitanata dall'agente Jack Malone si occupa di persone scom...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d919ce1e246c511cbb2c_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-4"
-            },
-            {
                 "start": "2025-07-06T06:17:00.000000Z",
                 "end": "2025-07-06T06:54:00.000000Z",
                 "title": "Senza traccia(2002)",
@@ -2743,15 +2518,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T06:55:00.000000Z",
-                "title": "Questo Amore - 1ª Parte",
-                "description": "Claudio e Anna sono una coppia solida. Quando loro figlio, Simone, parte per una vacanza, la loro un...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fquesto-amore-1-parte%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
                 "start": "2025-07-06T06:55:00.000000Z",
                 "end": "2025-07-06T08:30:00.000000Z",
                 "title": "Questo Amore - 2ª Parte",
@@ -2968,42 +2734,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:07:00.000000Z",
-                "title": "Camera Cafe'(2003)",
-                "description": "Camera Café è una sitcom italiana prodotta dal 2003 al 2012 e trasmessa in prima visione da Italia 1...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d82ece1e246c511cb6f0_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
-                "start": "2025-07-06T05:07:00.000000Z",
-                "end": "2025-07-06T05:15:00.000000Z",
-                "title": "Camera Cafe'(2003)",
-                "description": "Camera Café è una sitcom italiana prodotta dal 2003 al 2012 e trasmessa in prima visione da Italia 1...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d82ece1e246c511cb6f0_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T06:04:00.000000Z",
-                "title": "Agenzia rockford(1974)",
-                "description": "L'irritabile ma simpatico investigatore privato di Los Angeles Jim Rockford non tira pugni (ma ne pr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FtUKU1WLqMtIZHUl8lP9bLAJx0nl.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
-                "start": "2025-07-06T06:04:00.000000Z",
-                "end": "2025-07-06T06:50:00.000000Z",
-                "title": "Miami Vice(1985)",
-                "description": "Le gesta di due poliziotti sotto copertura, James 'Sonny' Crockett e Ricardo 'Rico' Tubbs, che lotta...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Ffog3hdLZKWbU4KZsSZO18mXD6Oz.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
                 "start": "2025-07-06T06:50:00.000000Z",
                 "end": "2025-07-06T07:51:00.000000Z",
                 "title": "Miami Vice(1985)",
@@ -3211,24 +2941,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:49:00.000000Z",
-                "title": "Una vita(2015)",
-                "description": "Susana e' incredula per la notizia delle nozze del suo Armando con un'altra donna. E se avesse un ge...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81ace1e246c511cb693_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
-            {
-                "start": "2025-07-06T05:49:00.000000Z",
-                "end": "2025-07-06T06:14:00.000000Z",
-                "title": "Centovetrine",
-                "description": "Carol e' pronta a rientrare nel consiglio d'amministrazione, ma mette in chiaro le cose con Vinicio:...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F29%2Fcentovetrine%2F5.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
-            {
                 "start": "2025-07-06T06:14:00.000000Z",
                 "end": "2025-07-06T06:39:00.000000Z",
                 "title": "Centovetrine",
@@ -3426,24 +3138,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:25:00.000000Z",
-                "title": "Piedi al limite: i primi passi",
-                "description": "Piedi al limite: i primi passi",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fpiedi-al-limite-i-primi-passi%2F5.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
-            {
-                "start": "2025-07-06T05:25:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "Malattie misteriose",
-                "description": "Malattie misteriose",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fmalattie-misteriose%2F1.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T07:15:00.000000Z",
@@ -3652,33 +3346,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:05:00.000000Z",
-                "title": "TG LA7",
-                "description": "Informazione e news a cura della redazione del TG LA7, direttore Enrico Mentana",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fwww.la7.it%2Fsites%2Fdefault%2Ffiles%2Fpalinsesto%2Flocandine%2Ftgla7_pal_1.jpg&w=3840&q=75",
-                "channel": "la7d"
-            },
-            {
-                "start": "2025-07-06T05:05:00.000000Z",
-                "end": "2025-07-06T05:35:00.000000Z",
-                "title": "Artbox",
-                "description": "Magazine di arte e cultura: le migliori mostre presenti in Italia e sulla scena internazionale con i...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fwww.la7.it%2Fsites%2Fdefault%2Ffiles%2Fpalinsesto%2Flocandine%2Fartbox2025_head_pal.jpg&w=3840&q=75",
-                "channel": "la7d"
-            },
-            {
-                "start": "2025-07-06T05:35:00.000000Z",
-                "end": "2025-07-06T06:50:00.000000Z",
-                "title": "I menù di Benedetta",
-                "description": "Il programma di cucina condotto da Benedetta Parodi, con tante ricette veloci e semplici da preparar...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F36%2Fi-menu-di-benedetta%2F6.jpg&w=3840&q=75",
-                "channel": "la7d"
-            },
-            {
                 "start": "2025-07-06T06:50:00.000000Z",
                 "end": "2025-07-06T07:35:00.000000Z",
                 "title": "L'ingrediente perfetto - A tu per tu",
@@ -3691,7 +3358,7 @@
                 "start": "2025-07-06T07:35:00.000000Z",
                 "end": "2025-07-06T08:30:00.000000Z",
                 "title": "Dharma & Greg(1997)",
-                "description": "Dharma & Greg è una sitcom americana che descrive una coppia composta da due completi opposti, l'ado...",
+                "description": "San Francisco. Dharma e Greg sono due giovani molto diversi tra loro, sia per carattere sia per estr...",
                 "category": "Categoria non disponibile",
                 "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F5PNMnVfIol6CCfrU39hE9azZiIn.jpg&w=3840&q=75",
                 "channel": "la7d"
@@ -3831,24 +3498,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:03:00.000000Z",
-                "end": "2025-07-06T05:55:00.000000Z",
-                "title": "Distretto di polizia(2000)",
-                "description": "Le vicende di Distretto di Polizia scorrono nelle stanze del X Tuscolano, commissariato della perife...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6aayQqmStwb7x00WkNfMgX4Ov40.jpg&w=3840&q=75",
-                "channel": "mediaset-extra"
-            },
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:44:00.000000Z",
-                "title": "Distretto di polizia(2000)",
-                "description": "Le vicende di Distretto di Polizia scorrono nelle stanze del X Tuscolano, commissariato della perife...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6aayQqmStwb7x00WkNfMgX4Ov40.jpg&w=3840&q=75",
-                "channel": "mediaset-extra"
-            },
             {
                 "start": "2025-07-06T06:44:00.000000Z",
                 "end": "2025-07-06T07:50:00.000000Z",
@@ -4039,24 +3688,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:04:00.000000Z",
-                "end": "2025-07-06T05:42:00.000000Z",
-                "title": "C.S.I. New York(2009)",
-                "description": "CSI: New York  è il secondo spin-off, ambientato a New York, della fortunata serie televisiva americ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fp4GKINJxZoFbPEvX5NKIb4lzaL.jpg&w=3840&q=75",
-                "channel": "topcrime"
-            },
-            {
-                "start": "2025-07-06T05:42:00.000000Z",
-                "end": "2025-07-06T06:24:00.000000Z",
-                "title": "C.S.I. New York(2009)",
-                "description": "CSI: New York  è il secondo spin-off, ambientato a New York, della fortunata serie televisiva americ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fp4GKINJxZoFbPEvX5NKIb4lzaL.jpg&w=3840&q=75",
-                "channel": "topcrime"
-            },
-            {
                 "start": "2025-07-06T06:24:00.000000Z",
                 "end": "2025-07-06T08:20:00.000000Z",
                 "title": "Sconosciuto nell'intimo(2006)",
@@ -4245,24 +3876,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Supernatural(2019)",
-                "description": "Supernatural è una serie televisiva statunitense di genere paranormale e drammatico creata da Eric K...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FlirPqYLTtd6XZqGn4cS1wiesTq0.jpg&w=3840&q=75",
-                "channel": "warner-tv"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T06:30:00.000000Z",
-                "title": "Supernatural(2005)",
-                "description": "Supernatural è una serie televisiva statunitense di genere paranormale e drammatico creata da Eric K...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FlirPqYLTtd6XZqGn4cS1wiesTq0.jpg&w=3840&q=75",
-                "channel": "warner-tv"
-            },
             {
                 "start": "2025-07-06T06:30:00.000000Z",
                 "end": "2025-07-06T07:30:00.000000Z",
@@ -4498,42 +4111,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Banco dei pugni - A sangue freddo",
-                "description": "Un guardia della sicurezza cattura un uomo che si era nascosto nel frigorifero del negozio, afferman...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Fbanco-dei-pugni%2F0.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Banco dei pugni - Telefoni militari",
-                "description": "Les acquista un set di telefoni militari. Ma il magazzino è pieno di oggetti acquistati in passato e...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Fbanco-dei-pugni%2F0.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "Banco dei pugni - Gemme",
-                "description": "Una donna vuole vendere le gemme che appartenevano a sua nonna per pagare il suo funerale. Ashley li...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Fbanco-dei-pugni%2F0.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:40:00.000000Z",
-                "title": "Banco dei pugni - Redenzione",
-                "description": "Una donna arriva al negozio per riscattare il suo anello d'oro, impegnato dal figlio, ma le viene de...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Fbanco-dei-pugni%2F0.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
                 "start": "2025-07-06T06:40:00.000000Z",
                 "end": "2025-07-06T07:10:00.000000Z",
                 "title": "Banco dei pugni - La grande scommessa di Seth",
@@ -4740,33 +4317,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:12:00.000000Z",
-                "end": "2025-07-06T05:34:00.000000Z",
-                "title": "Che campioni Holly e Benji!",
-                "description": "Mark Landers invita Holly, ricoverato in ospedale a causa del forte dolore che accusa alla gamba, a ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81bce1e246c511cb697_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2025-07-06T05:34:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Che campioni Holly e Benji!",
-                "description": "Inizia la partita tra il Giappone e l'Inghilterra. La squadra britannica prende subito il sopravvent...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81bce1e246c511cb697_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:22:00.000000Z",
-                "title": "Che campioni Holly e Benji!",
-                "description": "Ha inizio la finale tra il Giappone e la Germania. L'arbitro fischia l'inizio del primo tempo e la G...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81bce1e246c511cb697_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
             {
                 "start": "2025-07-06T06:22:00.000000Z",
                 "end": "2025-07-06T06:44:00.000000Z",
@@ -5218,24 +4768,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "L'investigatore Wolfe",
-                "description": "L'investigatore Wolfe",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F38%2Fl-investigatore-wolfe%2F5.jpg&w=3840&q=75",
-                "channel": "giallo"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T06:25:00.000000Z",
-                "title": "I am homicide(2016)",
-                "description": "I Am Homicide",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fi1bZzbIVjNhkp7sjzkoN0XBhFll.jpg&w=3840&q=75",
-                "channel": "giallo"
-            },
-            {
                 "start": "2025-07-06T06:25:00.000000Z",
                 "end": "2025-07-06T07:25:00.000000Z",
                 "title": "SOKO - Misteri tra le montagne(2001)",
@@ -5397,15 +4929,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:25:00.000000Z",
-                "title": "Affari al buio",
-                "description": "S10 Ep25 - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F6b564503-b5b2-4cde-9b08-0f05eaf89140%2Fbackground%2F600&w=3840&q=75",
-                "channel": "cielo"
-            },
             {
                 "start": "2025-07-06T06:25:00.000000Z",
                 "end": "2025-07-06T07:30:00.000000Z",
@@ -5613,33 +5136,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "In cucina con Luca Pappagallo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "In cucina con Luca Pappagallo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "In cucina con Luca Pappagallo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
             {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:05:00.000000Z",
@@ -5992,24 +5488,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Chi cerca trova",
-                "description": "Chi cerca trova",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fchi-cerca-trova%2F5.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T07:00:00.000000Z",
-                "title": "Chi cerca trova",
-                "description": "Chi cerca trova",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fchi-cerca-trova%2F5.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
                 "start": "2025-07-06T07:00:00.000000Z",
                 "end": "2025-07-06T08:05:00.000000Z",
                 "title": "Chi cerca trova",
@@ -6234,24 +5712,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:05:00.000000Z",
-                "title": "BORGHI D'ITALIA",
-                "description": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni pu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Fborghi-d-italia%2F10.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
-            {
-                "start": "2025-07-06T06:05:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "SANTO ROSARIO DA CASCIA",
-                "description": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Fsanto-rosario-da-cascia%2F5.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
             {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:05:00.000000Z",
@@ -6540,24 +6000,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Le grandi cucine - Stag. 1 Ep. 5 - Luca Marchini",
-                "description": "S1 Ep5 Luca Marchini - I segreti e le ricette dei piu' grandi chef raccontati della loro voce. Stori...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cucine%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:30:00.000000Z",
-                "title": "Le grandi cucine - Stag. 1 Ep. 6 - Daniel Canzian",
-                "description": "S1 Ep6 Daniel Canzian - I segreti e le ricette dei piu' grandi chef raccontati della loro voce. Stor...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fle-grandi-cucine%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
             {
                 "start": "2025-07-06T06:30:00.000000Z",
                 "end": "2025-07-06T07:00:00.000000Z",
@@ -6991,15 +6433,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:50:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "Affari di famiglia",
-                "description": "Un Home Run Per Chum? - Ritornano con nuovi episodi in prima TV assoluta gli affari della famiglia p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdZluxNTlzqZWNb6UsUH3f7nUzGn.jpg&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:25:00.000000Z",
                 "title": "Il fuoco di spade",
@@ -7251,60 +6684,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:10:00.000000Z",
-                "title": "Info Notte (R)",
-                "description": "Le ultime notizie della giornata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Finfo-notte%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T05:25:00.000000Z",
-                "title": "Il Quotidiano (R)",
-                "description": "Attualità della Svizzera italiana",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Fil-quotidiano%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2025-07-06T05:25:00.000000Z",
-                "end": "2025-07-06T05:55:00.000000Z",
-                "title": "Telegiornale",
-                "description": "Le notizie di prima serata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Ftelegiornale%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Meteo notte",
-                "description": "I colori del tempo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Fmeteo-notte%2F1.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "Info Notte (R)",
-                "description": "Le ultime notizie della giornata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Finfo-notte%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:40:00.000000Z",
-                "title": "Cuntrasts",
-                "description": "Gli approfondimenti sulla realtà della Svizzera romancia sottotitolati in italiano",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Fcuntrasts%2F6.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
             {
                 "start": "2025-07-06T06:40:00.000000Z",
                 "end": "2025-07-06T07:00:00.000000Z",
@@ -7594,33 +6973,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Telegiornale",
-                "description": "Le notizie di prima serata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Ftelegiornale%2F6.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Meteo notte",
-                "description": "I colori del tempo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Fmeteo-notte%2F9.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T06:15:00.000000Z",
-                "title": "Info Notte (R)",
-                "description": "Le ultime notizie della giornata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Finfo-notte%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
                 "start": "2025-07-06T06:15:00.000000Z",
                 "end": "2025-07-06T06:45:00.000000Z",
                 "title": "La Storia del Regionale",
@@ -7819,24 +7171,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Si Live 24",
-                "description": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tut...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsi-live-24%2F5.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T07:00:00.000000Z",
-                "title": "Calciomercato Live Weekend",
-                "description": "Calciomercato Live Weekend",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fcalciomercato%2F0.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
                 "start": "2025-07-06T07:00:00.000000Z",
                 "end": "2025-07-06T07:30:00.000000Z",
                 "title": "Otto In Punto",
@@ -7953,15 +7287,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T06:45:00.000000Z",
-                "title": "Don Tonino(1988)",
-                "description": "Don Tonino è una serie televisiva italiana degli anni ottanta. Protagonisti erano il duo comico Gigi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fu3Zhn2qqBopFQN4mcYL2hP6PIOx.jpg&w=3840&q=75",
-                "channel": "iris"
-            },
             {
                 "start": "2025-07-06T06:45:00.000000Z",
                 "end": "2025-07-06T08:09:00.000000Z",
@@ -8206,15 +7531,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:35:00.000000Z",
-                "end": "2025-07-06T07:05:00.000000Z",
-                "title": "È forte un casino!(1982)",
-                "description": "Michele (Enzo Cannavale) è uno scaltro truffatore napoletano trapiantato a Roma. Dopo aver provato a...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbV3vwuijGmC393xf7koW0YiBgoO.jpg&w=3840&q=75",
-                "channel": "rai-movie"
-            },
-            {
                 "start": "2025-07-06T07:05:00.000000Z",
                 "end": "2025-07-06T07:10:00.000000Z",
                 "title": "Anica - Appuntamento Al Cinema",
@@ -8349,24 +7665,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:07:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "I misteri dei giganti",
-                "description": "Dopo i dinosauri, il nostro pianeta e' stato popolato da serpenti giganti, rinoceronti, squali, brad...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F21%2Fi-misteri-dei-giganti%2F7.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:22:00.000000Z",
-                "title": "Viaggiatori - Uno sguardo sul mondo",
-                "description": "Alla scoperta delle bellezze artistiche e naturali del mondo, dalla Polinesia all'Indonesia, dall'Af...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF305857401003901%2Fmedia%2F17%2F81%2Fe24b7cd3-4a43-4447-a150-a2b9d518c092%2F20214bec-898e-439e-b134-1b8d57235419.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
             {
                 "start": "2025-07-06T06:22:00.000000Z",
                 "end": "2025-07-06T06:47:00.000000Z",
@@ -8593,42 +7891,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Come è fatto",
-                "description": "Come è fatto",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F93%2Fcome-e-fatto%2F3.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Come è fatto: Supercar",
-                "description": "Come è fatto: Supercar",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F93%2Fcome-e-fatto-supercar%2F5.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "Marchio di fabbrica",
-                "description": "Marchio di fabbrica",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F93%2Fmarchio-di-fabbrica%2F5.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:40:00.000000Z",
-                "title": "Come è fatto",
-                "description": "Come è fatto",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F93%2Fcome-e-fatto%2F3.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
                 "start": "2025-07-06T06:40:00.000000Z",
                 "end": "2025-07-06T07:10:00.000000Z",
                 "title": "Come è fatto",
@@ -8844,24 +8106,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "TG24 Preview",
-                "description": "TG24 Preview.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F1435d750-95d0-4ad2-86df-5a12a9145183%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "TG24 mezz'ora",
-                "description": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F20%2Ftg24-mezz-ora%2F1.jpg&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T06:30:00.000000Z",
@@ -9358,15 +8602,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T11:00:00.000000Z",
-                "title": "Tgcom24",
-                "description": "Tgcom24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftgcom24%2F6.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
                 "start": "2025-07-06T11:00:00.000000Z",
                 "end": "2025-07-06T17:00:00.000000Z",
                 "title": "Tgcom24",
@@ -9402,69 +8637,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:23:00.000000Z",
-                "title": "NEWS + TITOLI",
-                "description": "NEWS + TITOLI",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fnews-titoli%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T05:23:00.000000Z",
-                "end": "2025-07-06T05:28:00.000000Z",
-                "title": "RASSEGNA STAMPA PRIME PAGINE",
-                "description": "RASSEGNA STAMPA PRIME PAGINE",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Frassegna-stampa%2F6.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T05:28:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "METEO 24",
-                "description": "METEO 24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fmeteo-24%2F0.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "NEWS",
-                "description": "NEWS",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fnews%2F7.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T05:57:00.000000Z",
-                "title": "ALTRI MONDI",
-                "description": "Con Altri Mondi, ogni settimana il giornalista di RaiNews Dario Marchetti ci porta nel multiverso de...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Faltri-mondi%2F0.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T05:57:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "CISS",
-                "description": "CISS",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fciss%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:30:00.000000Z",
-                "title": "NEWS + TITOLI",
-                "description": "NEWS + TITOLI",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fnews-titoli%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
             {
                 "start": "2025-07-06T06:30:00.000000Z",
                 "end": "2025-07-06T06:56:00.000000Z",
@@ -10149,69 +9321,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:10:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I Teen Titans vendono i loro ricordi in cambio di pochi spiccioli ma non appena se ne liberano il te...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Una maledizione si imbatte sui Titans il giorno di San Patrizio e per annullarla sono costretti a ce...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Giunti in un parco divertimenti i Titans scoprono che tutto il pubblico a parte Batman e Gordon pati...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T05:50:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Una strana coppia Jella-Cyborg con tanto di bambino Coso vive la giornata di San valentino.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T05:50:00.000000Z",
-                "end": "2025-07-06T06:05:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I nostri amici finiscono intrappolati in un bottiglione comparso magicamente in soggiorno. Non avend...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2025-07-06T06:05:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "New Looney Tunes",
-                "description": "Fate un respiro profondo e preparatevi a sprofondare nella tana del coniglio! In questa nuovissima s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fh8tzpd1pqyKCu5V4lw3eUiO6L9Y.jpg&w=3840&q=75",
-                "channel": "boing"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T06:35:00.000000Z",
@@ -11032,42 +10141,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Zig & Sharko",
-                "description": "Zig & Sharko",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FveRWBhJFQJciHc9EWHdxWfnqZLm.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Zig & Sharko",
-                "description": "Zig & Sharko",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FveRWBhJFQJciHc9EWHdxWfnqZLm.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T06:05:00.000000Z",
-                "title": "Zig & Sharko",
-                "description": "Zig & Sharko",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FveRWBhJFQJciHc9EWHdxWfnqZLm.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2025-07-06T06:05:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "Il barbiere pasticciere",
-                "description": "Il barbiere pasticciere",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F632892a768e40ac4d7ac47b2_b_5_rs_600.png&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:05:00.000000Z",
                 "title": "Il barbiere pasticciere",
@@ -11724,42 +10797,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:05:00.000000Z",
-                "end": "2025-07-06T05:15:00.000000Z",
-                "title": "I Puffi - La nuova serie(2021)",
-                "description": "Puffo Sognatore decide di diventare Cavalier Puffoso.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fznf5Z1LSFYFOsRGClXwclqIhf83.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "I Puffi - La nuova serie(2021)",
-                "description": "Gargamella annusa per caso il fiore Non ti scordar di me. Perde la memoria e dimentica anche l'odio ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fznf5Z1LSFYFOsRGClXwclqIhf83.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T05:55:00.000000Z",
-                "title": "Kung Fu Panda - Le zampe del destino",
-                "description": "Da Guerriero Dragone, Po ha dovuto affrontare una lunga serie di sfide epiche, ma nessuna lo ha prep...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FfUhIeUfqPreLuEmgDuhb9LAdxHp.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "Kung Fu Panda - Le zampe del destino",
-                "description": "Da Guerriero Dragone, Po ha dovuto affrontare una lunga serie di sfide epiche, ma nessuna lo ha prep...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FfUhIeUfqPreLuEmgDuhb9LAdxHp.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T06:30:00.000000Z",
@@ -12462,87 +11499,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:05:00.000000Z",
-                "title": "Molang",
-                "description": "Molang e Piu Piu scoprono che il laghetto in cui solitamente vanno a pescare è tutto prosciugato. Me...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fmolang%2F1.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:05:00.000000Z",
-                "end": "2025-07-06T05:10:00.000000Z",
-                "title": "Molang",
-                "description": "Molang e Piu Piu sono nel deserto quando vedono un aereo che atterra bruscamente. Riescono a portare...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fmolang%2F1.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:10:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Pablo",
-                "description": "La mamma compra un divano nuovo, ma Pablo ha qualche difficoltà ad abituarcisi e rimpiange quello ve...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F95kyqjncozV8KOqWlJKb293akm.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:30:00.000000Z",
-                "title": "Pablo",
-                "description": "Pablo si sveglia pieno di puntini che prudono. Ha preso la varicella, che presto attacca a tutti i s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F95kyqjncozV8KOqWlJKb293akm.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Nel MagiRegno sta per svolgersi una parata di carri allegorici che rappresentano le bellezze di quel...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Barbara Modesti è la voce del mostriciattolo Porcino, che fa sparire i funghi velenosi e apparire qu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T06:05:00.000000Z",
-                "title": "La Melevisione 2005",
-                "description": "Il mondo incantato della Melevisione su Rai YoYo in compagnia di Milo Cotogno e di tutti gli amici d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fla-melevisione%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T06:05:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "Pocoyo",
-                "description": "Pato presta il suo becco a Pocoyo per fare un gioco, ma Pocoyo lo perde! Pocoyo suggerisce a Pato de...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fpocoyo%2F6.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:20:00.000000Z",
-                "title": "Pocoyo",
-                "description": "Pocoyo trova un quadrifoglio ed è certo che si tratti di un portafortuna. Anche Pato vuole avere un ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fpocoyo%2F6.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
             {
                 "start": "2025-07-06T06:20:00.000000Z",
                 "end": "2025-07-06T06:25:00.000000Z",
@@ -13885,60 +12841,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "Oggy Oggy",
-                "description": "Oggy Oggy",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F25ZuXiNAvGsql8aJtK1nsT7CSu0.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:35:00.000000Z",
-                "title": "Oggy Oggy",
-                "description": "Oggy Oggy",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F25ZuXiNAvGsql8aJtK1nsT7CSu0.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2025-07-06T05:35:00.000000Z",
-                "end": "2025-07-06T05:45:00.000000Z",
-                "title": "Super Wings!",
-                "description": "Un allegro jet e i suoi amici cercano soluzioni pacifiche ai problemi che incontrano, mentre consegn...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F8IrRpCZZMuSn6M1Fr4oXCENUILq.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2025-07-06T05:45:00.000000Z",
-                "end": "2025-07-06T05:55:00.000000Z",
-                "title": "Super Wings!",
-                "description": "Un allegro jet e i suoi amici cercano soluzioni pacifiche ai problemi che incontrano, mentre consegn...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F8IrRpCZZMuSn6M1Fr4oXCENUILq.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2025-07-06T05:55:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "Super Wings!",
-                "description": "Un allegro jet e i suoi amici cercano soluzioni pacifiche ai problemi che incontrano, mentre consegn...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F8IrRpCZZMuSn6M1Fr4oXCENUILq.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "Curioso come George",
-                "description": "Curioso come George",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FvSscKZocnih10gBlT4KLnWA8iyO.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:00:00.000000Z",
                 "title": "Curioso come George",
@@ -14370,96 +13272,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T05:05:00.000000Z",
-                "title": "The Tom and Jerry Show",
-                "description": "Dopo anni di rivalità, in questa serie Tom e Jerry sono diventati amici. Gli episodi mostrano i due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d88ace1e246c511cb899_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:05:00.000000Z",
-                "end": "2025-07-06T05:15:00.000000Z",
-                "title": "The Tom and Jerry Show",
-                "description": "Dopo anni di rivalità, in questa serie Tom e Jerry sono diventati amici. Gli episodi mostrano i due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d88ace1e246c511cb899_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:15:00.000000Z",
-                "end": "2025-07-06T05:20:00.000000Z",
-                "title": "The Tom and Jerry Show",
-                "description": "Dopo anni di rivalità, in questa serie Tom e Jerry sono diventati amici. Gli episodi mostrano i due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d88ace1e246c511cb899_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:20:00.000000Z",
-                "end": "2025-07-06T05:25:00.000000Z",
-                "title": "The Tom and Jerry Show",
-                "description": "Dopo anni di rivalità, in questa serie Tom e Jerry sono diventati amici. Gli episodi mostrano i due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d88ace1e246c511cb899_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:25:00.000000Z",
-                "end": "2025-07-06T05:35:00.000000Z",
-                "title": "The Tom and Jerry Show",
-                "description": "Dopo anni di rivalità, in questa serie Tom e Jerry sono diventati amici. Gli episodi mostrano i due ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d88ace1e246c511cb899_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:35:00.000000Z",
-                "end": "2025-07-06T05:40:00.000000Z",
-                "title": "C'erano una volta...gli oggetti",
-                "description": "Maestro racconta la storia del pannolino.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeveS5wYhZhZTt6WIdL05IXliIoR.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:40:00.000000Z",
-                "end": "2025-07-06T05:50:00.000000Z",
-                "title": "C'erano una volta...gli oggetti",
-                "description": "Maestro racconta la storia del microfono.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeveS5wYhZhZTt6WIdL05IXliIoR.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T05:50:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "C'erano una volta...gli oggetti",
-                "description": "Maestro racconta la storia della matita.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeveS5wYhZhZTt6WIdL05IXliIoR.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:10:00.000000Z",
-                "title": "C'erano una volta...gli oggetti",
-                "description": "Maestro racconta la storia dei pantaloni.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeveS5wYhZhZTt6WIdL05IXliIoR.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2025-07-06T06:10:00.000000Z",
-                "end": "2025-07-06T06:35:00.000000Z",
-                "title": "La casa delle bambole di Gabby",
-                "description": "Gatti adorabili, abilità bizzarre e magie divertenti! Parti per una serie di avventure animate insie...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FqR4tS0urUUaFh6mlRhVUkDZGN5j.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
             {
                 "start": "2025-07-06T06:35:00.000000Z",
                 "end": "2025-07-06T07:00:00.000000Z",
@@ -15307,24 +14119,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:30:00.000000Z",
-                "end": "2025-07-06T06:00:00.000000Z",
-                "title": "Kamp Koral",
-                "description": "Ep20 di 26 Senza supervisore/La sveglia - A SpongeBob, Sandy e Patrick viene assegnato un alloggio d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F1qCGrhbbBLZpPY1NhyDjGymwq0X.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2025-07-06T06:00:00.000000Z",
-                "end": "2025-07-06T06:25:00.000000Z",
-                "title": "Spongebob",
-                "description": "S9 Ep13 Squiddy piu' Uno/Business Patty - Squiddi riceve l'invito a partecipare all'inaugurazione di...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d824ce1e246c511cb6c0_b_17_rs_600.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
                 "start": "2025-07-06T06:25:00.000000Z",
                 "end": "2025-07-06T06:50:00.000000Z",
                 "title": "Spongebob",
@@ -15982,15 +14776,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T08:00:00.000000Z",
-                "title": "Non Stop News",
-                "description": "Non Stop News e' il magazine di informazione di RTL 102.5 a cura della redazione giornalistica.  App...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6885%2Fnon-stop-news%2F3.jpg&w=3840&q=75",
-                "channel": "rtl-102.5-tv"
-            },
-            {
                 "start": "2025-07-06T08:00:00.000000Z",
                 "end": "2025-07-06T10:00:00.000000Z",
                 "title": "Chi c'e' c'e', chi non c'e' non parla",
@@ -16081,15 +14866,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T11:00:00.000000Z",
-                "title": "La migliore musica italiana",
-                "description": "I migliori artisti della musica italiana",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F19%2Fla-migliore-musica-italiana%2F9.jpg&w=3840&q=75",
-                "channel": "radioitaliatv"
-            },
-            {
                 "start": "2025-07-06T11:00:00.000000Z",
                 "end": "2025-07-06T12:30:00.000000Z",
                 "title": "La classifica italiana",
@@ -16170,15 +14946,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2025-07-06T05:00:00.000000Z",
-                "end": "2025-07-06T09:00:00.000000Z",
-                "title": "Rock morning",
-                "description": "Interagisci con noi al +39 366 663 44 66",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10616%2Frock-morning%2F5.jpg&w=3840&q=75",
-                "channel": "radiofreccia"
-            },
             {
                 "start": "2025-07-06T09:00:00.000000Z",
                 "end": "2025-07-06T13:00:00.000000Z",
