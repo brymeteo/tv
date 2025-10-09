@@ -126,12 +126,12 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
-    'la7d': {
-        'url': 'https://guidatv.org/canali/la7d',
-        'name': 'La7d',
-        'id': 'la7d',
-        'epgName': 'La7d',
-        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+    'la7-cinema': {
+        'url': 'https://guidatv.org/canali/la7-cinema',
+        'name': 'La7-cinema',
+        'id': 'la7-cinema',
+        'epgName': 'La7-cinema',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2Fla7cinema.png&w=128&q=100',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'mediaset-extra': {
@@ -150,12 +150,12 @@ canali_urls = {
         'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
-    'warner-tv': {
-        'url': 'https://guidatv.org/canali/warner-tv',
-        'name': 'Warner Tv',
-        'id': 'warner-tv',
-        'epgName': 'Warner Tv',
-        'logo': 'https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark',
+    'discovery': {
+        'url': 'https://guidatv.org/canali/discovery',
+        'name': 'Discovery',
+        'id': 'discovery',
+        'epgName': 'Discovery',
+        'logo': 'https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2Fdiscovery.png&w=128&q=100',
         'm3uLink': 'http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8'
     },
     'dmax': {
