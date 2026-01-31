@@ -414,10 +414,25 @@ def get_data_oggi_o_ieri():
 
 # Funzione per fare lo scraping dei dati EPG da un singolo canale
 def scrape_epg(url, canale_info, data_odierna):
-    response = requests.get(url)
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+    }
+
+    response = requests.get(
+        url,
+        headers=headers,
+        timeout=20
+    )
+
     if response.status_code != 200:
         print(f"Errore nel recupero dei dati da {url}, codice di stato: {response.status_code}")
         return None
+
 
     soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', class_='container mt-2')
