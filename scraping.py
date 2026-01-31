@@ -423,16 +423,24 @@ def scrape_epg(url, canale_info, data_odierna):
         "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
     }
 
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=20
-    )
+    # Richiesta HTTP con gestione dei redirect e degli errori
+    try:
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=20,
+            allow_redirects=True
+        )
+    except requests.exceptions.TooManyRedirects:
+        print(f"❌ Troppi redirect, salto canale: {url}")
+        return None
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Errore di rete per {url}: {e}")
+        return None
 
     if response.status_code != 200:
         print(f"Errore nel recupero dei dati da {url}, codice di stato: {response.status_code}")
         return None
-
 
     soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', class_='container mt-2')
@@ -445,7 +453,6 @@ def scrape_epg(url, canale_info, data_odierna):
     orario_inizio_precedente_dt = None
 
     for i, programma in enumerate(programmi):
-        # Estrai i dettagli del programma
         titolo_tag = programma.find('h2', class_='card-title')
         titolo = titolo_tag.get_text(strip=True) if titolo_tag else "Titolo non disponibile"
 
@@ -465,20 +472,17 @@ def scrape_epg(url, canale_info, data_odierna):
             print("Errore nel parsing dell'orario:", e)
             continue
 
-        # Se non è il primo programma, controlla se occorre incrementare il giorno
+        # Controllo rollover giorno
         if orario_inizio_precedente_dt is not None:
             current_start = orario_inizio_dt
             if current_start <= orario_inizio_precedente_dt:
                 current_start += datetime.timedelta(days=1)
-            # Aggiorna la fine del programma precedente con l'orario corretto
             dati_programmi[-1]['end'] = current_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
         else:
             current_start = orario_inizio_dt
 
-        # Imposta l'orario di inizio del programma corrente
         start_str = current_start.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
-        # Trova l'URL del poster
         poster_img = programma.find('img')
         if poster_img:
             src = poster_img.get('src')
@@ -488,7 +492,7 @@ def scrape_epg(url, canale_info, data_odierna):
 
         programma_data = {
             'start': start_str,
-            'end': "Ora non disponibile",  # verrà aggiornato nel ciclo o alla fine
+            'end': "Ora non disponibile",
             'title': titolo,
             'description': descrizione,
             'category': "Categoria non disponibile",
@@ -496,11 +500,9 @@ def scrape_epg(url, canale_info, data_odierna):
             'channel': canale_info['id']
         }
         dati_programmi.append(programma_data)
-
-        # Aggiorna il riferimento per il prossimo programma
         orario_inizio_precedente_dt = current_start
 
-    # Per l'ultimo programma, ipotizziamo una durata di 1 ora
+    # Imposta fine ultimo programma (1 ora di durata)
     if dati_programmi:
         ultimo_programma = dati_programmi[-1]
         try:
@@ -518,6 +520,7 @@ def scrape_epg(url, canale_info, data_odierna):
         'm3uLink': canale_info['m3uLink'],
         'programs': dati_programmi
     }
+
 
 # Funzione per salvare i dati in un file JSON
 def salva_dati(dati_canali):
