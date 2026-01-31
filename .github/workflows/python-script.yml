@@ -6,6 +6,8 @@ on:
     - cron: '0 0 * * *'
     # Esegui alle 04:00 UTC per ottenere i dati di oggi
     - cron: '0 5 * * *'
+    # Esegui alle 9:00 UTC (aggiornamento guida TV)
+    - cron: '0 9 * * *'
 
   push:
     branches:
