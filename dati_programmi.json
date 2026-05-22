@@ -7,24 +7,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-1/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "E' Sempre Mezzogiorno",
-                "description": "Antonella Clerici accoglie il pubblico nella cucina più green d'Italia, con tante novità, giochi ine...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Fe-sempre-mezzogiorno%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T13:05:00.000000Z",
-                "title": "TG 1",
-                "description": "TELEGIORNALE",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F1%2Ftg-1%2F5.jpg&w=3840&q=75",
-                "channel": "rai-1"
-            },
-            {
                 "start": "2026-05-22T13:05:00.000000Z",
                 "end": "2026-05-22T15:00:00.000000Z",
                 "title": "La Volta Buona",
@@ -186,51 +168,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:00:00.000000Z",
-                "title": "TG2 Flash",
-                "description": "TG2 Flash",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftg2-flash%2F0.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:10:00.000000Z",
-                "title": "TG Sport Giorno",
-                "description": "TG Sport Giorno",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftg-sport-giorno%2F1.png&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "I Fatti Vostri",
-                "description": "La Piazza più famosa della televisione apre le sue porte a nuove storie e ai loro protagonisti, prop...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Fi-fatti-vostri%2F11.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "TG2 GIORNO",
-                "description": "TG2 GIORNO",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftg-2-giorno%2F5.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "TG2 Eat Parade",
-                "description": "L'economia e la passione dietro alla grande cultura italiana per l'arte culinaria, la tradizione eno...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F2%2Ftg-2-eat-parade%2F11.jpg&w=3840&q=75",
-                "channel": "rai-2"
-            },
             {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T13:00:00.000000Z",
@@ -475,60 +412,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:50:00.000000Z",
-                "end": "2026-05-22T10:55:00.000000Z",
-                "title": "Elisir",
-                "description": "La miopia è un difetto della vista sempre più diffuso a livello mondiale e che in Italia colpisce ci...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Felisir%2F6.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Meteo 3",
-                "description": "Meteo 3",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Fmeteo-3%2F5.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "TG3",
-                "description": "TG3",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Ftg-3%2F5.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "TG3 Fuori TG",
-                "description": "Il rotocalco del Tg3 con spazi quotidiani dedicati ai consumatori, alla salute dell'agricoltura, al ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Ftg-3-fuori-tg%2F5.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Quante Storie",
-                "description": "Dall'arte alla letteratura, dalla musica alla storia recente, dalla filosofia alla politica, Giorgio...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Fquante-storie%2F0.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T13:00:00.000000Z",
-                "title": "Passato E Presente - Simone Boccanegra, Il Doge Di Genova - 26",
-                "description": "\"È sogno!… sì, spaventoso, atroce sogno il mio!\" Il sogno è di Simon Boccanegra. Un’esclamazione che...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F3%2Fpassato-e-presente%2F5.jpg&w=3840&q=75",
-                "channel": "rai-3"
-            },
-            {
                 "start": "2026-05-22T13:00:00.000000Z",
                 "end": "2026-05-22T13:19:00.000000Z",
                 "title": "TG Regione",
@@ -772,33 +655,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:41:00.000000Z",
-                "end": "2026-05-22T10:55:00.000000Z",
-                "title": "Tempesta d'amore(2005)",
-                "description": "Tempesta d'amore (Sturm der Liebe) è una soap opera tedesca trasmessa dal 26 settembre 2005 sull'emi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d819ce1e246c511cb68d_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "rete-4"
-            },
-            {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "Tg4",
-                "description": "Informazione quotidiana con le notizie dall'Italia e dal mondo per il telegiornale di Rete 4. A segu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F40%2Ftg4%2F11.jpg&w=3840&q=75",
-                "channel": "rete-4"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T12:58:00.000000Z",
-                "title": "La signora in giallo(1989)",
-                "description": "Un'insegnante d'inglese in pensione, Jessica B. Fletcher, dopo essere rimasta vedova intorno ai cinq...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeciikZDLyEBQanGh3zpGNuYHtQ3.jpg&w=3840&q=75",
-                "channel": "rete-4"
-            },
-            {
                 "start": "2026-05-22T12:58:00.000000Z",
                 "end": "2026-05-22T14:30:00.000000Z",
                 "title": "Lo sportello di forum",
@@ -951,33 +807,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:50:00.000000Z",
-                "end": "2026-05-22T09:58:00.000000Z",
-                "title": "Tg5 ore 10",
-                "description": "Appuntamento con le notizie piu' importanti, nazionali ed internazionali, a cura della redazione gio...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg-5-ore-10%2F5.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2026-05-22T09:58:00.000000Z",
-                "end": "2026-05-22T11:58:00.000000Z",
-                "title": "Forum",
-                "description": "Il processo tv che affronta vicende comuni e quotidiane con uno sguardo sempre attento ai temi piu' ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Fforum%2F11.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
-            {
-                "start": "2026-05-22T11:58:00.000000Z",
-                "end": "2026-05-22T12:44:00.000000Z",
-                "title": "Tg5",
-                "description": "Le notizie piu' importanti, nazionali e internazionali, con approfondimenti e rubriche, a cura della...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F41%2Ftg5%2F2.jpg&w=3840&q=75",
-                "channel": "canale-5"
-            },
             {
                 "start": "2026-05-22T12:44:00.000000Z",
                 "end": "2026-05-22T13:19:00.000000Z",
@@ -1176,42 +1005,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:26:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Chicago Med(2024)",
-                "description": "Cavalcare il brivido emozionale attraverso il caos raccontanto giorno dopo giorno nell’ospedale più ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fx2jNLrYw1s9i6kihEJqsBQgs9nR.jpg&w=3840&q=75",
-                "channel": "italia-1"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "Chicago P.D.(2024)",
-                "description": "La serie racconta le vicende del Distretto 21 del Dipartimento di Polizia di Chicago, composto da du...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Frhp8vYG1sIFtqH3ETmHJuI5Z3Cb.jpg&w=3840&q=75",
-                "channel": "italia-1"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T12:06:00.000000Z",
-                "title": "Studio Aperto",
-                "description": "Notizie e approfondimenti in diretta sui temi di attualita' quotidiani a cura della redazione giorna...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F42%2Fstudio-aperto%2F12.jpg&w=3840&q=75",
-                "channel": "italia-1"
-            },
-            {
-                "start": "2026-05-22T12:06:00.000000Z",
-                "end": "2026-05-22T13:00:00.000000Z",
-                "title": "Sport Mediaset",
-                "description": "Approfondimento quotidiano in diretta sul mondo del calcio e dello sport a cura della redazione gior...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F42%2Fsport-mediaset%2F0.jpg&w=3840&q=75",
-                "channel": "italia-1"
-            },
             {
                 "start": "2026-05-22T13:00:00.000000Z",
                 "end": "2026-05-22T13:15:00.000000Z",
@@ -1429,24 +1222,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "L'Aria Che Tira",
-                "description": "Conduce David Parenzo. 15a edizione",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F23%2Fl-aria-che-tira%2F9.jpg&w=3840&q=75",
-                "channel": "la7"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T13:15:00.000000Z",
-                "title": "TG LA7",
-                "description": "Informazione a cura della redazione del TG LA7.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fwww.la7.it%2Fsites%2Fdefault%2Ffiles%2Fpalinsesto%2Flocandine%2Ftgla7_pal_1.jpg&w=3840&q=75",
-                "channel": "la7"
-            },
-            {
                 "start": "2026-05-22T13:15:00.000000Z",
                 "end": "2026-05-22T15:40:00.000000Z",
                 "title": "Tagadà",
@@ -1573,42 +1348,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T10:15:00.000000Z",
-                "title": "Sky TG24 in pillole",
-                "description": "Il telegiornale con le notizie piu' importanti del giorno.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fed268d65-0636-4a0f-bf0a-c4e892e15446%2Fbackground%2F600&w=3840&q=75",
-                "channel": "Tv8"
-            },
-            {
-                "start": "2026-05-22T10:15:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Alessandro Borghese - Celebrity Chef",
-                "description": "Alessandro Borghese apre le porte dei suoi ristoranti, milanese e veneziano, a due celebrities che c...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F45%2Falessandro-borghese-celebrity-chef%2F7.jpg&w=3840&q=75",
-                "channel": "Tv8"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Alessandro Borghese - Celebrity Chef",
-                "description": "Alessandro Borghese apre le porte del suo ristorante milanese a Giulia Vecchio e Toni Bonji, che con...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F45%2Falessandro-borghese-celebrity-chef%2F7.jpg&w=3840&q=75",
-                "channel": "Tv8"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Alessandro Borghese - 4 Ristoranti",
-                "description": "Ep5 di 14 Livorno - Il van di 4 Ristoranti e' nel quartiere Venezia, a Livorno! Luca, Camilla, Irene...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F45%2Falessandro-borghese-4-ristoranti%2F9.jpg&w=3840&q=75",
-                "channel": "Tv8"
-            },
-            {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T14:40:00.000000Z",
                 "title": "La donna prima di me(2025)",
@@ -1734,42 +1473,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:55:00.000000Z",
-                "title": "Alta infedelta'",
-                "description": "Aldo e Sonia stanno insieme dai tempi dell'universita'. Il rapporto tra i due comincia a scricchiola...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Falta-infedelta%2F9.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Alta infedelta'",
-                "description": "Sergio e Simona lottano contro la precarieta'. Lui riesce a trovare un lavoro modesto in una paninot...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Falta-infedelta%2F9.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Cash or Trash - Chi offre di piu'?",
-                "description": "Paolo Conticini conduce una divertente asta al rialzo in cui cinque mercanti d'arte si contendono 't...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Fcash-or-trash-chi-offre-di-piu%2F6.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T12:45:00.000000Z",
-                "title": "Cash or Trash - Chi offre di piu'?",
-                "description": "Paolo Conticini ci porta nuovamente alla scoperta degli oggetti piu' interessanti in un nuovo studio...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F17%2Fcash-or-trash-chi-offre-di-piu%2F6.jpg&w=3840&q=75",
-                "channel": "nove"
-            },
             {
                 "start": "2026-05-22T12:45:00.000000Z",
                 "end": "2026-05-22T13:55:00.000000Z",
@@ -1905,51 +1608,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:21:00.000000Z",
-                "end": "2026-05-22T09:44:00.000000Z",
-                "title": "THE BIG BANG THEORY(2008)",
-                "description": "Pasadena, California. Quattro giovani scienziati di diversi campi – il fisico sperimentale Leonard H...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FgMqQY6SwuhKg1LvmiTxKX6YrINr.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2026-05-22T09:44:00.000000Z",
-                "end": "2026-05-22T10:14:00.000000Z",
-                "title": "THE BIG BANG THEORY(2008)",
-                "description": "Pasadena, California. Quattro giovani scienziati di diversi campi – il fisico sperimentale Leonard H...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FgMqQY6SwuhKg1LvmiTxKX6YrINr.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2026-05-22T10:14:00.000000Z",
-                "end": "2026-05-22T11:03:00.000000Z",
-                "title": "The Flash(2014)",
-                "description": "Barry Allen, un assistente di scena del crimine legale per il dipartimento di polizia di Central Cit...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81cce1e246c511cb698_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2026-05-22T11:03:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "The Flash(2014)",
-                "description": "Barry Allen, un assistente di scena del crimine legale per il dipartimento di polizia di Central Cit...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d81cce1e246c511cb698_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:58:00.000000Z",
-                "title": "Chicago Fire(2013)",
-                "description": "Nessun lavoro è più stressante e pericoloso, ma al tempo stesso stimolante e coinvolgente di quello ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F14LzHqJrFcHk7ruMNCXpEkB0Thg.jpg&w=3840&q=75",
-                "channel": "20-mediaset"
-            },
             {
                 "start": "2026-05-22T12:58:00.000000Z",
                 "end": "2026-05-22T13:51:00.000000Z",
@@ -2121,42 +1779,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/321/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:46:00.000000Z",
-                "end": "2026-05-22T10:31:00.000000Z",
-                "title": "Hudson & Rex(2021)",
-                "description": "L'investigatore Charlie Hudson ha per compagno di avventure Rex, un pastore tedesco: insieme i due l...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeEOx2lpnWm4lVF5jfqtKsWlyuJX.jpg&w=3840&q=75",
-                "channel": "rai-4"
-            },
-            {
-                "start": "2026-05-22T10:31:00.000000Z",
-                "end": "2026-05-22T11:15:00.000000Z",
-                "title": "Hudson & Rex(2021)",
-                "description": "L'investigatore Charlie Hudson ha per compagno di avventure Rex, un pastore tedesco: insieme i due l...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FeEOx2lpnWm4lVF5jfqtKsWlyuJX.jpg&w=3840&q=75",
-                "channel": "rai-4"
-            },
-            {
-                "start": "2026-05-22T11:15:00.000000Z",
-                "end": "2026-05-22T12:03:00.000000Z",
-                "title": "Criminal Minds(2010)",
-                "description": "Criminal Minds è una serie poliziesca incentrata sull'Unità di analisi criminale (BAU) che ha sede p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fw88B4ooZ2LSYPw5107JOkjvI8PI.jpg&w=3840&q=75",
-                "channel": "rai-4"
-            },
-            {
-                "start": "2026-05-22T12:03:00.000000Z",
-                "end": "2026-05-22T12:43:00.000000Z",
-                "title": "Criminal Minds(2010)",
-                "description": "Criminal Minds è una serie poliziesca incentrata sull'Unità di analisi criminale (BAU) che ha sede p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fw88B4ooZ2LSYPw5107JOkjvI8PI.jpg&w=3840&q=75",
-                "channel": "rai-4"
-            },
             {
                 "start": "2026-05-22T12:43:00.000000Z",
                 "end": "2026-05-22T13:32:00.000000Z",
@@ -2356,51 +1978,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:40:00.000000Z",
-                "end": "2026-05-22T10:35:00.000000Z",
-                "title": "Storie Di Donne Al Bivio Mercoledì",
-                "description": "Ospiti della puntata: Barbara Bouchet, Francesca De Andrè, Sabina Stilo. Tre donne della politica, d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fstorie-di-donne-al-bivio-mercoledi%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2026-05-22T10:35:00.000000Z",
-                "end": "2026-05-22T10:40:00.000000Z",
-                "title": "Gli Imperdibili",
-                "description": "Backstage, anteprime, eventi e curiosità dentro lo schermo. È il programma che offre informazione e ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F25%2Fgli-imperdibili%2F0.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2026-05-22T10:40:00.000000Z",
-                "end": "2026-05-22T11:35:00.000000Z",
-                "title": "Un ciclone in convento(2014)",
-                "description": "Serie televisiva tedesca dal titolo originale Um Himmels Willen (Per amor del cielo). I protagonisti...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F1KuOouZfoSuTpHIJeeRiZLyEpVg.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2026-05-22T11:35:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Un ciclone in convento(2014)",
-                "description": "Serie televisiva tedesca dal titolo originale Um Himmels Willen (Per amor del cielo). I protagonisti...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F1KuOouZfoSuTpHIJeeRiZLyEpVg.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T13:25:00.000000Z",
-                "title": "Un medico in famiglia(2013)",
-                "description": "Le avventure dell'imprevedibile famiglia Martini capitanata dall'inossidabile Nonno Libero.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F5Pbz2PI4BETeEpxE4ikrL2zCpGw.jpg&w=3840&q=75",
-                "channel": "rai-premium"
-            },
-            {
                 "start": "2026-05-22T13:25:00.000000Z",
                 "end": "2026-05-22T14:15:00.000000Z",
                 "title": "Un medico in famiglia(2013)",
@@ -2554,24 +2131,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:48:00.000000Z",
-                "end": "2026-05-22T11:51:00.000000Z",
-                "title": "La casa nella prateria - Ricordando il passato(1983)",
-                "description": "La casa nella prateria - Ricordando il passato è un film per la televisione del 1983, tratto dall'om...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fl%2F614c275043f4940d8972d930%2F614c275043f4940d8972d930_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
-                "start": "2026-05-22T11:51:00.000000Z",
-                "end": "2026-05-22T12:49:00.000000Z",
-                "title": "La signora del West(1993)",
-                "description": "La serie è ambientata nell'anno 1867 e si focalizza su una donna medico di Boston, Massachusetts, Mi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FtXJf6radpACrCQPYIU0ARFsVV7z.jpg&w=3840&q=75",
-                "channel": "mediaset-27"
-            },
-            {
                 "start": "2026-05-22T12:49:00.000000Z",
                 "end": "2026-05-22T13:40:00.000000Z",
                 "title": "La signora del West(1993)",
@@ -2715,42 +2274,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:19:00.000000Z",
-                "end": "2026-05-22T10:18:00.000000Z",
-                "title": "Cherry Season - La stagione del cuore(2014)",
-                "description": "Öykü, una giovane ragazza il cui sogno più grande è fare la stilista, abita con la madre e il fratel...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdISG8n6sV8nRawZgfMeyEdZYUYI.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
-            {
-                "start": "2026-05-22T10:18:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "La forza di una donna(2019)",
-                "description": "La storia di madre Bahar, che porta nel cuore il peso e l'amore di due figli, con entusiasmo. Bahar,...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F87jtXEQrDGgRTbbYiDvqYWcOFWp.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:49:00.000000Z",
-                "title": "Beautiful",
-                "description": "Hope rassicura Brooke sullo stato di Beth, ma Brooke punta ai sentimenti di Hope per Finn. Steffy ce...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F29%2Fbeautiful%2F5.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
-            {
-                "start": "2026-05-22T11:49:00.000000Z",
-                "end": "2026-05-22T13:20:00.000000Z",
-                "title": "Uomini e donne",
-                "description": "Il dating show che racconta l'amore in chiave contemporanea, tra tronisti giovani e partecipanti ove...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF314092401015901%2Fmedia%2F27%2F91%2F4fc1498b-e980-408f-8e78-9015c472c861%2F2a418fec-c239-40bf-aad0-30529466f7d5.jpg&w=3840&q=75",
-                "channel": "la-5"
-            },
             {
                 "start": "2026-05-22T13:20:00.000000Z",
                 "end": "2026-05-22T14:15:00.000000Z",
@@ -2914,42 +2437,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Svuoto casa...tutto all'asta!",
-                "description": "Un'enorme collezione di vinili rock classico ottiene un sacco di offerte.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fsvuoto-casatutto-allasta%2F5.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Cortesie per gli ospiti",
-                "description": "I giudici sono a Palermo per una sfida tra una coppia di fidanzati e una di fratelli.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fcortesie-per-gli-ospiti%2F5.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "Cortesie per gli ospiti",
-                "description": "Fratelli contro sorelle in una sfida carica di passione e sport.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fcortesie-per-gli-ospiti%2F5.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T13:50:00.000000Z",
-                "title": "Casa a prima vista",
-                "description": "Nadia Blasco e Corrado riusciranno a realizzare il sogno di una casa di proprieta' per un giovane ra...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F37%2Fcasa-a-prima-vista%2F6.jpg&w=3840&q=75",
-                "channel": "real-time"
-            },
-            {
                 "start": "2026-05-22T13:50:00.000000Z",
                 "end": "2026-05-22T14:55:00.000000Z",
                 "title": "Casa a prima vista",
@@ -3103,24 +2590,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:25:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "I professionisti(1966)",
-                "description": "Un ricco possidente americano ordina ad un gruppo di mercenari di riportargli la moglie, rapita da u...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fi%2F5e78de44ce1e246c511cd381%2F5e78de44ce1e246c511cd381_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "la7-cinema"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T13:40:00.000000Z",
-                "title": "Quel treno per Yuma(1957)",
-                "description": "I casi della vita obbligano un povero contadino a sostituirsi allo sceriffo per scortare un pericolo...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F7B26BW9ec2atiGwCkJJZ5POR4wC.jpg&w=3840&q=75",
-                "channel": "la7-cinema"
-            },
-            {
                 "start": "2026-05-22T13:40:00.000000Z",
                 "end": "2026-05-22T15:45:00.000000Z",
                 "title": "Haunting - Presenze(1999)",
@@ -3201,33 +2670,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:57:00.000000Z",
-                "end": "2026-05-22T11:07:00.000000Z",
-                "title": "Distretto di Polizia(2006)",
-                "description": "Le vicende di Distretto di Polizia scorrono nelle stanze del X Tuscolano, commissariato della perife...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6a6tiGpZaaHSA5nMvMN1GWjYcHi.jpg&w=3840&q=75",
-                "channel": "mediaset-extra"
-            },
-            {
-                "start": "2026-05-22T11:07:00.000000Z",
-                "end": "2026-05-22T12:15:00.000000Z",
-                "title": "Distretto di Polizia(2006)",
-                "description": "Le vicende di Distretto di Polizia scorrono nelle stanze del X Tuscolano, commissariato della perife...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F6a6tiGpZaaHSA5nMvMN1GWjYcHi.jpg&w=3840&q=75",
-                "channel": "mediaset-extra"
-            },
-            {
-                "start": "2026-05-22T12:15:00.000000Z",
-                "end": "2026-05-22T13:19:00.000000Z",
-                "title": "Carabinieri(2002)",
-                "description": "La serie televisiva racconta le vicende dei carabinieri dislocati nella piccola caserma di Città del...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d818ce1e246c511cb68a_b_8_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-extra"
-            },
             {
                 "start": "2026-05-22T13:19:00.000000Z",
                 "end": "2026-05-22T14:28:00.000000Z",
@@ -3363,33 +2805,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:52:00.000000Z",
-                "end": "2026-05-22T10:48:00.000000Z",
-                "title": "Rizzoli & Isles(2012)",
-                "description": "Per risolvere i casi Jane Rizzoli, detective di Boston, si avvale della collaborazione di Maura Isle...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FsuL7cJdywRnTmsT1RNjE78iJTsG.jpg&w=3840&q=75",
-                "channel": "topcrime"
-            },
-            {
-                "start": "2026-05-22T10:48:00.000000Z",
-                "end": "2026-05-22T11:46:00.000000Z",
-                "title": "C.S.I. Miami(2006)",
-                "description": "Si tratta del primo spin-off della serie TV CSI - Scena del crimine, le cui vicende ruotano attorno ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbhG1XJ1fubbZkLnoBAxNrzzGXOg.jpg&w=3840&q=75",
-                "channel": "topcrime"
-            },
-            {
-                "start": "2026-05-22T11:46:00.000000Z",
-                "end": "2026-05-22T12:47:00.000000Z",
-                "title": "C.S.I. Miami(2006)",
-                "description": "Si tratta del primo spin-off della serie TV CSI - Scena del crimine, le cui vicende ruotano attorno ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbhG1XJ1fubbZkLnoBAxNrzzGXOg.jpg&w=3840&q=75",
-                "channel": "topcrime"
-            },
             {
                 "start": "2026-05-22T12:47:00.000000Z",
                 "end": "2026-05-22T13:44:00.000000Z",
@@ -3570,42 +2985,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2Fdiscovery.png&w=128&q=100",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T10:15:00.000000Z",
-                "title": "Acquari di famiglia",
-                "description": "La Snap On Tools ha bisogno di un gigantesco acquario per la loro convention annuale. Inoltre, il ri...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F22%2Facquari-di-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "discovery"
-            },
-            {
-                "start": "2026-05-22T10:15:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "Acquari di famiglia",
-                "description": "Il \"Thumb\", un distributore di benzina, ha deciso di rinnovare i locali del bar e ha chiesto all'Acr...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F22%2Facquari-di-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "discovery"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Acquari di famiglia",
-                "description": "Per il giorno di Natale, Wayde e Brett incontrano la pop star australiana Alli Simpson, che ha inten...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F22%2Facquari-di-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "discovery"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T13:20:00.000000Z",
-                "title": "Acquari di famiglia",
-                "description": "Wayde e Brett arrivano a Dubai per occuparsi di due straordinari habitat sottomarini davvero fuori d...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F22%2Facquari-di-famiglia%2F5.jpg&w=3840&q=75",
-                "channel": "discovery"
-            },
             {
                 "start": "2026-05-22T13:20:00.000000Z",
                 "end": "2026-05-22T14:25:00.000000Z",
@@ -3814,24 +3193,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T12:15:00.000000Z",
-                "title": "Border Security: acque di confine",
-                "description": "Gli agenti lavorano per proteggere i mari e i fiumi degli USA.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Fborder-security-acque-di-confine%2F5.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
-                "start": "2026-05-22T12:15:00.000000Z",
-                "end": "2026-05-22T13:10:00.000000Z",
-                "title": "Affari a tutti i costi",
-                "description": "Jesse sa che non si diventa ricchi se non si azzarda un po' e cosi' scommette su un rischioso conten...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F44%2Faffari-a-tutti-i-costi%2F0.jpg&w=3840&q=75",
-                "channel": "dmax"
-            },
-            {
                 "start": "2026-05-22T13:10:00.000000Z",
                 "end": "2026-05-22T14:05:00.000000Z",
                 "title": "Affari al buio - Texas",
@@ -3957,78 +3318,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:24:00.000000Z",
-                "end": "2026-05-22T09:53:00.000000Z",
-                "title": "What's my Destiny Dragon Ball",
-                "description": "Dragon Ball Z narra le avventure di Goku, ormai divenuto adulto, il quale si è sposato con Chichi e ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fydf1CeiBLfdxiyNTpskM0802TKl.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T09:53:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "The Goldbergs",
-                "description": "Prima che esistessero blog, premi di partecipazione e allergie alle arachidi, esistevano i semplici ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvr2pasVUtMvpsWW8BhFBPbYiOl3.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "The Goldbergs",
-                "description": "Prima che esistessero blog, premi di partecipazione e allergie alle arachidi, esistevano i semplici ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvr2pasVUtMvpsWW8BhFBPbYiOl3.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:17:00.000000Z",
-                "title": "The Goldbergs",
-                "description": "Prima che esistessero blog, premi di partecipazione e allergie alle arachidi, esistevano i semplici ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvr2pasVUtMvpsWW8BhFBPbYiOl3.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T11:17:00.000000Z",
-                "end": "2026-05-22T11:47:00.000000Z",
-                "title": "The Goldbergs",
-                "description": "Prima che esistessero blog, premi di partecipazione e allergie alle arachidi, esistevano i semplici ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvr2pasVUtMvpsWW8BhFBPbYiOl3.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T11:47:00.000000Z",
-                "end": "2026-05-22T12:14:00.000000Z",
-                "title": "The Goldbergs",
-                "description": "Prima che esistessero blog, premi di partecipazione e allergie alle arachidi, esistevano i semplici ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvr2pasVUtMvpsWW8BhFBPbYiOl3.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T12:14:00.000000Z",
-                "end": "2026-05-22T12:39:00.000000Z",
-                "title": "Young Sheldon(2017)",
-                "description": "Sheldon Cooper, un giovane genio del Texas orientale, all'età di nove anni si trova a frequentare il...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78de4cce1e246c511cd3a4_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
-            {
-                "start": "2026-05-22T12:39:00.000000Z",
-                "end": "2026-05-22T13:02:00.000000Z",
-                "title": "Young Sheldon(2017)",
-                "description": "Sheldon Cooper, un giovane genio del Texas orientale, all'età di nove anni si trova a frequentare il...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78de4cce1e246c511cd3a4_b_5_rs_600.jpg&w=3840&q=75",
-                "channel": "mediaset-italia-due"
-            },
             {
                 "start": "2026-05-22T13:02:00.000000Z",
                 "end": "2026-05-22T13:33:00.000000Z",
@@ -4318,24 +3607,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:45:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "L'ispettore Barnaby(1997)",
-                "description": "L'ispettore capo Tom Barnaby della polizia di Midsomer e il suo fidato sergente, Gavin Troy, , devon...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d865ce1e246c511cb7ec_b_23_rs_600.jpg&w=3840&q=75",
-                "channel": "giallo"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T13:55:00.000000Z",
-                "title": "Capitaine Marleau(2015)",
-                "description": "Capitaine Marleau ruota intorno a una investigatrice eccezionale. È davvero brillante e non ne sbagl...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5ed92ccc1cc40417c605775a_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "giallo"
-            },
-            {
                 "start": "2026-05-22T13:55:00.000000Z",
                 "end": "2026-05-22T16:10:00.000000Z",
                 "title": "L'ispettore Barnaby(1997)",
@@ -4443,51 +3714,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Friends(2000)",
-                "description": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fm3Jev59mJLyUp5bXhY5SVfIBZI0.jpg&w=3840&q=75",
-                "channel": "cielo"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Friends(2000)",
-                "description": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fm3Jev59mJLyUp5bXhY5SVfIBZI0.jpg&w=3840&q=75",
-                "channel": "cielo"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T11:15:00.000000Z",
-                "title": "Friends(2000)",
-                "description": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fm3Jev59mJLyUp5bXhY5SVfIBZI0.jpg&w=3840&q=75",
-                "channel": "cielo"
-            },
-            {
-                "start": "2026-05-22T11:15:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Friends(2000)",
-                "description": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fm3Jev59mJLyUp5bXhY5SVfIBZI0.jpg&w=3840&q=75",
-                "channel": "cielo"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "MasterChef Italia",
-                "description": "Ep21 di 24 - La finale e' sempre piu' vicina per Amelia, Paolo, Nicolo' e Stefano. Gli aspiranti Mas...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F6f98d62a-c93f-4c51-83f8-6cf406e622e2%2Fbackground%2F600&w=3840&q=75",
-                "channel": "cielo"
-            },
             {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T14:15:00.000000Z",
@@ -4632,51 +3858,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:40:00.000000Z",
-                "end": "2026-05-22T10:10:00.000000Z",
-                "title": "Cucina senza tempo",
-                "description": "Profumo d'estate in tavola: due specialita' di mare per le grandi occasioni.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fcucina-senza-tempo%2F2.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Cucina senza tempo",
-                "description": "I cavalli di battaglia di Federico: i piatti che gli vengono sempre richiesti.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fcucina-senza-tempo%2F2.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "Luca Pappagallo cucina: sogliatine alle mele, torta di zucchine, pizzette.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "Luca Pappagallo prepara ricette toscane: trippa alla fiorentina e e pappa al pomodoro.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T12:45:00.000000Z",
-                "title": "In cucina con Luca Pappagallo",
-                "description": "Luca Pappagallo prepara paccheri al coccio, pasta con baccala' e pasta alla carlofortina.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F92%2Fin-cucina-con-luca-pappagallo%2F6.jpg&w=3840&q=75",
-                "channel": "foodnetwork"
-            },
             {
                 "start": "2026-05-22T12:45:00.000000Z",
                 "end": "2026-05-22T13:25:00.000000Z",
@@ -4930,69 +4111,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:25:00.000000Z",
-                "end": "2026-05-22T09:55:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "Una coppia ha vinto 1,6 milioni di dollari a Las Vegas e ora ha deciso di sposarsi e di iniziare una...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "Un uomo ha vinto 10 milioni di dollari con un gratta e vinci e ora cerca una meravigliosa casa sul l...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "David aiuta una coppia del Montana a spendere la loro vincita di un milione di dollari. Il marito vu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "Un senzatetto della Louisiana, costretto a dormire sul divano a casa del figlio, ha vinto 2 milioni ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "Una coppia in pensione, che ha vinto un milione di dollari alla lotteria, vuole seguire alcuni amici...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "Quando una madre single vince 750.000 dollari con un gratta e vinci, David Bromstad la aiuta a cerca...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Ho vinto la casa alla lotteria",
-                "description": "David Bromstad aiuta un giocatore di poker e la sua famiglia a trovare la casa dei sogni a Forth Wor...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F59%2Fho-vinto-la-casa-alla-lotteria%2F0.jpg&w=3840&q=75",
-                "channel": "home-and-garden-tv"
-            },
-            {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T13:15:00.000000Z",
                 "title": "Ho vinto la casa alla lotteria",
@@ -5163,51 +4281,6 @@
         "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/rai/rai-premium/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "Santa Messa da Cascia",
-                "description": "Santa Messa da Cascia - Santa Messa da Cascia.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Fsanta-messa-da-cascia%2F0.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Tg2000",
-                "description": "Tg2000 - Notiziario",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Ftg-2000%2F5.png&w=3840&q=75",
-                "channel": "tv2000"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Supplica a Santa Rita",
-                "description": "Supplica a Santa Rita - Supplica a Santa Rita da Cascia",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Fsupplica-a-santa-rita%2F0.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "L'ora solare",
-                "description": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e do...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F52%2Fl-ora-solare%2F1.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T14:00:00.000000Z",
-                "title": "La Madre(1998)",
-                "description": "La Madre - Regia di P. Sanchez (1998). Maria Luisa, cameriera e madre di cinque figli abbandonata da...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FcrWTXji5eO6iwY7UXVpAP29nMfk.jpg&w=3840&q=75",
-                "channel": "tv2000"
-            },
             {
                 "start": "2026-05-22T14:00:00.000000Z",
                 "end": "2026-05-22T14:15:00.000000Z",
@@ -5415,69 +4488,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T10:05:00.000000Z",
-                "title": "Sardegna Experience - Stag. 3 Ep. 3",
-                "description": "S3 Ep3 Arborea - Lo chef Luigi Pomata alla scoperta dei prodotti, dell'artigianato, dei luoghi e dei...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fsardegna-experience%2F5.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T10:05:00.000000Z",
-                "end": "2026-05-22T10:35:00.000000Z",
-                "title": "L'Isola del Barone",
-                "description": "Il Barono prepara polpette di ceci e la versione della zia Nella.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fl-isola-del-barone%2F6.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T10:35:00.000000Z",
-                "end": "2026-05-22T11:05:00.000000Z",
-                "title": "Beker on Tour Veneto Grill Edition - Stag. 36 Ep. 5 - Finte piadine di tacchino",
-                "description": "S36 Ep5 Finte piadine di tacchino - Fabrizio Nonis 'El Beker', il vostro macellaio di fiducia, in un...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fbeker-on-tour%2F10.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T11:05:00.000000Z",
-                "end": "2026-05-22T11:35:00.000000Z",
-                "title": "Parola di chef - Stag. 12 Ep. 27 - Angelo Tantucci",
-                "description": "S12 Ep27 Angelo Tantucci - Una generazione di giovani chef si racconta in una serie tv: la passione,...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fparola-di-chef%2F10.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T11:35:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "Il gusto di Igles",
-                "description": "Ep7 di 12 La quaglia - Igles Corelli: un grande chef per consigliarvi ricette semplici e gustose rea...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-gusto-di-igles%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "Il mio piatto preferito",
-                "description": "Ep16 di 24 Pierfrancesco Favino - Metti un vip a cena con il piatto di un grande chef: curiosita' ga...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F524%2Fil-mio-piatto-preferito%2F0.jpg&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T13:10:00.000000Z",
-                "title": "Max cucina l'estate",
-                "description": "Ep2 di 6 Hummus / Cannelloni / Triglie - Dal terrazzo della casa di sua madre, a Nettuno, Max ci pro...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F87396d8f-43ef-466e-b769-0ea4146a2146%2Fbackground%2F600&w=3840&q=75",
-                "channel": "gambero-rosso"
-            },
             {
                 "start": "2026-05-22T13:10:00.000000Z",
                 "end": "2026-05-22T13:40:00.000000Z",
@@ -5740,51 +4750,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Affari al buio",
-                "description": "Ep21 di 30 Specchietti per le allodole - Nuove aste, nuove battaglie all'ultima offerta. I cacciator...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F35cfec42-5db4-47b5-a605-8a42020ead12%2Fbackground%2F600&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Affari al buio",
-                "description": "Ep22 di 30 Un piccolo animale.. - Nuove aste, nuove battaglie all'ultima offerta. I cacciatori d'aff...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fb9323be7-6b39-4cd7-b8cb-63455324b5f3%2Fbackground%2F600&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Affari di famiglia",
-                "description": "Ep1 - Rick visita New York per dare un'occhiata a una stesura originale della Dichiarazione d'indipe...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FzzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T12:35:00.000000Z",
-                "title": "Affari Di Famiglia",
-                "description": "S25 Ep5 di 6 Baseball mania - Rick punta ai trofei di una leggenda del baseball, mentre Chum e' abba...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2Fd662cbaf-91d6-46bd-92f0-d55c50ff64ce%2Fbackground%2F600&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
-                "start": "2026-05-22T12:35:00.000000Z",
-                "end": "2026-05-22T13:25:00.000000Z",
-                "title": "Enigmi Alieni",
-                "description": "Ep3 di 13 Incontri ravvicinati - Nel 2017, uno strano oggetto era entrato nel nostro sistema solare ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F639%2Fenigmi-alien%2F0.jpg&w=3840&q=75",
-                "channel": "history-channel"
-            },
-            {
                 "start": "2026-05-22T13:25:00.000000Z",
                 "end": "2026-05-22T14:25:00.000000Z",
                 "title": "Seconda Guerra a colori: la...",
@@ -5973,60 +4938,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Grandi Progetti(2021)",
-                "description": "Alla scoperta di case inusuali e dalle caratteristiche architettoniche insolite, Kevin McCloud segue...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Fgrandi-progetti%2F0.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T11:05:00.000000Z",
-                "title": "Monk(2007)",
-                "description": "Adrian Monk è un detective del dipartimento di polizia di San Francisco. In seguito all'omicidio di ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FdMY7XUfEAK0Rl8hsgc8ufEOaiZ2.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2026-05-22T11:05:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Friends(2000)",
-                "description": "Una delle commedie televisive più amate di sempre su un gruppo di sei amici trentenni, la trama si s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fm3Jev59mJLyUp5bXhY5SVfIBZI0.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T11:45:00.000000Z",
-                "title": "Telegiornale",
-                "description": "Le notizie di mezza giornata",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Ftelegiornale%2F6.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2026-05-22T11:45:00.000000Z",
-                "end": "2026-05-22T11:55:00.000000Z",
-                "title": "Meteo regionale",
-                "description": "I colori del tempo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F90%2Fmeteo-regionale%2F5.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
-            {
-                "start": "2026-05-22T11:55:00.000000Z",
-                "end": "2026-05-22T13:20:00.000000Z",
-                "title": "Nei Tuoi Panni(2024)",
-                "description": "Michelle e James faticano a districarsi tra vita famigliare e professionale. Senza tempo da dedicare...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F5ajeAefRJxJ0xlzqWpOvP6J79zh.jpg&w=3840&q=75",
-                "channel": "rsi-la1"
-            },
             {
                 "start": "2026-05-22T13:20:00.000000Z",
                 "end": "2026-05-22T13:40:00.000000Z",
@@ -6235,51 +5146,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "linguanostra",
-                "description": "La lingua italiana non smette mai di sorprendere. linguanostra è la trasmissione che ogni giorno, da...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Flinguanostra%2F0.png&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Millestorie Mondiali",
-                "description": "A cura di Stefano Ferrando e Fabrizio Gabrielli",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Fmillestorie-mondiali%2F1.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T11:35:00.000000Z",
-                "title": "Ci vediamo venerdì",
-                "description": "con S. Savoia e D. Rauseo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Fci-vediamo-venerdi%2F5.png&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2026-05-22T11:35:00.000000Z",
-                "end": "2026-05-22T12:35:00.000000Z",
-                "title": "Siamo fuori (R)",
-                "description": "in diretta con Carlotta Gallino, Davide Riva e Christian Frapolli",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Fsiamo-fuori%2F6.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
-                "start": "2026-05-22T12:35:00.000000Z",
-                "end": "2026-05-22T13:30:00.000000Z",
-                "title": "L'orsetto lavatore(2021)",
-                "description": "Re della sopravvivenza\ndi Emma Baus",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F91%2Fl-orsetto-lavatore%2F0.jpg&w=3840&q=75",
-                "channel": "rsi-la2"
-            },
-            {
                 "start": "2026-05-22T13:30:00.000000Z",
                 "end": "2026-05-22T16:20:00.000000Z",
                 "title": "Ciclismo: Giro d'Italia 2026 - Alessandria - Verbania",
@@ -6415,51 +5281,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "Si Live 24",
-                "description": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tut...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsi-live-24%2F5.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Si Live 24",
-                "description": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tut...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsi-live-24%2F5.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "Sportitaliamercato",
-                "description": "Il programma tratta le vicende del calciomercato sia nella sessione estiva che in quella invernale e...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsportitaliamercato%2F1.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Si Live 24",
-                "description": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tut...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsi-live-24%2F5.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T13:00:00.000000Z",
-                "title": "Si Live 24",
-                "description": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tut...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F63%2Fsi-live-24%2F5.jpg&w=3840&q=75",
-                "channel": "sportitalia"
-            },
-            {
                 "start": "2026-05-22T13:00:00.000000Z",
                 "end": "2026-05-22T13:30:00.000000Z",
                 "title": "Blab Live",
@@ -6568,15 +5389,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T11:59:00.000000Z",
-                "end": "2026-05-22T13:58:00.000000Z",
-                "title": "Vidocq(2001)",
-                "description": "Parigi 1830. Nel cuore della città, Vidocq, un fsamoso detective, scompare mentre da alcuni mesi sta...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fv%2F5e78dd3ace1e246c511cce3c%2F5e78dd3ace1e246c511cce3c_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "iris"
-            },
-            {
                 "start": "2026-05-22T13:58:00.000000Z",
                 "end": "2026-05-22T15:46:00.000000Z",
                 "title": "Land Shark: Rischio a Wall Street(2008)",
@@ -6666,15 +5478,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T11:39:00.000000Z",
-                "end": "2026-05-22T13:56:00.000000Z",
-                "title": "Il giudice Mastrangelo(2007)",
-                "description": "Diego Abatantuono interpreta il giudice Diego Mastrangelo, tornato nella sua terra, il Salento, dopo...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FbnrH3049MAIJqiXvpnpWoidC94c.jpg&w=3840&q=75",
-                "channel": "cine-34"
-            },
             {
                 "start": "2026-05-22T13:56:00.000000Z",
                 "end": "2026-05-22T16:04:00.000000Z",
@@ -6774,24 +5577,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T11:10:00.000000Z",
-                "title": "Shaft(2000)",
-                "description": "Il detective John Shaft, nipote del più celebre detective omonimo, cerca di assicurare alla giustizi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Ffilm_new%2Fs%2F5e78dd17ce1e246c511ccd93%2F5e78dd17ce1e246c511ccd93_b_7_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-movie"
-            },
-            {
-                "start": "2026-05-22T11:10:00.000000Z",
-                "end": "2026-05-22T13:05:00.000000Z",
-                "title": "Il Clan dei Marsigliesi(1972)",
-                "description": "Marsiglia, anni Trenta. Robert, noto come \"Lo scomunicato\" è legato da una forte amicizia a Xavier e...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FjllzejX8VvHCLsrZLWN9G26PRQV.jpg&w=3840&q=75",
-                "channel": "rai-movie"
-            },
             {
                 "start": "2026-05-22T13:05:00.000000Z",
                 "end": "2026-05-22T15:00:00.000000Z",
@@ -6900,51 +5685,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:19:00.000000Z",
-                "end": "2026-05-22T10:11:00.000000Z",
-                "title": "Meteo impazzito: le top ten",
-                "description": "I fenomeni meteorologici piu' bizzarri e rari mai visti. Madre natura sa sempre sorprendere!",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fc1tfQoCQ9iJtuffqKgLo7zGx2gh.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
-            {
-                "start": "2026-05-22T10:11:00.000000Z",
-                "end": "2026-05-22T11:04:00.000000Z",
-                "title": "Storie segrete",
-                "description": "Il relitto du una nave in Inghilterra; la sospetta distruzione di un'antica citta' greca; una chiesa...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF313783701000504%2Fmedia%2F2%2F2%2F5ffb6abc-aceb-4f33-a475-c462db213612%2F91b72df8-6905-4e43-9d8f-a4976b17f083.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
-            {
-                "start": "2026-05-22T11:04:00.000000Z",
-                "end": "2026-05-22T11:33:00.000000Z",
-                "title": "E-Planet",
-                "description": "Appuntamento con il Magazine Green all'insegna della sostenibilita'.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF314224501001901%2Fmedia%2F22%2F86%2F2ab6b7f0-1457-4e1f-8f55-f194d4493854%2F0ea0ef62-0178-410e-beac-ea692c7863ab.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
-            {
-                "start": "2026-05-22T11:33:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "Drive Up",
-                "description": "Magazine di motori che ci guida tra supercar e auto da sogno, approfondimenti sui modelli piu' recen...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F21%2Fdrive-up%2F5.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T13:14:00.000000Z",
-                "title": "Viva i brutti! - La bellezza nascosta degli animali",
-                "description": "In un mondo di animali cosi' adorabili, giocosi, a volte goffi e persino un po' comici, ci sono anch...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fstatic2.mediasetplay.mediaset.it%2FMediaset_Italia_Production_-_Main%2FF313792101000104%2Fmedia%2F24%2F88%2Fa2cb7ad9-114e-4784-9942-1cd0a190a6f1%2Fa0ffeef8-b8f4-4c28-9562-a58117d3c767.jpg&w=3840&q=75",
-                "channel": "focus"
-            },
             {
                 "start": "2026-05-22T13:14:00.000000Z",
                 "end": "2026-05-22T14:17:00.000000Z",
@@ -7117,24 +5857,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T11:10:00.000000Z",
-                "title": "Vintage Garage",
-                "description": "FranCois Allain seleziona la migliore officina per restaurare auto famose.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fgv9ufwcIb03mt0kmOOhGBDM0djX.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
-                "start": "2026-05-22T11:10:00.000000Z",
-                "end": "2026-05-22T12:45:00.000000Z",
-                "title": "Vintage Garage",
-                "description": "FranCois Allain seleziona la migliore officina per restaurare auto famose.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fgv9ufwcIb03mt0kmOOhGBDM0djX.jpg&w=3840&q=75",
-                "channel": "motor-trend"
-            },
-            {
                 "start": "2026-05-22T12:45:00.000000Z",
                 "end": "2026-05-22T13:55:00.000000Z",
                 "title": "Salt Lake Garage",
@@ -7260,87 +5982,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T10:00:00.000000Z",
-                "title": "Start",
-                "description": "Tutte le mattine, dal nostro studio in Piazza Montecitorio, Giovanna Pancheri incontra i politici, i...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F3f4272e1-1ae5-40e4-92bb-fa06424a33f6%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "TG24 mezz'ora",
-                "description": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F20%2Ftg24-mezz-ora%2F1.jpg&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "TG24 Preview",
-                "description": "TG24 Preview",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F1435d750-95d0-4ad2-86df-5a12a9145183%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "TG24 Business",
-                "description": "Il nuovo appuntamento quotidiano per approfondire i temi della attualità finanziaria ed economica, i...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F2f9ddee0-4e64-4b44-b0e7-f031825ae4d5%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Il TG di Mezzogiorno",
-                "description": "Telegiornale in diretta. La domanda del giorno, lo Sport, il Meteo.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F65a502a6-c03f-4a15-b260-4442210fafa6%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T11:55:00.000000Z",
-                "title": "TG24 mezz'ora",
-                "description": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F20%2Ftg24-mezz-ora%2F1.jpg&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T11:55:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "TG24 Preview",
-                "description": "TG24 Preview",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F1435d750-95d0-4ad2-86df-5a12a9145183%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Ore 13",
-                "description": "Telegiornale in diretta. Le notizie della giornata raccontate con collegamenti live e approfondiment...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F72025f36-48ae-4177-9000-b60681dc9aff%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Ore 13",
-                "description": "Telegiornale in diretta. Le notizie della giornata raccontate con collegamenti live e approfondiment...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fethaneurope.it.imageservice.sky.com%2Fpd-image%2F72025f36-48ae-4177-9000-b60681dc9aff%2Fbackground%2F600&w=3840&q=75",
-                "channel": "sky-tg24"
-            },
             {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T13:00:00.000000Z",
@@ -7720,69 +6361,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:43:00.000000Z",
-                "end": "2026-05-22T09:54:00.000000Z",
-                "title": "Tgcom24",
-                "description": "Tgcom24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftgcom24%2F6.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T09:54:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "Tgcom24 diretta 2026",
-                "description": "Tgcom24 diretta 2026",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftgcom24-diretta%2F6.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T10:55:00.000000Z",
-                "title": "Tgcom24 diretta 2026",
-                "description": "Tgcom24 diretta 2026",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftgcom24-diretta%2F6.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "Tg4",
-                "description": "Informazione quotidiana con le notizie dall'Italia e dal mondo per il telegiornale di Rete 4. A segu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftg4%2F5.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T11:58:00.000000Z",
-                "title": "Studio Aperto",
-                "description": "Notizie e approfondimenti in diretta sui temi di attualita' quotidiani a cura della redazione giorna...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Fstudio-aperto%2F5.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T11:58:00.000000Z",
-                "end": "2026-05-22T12:34:00.000000Z",
-                "title": "Tg5",
-                "description": "Le notizie piu' importanti, nazionali e internazionali, con approfondimenti e rubriche, a cura della...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Ftg5%2F4.png&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
-                "start": "2026-05-22T12:34:00.000000Z",
-                "end": "2026-05-22T13:16:00.000000Z",
-                "title": "Sport Mediaset",
-                "description": "Approfondimento quotidiano in diretta sul mondo del calcio e dello sport a cura della redazione gior...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F10473%2Fsport-mediaset%2F6.jpg&w=3840&q=75",
-                "channel": "tgcom24"
-            },
-            {
                 "start": "2026-05-22T13:16:00.000000Z",
                 "end": "2026-05-22T13:21:00.000000Z",
                 "title": "Sport Mediaset",
@@ -8124,96 +6702,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "Titoli + News",
-                "description": "Titoli + News",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Ftitoli-news%2F6.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T10:35:00.000000Z",
-                "title": "TG LIS",
-                "description": "TG LIS",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Ftg-lis%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T10:35:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Cronache Dall'Italia",
-                "description": "Cronache dall'Italia",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fcronache-dall-italia%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Focus 24",
-                "description": "Focus 24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Ffocus-24%2F7.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "News",
-                "description": "News",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fnews%2F7.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "Sport 24",
-                "description": "Sport 24",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fsport-24%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:26:00.000000Z",
-                "title": "News + Titoli",
-                "description": "News + Titoli",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fnews-titoli%2F5.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T12:26:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Meteo",
-                "description": "Meteo",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fmeteo%2F0.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "Tg In Inglese",
-                "description": "Tg In Inglese",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Ftg-in-inglese%2F0.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T13:00:00.000000Z",
-                "title": "SAPORI E COLORI PRIMA EMISSIONE",
-                "description": "SAPORI E COLORI PRIMA EMISSIONE",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F4%2Fsapori-e-colori-prima-emissione%2F0.jpg&w=3840&q=75",
-                "channel": "rai-news-24"
-            },
             {
                 "start": "2026-05-22T13:00:00.000000Z",
                 "end": "2026-05-22T13:30:00.000000Z",
@@ -8610,150 +7098,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:30:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Robin scopre che qualcuno ha rubato il suo sandwich perfetto e inizia ad indagare",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T09:50:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Robin si prepara a concorrere alle elezioni del nuovo team leader ma gioca slealmente per attirare v...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T09:50:00.000000Z",
-                "end": "2026-05-22T10:00:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:15:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T10:15:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T10:40:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T10:40:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "Robin si lamenta con gli altri Titans perche'passano troppo tempo chiusi in bagno",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:05:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T11:05:00.000000Z",
-                "end": "2026-05-22T11:15:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T11:15:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T11:55:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T11:55:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "Teen Titans Go!",
-                "description": "I supereroi compagni di stanza Robin, Stella, Corvina, Bibi e Cyborg proteggono Jump City dai malvag...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d817ce1e246c511cb682_b_8_rs_600.png&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Uncle Grandpa",
-                "description": "La banda va fuori di testa dopo aver provato ripetutamente ad aprire un pacco misterioso senza succe...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78da0dce1e246c511cbf7a_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T12:35:00.000000Z",
-                "title": "Uncle Grandpa",
-                "description": "Le cose sfuggono di mano quando Andrew W. K. aiuta Pizza Steve e Mr Gus a organizzare una festa ment...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78da0dce1e246c511cbf7a_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "boing"
-            },
-            {
-                "start": "2026-05-22T12:35:00.000000Z",
-                "end": "2026-05-22T12:45:00.000000Z",
-                "title": "Uncle Grandpa",
-                "description": "Quando l'albero dentro il camper inizia a parlare ad Uncle Grandpa, egli deve convincere i suoi amic...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78da0dce1e246c511cbf7a_b_3_rs_600.jpg&w=3840&q=75",
-                "channel": "boing"
-            },
             {
                 "start": "2026-05-22T12:45:00.000000Z",
                 "end": "2026-05-22T12:55:00.000000Z",
@@ -9367,114 +7711,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:25:00.000000Z",
-                "end": "2026-05-22T09:40:00.000000Z",
-                "title": "Best and Bester",
-                "description": "1' Stagione Ep.8 - Due gemelli sono in grado di trasformarsi in tutto ciò che vogliono.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F684a5147b2fbe454a0e07ff3_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T09:40:00.000000Z",
-                "end": "2026-05-22T09:55:00.000000Z",
-                "title": "Best and Bester",
-                "description": "1' Stagione Ep.9 - Due gemelli sono in grado di trasformarsi in tutto ciò che vogliono.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F684a5147b2fbe454a0e07ff3_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:10:00.000000Z",
-                "title": "Best and Bester",
-                "description": "1' Stagione Ep.10 - Due gemelli sono in grado di trasformarsi in tutto ciò che vogliono.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F684a5147b2fbe454a0e07ff3_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.6 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Seville...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.7 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Seville...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.8 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Seville...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T10:55:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.9 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Seville...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T11:05:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.10 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Sevill...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T11:05:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "2' Stagione Ep.11 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Sevill...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "Il barbiere pasticciere",
-                "description": "3' Stagione Ep.9 - Una fetta di pane è il barbiere più talentuoso del mondo. Apparentemente cinico e...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F632892a768e40ac4d7ac47b2_b_5_rs_600.png&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Il barbiere pasticciere",
-                "description": "3' Stagione Ep.10 - Una fetta di pane è il barbiere più talentuoso del mondo. Apparentemente cinico ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F632892a768e40ac4d7ac47b2_b_5_rs_600.png&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T12:45:00.000000Z",
-                "title": "Il barbiere pasticciere",
-                "description": "3' Stagione Ep.11 - Una fetta di pane è il barbiere più talentuoso del mondo. Apparentemente cinico ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F632892a768e40ac4d7ac47b2_b_5_rs_600.png&w=3840&q=75",
-                "channel": "k2"
-            },
-            {
                 "start": "2026-05-22T12:45:00.000000Z",
                 "end": "2026-05-22T13:00:00.000000Z",
                 "title": "Il barbiere pasticciere",
@@ -9933,105 +8169,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:35:00.000000Z",
-                "title": "Super Happy Magic Forest",
-                "description": "Mr. Simpaticone vuole partire per una settimana bianca, ma un drago ha rubato il suo vello d'oro e h...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FhAacOUt5oFVnCPRzsnYTfxb44xO.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T10:00:00.000000Z",
-                "title": "Mystery Lane",
-                "description": "Uno spaventoso gargoyle minaccia la quiete nei giardini reali, oggetti rari e preziosi spariscono da...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FcAZJC6Z3eoU3SrgpiMJSPACGOw7.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Mystery Lane",
-                "description": "Delle sparizioni misteriose si stanno verificando nel parco della città. McFlare chiede aiuto a Clev...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FcAZJC6Z3eoU3SrgpiMJSPACGOw7.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:35:00.000000Z",
-                "title": "Robin Hood",
-                "description": "Si narrano le avventure di Robin Hood, un ragazzino di una piccola città inglese destinato a rubare ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78e0bece1e246c511cdff4_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T10:35:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Robin Hood",
-                "description": "Si narrano le avventure di Robin Hood, un ragazzino di una piccola città inglese destinato a rubare ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78e0bece1e246c511cdff4_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Robin Hood",
-                "description": "Si narrano le avventure di Robin Hood, un ragazzino di una piccola città inglese destinato a rubare ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78e0bece1e246c511cdff4_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:15:00.000000Z",
-                "title": "Robin Hood",
-                "description": "Si narrano le avventure di Robin Hood, un ragazzino di una piccola città inglese destinato a rubare ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78e0bece1e246c511cdff4_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T11:15:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Mia And Me - L'Incanto Della Luna",
-                "description": "Per il compleanno di Mia, Sara e Luciana la sorprendono con una piccola torta. Più tardi, le ragazze...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F35%2Fmia-and-me-l-incanto-della-luna%2F0.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "Mia and Me",
-                "description": "Zia Annie è finalmente arrivata alla fattoria Poletti. La loro colazione viene interrotta da Wolfie ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fr3WY4j8e9U1PimtuzqPUN6R1UA7.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Winx Club",
-                "description": "Il cerchio bianco trovato dalle Winx e da Roxy racchiude un incredibile potere: è infatti l'ultimo p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FgPLVnGRW1lXb8wBauIG41kQkoCX.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T12:55:00.000000Z",
-                "title": "Anatane e i ragazzi di Okura",
-                "description": "In seguito a un incidente con il planef, Anatane, Nikita, Ariane e Nevina si ritrovano in Sri Lanka ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fq4iOlUAK5pT0sam2biZybuWbQUR.jpg&w=3840&q=75",
-                "channel": "rai-gulp"
-            },
             {
                 "start": "2026-05-22T12:55:00.000000Z",
                 "end": "2026-05-22T13:20:00.000000Z",
@@ -10590,258 +8727,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:30:00.000000Z",
-                "title": "Le Storie di Becco di Rame in fattoria",
-                "description": "Becco di Rame trova un gomitolo di lana e vuole tenerlo lontano dagli altri per evitare di rovinarlo...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fle-storie-di-becco-di-rame-in-fattoria%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T09:35:00.000000Z",
-                "title": "Brave Bunnies",
-                "description": "La mamma di Bop e Boo perde il cappello, ma i suoi coniglietti, aiutati dalla coraggiosa Franny, sup...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FiHmSSRZTVJLssNXzORTQtCgsJzD.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T09:40:00.000000Z",
-                "title": "Brave Bunnies",
-                "description": "Bop e Boo esplorando la pianura trovano una tana, dove vive la talpa Marvin. I due Brave Bunnies lo ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FiHmSSRZTVJLssNXzORTQtCgsJzD.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T09:40:00.000000Z",
-                "end": "2026-05-22T09:50:00.000000Z",
-                "title": "Brave Bunnies",
-                "description": "Bop e Boo vanno in spiaggia, dove incontrano Carmen il fenicottero. La loro nuova amica vuole divent...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FiHmSSRZTVJLssNXzORTQtCgsJzD.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T09:50:00.000000Z",
-                "end": "2026-05-22T09:55:00.000000Z",
-                "title": "Brave Bunnies",
-                "description": "Bop e Boo incontrano l'orso Barry nella foresta. Il loro nuovo amico deve raccogliere le bacche, ma ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FiHmSSRZTVJLssNXzORTQtCgsJzD.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T09:55:00.000000Z",
-                "end": "2026-05-22T10:10:00.000000Z",
-                "title": "Alice & Lewis",
-                "description": "La mamma, molto indaffarata, nega ad Alice il permesso di uscire, «perché è così». Alice decide dunq...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FtVR90ygfw5XmSTOEOcuzkYF4JzU.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Alice & Lewis",
-                "description": "Alice è tutta esaltata quando arriva nel Paese delle Meraviglie: ha scritto un'opera teatrale che in...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FtVR90ygfw5XmSTOEOcuzkYF4JzU.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:30:00.000000Z",
-                "title": "Alice & Lewis",
-                "description": "Alice, che è in vena di scherzi, trova Lewis nel Paese delle Meraviglie a casa del Bibliomago. Quest...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FtVR90ygfw5XmSTOEOcuzkYF4JzU.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:30:00.000000Z",
-                "end": "2026-05-22T10:40:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Nel Parco dell'Elefante c'è tanta armonia. Infatti, tutti i bambini, tra cui Lampadino e Caramella, ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:40:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Al Parco dell'Elefante, Lampadino e Caramella incontrano la loro amica Luisa che, grazie ad un picco...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T10:50:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Lampadino e Caramella corrono al Parco dell'Elefante dove incontrano il loro amico Matteo che, nella...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T10:50:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Lampadino e Caramella nel MagiRegno degli Zampa",
-                "description": "Due bambini litigano al Parco dell'Elefante perché uno accusa l'altro di avergli bucato il pallone. ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Flampadino-e-caramella-nel-magiregno-degli-zampa%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:05:00.000000Z",
-                "title": "Mini Cuccioli e i DinoCuccioli",
-                "description": "I Mini Cuccioli sono a lezione di logica nella scuola dei DinoCuccioli. La Maestra Adele fa le doman...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fmini-cuccioli-e-dinocuccioli%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:05:00.000000Z",
-                "end": "2026-05-22T11:10:00.000000Z",
-                "title": "DinoCuccioli",
-                "description": "Nella casa sull'albero, i DinoCuccioli sentono un rumore sospetto: si tratta dei nuovi arrivati, gli...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fdinocuccioli%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:10:00.000000Z",
-                "end": "2026-05-22T11:15:00.000000Z",
-                "title": "DinoCuccioli",
-                "description": "Stregonsauro vuole una statua gigante. Così i suoi scagnozzi rubano un masso che i DinoCuccioli vole...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fdinocuccioli%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:15:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "DinoCuccioli",
-                "description": "Giocando a Dinobirillo insieme con gli altri Dinocuccioli, Smilla perde la palla. Trillo si trasform...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fdinocuccioli%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "DinoCuccioli",
-                "description": "I DinoCuccioli vanno con i Dinoplani a visitare il vulcano sputa-fuoco. Stregonsauro ordina ai due s...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fdinocuccioli%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T11:35:00.000000Z",
-                "title": "Topo Tip",
-                "description": "Le vacanze sono finite, ma Tip non vuole tornare all'asilo. Così inventa ogni modo per prolungarle i...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Ftopo-tip%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:35:00.000000Z",
-                "end": "2026-05-22T11:45:00.000000Z",
-                "title": "Topo Tip",
-                "description": "Tip e Jody si rendono conto che tutti hanno un mestiere… e loro? Decidono allora di trovare il loro ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Ftopo-tip%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:45:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "Topo Tip",
-                "description": "Mentre sfogliano un album di fotografie, Tip ricorda quando gli hanno detto che avrebbe avuto una so...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Ftopo-tip%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "Topo Tip",
-                "description": "Tip trova un quadrifoglio e si convince che gli porti fortuna. In effetti, quando lo perde, sembra a...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Ftopo-tip%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:05:00.000000Z",
-                "title": "Team Nuggets - Una classe scatenata!",
-                "description": "Karla trascorre la giornata insieme a Dido a girare dei video con la sua videocamera. Nel disperato ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fteam-nuggets-una-classe-scatenata%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:05:00.000000Z",
-                "end": "2026-05-22T12:15:00.000000Z",
-                "title": "Team Nuggets - Una classe scatenata!",
-                "description": "Dopo la scuola, Karla va a giocare alla giungla a casa di Pomo. I due litigano perché vogliono entra...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fteam-nuggets-una-classe-scatenata%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:15:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Team Nuggets - Una classe scatenata!",
-                "description": "Karla è gelosa perché Dido vuole trascorrere la giornata con Molly, la sua amica immaginaria. Karla ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fteam-nuggets-una-classe-scatenata%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T12:30:00.000000Z",
-                "title": "Team Nuggets - Una classe scatenata!",
-                "description": "Gelosa di Karla, Molly, l'amica immaginaria di Dido, torna alla carica e costringe il folletto a giu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F28%2Fteam-nuggets-una-classe-scatenata%2F0.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:30:00.000000Z",
-                "end": "2026-05-22T12:35:00.000000Z",
-                "title": "Bluey",
-                "description": "Per un gioco di spionaggio, Bluey e i suoi amici costruiscono un dispositivo che controlla gli adult...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fg88VMPtog8sl8riaIRtz4U80dMK.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:35:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "Bluey",
-                "description": "Mentre sono costretti ad aspettare cinque minuti davanti a un ristorante per il loro ordine da aspor...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fg88VMPtog8sl8riaIRtz4U80dMK.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Bluey",
-                "description": "Giocare a \"Farfalle\" in giardino è molto divertente. Il gioco continua, fino a quando Bluey scappa c...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fg88VMPtog8sl8riaIRtz4U80dMK.jpg&w=3840&q=75",
-                "channel": "rai-yoyo"
-            },
             {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T12:55:00.000000Z",
@@ -11833,114 +9718,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:30:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.23 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T09:40:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.24 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T09:40:00.000000Z",
-                "end": "2026-05-22T10:00:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "1' Stagione Ep.36 - Le avventure di tre scoiattoli dalla voce incredibile, 'adottati' da Dave Sevill...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T10:25:00.000000Z",
-                "title": "Mega Game DinsiemE",
-                "description": "3' Stagione Ep.1 - I DinsiemE devono affrontare una nuova sfida.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F49%2Fmega-game-dinsieme%2F6.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T10:25:00.000000Z",
-                "end": "2026-05-22T10:55:00.000000Z",
-                "title": "Mega Game DinsiemE",
-                "description": "3' Stagione Ep.2 - I DinsiemE devono affrontare una nuova sfida.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F49%2Fmega-game-dinsieme%2F6.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T10:55:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "Mega Game DinsiemE",
-                "description": "3' Stagione Ep.3 - I DinsiemE devono affrontare una nuova sfida.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F49%2Fmega-game-dinsieme%2F6.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T11:30:00.000000Z",
-                "title": "Curioso come George",
-                "description": "9' Stagione Ep.2 - George, simpatica scimmietta, scopre ogni giorno cose sorprendenti sul funzioname...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvn9iFlwSvl8B9YE1qayrKWMxoEV.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T11:30:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "Curioso come George",
-                "description": "12' Stagione Ep.2 - Una serie basata sui libri di Margret e H. A. Rey. George, simpatica scimmietta,...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fvn9iFlwSvl8B9YE1qayrKWMxoEV.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T12:10:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.25 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T12:10:00.000000Z",
-                "end": "2026-05-22T12:25:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.26 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T12:25:00.000000Z",
-                "end": "2026-05-22T12:35:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.27 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
-                "start": "2026-05-22T12:35:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Alvinnn!!! And the Chipmunks",
-                "description": "5' Stagione Ep.28 - Proseguono le avventure dei tre fratelli scoiattoli dotati di una voce incredibi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d870ce1e246c511cb823_b_4_rs_600.jpg&w=3840&q=75",
-                "channel": "frisbee"
-            },
-            {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T13:00:00.000000Z",
                 "title": "Alvinnn!!! And the Chipmunks",
@@ -12426,114 +10203,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:25:00.000000Z",
-                "title": "Simone",
-                "description": "Mentre Simone, Gaspare, Lulu' inseguono un gatto, il felino viene catturato dal Professor Lupo. Per ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fsimone%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T09:25:00.000000Z",
-                "end": "2026-05-22T09:30:00.000000Z",
-                "title": "Simone",
-                "description": "Degli strani rumori arrivano dal bagno. Gaspare e' cosi' spaventato che Simone gli propone di indaga...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fsimone%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T09:30:00.000000Z",
-                "end": "2026-05-22T09:35:00.000000Z",
-                "title": "Simone",
-                "description": "Mentre Lulu' e Simone stanno costruendo una nuova base segreta per giocare, si alza un vento che met...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fsimone%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T09:35:00.000000Z",
-                "end": "2026-05-22T09:50:00.000000Z",
-                "title": "Simone",
-                "description": "Simone, Lulu' e Gaspare stanno giocando a palla quando questa finisce vicina alla panchina di un anz...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fsimone%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T09:50:00.000000Z",
-                "end": "2026-05-22T10:20:00.000000Z",
-                "title": "Tiny Toons Looniversity",
-                "description": "Buster non sa con chi andare al concerto della sua band preferita, cosi' il Professor Coyote gli pre...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FnRWIpNayk6lyk5Acm60qditaa3H.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T10:20:00.000000Z",
-                "end": "2026-05-22T10:45:00.000000Z",
-                "title": "Tiny Toons Looniversity",
-                "description": "Alla Acme Loo e' ora dei Giochi Baffi e Ali, un torneo in cui i gatti sfidano i pennuti. Quest'anno ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FnRWIpNayk6lyk5Acm60qditaa3H.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T10:45:00.000000Z",
-                "end": "2026-05-22T11:10:00.000000Z",
-                "title": "Blaze e le megamacchine",
-                "description": "È San Valentino! Zeg, Darington e Starla si perdono durante il viaggio verso la festa di San Valenti...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fblaze-e-le-megamacchine%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T11:10:00.000000Z",
-                "end": "2026-05-22T11:40:00.000000Z",
-                "title": "Blaze e le megamacchine",
-                "description": "Robot Blaze e Robot Sparkle entrano in azione per salvare Crusher e Pickle che si trovano a bordo di...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fblaze-e-le-megamacchine%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T11:40:00.000000Z",
-                "end": "2026-05-22T12:10:00.000000Z",
-                "title": "Blaze e le megamacchine",
-                "description": "Crusher vuole impedire che Blaze e Watts arrivino per primi ad un forziere di ghiaccio e si impadron...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6%2Fblaze-e-le-megamacchine%2F6.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T12:10:00.000000Z",
-                "end": "2026-05-22T12:20:00.000000Z",
-                "title": "Bugs Bunny Costruzioni",
-                "description": "Willy il Coyote commissiona ai Costruttori Looney un telescopio per vedere la Looney Luna da vicino....",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fq6UJ6xZC7rf7HbVOCYenrS7lrUg.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T12:20:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "Bugs Bunny Costruzioni",
-                "description": "Gossamer invita i Costruttori Looney a un campeggio nel bosco. Daffy allestisce una tenda con tutti ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fq6UJ6xZC7rf7HbVOCYenrS7lrUg.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T12:50:00.000000Z",
-                "title": "Bugs Bunny Costruzioni",
-                "description": "Marvin ingaggia i Costruttori Looney per costruire una nuova stazione spaziale. Ma il suo equipaggio...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2Fq6UJ6xZC7rf7HbVOCYenrS7lrUg.jpg&w=3840&q=75",
-                "channel": "cartoonito"
-            },
             {
                 "start": "2026-05-22T12:50:00.000000Z",
                 "end": "2026-05-22T13:20:00.000000Z",
@@ -13273,87 +10942,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T09:20:00.000000Z",
-                "end": "2026-05-22T09:45:00.000000Z",
-                "title": "Due Fantagenitori: Esprimi un desiderio",
-                "description": "Ep6 di 20 Strana scienza / La signorina in giallo - Hazel vorrebbe che il suo progetto di scienze fu...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FvoeuYrKelMCQBqR2xWxyHgB0fS5.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T09:45:00.000000Z",
-                "end": "2026-05-22T10:10:00.000000Z",
-                "title": "Due Fantagenitori: Esprimi un desiderio",
-                "description": "Ep7 di 20 Il fumetto preferito / Un cassonetto per amico - Hazel desidera che un personaggio manga p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FvoeuYrKelMCQBqR2xWxyHgB0fS5.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T10:10:00.000000Z",
-                "end": "2026-05-22T10:35:00.000000Z",
-                "title": "Due Fantagenitori: Esprimi un desiderio",
-                "description": "Ep8 di 20 La pizza della pace / Caccia al tesoro - Hazel desidera che Dev sia gentile. / Hazel desid...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FvoeuYrKelMCQBqR2xWxyHgB0fS5.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T10:35:00.000000Z",
-                "end": "2026-05-22T11:00:00.000000Z",
-                "title": "Kung Fu Panda: Mitiche avventure",
-                "description": "S3 Ep27 CampPing - Shifu e Mr. Ping competono per l'attenzione e l'affetto di Po durante un campeggi...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FabmwQvkZh6yufaodYwnOV15EST0.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:25:00.000000Z",
-                "title": "Kung Fu Panda: Mitiche avventure",
-                "description": "S3 Ep28 Po il coccodrillo - Un colpo alla testa lascia Po con l'amnesia. Fung e Croc Bandits usano l...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2FabmwQvkZh6yufaodYwnOV15EST0.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T11:25:00.000000Z",
-                "end": "2026-05-22T11:50:00.000000Z",
-                "title": "A casa dei Loud - Prevedibile e Noioso / Grandi Ambizioni",
-                "description": "S3 Ep22 Prevedibile e Noioso / Grandi Ambizioni - Lincoln si sente dire troppo spesso di essere un r...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F36iVELhma9MawHkdMDPNRX8onEu.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T11:50:00.000000Z",
-                "end": "2026-05-22T12:15:00.000000Z",
-                "title": "A casa dei Loud - Stag. 3 Ep. 23 - La casa dei preferiti / Momenti di gloria",
-                "description": "S3 Ep23 La casa dei preferiti / Momenti di gloria - Papa' Loud e' convinto che i suoi figli pensino ...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F36iVELhma9MawHkdMDPNRX8onEu.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T12:15:00.000000Z",
-                "end": "2026-05-22T12:40:00.000000Z",
-                "title": "A casa dei Loud - Stag. 3 Ep. 24 - Il Club degli Scrittori / Due Cuori in Gara",
-                "description": "S3 Ep24 Il Club degli Scrittori / Due Cuori in Gara - Lucy vuole ritirarsi dal corso di scrittura, p...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw780%2F36iVELhma9MawHkdMDPNRX8onEu.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
-                "start": "2026-05-22T12:40:00.000000Z",
-                "end": "2026-05-22T13:05:00.000000Z",
-                "title": "Miraculous - Le Storie di Ladybug e Chat Noir",
-                "description": "Quando Parigi è in pericolo, Marinette diventa Ladybug. Non sa che Adrien, il compagno di scuola che...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Fserie%2F5e78d828ce1e246c511cb6d1_b_2_rs_600.jpg&w=3840&q=75",
-                "channel": "super"
-            },
-            {
                 "start": "2026-05-22T13:05:00.000000Z",
                 "end": "2026-05-22T13:30:00.000000Z",
                 "title": "Miraculous - Le Storie di Ladybug e Chat Noir",
@@ -13786,15 +11374,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T13:00:00.000000Z",
-                "title": "50 Songs",
-                "description": "Le 50 canzoni piu' suonate da Radio DEEJAY",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F462%2F50-songs%2F5.jpg&w=3840&q=75",
-                "channel": "deejay-tv"
-            },
-            {
                 "start": "2026-05-22T13:00:00.000000Z",
                 "end": "2026-05-22T14:00:00.000000Z",
                 "title": "Deejay Time",
@@ -13876,24 +11455,6 @@
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
             {
-                "start": "2026-05-22T10:00:00.000000Z",
-                "end": "2026-05-22T12:00:00.000000Z",
-                "title": "No problem - W l'Italia",
-                "description": "No problem - W l'Italia. Pregi, difetti e particolarita' degli italiani raccontati con simpatica iro...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6885%2Fno-problem-w-l-italia%2F0.jpg&w=3840&q=75",
-                "channel": "rtl-102.5-tv"
-            },
-            {
-                "start": "2026-05-22T12:00:00.000000Z",
-                "end": "2026-05-22T14:00:00.000000Z",
-                "title": "Miseria e nobilta'",
-                "description": "Miseria e Nobilta'. Due ore di intrattenimento e bella musica. Un argomento differente in ogni inter...",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F6885%2Fmiseria-e-nobilta%2F1.jpg&w=3840&q=75",
-                "channel": "rtl-102.5-tv"
-            },
-            {
                 "start": "2026-05-22T14:00:00.000000Z",
                 "end": "2026-05-22T16:00:00.000000Z",
                 "title": "The Flight",
@@ -13956,24 +11517,6 @@
         "logo": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2Floghi%2Fb%2F%2F524.png&w=128&q=75",
         "m3uLink": "http://tvit.leicaflorianrobert.dev/canale5/stream.m3u8",
         "programs": [
-            {
-                "start": "2026-05-22T11:00:00.000000Z",
-                "end": "2026-05-22T11:20:00.000000Z",
-                "title": "La classifica italiana",
-                "description": "La classifica ufficiale dei singoli di Radio Italia, conduce Mario Volanti.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F19%2Fla-classifica-italiana%2F9.jpg&w=3840&q=75",
-                "channel": "radioitaliatv"
-            },
-            {
-                "start": "2026-05-22T11:20:00.000000Z",
-                "end": "2026-05-22T15:00:00.000000Z",
-                "title": "Radio Italia best",
-                "description": "I video piu' amati da tutti voi.",
-                "category": "Categoria non disponibile",
-                "poster": "https://guidatv.org/_next/image?url=https%3A%2F%2Fimg-guidatv.org%2F19%2Fradio-italia-best%2F10.jpg&w=3840&q=75",
-                "channel": "radioitaliatv"
-            },
             {
                 "start": "2026-05-22T15:00:00.000000Z",
                 "end": "2026-05-22T17:00:00.000000Z",
